@@ -1,3 +1,9 @@
+@font-face {
+    font-family: "archivo-black";
+    src: url("../assets/ArchivoBlack.otf") format("opentype");
+}
+
 .front-greeting {
-    font-size: 2em;
+    font-family: "archivo-black", monospace;
+    font-size: 9em;
 }
