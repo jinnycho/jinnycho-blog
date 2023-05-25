@@ -13,3 +13,25 @@ body {
     font-size: 9em;
     margin-left: 10vw;
 }
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    width: 500px;
+    height: 500px;
+}
+
+.grid-item {
+    height: 250px;
+    width: 250px;
+    background: rgb(193, 193, 193);
+    opacity: 0;
+    transition: opacity 1s ease 0.4s, transform 0.1s ease;
+    transform: scale(1);
+}
+
+.grid-item:hover {
+    opacity: 1;
+    transition: opacity 0.2s ease;
+    transform: scale(1);
+}
