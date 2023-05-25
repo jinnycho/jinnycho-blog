@@ -3,7 +3,13 @@
     src: url("../assets/ArchivoBlack.otf") format("opentype");
 }
 
+body {
+    background-color: #1B1212;
+}
+
 .front-greeting {
+    color: #89CFF0;
     font-family: "archivo-black", monospace;
     font-size: 9em;
+    margin-left: 10vw;
 }
