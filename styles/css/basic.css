@@ -6,14 +6,20 @@
 body {
     background: #1B1212;
     margin: 0;
-    padding: 0;  
+    padding: 0;
+    cursor: none;
 }
 
 .front-greeting {
+    display: inline-block;
     color: #89CFF0;
     font-family: "archivo-black", monospace;
     font-size: 9em;
-    margin-left: 10vw;
+    left: 10vw;
+    top: 40px;
+    max-width: 800px;
+    position: absolute;
+    z-index: 4;
 }
 
 #grid-container {
