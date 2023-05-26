@@ -1,7 +1,28 @@
 @font-face {
     font-family: "archivo-black";
-    src: url("../assets/ArchivoBlack.otf") format("opentype");
+    src: url("../assets/fonts/ArchivoBlack.otf") format("opentype");
 }
+
+@font-face {
+    font-family: "league-script";
+    src: url("../assets/fonts/LeagueScriptNumberOne.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "sniglet";
+    src: url("../assets/fonts/SnigletRegular.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "ike-bold";
+    src: url("../assets/fonts/IkeBold.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "knewave";
+    src: url("../assets/fonts/knewave.ttf") format("truetype");
+}
+
 
 body {
     background: #1B1212;
@@ -10,16 +31,18 @@ body {
     cursor: none;
 }
 
-.front-greeting {
+#front-greeting {
     display: inline-block;
     color: #89CFF0;
-    font-family: "archivo-black", monospace;
-    font-size: 9em;
+    font-family: "league-script", monospace;
+    font-size: 10em;
+    font-weight: bolder;
     left: 10vw;
-    top: 40px;
+    top: 40vh;
     max-width: 800px;
     position: absolute;
     z-index: 4;
+
 }
 
 #grid-container {
@@ -30,9 +53,11 @@ body {
 }
 
 .grid-item {
-    height: 15px;
-    width: 15px;
+    height: 13px;
+    width: 13px;
+    border-radius: 2px;
     opacity: 0;
+    cursor: none;
     transition: opacity 0.1s linear 0s, transform 0s linear;
     transform: scale(1);
 }
