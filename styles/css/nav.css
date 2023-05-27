@@ -1,0 +1,66 @@
+* {
+  box-sizing: border-box;
+}
+
+a {
+  color: #FFFF00;
+  border: none;
+  border-color: transparent;
+  background-color: transparent;
+}
+
+#nav {
+  font-family: monospace;
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  gap: 20px;
+  height: 100vh;
+  left: 0;
+  top: 0;
+  overflow: hidden;
+  padding-top: 40px;
+  padding-left: 50px;
+  padding-bottom: 20px;
+  border: none;
+  overflow: scroll;
+}
+
+.social-a {
+  display: flex;
+}
+
+svg:hover path {
+  color: #FFFF00;
+  border-color: #fab846;
+  font-family: 'Press Start 2P', monospace;
+  transition: 0.1s ease;
+  font-weight: 1300;
+  -webkit-transform: scale(1.01);
+}
+
+.nav-button {
+  width: 100px;
+  height: 30px;
+  font-size: 1.2em;
+  font-family: monospace;
+  border: 1px solid white;
+  color: #C8C7D8;
+  border-radius: 5px;
+  font-weight: 700;
+  /*transition: color font-size 1s ease;*/
+  cursor: pointer;
+  margin-bottom: 10px;
+  margin-right: 5px;
+  border-color: #C8C7D8;
+}
+
+.nav-button:hover {
+  color: #FFFF00;
+  border-color: #fab846;
+  font-family: monospace;
+  transition: 0.1s ease;
+  font-weight: 1300;
+  -webkit-transform: scale(1.01);
+}
