@@ -23,7 +23,6 @@ window.onload = function() {
 function getFrontTextOptions() {
     const adjectives = [
         'Lovely',
-        'Beautiful',
         'Funny',
         'Indie',
         'Sunny',
@@ -33,7 +32,6 @@ function getFrontTextOptions() {
         'Golden',
         'Rainy',
         'Quiet',
-        'Peaceful',
         'Cloudy',
         'Vintage',
         'Soft',
@@ -42,22 +40,16 @@ function getFrontTextOptions() {
         'Serene',
         'Joyful',
         'Iconic',
-        'Amazing',
         'Idyllic',
         'Elysian',
         'Rustic',
-        'Delightful',
         'Charming',
         'Romantic',
-        'Dramatic',
         'Lively',
-        'Colorful',
         'Dazzling',
         'Sunny',
         'Warm',
         'Dreamy',
-        'Favorite',
-        'Grandest',
         'Cute',
         'Magical',
     ];
@@ -111,10 +103,9 @@ function getFrontTextOptions() {
         'Kitty',
         'Puppy',
         'Forest',
-        'Clearing',
     ];
 
-    const adjectiveChosen =  adjectives[Math.floor(Math.random() * 39)];
+    const adjectiveChosen =  adjectives[Math.floor(Math.random() * 30)];
     const nounChosen = nouns[Math.floor(Math.random() * 51)];
     let fullTextToReturn = '';
     
