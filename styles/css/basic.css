@@ -1,24 +1,4 @@
 @font-face {
-    font-family: "archivo-black";
-    src: url("../assets/fonts/ArchivoBlack.otf") format("opentype");
-}
-
-@font-face {
-    font-family: "league-script";
-    src: url("../assets/fonts/LeagueScriptNumberOne.otf") format("opentype");
-}
-
-@font-face {
-    font-family: "sniglet";
-    src: url("../assets/fonts/SnigletRegular.otf") format("opentype");
-}
-
-@font-face {
-    font-family: "ike-bold";
-    src: url("../assets/fonts/IkeBold.ttf") format("truetype");
-}
-
-@font-face {
     font-family: "knewave";
     src: url("../assets/fonts/knewave.ttf") format("truetype");
 }
@@ -34,15 +14,17 @@ body {
 #front-greeting {
     display: inline-block;
     color: #89CFF0;
-    font-family: "league-script", monospace;
+    font-family: "knewave", monospace;
     font-size: 10em;
-    font-weight: bolder;
     left: 10vw;
-    top: 40vh;
+    top: 15vh;
     max-width: 800px;
     position: absolute;
-    z-index: 4;
-
+    z-index: 6;
+    /* background: url("../assets/images/front-background.png");
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text; */
 }
 
 #grid-container {
