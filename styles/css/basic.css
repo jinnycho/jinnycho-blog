@@ -3,8 +3,9 @@
     src: url("../assets/fonts/knewave.ttf") format("truetype");
 }
 
+
 body {
-    background: #1B1212;
+    background: #F9F6EE;
     margin: 0;
     padding: 0;
     cursor: none;
@@ -39,7 +40,7 @@ body {
     border-radius: 2px;
     opacity: 0;
     cursor: none;
-    transition: opacity 0.1s linear 0s, transform 0s linear;
+    transition: opacity 0.2s linear 0s, transform 0s linear;
     transform: scale(1);
 }
 
