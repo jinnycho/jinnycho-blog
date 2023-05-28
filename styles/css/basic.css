@@ -3,9 +3,10 @@
     src: url("../assets/fonts/knewave.ttf") format("truetype");
 }
 
-
 body {
     background: #F9F6EE;
+    /* background: #28282B; */
+    /* background: url("../assets/images/paper-photo.jpeg"); */
     margin: 0;
     padding: 0;
     cursor: none;
@@ -13,15 +14,14 @@ body {
 
 #front-greeting {
     display: inline-block;
-    color: #89CFF0;
-    font-family: "knewave", monospace;
+    font-family: 'knewave', monospace;
     font-size: 10em;
     left: 10vw;
     top: 10vh;
     max-width: 800px;
     position: absolute;
-    /* z-index: 6; */
-    /* background: url("../assets/images/front-background.png");
+    /* z-index: 6;
+    background: url("../assets/images/front-text-image.png");
     color: transparent;
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text; */
