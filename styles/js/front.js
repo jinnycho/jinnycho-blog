@@ -3,7 +3,11 @@ let viewportHeight = window.innerHeight || document.documentElement.clientHeight
 const gridLength = 13;
 
 window.onload = function() {
-    // Cursor graphics
+    // 1. Front text
+    let CenterImgElement = document.getElementById('center-image');
+    CenterImgElement.style.filter = "hue-rotate(" + getRandomNumber() + "deg)";
+
+    // 2. Cursor graphics
     let gridContainer = document.getElementById('grid-container');
     for(let i = 0; i < viewportWidth/gridLength; i++){
         for (let j = 0; j < viewportHeight/gridLength; j++) {
@@ -13,6 +17,10 @@ window.onload = function() {
             gridContainer.appendChild(gridElement); 
         }
     }
+}
+
+function getRandomNumber() {
+    return Math.ceil(Math.random() * 720) * (Math.round(Math.random()) ? 1 : -1);
 }
 
 function getRandomColor() {

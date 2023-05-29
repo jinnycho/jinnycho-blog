@@ -7,3 +7,9 @@ Fast and beautiful static website for me
 cd jinnycho.github.io
 caddy file-server
 ```
+
+or 
+```
+cd jinnycho.github.io
+python3 -m http.server 8000
+```
