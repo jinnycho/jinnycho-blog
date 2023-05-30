@@ -67,22 +67,27 @@ body {
     font-family: 'openSansPX', monospace;
 }
 
-#architecture {
+.mindmap-1 > * {
     position: absolute;
     border-radius: 2px;
-    top: calc(50vh - 50px);
-    left: calc(50vw - 190px);
     transform: translate(-50%,-50%);
     border: 0.08em double #343434;
     padding: 0.3em;
     z-index: 6;
+    cursor: pointer;
+}
+
+#design {
+    top: calc(50vh - 50px);
+    left: calc(50vw - 190px);
 }
 
 #life {
-    position: absolute;
-    top: calc(50vh + 10px);
-    left: calc(50vw + 110px);
-    border: 0.08em double #343434;
-    padding: 0.3em;
-    z-index: 6;
+    top: calc(50vh + 50px);
+    left: calc(50vw + 150px);
+}
+
+#tech {
+    top: calc(50vh - 120px);
+    left: calc(50vw + 140px);
 }
