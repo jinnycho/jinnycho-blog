@@ -79,15 +79,15 @@ body {
 
 #design {
     top: calc(50vh - 50px);
-    left: calc(50vw - 190px);
+    left: calc(50vw - 170px);
 }
 
 #life {
     top: calc(50vh + 50px);
-    left: calc(50vw + 150px);
+    left: calc(50vw + 160px);
 }
 
 #tech {
     top: calc(50vh - 120px);
-    left: calc(50vw + 140px);
+    left: calc(50vw + 150px);
 }
