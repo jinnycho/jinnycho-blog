@@ -92,11 +92,16 @@ body#main {
 }
 
 #art {
-    top: calc(50vh - 50px);
+    top: calc(50vh - 110px);
     left: calc(50vw - 140px);
 }
 
-#notes {
+#life {
+    top: calc(50vh + 50px);
+    left: calc(50vw - 140px);
+}
+
+#ideas {
     top: calc(50vh + 50px);
     left: calc(50vw + 160px);
 }
