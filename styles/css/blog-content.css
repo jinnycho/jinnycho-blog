@@ -6,3 +6,8 @@
     font-size: 2em;
     overflow: scroll;
 }
+
+a {
+    z-index: 8;
+    position: relative;
+}
