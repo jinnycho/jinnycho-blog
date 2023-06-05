@@ -8,6 +8,9 @@ body {
     margin: 0;
     padding: 0;
     cursor: none;
+}
+
+body#main {
     overflow: hidden;
 }
 
@@ -19,6 +22,7 @@ body {
     flex-wrap: wrap;
     width: 100%;
     height: 100%;
+    position: fixed;
 }
 
 .grid-item {
@@ -87,12 +91,12 @@ body {
     /* -webkit-transform: scale(1.01);   */
 }
 
-#design {
+#art {
     top: calc(50vh - 50px);
-    left: calc(50vw - 170px);
+    left: calc(50vw - 140px);
 }
 
-#life {
+#notes {
     top: calc(50vh + 50px);
     left: calc(50vw + 160px);
 }
