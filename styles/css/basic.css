@@ -67,7 +67,6 @@ body#main {
             #B4C424,
             #FAF9F6
         );
-    z-index: 6;
     animation: ballColorChange 10s infinite;
 }
 
