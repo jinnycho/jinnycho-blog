@@ -3,11 +3,7 @@ let viewportHeight = window.innerHeight || document.documentElement.clientHeight
 const gridLength = 13;
 
 window.onload = function() {
-    // 1. Front text
-    let CenterImgElement = document.getElementById('center-image');
-    CenterImgElement.style.filter = "hue-rotate(" + getRandomNumber() + "deg)";
-
-    // 2. Cursor graphics
+    // Cursor graphics
     let gridContainer = document.getElementById('grid-container');
     for(let i = 0; i < viewportWidth/gridLength; i++){
         for (let j = 0; j < viewportHeight/gridLength; j++) {

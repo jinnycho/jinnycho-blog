@@ -48,24 +48,103 @@ body#main {
  #center-container {
     font-size: 8em;
     font-family: 'openSansPX', monospace;
-    padding: 10px;
     text-align: center;
     position: absolute;
     top: 50vh;
     left: 50vw;
     transform: translate(-50%,-50%);
-    z-index: 6;
 }
 
-#center-image {
-    width: 80px;
-    height: 80px;
+#ball {
+    width: 0.5em;
+    height: 0.5em;
+    border-radius: 50%;
+    border: 2px double black;
+    position: relative;
+    background: 
+        radial-gradient(
+            circle at -30% 50%,
+            #B4C424,
+            #FAF9F6
+        );
+    z-index: 6;
+    animation: ballColorChange 10s infinite;
+}
+
+#ball:hover {
+   width: 1em;
+   height: 1em;
+}
+
+@keyframes ballColorChange {
+    0% {
+      background: radial-gradient(circle at -20% 50%, #B4C424, #FAF9F6);
+    }
+    5% {
+      background: radial-gradient(circle at -10% 50%, #B4C424, #FAF9F6);
+    }
+    10% {
+      background: radial-gradient(circle at 0% 50%, #B4C424, #FAF9F6);
+    }
+    15% {
+        background: radial-gradient(circle at 10% 50%, #B4C424, #FAF9F6);
+    }
+    20% {
+        background: radial-gradient(circle at 20% 50%, #B4C424, #FAF9F6);
+    }
+    25% {
+        background: radial-gradient(circle at 30% 50%, #B4C424, #FAF9F6);
+    }
+    30% {
+        background: radial-gradient(circle at 40% 50%, #B4C424, #FAF9F6);
+    }
+    35% {
+        background: radial-gradient(circle at 50% 50%, #B4C424, #FAF9F6);
+    }
+    40% {
+        background: radial-gradient(circle at 60% 50%, #B4C424, #FAF9F6);
+    }
+    45% {
+        background: radial-gradient(circle at 70% 50%, #B4C424, #FAF9F6);
+    }
+    50% {
+        background: radial-gradient(circle at 80% 50%, #B4C424, #FAF9F6);
+    }
+    55% {
+        background: radial-gradient(circle at 90% 50%, #B4C424, #FAF9F6);
+    }
+    60% {
+        background: radial-gradient(circle at 100% 50%, #B4C424, #FAF9F6);
+    }
+    65% {
+        background: radial-gradient(circle at 110% 50%, #B4C424, #FAF9F6);
+    }
+    70% {
+        background: radial-gradient(circle at 120% 50%, #B4C424, #FAF9F6);
+    }
+    75% {
+        background: radial-gradient(circle at 130% 50%, #B4C424, #FAF9F6);
+    }
+    80% {
+        background: radial-gradient(circle at 140% 50%, #B4C424, #FAF9F6);
+    }
+    85% {
+        background: radial-gradient(circle at 150% 50%, #B4C424, #FAF9F6);
+    }
+    90% {
+        background: radial-gradient(circle at 160% 50%, #B4C424, #FAF9F6);
+    }
+    95% {
+        background: radial-gradient(circle at -40% 50%, #B4C424, #FAF9F6);
+    }
+    100% {
+        background: radial-gradient(circle at -30% 50%, #B4C424, #FAF9F6);
+    }
 }
 
 /**
  * Mind map
  **/
-
 .mindmap-1 {
     text-align: center;
     font-size: 2em;
@@ -74,18 +153,18 @@ body#main {
 
 .mindmap-1 > * {
     position: absolute;
-    border-radius: 10px;
+    border-radius: 1em;
     transform: translate(-50%,-50%);
-    border: 0.08em double #343434;
     padding: 0.3em;
     z-index: 6;
     cursor: pointer;
+    color: #36454F;
 }
 
 .mindmap-1> *:hover {
-    color: #4a5f4e;
-    background-color: beige;
-    border-color: #e0d570;
+    color: #FAF9F6;
+    background-color: #191970;
+    border-color: #FAF9F6;
     font-family: 'openSansPX', monospace;
     transition: 0.1s ease;
     font-weight: 1300;
