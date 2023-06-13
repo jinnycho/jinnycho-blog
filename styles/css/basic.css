@@ -5,13 +5,14 @@
 
 @font-face {
     font-family: "knewave";
-    src: url("../assets/fonts/knewave-outline.ttf") format("truetype");
+    src: url("../assets/fonts/knewave.ttf") format("truetype");
 }
 
 :root {
     --background-white: #F5FAFF;
     --mindmap-font: 'openSansPX';
     --ball-color: #be79e0;
+    --blog-font: 'openSansPX';
 }
 body {
     background: var(--background-white);
@@ -159,26 +160,26 @@ body#main {
  **/
 #mindmap-1 {
     text-align: center;
-    font-size: 1.8em;
+    font-size: 2em;
     font-family: 'openSansPX', monospace;
 }
 
 #mindmap-1 > * {
     position: absolute;
-    border-radius: 0.7em;
-    border: 1.5px double rgb(135, 224, 246);
+    border-radius: 0.5em;
+    border: 0.08em double #343434;
     transform: translate(-50%,-50%);
     padding: 0.3em;
     z-index: 6;
     cursor: pointer;
-    color: rgb(133, 96, 181) ;
+    color: rgb(32, 51, 255) ;
     text-decoration: none;
 }
 
 #mindmap-1> *:hover {
-    color: var(--background-white);
-    background-color: #f6a23b;
-    border-color: var(--background-white);
+    color: #4a5f4e;
+    background-color: beige;
+    border-color: #e0d570;
     font-family: var(--mindmap-font), monospace;
     transition: 0.1s ease;
     font-weight: 1300;

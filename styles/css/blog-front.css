@@ -7,7 +7,7 @@
 }
   
 .column {
-    font-family: 'openSansPX', monospace;
+    font-family: var(--blog-font), monospace;
     display: flex;
     flex-direction: column;
     flex-basis: 100%;
@@ -45,7 +45,7 @@
     color: #ffffff;
     background-color: rgb(94, 194, 189);
     border-color: #131c5e;
-    font-family: 'openSansPX', monospace;
+    font-family: var(--blog-font), monospace;
     transition: 0.1s ease;
     font-weight: 1300;
 }
