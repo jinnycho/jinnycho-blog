@@ -8,8 +8,13 @@
     src: url("../assets/fonts/knewave-outline.ttf") format("truetype");
 }
 
+:root {
+    --background-white: #F5FAFF;
+    --mindmap-font: 'openSansPX';
+    --ball-color: #be79e0;
+}
 body {
-    background: #FAF9F6;
+    background: var(--background-white);
     margin: 0;
     padding: 0;
     cursor: none;
@@ -72,8 +77,8 @@ body#main {
     background: 
         radial-gradient(
             circle at -30% 50%,
-            #B4C424,
-            #FAF9F6
+            var(--ball-color),
+            var(--background-white)
         );
     animation: ballColorChange 10s infinite;
 }
@@ -85,67 +90,67 @@ body#main {
 
 @keyframes ballColorChange {
     0% {
-      background: radial-gradient(circle at -20% 50%, #B4C424, #FAF9F6);
+      background: radial-gradient(circle at -20% 50%, var(--ball-color), var(--background-white));
     }
     5% {
-      background: radial-gradient(circle at -10% 50%, #B4C424, #FAF9F6);
+      background: radial-gradient(circle at -10% 50%, var(--ball-color), var(--background-white));
     }
     10% {
-      background: radial-gradient(circle at 0% 50%, #B4C424, #FAF9F6);
+      background: radial-gradient(circle at 0% 50%, var(--ball-color), var(--background-white));
     }
     15% {
-        background: radial-gradient(circle at 10% 50%, #B4C424, #FAF9F6);
+        background: radial-gradient(circle at 10% 50%, var(--ball-color), var(--background-white));
     }
     20% {
-        background: radial-gradient(circle at 20% 50%, #B4C424, #FAF9F6);
+        background: radial-gradient(circle at 20% 50%, var(--ball-color), var(--background-white));
     }
     25% {
-        background: radial-gradient(circle at 30% 50%, #B4C424, #FAF9F6);
+        background: radial-gradient(circle at 30% 50%, var(--ball-color), var(--background-white));
     }
     30% {
-        background: radial-gradient(circle at 40% 50%, #B4C424, #FAF9F6);
+        background: radial-gradient(circle at 40% 50%, var(--ball-color), var(--background-white));
     }
     35% {
-        background: radial-gradient(circle at 50% 50%, #B4C424, #FAF9F6);
+        background: radial-gradient(circle at 50% 50%, var(--ball-color), var(--background-white));
     }
     40% {
-        background: radial-gradient(circle at 60% 50%, #B4C424, #FAF9F6);
+        background: radial-gradient(circle at 60% 50%, var(--ball-color), var(--background-white));
     }
     45% {
-        background: radial-gradient(circle at 70% 50%, #B4C424, #FAF9F6);
+        background: radial-gradient(circle at 70% 50%, var(--ball-color), var(--background-white));
     }
     50% {
-        background: radial-gradient(circle at 80% 50%, #B4C424, #FAF9F6);
+        background: radial-gradient(circle at 80% 50%, var(--ball-color), var(--background-white));
     }
     55% {
-        background: radial-gradient(circle at 90% 50%, #B4C424, #FAF9F6);
+        background: radial-gradient(circle at 90% 50%, var(--ball-color), var(--background-white));
     }
     60% {
-        background: radial-gradient(circle at 100% 50%, #B4C424, #FAF9F6);
+        background: radial-gradient(circle at 100% 50%, var(--ball-color), var(--background-white));
     }
     65% {
-        background: radial-gradient(circle at 110% 50%, #B4C424, #FAF9F6);
+        background: radial-gradient(circle at 110% 50%, var(--ball-color), var(--background-white));
     }
     70% {
-        background: radial-gradient(circle at 120% 50%, #B4C424, #FAF9F6);
+        background: radial-gradient(circle at 120% 50%, var(--ball-color), var(--background-white));
     }
     75% {
-        background: radial-gradient(circle at 130% 50%, #B4C424, #FAF9F6);
+        background: radial-gradient(circle at 130% 50%, var(--ball-color), var(--background-white));
     }
     80% {
-        background: radial-gradient(circle at 140% 50%, #B4C424, #FAF9F6);
+        background: radial-gradient(circle at 140% 50%, var(--ball-color), var(--background-white));
     }
     85% {
-        background: radial-gradient(circle at 150% 50%, #B4C424, #FAF9F6);
+        background: radial-gradient(circle at 150% 50%, var(--ball-color), var(--background-white));
     }
     90% {
-        background: radial-gradient(circle at 160% 50%, #B4C424, #FAF9F6);
+        background: radial-gradient(circle at 160% 50%, var(--ball-color), var(--background-white));
     }
     95% {
-        background: radial-gradient(circle at -40% 50%, #B4C424, #FAF9F6);
+        background: radial-gradient(circle at -40% 50%, var(--ball-color), var(--background-white));
     }
     100% {
-        background: radial-gradient(circle at -30% 50%, #B4C424, #FAF9F6);
+        background: radial-gradient(circle at -30% 50%, var(--ball-color), var(--background-white));
     }
 }
 
@@ -154,27 +159,27 @@ body#main {
  **/
 #mindmap-1 {
     text-align: center;
-    font-size: 1.5em;
-    font-family: 'knewave', monospace;
+    font-size: 1.8em;
+    font-family: 'openSansPX', monospace;
 }
 
 #mindmap-1 > * {
     position: absolute;
     border-radius: 0.7em;
-    /* border: 1.5px dotted black; */
+    border: 1.5px double rgb(135, 224, 246);
     transform: translate(-50%,-50%);
     padding: 0.3em;
     z-index: 6;
     cursor: pointer;
-    color: black ;
+    color: rgb(133, 96, 181) ;
     text-decoration: none;
 }
 
 #mindmap-1> *:hover {
-    color: #FAF9F6;
+    color: var(--background-white);
     background-color: #f6a23b;
-    border-color: #FAF9F6;
-    font-family: 'knewave', monospace;
+    border-color: var(--background-white);
+    font-family: var(--mindmap-font), monospace;
     transition: 0.1s ease;
     font-weight: 1300;
 }
