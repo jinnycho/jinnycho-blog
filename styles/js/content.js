@@ -16,7 +16,7 @@ window.onload = function() {
 }
 
 function getRandomNumber() {
-    return Math.ceil(Math.random() * 720) * (Math.round(Math.random()) ? 1 : -1);
+    return Math.ceil(Math.random() * 320);
 }
 
 function getRandomColor() {

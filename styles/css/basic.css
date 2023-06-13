@@ -3,8 +3,19 @@
     src: url("../assets/fonts/OpenSansPX.ttf") format("truetype");
 }
 
+@font-face {
+    font-family: "knewave";
+    src: url("../assets/fonts/knewave.ttf") format("truetype");
+}
+
+:root {
+    --background-white: #F5FAFF;
+    --mindmap-font: 'openSansPX';
+    --ball-color: #be79e0;
+    --blog-font: 'openSansPX';
+}
 body {
-    background: #FAF9F6;
+    background: var(--background-white);
     margin: 0;
     padding: 0;
     cursor: none;
@@ -48,56 +59,139 @@ body#main {
  #center-container {
     font-size: 8em;
     font-family: 'openSansPX', monospace;
-    padding: 10px;
     text-align: center;
     position: absolute;
     top: 50vh;
     left: 50vw;
+    width: 1em;
+    height: 1em;
     transform: translate(-50%,-50%);
-    z-index: 6;
 }
 
-#center-image {
-    width: 80px;
-    height: 80px;
+#ball {
+    width: 0.5em;
+    height: 0.5em;
+    border-radius: 50%;
+    border: 2px double black;
+    position: relative;
+    margin: auto;
+    background: 
+        radial-gradient(
+            circle at -30% 50%,
+            var(--ball-color),
+            var(--background-white)
+        );
+    animation: ballColorChange 10s infinite;
+}
+
+#ball:hover {
+   width: 1em;
+   height: 1em;
+}
+
+@keyframes ballColorChange {
+    0% {
+      background: radial-gradient(circle at -20% 50%, var(--ball-color), var(--background-white));
+    }
+    5% {
+      background: radial-gradient(circle at -10% 50%, var(--ball-color), var(--background-white));
+    }
+    10% {
+      background: radial-gradient(circle at 0% 50%, var(--ball-color), var(--background-white));
+    }
+    15% {
+        background: radial-gradient(circle at 10% 50%, var(--ball-color), var(--background-white));
+    }
+    20% {
+        background: radial-gradient(circle at 20% 50%, var(--ball-color), var(--background-white));
+    }
+    25% {
+        background: radial-gradient(circle at 30% 50%, var(--ball-color), var(--background-white));
+    }
+    30% {
+        background: radial-gradient(circle at 40% 50%, var(--ball-color), var(--background-white));
+    }
+    35% {
+        background: radial-gradient(circle at 50% 50%, var(--ball-color), var(--background-white));
+    }
+    40% {
+        background: radial-gradient(circle at 60% 50%, var(--ball-color), var(--background-white));
+    }
+    45% {
+        background: radial-gradient(circle at 70% 50%, var(--ball-color), var(--background-white));
+    }
+    50% {
+        background: radial-gradient(circle at 80% 50%, var(--ball-color), var(--background-white));
+    }
+    55% {
+        background: radial-gradient(circle at 90% 50%, var(--ball-color), var(--background-white));
+    }
+    60% {
+        background: radial-gradient(circle at 100% 50%, var(--ball-color), var(--background-white));
+    }
+    65% {
+        background: radial-gradient(circle at 110% 50%, var(--ball-color), var(--background-white));
+    }
+    70% {
+        background: radial-gradient(circle at 120% 50%, var(--ball-color), var(--background-white));
+    }
+    75% {
+        background: radial-gradient(circle at 130% 50%, var(--ball-color), var(--background-white));
+    }
+    80% {
+        background: radial-gradient(circle at 140% 50%, var(--ball-color), var(--background-white));
+    }
+    85% {
+        background: radial-gradient(circle at 150% 50%, var(--ball-color), var(--background-white));
+    }
+    90% {
+        background: radial-gradient(circle at 160% 50%, var(--ball-color), var(--background-white));
+    }
+    95% {
+        background: radial-gradient(circle at -40% 50%, var(--ball-color), var(--background-white));
+    }
+    100% {
+        background: radial-gradient(circle at -30% 50%, var(--ball-color), var(--background-white));
+    }
 }
 
 /**
  * Mind map
  **/
-
-.mindmap-1 {
+#mindmap-1 {
     text-align: center;
     font-size: 2em;
     font-family: 'openSansPX', monospace;
 }
 
-.mindmap-1 > * {
+#mindmap-1 > * {
     position: absolute;
-    border-radius: 10px;
-    transform: translate(-50%,-50%);
+    border-radius: 0.5em;
     border: 0.08em double #343434;
+    transform: translate(-50%,-50%);
     padding: 0.3em;
     z-index: 6;
     cursor: pointer;
+    color: rgb(32, 51, 255) ;
+    text-decoration: none;
 }
 
-.mindmap-1> *:hover {
+#mindmap-1> *:hover {
     color: #4a5f4e;
     background-color: beige;
     border-color: #e0d570;
-    font-family: 'openSansPX', monospace;
+    font-family: var(--mindmap-font), monospace;
     transition: 0.1s ease;
     font-weight: 1300;
 }
 
 #art {
-    top: calc(50vh - 130px);
-    left: calc(50vw - 110px);
+    top: calc(50vh - 120px);
+    left: calc(50vw - 140px);
 }
 
 #life {
-    top: calc(50vh + 60px);
+    top: calc(50vh + 50px);
     left: calc(50vw - 140px);
 }
 
@@ -108,5 +202,5 @@ body#main {
 
 #tech {
     top: calc(50vh - 120px);
-    left: calc(50vw + 150px);
+    left: calc(50vw + 160px);
 }
