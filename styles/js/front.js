@@ -18,10 +18,11 @@ window.onload = function() {
     var mindMap1Div = document.getElementById("mindmap-1");
     var mindMap1Children = mindMap1Div.querySelectorAll("a");
 
-    mindMap1Children.forEach(function(mindmap1Child) {
-      console.log(mindmap1Child.offsetWidth);
-      console.log(mindmap1Child.offsetHeight);
-      console.log('------');
+    mindMap1Children.forEach(function(mindMap1Child) {
+        console.log(mindMap1Child.innerHTML);
+        console.log(mindMap1Child.offsetWidth);
+        console.log(mindMap1Child.offsetHeight);
+        console.log('------');
 
     });
   
