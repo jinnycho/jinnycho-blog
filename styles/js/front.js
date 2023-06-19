@@ -15,17 +15,29 @@ window.onload = function() {
     }
 
     // 2. Connect the centrl ball to mindmap-1(s)
-    var mindMap1Div = document.getElementById("mindmap-1");
-    var mindMap1Children = mindMap1Div.querySelectorAll("a");
+    let canvas = document.getElementById("mindMapCanvas");
+    let ctx = canvas.getContext("2d");
+    
+    let circleDiv = document.getElementById("ball");
+    var circle = circleDiv.getBoundingClientRect();
+    let startX = circle.right;
+    let startY = circle.bottom;
+    console.log("circle", startX, startY);
 
+    let mindMap1Div = document.getElementById("mindmap-1");
+    let mindMap1Children = mindMap1Div.querySelectorAll("a");
     mindMap1Children.forEach(function(mindMap1Child) {
-        console.log(mindMap1Child.innerHTML);
-        console.log(mindMap1Child.offsetWidth);
-        console.log(mindMap1Child.offsetHeight);
-        console.log('------');
-
+        var rect = mindMap1Child.getBoundingClientRect();
+        let endX = rect.right;
+        let endY = rect.bottom;
+        console.log(mindMap1Child.innerHTML, endX, endY);
     });
   
+    ctx.beginPath();
+    ctx.moveTo(548, 394);
+    ctx.lineTo(405.09375, 297.59375);
+    ctx.stroke();
+
 }
 
 function getRandomNumber() {

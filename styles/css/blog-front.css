@@ -20,7 +20,7 @@
   
 .date-column {
     color: #656480;
-    background-color: #f5f9fa;
+    background-color: var(--background-white);
     height: 30px;
     text-align: center;
     width: 200px;
@@ -42,7 +42,7 @@
 }
 
 .post-column:hover {
-    color: #ffffff;
+    color: var(--background-white);
     background-color: rgb(94, 194, 189);
     border-color: #131c5e;
     font-family: var(--blog-font), monospace;

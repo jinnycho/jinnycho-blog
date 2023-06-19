@@ -9,9 +9,9 @@
 }
 
 :root {
-    --background-white: #F5FAFF;
-    --mindmap-font: 'openSansPX';
+    --background-white: #f3f6f7;
     --ball-color: #be79e0;
+    --mindmap-font: 'openSansPX';
     --blog-font: 'openSansPX';
 }
 body {
@@ -203,4 +203,15 @@ body#main {
 #tech {
     top: calc(50vh - 120px);
     left: calc(50vw + 160px);
+}
+
+/**
+ * Connecting the mind map
+ **/
+#mindMapCanvas {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 100;
 }
