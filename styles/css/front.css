@@ -6,6 +6,7 @@
 body {
     background: var(--background-white);
 }
+
 .rectangles-container {
     display: flex;
     justify-content: flex-start;
@@ -16,7 +17,8 @@ body {
     width: 90vw;
 }
 
-.options-rectangle,
+.category-rectangle,
+.subcategory-rectangle,
 .contents-rectangle {
     border: 1px solid var(--rectangle-color);
     border-radius: 5px;
@@ -24,8 +26,9 @@ body {
     margin: 10px;
 }
 
-.options-rectangle {
-    width: 50%;
+.category-rectangle,
+.subcategory-rectangle {
+    width: 25%;
 }
 
 .contents-rectangle {
