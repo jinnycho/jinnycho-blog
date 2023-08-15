@@ -1,0 +1,33 @@
+:root {
+    --background-white: #FFFFFF;
+    --rectangle-color: #3042ff;
+}
+
+body {
+    background: var(--background-white);
+}
+.rectangles-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-top: 8vh;
+    margin-left: 5vw;
+    height: 80vh;
+    width: 90vw;
+}
+
+.options-rectangle,
+.contents-rectangle {
+    border: 1px solid var(--rectangle-color);
+    border-radius: 5px;
+    height: 100%;
+    margin: 10px;
+}
+
+.options-rectangle {
+    width: 50%;
+}
+
+.contents-rectangle {
+    width: 100%;
+}
