@@ -3,5 +3,8 @@
     "esbuild": "0.19.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
+  },
+  "scripts": {
+    "build": "esbuild styles/js/main.jsx --bundle --outfile=styles/js/output.js"
   }
 }
