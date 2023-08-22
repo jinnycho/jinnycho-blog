@@ -23516,29 +23516,65 @@
       /* @__PURE__ */ import_react.default.createElement("div", { className: "category-rectangle" }, /* @__PURE__ */ import_react.default.createElement("div", { className: "category-title", onClick: () => setChosenCategory("art") }, " Art "), /* @__PURE__ */ import_react.default.createElement("div", { className: "category-title", onClick: () => setChosenCategory("tech") }, " Tech "))
     );
   }
-  function SubCategory({ setChosenSubCategory, chosenCategory }) {
+  function SubCategory({ setChosenSubCategory, setChosenContentTitle, chosenCategory }) {
+    const handleSubCategoryClick = (subCategory) => {
+      setChosenSubCategory(subCategory);
+      setChosenContentTitle(null);
+    };
     if (chosenCategory === "art") {
-      return /* @__PURE__ */ import_react.default.createElement("div", { className: "subcategory-rectangle" }, /* @__PURE__ */ import_react.default.createElement("div", { className: "subcategory-title", onClick: () => setChosenSubCategory("art_1") }, " Art 1 "), /* @__PURE__ */ import_react.default.createElement("div", { className: "subcategory-title", onClick: () => setChosenSubCategory("art_2") }, " Art 2 "));
+      return /* @__PURE__ */ import_react.default.createElement("div", { className: "subcategory-rectangle" }, /* @__PURE__ */ import_react.default.createElement("div", { className: "subcategory-title", onClick: () => handleSubCategoryClick("art_1") }, " Art 1 "), /* @__PURE__ */ import_react.default.createElement("div", { className: "subcategory-title", onClick: () => handleSubCategoryClick("art_2") }, " Art 2 "));
     } else if (chosenCategory === "tech") {
-      return /* @__PURE__ */ import_react.default.createElement("div", { className: "subcategory-rectangle" }, /* @__PURE__ */ import_react.default.createElement("div", { className: "subcategory-title", onClick: () => setChosenSubCategory("tech_1") }, " Tech 1 "), /* @__PURE__ */ import_react.default.createElement("div", { className: "subcategory-title", onClick: () => setChosenSubCategory("tech_2") }, " Tech 2 "));
+      return /* @__PURE__ */ import_react.default.createElement("div", { className: "subcategory-rectangle" }, /* @__PURE__ */ import_react.default.createElement("div", { className: "subcategory-title", onClick: () => handleSubCategoryClick("tech_1") }, " Tech 1 "), /* @__PURE__ */ import_react.default.createElement("div", { className: "subcategory-title", onClick: () => handleSubCategoryClick("tech_2") }, " Tech 2 "));
     } else {
       return /* @__PURE__ */ import_react.default.createElement("div", { className: "subcategory-rectangle" });
     }
   }
-  function ContentsTitle({ setChosenContent, chosenSubCategory }) {
-    if (chosenSubCategory === "art_1") {
-      return /* @__PURE__ */ import_react.default.createElement("div", { className: "contents-rectangle" }, /* @__PURE__ */ import_react.default.createElement("div", { className: "content-title", onClick: () => setChosenContent("flower1") }, " flower 1 "), /* @__PURE__ */ import_react.default.createElement("div", { className: "content-title", onClick: () => setChosenContent("flower2") }, " flower 2 "));
-    } else if (chosenSubCategory === "art_2") {
-      return /* @__PURE__ */ import_react.default.createElement("div", { className: "contents-rectangle" }, /* @__PURE__ */ import_react.default.createElement("div", { className: "content-title", onClick: () => setChosenContent("pear1") }, " pear 1 "), /* @__PURE__ */ import_react.default.createElement("div", { className: "content-title", onClick: () => setChosenContent("pear2") }, " pear 2 "));
-    } else {
+  function ContentsTitle({ setChosenContentTitle, chosenSubCategory, chosenContentTitle }) {
+    console.log("chosenContentTitle: " + chosenContentTitle);
+    if (chosenSubCategory === "art_1" && chosenContentTitle === null) {
+      return /* @__PURE__ */ import_react.default.createElement("div", { className: "contents-rectangle" }, /* @__PURE__ */ import_react.default.createElement("div", { className: "content-title", onClick: () => setChosenContentTitle("flower1") }, " flower 1 "), /* @__PURE__ */ import_react.default.createElement("div", { className: "content-title", onClick: () => setChosenContentTitle("flower2") }, " flower 2 "));
+    } else if (chosenSubCategory === "art_2" && chosenContentTitle === null) {
+      return /* @__PURE__ */ import_react.default.createElement("div", { className: "contents-rectangle" }, /* @__PURE__ */ import_react.default.createElement("div", { className: "content-title", onClick: () => setChosenContentTitle("pear1") }, " pear 1 "), /* @__PURE__ */ import_react.default.createElement("div", { className: "content-title", onClick: () => setChosenContentTitle("pear2") }, " pear 2 "));
+    } else if (chosenContentTitle === null) {
       return /* @__PURE__ */ import_react.default.createElement("div", { className: "contents-rectangle" });
+    }
+  }
+  function ContentsContent({ chosenContentTitle }) {
+    if (chosenContentTitle == "flower1") {
+      return /* @__PURE__ */ import_react.default.createElement("div", { className: "contents-rectangle" }, /* @__PURE__ */ import_react.default.createElement("div", { className: "content-title" }, " FLOWERR 1 "));
+    } else {
+      return /* @__PURE__ */ import_react.default.createElement(import_react.default.Fragment, null);
     }
   }
   function Blog() {
     const [chosenCategory, setChosenCategory] = (0, import_react.useState)(null);
     const [chosenSubCategory, setChosenSubCategory] = (0, import_react.useState)(null);
-    const [chosenContent, setChosenContent] = (0, import_react.useState)(null);
-    return /* @__PURE__ */ import_react.default.createElement("div", { className: "rectangles-container" }, /* @__PURE__ */ import_react.default.createElement(Category, { setChosenCategory }), /* @__PURE__ */ import_react.default.createElement(SubCategory, { setChosenSubCategory, chosenCategory }), /* @__PURE__ */ import_react.default.createElement(ContentsTitle, { setChosenContent, chosenSubCategory }));
+    const [chosenContentTitle, setChosenContentTitle] = (0, import_react.useState)(null);
+    return /* @__PURE__ */ import_react.default.createElement("div", { className: "rectangles-container" }, /* @__PURE__ */ import_react.default.createElement(
+      Category,
+      {
+        setChosenCategory
+      }
+    ), /* @__PURE__ */ import_react.default.createElement(
+      SubCategory,
+      {
+        setChosenSubCategory,
+        setChosenContentTitle,
+        chosenCategory
+      }
+    ), /* @__PURE__ */ import_react.default.createElement(
+      ContentsTitle,
+      {
+        setChosenContentTitle,
+        chosenSubCategory,
+        chosenContentTitle
+      }
+    ), /* @__PURE__ */ import_react.default.createElement(
+      ContentsContent,
+      {
+        chosenContentTitle
+      }
+    ));
   }
   addEventListener("DOMContentLoaded", (event) => {
     const root = (0, import_client.createRoot)(document.querySelector("#root"));
