@@ -23518,18 +23518,27 @@
   }
   function SubCategory({ setChosenSubCategory, chosenCategory }) {
     if (chosenCategory === "art") {
-      return /* @__PURE__ */ import_react.default.createElement("div", { className: "subcategory-rectangle" }, /* @__PURE__ */ import_react.default.createElement("div", { className: "subcategory-title", onClick: () => setChosenSubCategory("art 1") }, " Art 1 "), /* @__PURE__ */ import_react.default.createElement("div", { className: "category-title", onClick: () => setChosenSubCategory("art 2") }, " Art 2 "));
+      return /* @__PURE__ */ import_react.default.createElement("div", { className: "subcategory-rectangle" }, /* @__PURE__ */ import_react.default.createElement("div", { className: "subcategory-title", onClick: () => setChosenSubCategory("art_1") }, " Art 1 "), /* @__PURE__ */ import_react.default.createElement("div", { className: "subcategory-title", onClick: () => setChosenSubCategory("art_2") }, " Art 2 "));
+    } else if (chosenCategory === "tech") {
+      return /* @__PURE__ */ import_react.default.createElement("div", { className: "subcategory-rectangle" }, /* @__PURE__ */ import_react.default.createElement("div", { className: "subcategory-title", onClick: () => setChosenSubCategory("tech_1") }, " Tech 1 "), /* @__PURE__ */ import_react.default.createElement("div", { className: "subcategory-title", onClick: () => setChosenSubCategory("tech_2") }, " Tech 2 "));
     } else {
-      return /* @__PURE__ */ import_react.default.createElement("div", { className: "subcategory-rectangle" }, /* @__PURE__ */ import_react.default.createElement("div", { className: "subcategory-title", onClick: () => setChosenSubCategory("tech 1") }, " Tech 1 "), /* @__PURE__ */ import_react.default.createElement("div", { className: "category-title", onClick: () => setChosenSubCategory("tech 2") }, " Tech 2 "));
+      return /* @__PURE__ */ import_react.default.createElement("div", { className: "subcategory-rectangle" });
+    }
+  }
+  function ContentsTitle({ setChosenContent, chosenSubCategory }) {
+    if (chosenSubCategory === "art_1") {
+      return /* @__PURE__ */ import_react.default.createElement("div", { className: "contents-rectangle" }, /* @__PURE__ */ import_react.default.createElement("div", { className: "content-title", onClick: () => setChosenContent("flower1") }, " flower 1 "), /* @__PURE__ */ import_react.default.createElement("div", { className: "content-title", onClick: () => setChosenContent("flower2") }, " flower 2 "));
+    } else if (chosenSubCategory === "art_2") {
+      return /* @__PURE__ */ import_react.default.createElement("div", { className: "contents-rectangle" }, /* @__PURE__ */ import_react.default.createElement("div", { className: "content-title", onClick: () => setChosenContent("pear1") }, " pear 1 "), /* @__PURE__ */ import_react.default.createElement("div", { className: "content-title", onClick: () => setChosenContent("pear2") }, " pear 2 "));
+    } else {
+      return /* @__PURE__ */ import_react.default.createElement("div", { className: "contents-rectangle" });
     }
   }
   function Blog() {
     const [chosenCategory, setChosenCategory] = (0, import_react.useState)(null);
     const [chosenSubCategory, setChosenSubCategory] = (0, import_react.useState)(null);
-    return (
-      // TODO <SubCateogory />, <Contents />
-      /* @__PURE__ */ import_react.default.createElement("div", { className: "rectangles-container" }, /* @__PURE__ */ import_react.default.createElement(Category, { setChosenCategory }), /* @__PURE__ */ import_react.default.createElement(SubCategory, { setChosenSubCategory, chosenCategory }))
-    );
+    const [chosenContent, setChosenContent] = (0, import_react.useState)(null);
+    return /* @__PURE__ */ import_react.default.createElement("div", { className: "rectangles-container" }, /* @__PURE__ */ import_react.default.createElement(Category, { setChosenCategory }), /* @__PURE__ */ import_react.default.createElement(SubCategory, { setChosenSubCategory, chosenCategory }), /* @__PURE__ */ import_react.default.createElement(ContentsTitle, { setChosenContent, chosenSubCategory }));
   }
   addEventListener("DOMContentLoaded", (event) => {
     const root = (0, import_client.createRoot)(document.querySelector("#root"));
