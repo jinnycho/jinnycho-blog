@@ -15,6 +15,7 @@ body {
     margin-left: 5vw;
     height: 80vh;
     width: 90vw;
+    min-width: 1000px;
 }
 
 .category-rectangle,
@@ -28,9 +29,21 @@ body {
 
 .category-rectangle,
 .subcategory-rectangle {
-    width: 25%;
+    width: 18%;
 }
 
 .contents-rectangle {
     width: 100%;
+}
+
+.category-title,
+.subcategory-title {
+    display: block;
+    font-family: monospace;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    border: none;
+    border-bottom: 1px solid var(--rectangle-color);
 }
