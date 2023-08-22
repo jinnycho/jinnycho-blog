@@ -3,7 +3,6 @@ import { ReactDOM, createRoot } from 'react-dom/client';
 
 function Category({setChosenCategory}) {
     return (
-        // TODO if clicked, change the property
         <div className="category-rectangle">
             <div className="category-title" onClick={() => setChosenCategory("art")}> Art </div>
             <div className="category-title" onClick={() => setChosenCategory("tech")}> Tech </div>

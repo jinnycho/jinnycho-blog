@@ -23511,10 +23511,7 @@
   var import_react = __toESM(require_react());
   var import_client = __toESM(require_client());
   function Category({ setChosenCategory }) {
-    return (
-      // TODO if clicked, change the property
-      /* @__PURE__ */ import_react.default.createElement("div", { className: "category-rectangle" }, /* @__PURE__ */ import_react.default.createElement("div", { className: "category-title", onClick: () => setChosenCategory("art") }, " Art "), /* @__PURE__ */ import_react.default.createElement("div", { className: "category-title", onClick: () => setChosenCategory("tech") }, " Tech "))
-    );
+    return /* @__PURE__ */ import_react.default.createElement("div", { className: "category-rectangle" }, /* @__PURE__ */ import_react.default.createElement("div", { className: "category-title", onClick: () => setChosenCategory("art") }, " Art "), /* @__PURE__ */ import_react.default.createElement("div", { className: "category-title", onClick: () => setChosenCategory("tech") }, " Tech "));
   }
   function SubCategory({ setChosenSubCategory, setChosenContentTitle, chosenCategory }) {
     const handleSubCategoryClick = (subCategory) => {
