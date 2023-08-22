@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { ReactDOM, createRoot } from 'react-dom/client';
+import { createRoot } from 'react-dom/client';
 
 function Category({setChosenCategory}) {
     return (
