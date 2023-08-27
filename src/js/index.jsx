@@ -13,9 +13,6 @@ function Category({setChosenCategory, setChosenSubCategory, setChosenContentTitl
             <div className="category-title" 
                 isselected={ chosenCategory == "art" ?  "true" :  "false" }
                 onClick={() => handleCategoryClick("art")}> Art </div>
-            {/* <div className="category-title"
-                isselected={ chosenCategory == "tech" ?  "true" :  "false" }
-                onClick={() => handleCategoryClick("tech")}> Tech </div> */}
         </div>
     );
 }
@@ -38,15 +35,6 @@ function SubCategory({setChosenSubCategory, setChosenContentTitle, chosenCategor
                     onClick={() => handleSubCategoryClick("art_2")}> Art 2 </div>
             </div>
         );
-    // } else if (chosenCategory === "tech") {
-    //     return (
-    //         <div className="subcategory-rectangle">
-    //             <div className="subcategory-title"
-    //                 onClick={() => handleSubCategoryClick("tech_1")}> Tech 1 </div>
-    //             <div className="subcategory-title"
-    //                 onClick={() => handleSubCategoryClick("tech_2")}> Tech 2 </div>
-    //         </div>
-    //     );
     } else {
         return (
             <div className="subcategory-rectangle"/>
@@ -59,6 +47,7 @@ function ContentsTitle({setChosenContentTitle, chosenSubCategory, chosenContentT
         setChosenContentTitle(chosenContentTitle);
       };
 
+    // It checks chosenContentTitle is null so we don't show so many columns
     if (chosenSubCategory === "art_1" && chosenContentTitle == null) {
         return (
             <div className="contents-rectangle">
@@ -68,15 +57,6 @@ function ContentsTitle({setChosenContentTitle, chosenSubCategory, chosenContentT
                     onClick={() => handleContentsTitleClick("flower_2")}> flower 2 </div>
             </div>
         );    
-    // } else if (chosenSubCategory === "art_2" && chosenContentTitle == null) {
-    //     return (
-    //         <div className="contents-rectangle">
-    //             <div className="content-title"
-    //                 onClick={() => setChosenContentTitle("pear_1")}> pear 1 </div>
-    //             <div className="content-title"
-    //                 onClick={() => setChosenContentTitle("pear_2")}> pear 2 </div>
-    //         </div>
-    //     );
     } else if (chosenContentTitle === null) {
         return (
             <div className="contents-rectangle"/>
