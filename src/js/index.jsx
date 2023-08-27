@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { createRoot } from 'react-dom/client';
 
 function Category({setChosenCategory, setChosenSubCategory, setChosenContentTitle, chosenCategory}) {
-    const handleCategoryClick = (event, category) => {
+    const handleCategoryClick = (category) => {
         setChosenCategory(category);
         setChosenSubCategory(null);
         setChosenContentTitle(null);
@@ -12,15 +12,15 @@ function Category({setChosenCategory, setChosenSubCategory, setChosenContentTitl
         <div className="category-rectangle">
             <div className="category-title" 
                 isselected={ chosenCategory == "art" ?  "true" :  "false" }
-                onClick={(event) => handleCategoryClick(event, "art")}> Art </div>
-            <div className="category-title"
+                onClick={() => handleCategoryClick("art")}> Art </div>
+            {/* <div className="category-title"
                 isselected={ chosenCategory == "tech" ?  "true" :  "false" }
-                onClick={(event) => handleCategoryClick(event, "tech")}> Tech </div>
+                onClick={() => handleCategoryClick("tech")}> Tech </div> */}
         </div>
     );
 }
 
-function SubCategory({setChosenSubCategory, setChosenContentTitle, chosenCategory}) {
+function SubCategory({setChosenSubCategory, setChosenContentTitle, chosenCategory, chosenSubCategory}) {
     // If the person clicks subcategory, ChosenContentTitle should be back to null too
     const handleSubCategoryClick = (subCategory) => {
         setChosenSubCategory(subCategory);
@@ -30,21 +30,23 @@ function SubCategory({setChosenSubCategory, setChosenContentTitle, chosenCategor
     if (chosenCategory === "art") {
         return (
             <div className="subcategory-rectangle">
-                <div className="subcategory-title" 
+                <div className="subcategory-title"
+                    isselected={ chosenSubCategory == "art_1" ?  "true" :  "false" }
                     onClick={() => handleSubCategoryClick("art_1")}> Art 1 </div>
-                <div className="subcategory-title" 
+                <div className="subcategory-title"
+                    isselected={ chosenSubCategory == "art_2" ?  "true" :  "false" }
                     onClick={() => handleSubCategoryClick("art_2")}> Art 2 </div>
             </div>
         );
-    } else if (chosenCategory === "tech") {
-        return (
-            <div className="subcategory-rectangle">
-                <div className="subcategory-title" 
-                    onClick={() => handleSubCategoryClick("tech_1")}> Tech 1 </div>
-                <div className="subcategory-title" 
-                    onClick={() => handleSubCategoryClick("tech_2")}> Tech 2 </div>
-            </div>
-        );
+    // } else if (chosenCategory === "tech") {
+    //     return (
+    //         <div className="subcategory-rectangle">
+    //             <div className="subcategory-title"
+    //                 onClick={() => handleSubCategoryClick("tech_1")}> Tech 1 </div>
+    //             <div className="subcategory-title"
+    //                 onClick={() => handleSubCategoryClick("tech_2")}> Tech 2 </div>
+    //         </div>
+    //     );
     } else {
         return (
             <div className="subcategory-rectangle"/>
@@ -53,20 +55,28 @@ function SubCategory({setChosenSubCategory, setChosenContentTitle, chosenCategor
 }
 
 function ContentsTitle({setChosenContentTitle, chosenSubCategory, chosenContentTitle}) {
-    if (chosenSubCategory === "art_1" && chosenContentTitle === null) {
+    const handleContentsTitleClick = (chosenContentTitle) => {
+        setChosenContentTitle(chosenContentTitle);
+      };
+
+    if (chosenSubCategory === "art_1" && chosenContentTitle == null) {
         return (
             <div className="contents-rectangle">
-                <div className="content-title" onClick={() => setChosenContentTitle("flower1")}> flower 1 </div>
-                <div className="content-title" onClick={() => setChosenContentTitle("flower2")}> flower 2 </div>
+                <div className="content-title"
+                    onClick={() => handleContentsTitleClick("flower_1")}> flower 1 </div>
+                <div className="content-title"
+                    onClick={() => handleContentsTitleClick("flower_2")}> flower 2 </div>
             </div>
         );    
-    } else if (chosenSubCategory === "art_2" && chosenContentTitle === null) {
-        return (
-            <div className="contents-rectangle">
-                <div className="content-title" onClick={() => setChosenContentTitle("pear1")}> pear 1 </div>
-                <div className="content-title" onClick={() => setChosenContentTitle("pear2")}> pear 2 </div>
-            </div>
-        );
+    // } else if (chosenSubCategory === "art_2" && chosenContentTitle == null) {
+    //     return (
+    //         <div className="contents-rectangle">
+    //             <div className="content-title"
+    //                 onClick={() => setChosenContentTitle("pear_1")}> pear 1 </div>
+    //             <div className="content-title"
+    //                 onClick={() => setChosenContentTitle("pear_2")}> pear 2 </div>
+    //         </div>
+    //     );
     } else if (chosenContentTitle === null) {
         return (
             <div className="contents-rectangle"/>
@@ -75,10 +85,13 @@ function ContentsTitle({setChosenContentTitle, chosenSubCategory, chosenContentT
 }
 
 function ContentsContent({chosenContentTitle}) {
-    if (chosenContentTitle == "flower1") {
+    if (chosenContentTitle == "flower_1") {
         return (
             <div className="contents-rectangle">
-                <div className="content-title"> FLOWERR 1 </div>
+                <div className="content-title"
+                    isselected="true">
+                    FLOWERR 1
+                </div>
             </div>
         );
     } else {
@@ -101,7 +114,8 @@ function Blog() {
             <SubCategory
                 setChosenSubCategory={setChosenSubCategory}
                 setChosenContentTitle={setChosenContentTitle}
-                chosenCategory={chosenCategory}/>
+                chosenCategory={chosenCategory}
+                chosenSubCategory={chosenSubCategory}/>
             <ContentsTitle
                 setChosenContentTitle={setChosenContentTitle}
                 chosenSubCategory={chosenSubCategory}
