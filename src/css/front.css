@@ -1,6 +1,9 @@
 :root {
     --background-white: #FFFFFF;
+    --background-blue: #3042ff;
     --rectangle-color: #3042ff;
+    --default-color: black;
+
 }
 
 body {
@@ -57,4 +60,14 @@ body {
     padding: 15px;
     border: none;
     border-bottom: 1px solid var(--rectangle-color);
+}
+
+.category-title[isselected=true] {
+    background-color: var(--background-blue);
+    color: var(--background-white);
+}
+
+.category-title[isselected=false] {
+    background-color: var(--background-white);
+    color: 
 }
