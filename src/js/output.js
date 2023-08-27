@@ -23540,14 +23540,6 @@
           onClick: () => handleSubCategoryClick("art_1")
         },
         " Art 1 "
-      ), /* @__PURE__ */ import_react.default.createElement(
-        "div",
-        {
-          className: "subcategory-title",
-          isselected: chosenSubCategory == "art_2" ? "true" : "false",
-          onClick: () => handleSubCategoryClick("art_2")
-        },
-        " Art 2 "
       ));
     } else {
       return /* @__PURE__ */ import_react.default.createElement("div", { className: "subcategory-rectangle" });

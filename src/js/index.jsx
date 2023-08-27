@@ -30,9 +30,6 @@ function SubCategory({setChosenSubCategory, setChosenContentTitle, chosenCategor
                 <div className="subcategory-title"
                     isselected={ chosenSubCategory == "art_1" ?  "true" :  "false" }
                     onClick={() => handleSubCategoryClick("art_1")}> Art 1 </div>
-                <div className="subcategory-title"
-                    isselected={ chosenSubCategory == "art_2" ?  "true" :  "false" }
-                    onClick={() => handleSubCategoryClick("art_2")}> Art 2 </div>
             </div>
         );
     } else {
