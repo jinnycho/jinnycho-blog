@@ -23515,9 +23515,16 @@
   var democratize_roads_default = '<h3 id="human-centric-roads">Human-centric roads</h3>\n<p> 2023/08/29 </p>\n<p>I recently read an <a href="https://www.bloomberg.com/news/articles/2021-10-21/slowly-brooklyn-s-car-free-reinvention-takes-shape">article from Bloomberg</a> that both Manhattan and Brooklyn are trying to make some parts of the city less car-centric. I love it. But then I wonder why can&#39;t this happen across the whole city?</p>\n<p>Especially during covid, the number of cyclists has skyrocketed in the city and that&#39;s GREAT. It&#39;s good for the environment, good for the public health, quieter and more efficient. However, there are still lots of neighborhoods that don&#39;t even have proper bike lanes. Even in the neighborhoods that do have some bike lanes, the emerging population of ebikes really increase the need of separate lanes just for ebikes or scooters. Otherwise, it is literally dangerous all the time for regular bikers or pedestrians. (By the way, I do approve of ebikes because they are quiet, fast, and relatively cleaner than cars. It&#39;s just our current road system is not ready for them... yet!) If both bikes and ebikes are desirable in city life, shouldn&#39;t there be an equal portion of roads allocated for them?</p>\n<p>And what about pedestrians? It&#39;s not an exaggeration that most of Manhattan and Brooklyn are walkable, assuming the MTA still exists. If pedestrians don&#39;t have to wait at every freaking traffic light or worry about potentially getting hit by cars, the everyday lives of residents and tourists will be dramatically improved, not to mention the environment. On top of that, shrinking our oversized roadways could open up new space for events, restaurants, music, and art.</p>\n<p>I really hope this day comes soon.</p>';
 
   // src/js/index.jsx
-  var categories = {
+  var categoriesIDToTitle = {
     "ideas": "Ideas",
     "books": "Books"
+  };
+  var categoriesIDTosubCategoriesID = {
+    "ideas": ["urbanDesign"],
+    "books": []
+  };
+  var subCategoriesIDToTitle = {
+    "urbanDesign": "Urban Design"
   };
   function Category({ setChosenCategory, setChosenSubCategory, setChosenContentTitle, chosenCategory }) {
     const handleCategoryClick = (category) => {
@@ -23525,13 +23532,14 @@
       setChosenSubCategory(null);
       setChosenContentTitle(null);
     };
-    return /* @__PURE__ */ import_react.default.createElement("div", { className: "category-rectangle" }, Object.keys(categories).map((categoryID) => {
-      const categoryTitle = categories[categoryID];
+    return /* @__PURE__ */ import_react.default.createElement("div", { className: "category-rectangle" }, Object.keys(categoriesIDToTitle).map((categoryID) => {
+      const categoryTitle = categoriesIDToTitle[categoryID];
       return /* @__PURE__ */ import_react.default.createElement(
         "div",
         {
           className: "category-title",
           isselected: chosenCategory === categoryID ? "true" : "false",
+          key: categoryID,
           onClick: () => handleCategoryClick(categoryID)
         },
         " ",
@@ -23545,19 +23553,25 @@
       setChosenSubCategory(subCategory);
       setChosenContentTitle(null);
     };
-    if (chosenCategory === "ideas") {
-      return /* @__PURE__ */ import_react.default.createElement("div", { className: "subcategory-rectangle" }, /* @__PURE__ */ import_react.default.createElement(
-        "div",
-        {
-          className: "subcategory-title",
-          isselected: chosenSubCategory === "urbanDesign" ? "true" : "false",
-          onClick: () => handleSubCategoryClick("urbanDesign")
-        },
-        " Urban Design "
-      ));
-    } else {
-      return /* @__PURE__ */ import_react.default.createElement("div", { className: "subcategory-rectangle" });
-    }
+    return /* @__PURE__ */ import_react.default.createElement("div", { className: "subcategory-rectangle" }, Object.keys(categoriesIDToTitle).map((categoryID) => {
+      if (chosenCategory === categoryID) {
+        const subCategoriesIDGivenACategory = categoriesIDTosubCategoriesID[categoryID];
+        for (let subCategoryID of subCategoriesIDGivenACategory) {
+          const subCategoryTitle = subCategoriesIDToTitle[subCategoryID];
+          return /* @__PURE__ */ import_react.default.createElement(
+            "div",
+            {
+              className: "subcategory-title",
+              isselected: chosenSubCategory === subCategoryID ? "true" : "false",
+              key: subCategoryID,
+              onClick: () => handleSubCategoryClick(subCategoryID)
+            },
+            " ",
+            subCategoryTitle
+          );
+        }
+      }
+    }));
   }
   function ContentsTitle({ setChosenContentTitle, chosenSubCategory, chosenContentTitle }) {
     const handleContentsTitleClick = (chosenContentTitle2) => {

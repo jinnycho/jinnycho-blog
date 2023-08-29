@@ -2,17 +2,21 @@ import React, { useState } from 'react';
 import { createRoot } from 'react-dom/client';
 import democratizeRoadsText from '../writings/ideas/democratize_roads.txt';
 
-// id : the title 
-const categories = {
+const categoriesIDToTitle = {
     'ideas': 'Ideas',
     'books': 'Books'
 };
 
-const subCategories = {
-    'urbanDesign': 'Urban Design'
+const categoriesIDTosubCategoriesID = {
+    'ideas': ['urbanDesign'],
+    'books': []
 };
 
-const contentsTitle = {
+const subCategoriesIDToTitle = {
+    'urbanDesign': 'Urban Design'
+}
+
+const contentsTitleIDToTitle = {
     'democratizeRoads': 'Democratize the roads'
 }
 
@@ -25,11 +29,12 @@ function Category({setChosenCategory, setChosenSubCategory, setChosenContentTitl
 
     return (
         <div className="category-rectangle">
-        {Object.keys(categories).map((categoryID) => {
-            const categoryTitle = categories[categoryID];
+        {Object.keys(categoriesIDToTitle).map((categoryID) => {
+            const categoryTitle = categoriesIDToTitle[categoryID];
             return(
                 <div className="category-title" 
                     isselected={ chosenCategory === categoryID ?  "true" :  "false" }
+                    key={ categoryID }
                     onClick={() => handleCategoryClick(categoryID)}> {categoryTitle} </div>
             );
         })}
@@ -43,20 +48,26 @@ function SubCategory({setChosenSubCategory, setChosenContentTitle, chosenCategor
         setChosenSubCategory(subCategory);
         setChosenContentTitle(null);
     };
-    
-    if (chosenCategory === "ideas") {
-        return (
-            <div className="subcategory-rectangle">
-                <div className="subcategory-title"
-                    isselected={ chosenSubCategory === "urbanDesign" ?  "true" :  "false" }
-                    onClick={() => handleSubCategoryClick("urbanDesign")}> Urban Design </div>
-            </div>
-        );
-    } else {
-        return (
-            <div className="subcategory-rectangle"/>
-        );
-    }
+
+    return (
+        <div className="subcategory-rectangle">
+        {Object.keys(categoriesIDToTitle).map((categoryID) => {
+            if (chosenCategory === categoryID) {
+                const subCategoriesIDGivenACategory = categoriesIDTosubCategoriesID[categoryID];
+                for (let subCategoryID of subCategoriesIDGivenACategory){
+                    const subCategoryTitle = subCategoriesIDToTitle[subCategoryID];
+                    return (
+                        <div className="subcategory-title"
+                            isselected={ chosenSubCategory === subCategoryID ?  "true" :  "false" }
+                            key={subCategoryID}
+                            onClick={() => handleSubCategoryClick(subCategoryID)}> {subCategoryTitle}    
+                        </div>
+                    );
+                }
+            }
+        })}
+        </div>
+    );
 }
 
 function ContentsTitle({setChosenContentTitle, chosenSubCategory, chosenContentTitle}) {
