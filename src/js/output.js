@@ -23510,6 +23510,11 @@
   // src/js/index.jsx
   var import_react = __toESM(require_react());
   var import_client = __toESM(require_client());
+
+  // src/writings/ideas/democratize_roads.txt
+  var democratize_roads_default = '<p>I recently read an <a href="https://www.bloomberg.com/news/articles/2021-10-21/slowly-brooklyn-s-car-free-reinvention-takes-shape">article from Bloomberg</a> that both Manhattan and Brooklyn are trying to make some parts of the city less car-centric. I love it. But then I wonder why can&#39;t this happen across the whole city?</p>\n<p>Especially during covid, the number of cyclists has skyrocketed in the city and that&#39;s GREAT. It&#39;s good for the environment, good for the public health, quieter and more efficient. However, there are still lots of neighborhoods that don&#39;t even have proper bike lanes. Even in the neighborhoods that do have some bike lanes, the emerging population of ebikes really increase the need of separate lanes just for ebikes or scooters. Otherwise, it is literally dangerous all the time for regular bikers or pedestrians. (By the way, I do approve of ebikes because they are quiet, fast, and relatively cleaner than cars. It&#39;s just our current road system is not ready for them... yet!) If both bikes and ebikes are desirable in city life, shouldn&#39;t there be an equal portion of roads allocated for them?</p>\n<p>And what about pedestrians? It&#39;s not an exaggeration that most of Manhattan and Brooklyn are walkable, assuming the MTA still exists. If pedestrians don&#39;t have to wait at every freaking traffic light or worry about potentially getting hit by cars, the everyday lives of residents and tourists will be dramatically improved, not to mention the environment. On top of that, shrinking our oversized roadways could open up new space for events, restaurants, music, and art.</p>\n<p>I really hope this day comes soon.</p>';
+
+  // src/js/index.jsx
   function Category({ setChosenCategory, setChosenSubCategory, setChosenContentTitle, chosenCategory }) {
     const handleCategoryClick = (category) => {
       setChosenCategory(category);
@@ -23520,10 +23525,10 @@
       "div",
       {
         className: "category-title",
-        isselected: chosenCategory == "art" ? "true" : "false",
-        onClick: () => handleCategoryClick("art")
+        isselected: chosenCategory === "ideas" ? "true" : "false",
+        onClick: () => handleCategoryClick("ideas")
       },
-      " Art "
+      " Ideas "
     ));
   }
   function SubCategory({ setChosenSubCategory, setChosenContentTitle, chosenCategory, chosenSubCategory }) {
@@ -23531,15 +23536,15 @@
       setChosenSubCategory(subCategory);
       setChosenContentTitle(null);
     };
-    if (chosenCategory === "art") {
+    if (chosenCategory === "ideas") {
       return /* @__PURE__ */ import_react.default.createElement("div", { className: "subcategory-rectangle" }, /* @__PURE__ */ import_react.default.createElement(
         "div",
         {
           className: "subcategory-title",
-          isselected: chosenSubCategory == "art_1" ? "true" : "false",
-          onClick: () => handleSubCategoryClick("art_1")
+          isselected: chosenSubCategory === "urban_design" ? "true" : "false",
+          onClick: () => handleSubCategoryClick("urban_design")
         },
-        " Art 1 "
+        " Urban Design "
       ));
     } else {
       return /* @__PURE__ */ import_react.default.createElement("div", { className: "subcategory-rectangle" });
@@ -23549,36 +23554,29 @@
     const handleContentsTitleClick = (chosenContentTitle2) => {
       setChosenContentTitle(chosenContentTitle2);
     };
-    if (chosenSubCategory === "art_1" && chosenContentTitle == null) {
+    if (chosenSubCategory === "urban_design" && chosenContentTitle === null) {
       return /* @__PURE__ */ import_react.default.createElement("div", { className: "contents-rectangle" }, /* @__PURE__ */ import_react.default.createElement(
         "div",
         {
           className: "content-title",
-          onClick: () => handleContentsTitleClick("flower_1")
+          onClick: () => handleContentsTitleClick("democratize_roads")
         },
-        " flower 1 "
-      ), /* @__PURE__ */ import_react.default.createElement(
-        "div",
-        {
-          className: "content-title",
-          onClick: () => handleContentsTitleClick("flower_2")
-        },
-        " flower 2 "
+        " Democratize the roads "
       ));
     } else if (chosenContentTitle === null) {
       return /* @__PURE__ */ import_react.default.createElement("div", { className: "contents-rectangle" });
     }
   }
   function ContentsContent({ chosenContentTitle }) {
-    if (chosenContentTitle == "flower_1") {
+    if (chosenContentTitle === "democratize_roads") {
       return /* @__PURE__ */ import_react.default.createElement("div", { className: "contents-rectangle" }, /* @__PURE__ */ import_react.default.createElement(
         "div",
         {
           className: "content-title",
           isselected: "true"
         },
-        "FLOWERR 1"
-      ));
+        "Democratize the roads"
+      ), /* @__PURE__ */ import_react.default.createElement("div", { dangerouslySetInnerHTML: { __html: democratize_roads_default } }));
     } else {
       return /* @__PURE__ */ import_react.default.createElement(import_react.default.Fragment, null);
     }

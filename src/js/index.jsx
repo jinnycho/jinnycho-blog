@@ -1,5 +1,11 @@
 import React, { useState } from 'react';
 import { createRoot } from 'react-dom/client';
+import democratizeRoadsText from '../writings/ideas/democratize_roads.txt';
+
+const categories = {
+    ideas: 'Ideas',
+    books: 'Books'
+}
 
 function Category({setChosenCategory, setChosenSubCategory, setChosenContentTitle, chosenCategory}) {
     const handleCategoryClick = (category) => {
@@ -11,8 +17,8 @@ function Category({setChosenCategory, setChosenSubCategory, setChosenContentTitl
     return (
         <div className="category-rectangle">
             <div className="category-title" 
-                isselected={ chosenCategory == "art" ?  "true" :  "false" }
-                onClick={() => handleCategoryClick("art")}> Art </div>
+                isselected={ chosenCategory === "ideas" ?  "true" :  "false" }
+                onClick={() => handleCategoryClick("ideas")}> Ideas </div>
         </div>
     );
 }
@@ -24,12 +30,12 @@ function SubCategory({setChosenSubCategory, setChosenContentTitle, chosenCategor
         setChosenContentTitle(null);
       };
     
-    if (chosenCategory === "art") {
+    if (chosenCategory === "ideas") {
         return (
             <div className="subcategory-rectangle">
                 <div className="subcategory-title"
-                    isselected={ chosenSubCategory == "art_1" ?  "true" :  "false" }
-                    onClick={() => handleSubCategoryClick("art_1")}> Art 1 </div>
+                    isselected={ chosenSubCategory === "urban_design" ?  "true" :  "false" }
+                    onClick={() => handleSubCategoryClick("urban_design")}> Urban Design </div>
             </div>
         );
     } else {
@@ -45,13 +51,11 @@ function ContentsTitle({setChosenContentTitle, chosenSubCategory, chosenContentT
       };
 
     // It checks chosenContentTitle is null so we don't show so many columns
-    if (chosenSubCategory === "art_1" && chosenContentTitle == null) {
+    if (chosenSubCategory === "urban_design" && chosenContentTitle === null) {
         return (
             <div className="contents-rectangle">
                 <div className="content-title"
-                    onClick={() => handleContentsTitleClick("flower_1")}> flower 1 </div>
-                <div className="content-title"
-                    onClick={() => handleContentsTitleClick("flower_2")}> flower 2 </div>
+                    onClick={() => handleContentsTitleClick("democratize_roads")}> Democratize the roads </div>
             </div>
         );    
     } else if (chosenContentTitle === null) {
@@ -62,13 +66,14 @@ function ContentsTitle({setChosenContentTitle, chosenSubCategory, chosenContentT
 }
 
 function ContentsContent({chosenContentTitle}) {
-    if (chosenContentTitle == "flower_1") {
+    if (chosenContentTitle === "democratize_roads") {
         return (
             <div className="contents-rectangle">
                 <div className="content-title"
                     isselected="true">
-                    FLOWERR 1
+                    Democratize the roads
                 </div>
+                <div dangerouslySetInnerHTML={{__html: democratizeRoadsText}}/>
             </div>
         );
     } else {
