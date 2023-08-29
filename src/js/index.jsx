@@ -25,7 +25,7 @@ function Category({setChosenCategory, setChosenSubCategory, setChosenContentTitl
 
     return (
         <div className="category-rectangle">
-        {Object.keys(categories).map(function (categoryID) {
+        {Object.keys(categories).map((categoryID) => {
             const categoryTitle = categories[categoryID];
             return(
                 <div className="category-title" 
@@ -42,7 +42,7 @@ function SubCategory({setChosenSubCategory, setChosenContentTitle, chosenCategor
     const handleSubCategoryClick = (subCategory) => {
         setChosenSubCategory(subCategory);
         setChosenContentTitle(null);
-      };
+    };
     
     if (chosenCategory === "ideas") {
         return (

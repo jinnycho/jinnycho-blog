@@ -23525,7 +23525,7 @@
       setChosenSubCategory(null);
       setChosenContentTitle(null);
     };
-    return /* @__PURE__ */ import_react.default.createElement("div", { className: "category-rectangle" }, Object.keys(categories).map(function(categoryID) {
+    return /* @__PURE__ */ import_react.default.createElement("div", { className: "category-rectangle" }, Object.keys(categories).map((categoryID) => {
       const categoryTitle = categories[categoryID];
       return /* @__PURE__ */ import_react.default.createElement(
         "div",
