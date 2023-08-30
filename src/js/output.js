@@ -23532,6 +23532,9 @@
   var contentsTitleIDToValue = {
     "democratizeRoads": "Democratize the roads"
   };
+  var contentsTitleIDToContentsContentValue = {
+    "democratizeRoads": democratize_roads_default
+  };
   function Category({ setChosenCategory, setChosenSubCategory, setChosenContentTitle, chosenCategoryID }) {
     const handleCategoryClick = (categoryID) => {
       setChosenCategory(categoryID);
@@ -23610,18 +23613,23 @@
     }));
   }
   function ContentsContent({ chosenContentTitleID }) {
-    if (chosenContentTitleID === "democratizeRoads") {
-      return /* @__PURE__ */ import_react.default.createElement("div", { className: "contents-rectangle" }, /* @__PURE__ */ import_react.default.createElement(
-        "div",
-        {
-          className: "content-title",
-          isselected: "true"
-        },
-        "Democratize the roads"
-      ), /* @__PURE__ */ import_react.default.createElement("div", { className: "content-actual", dangerouslySetInnerHTML: { __html: democratize_roads_default } }));
-    } else {
-      return /* @__PURE__ */ import_react.default.createElement(import_react.default.Fragment, null);
-    }
+    return /* @__PURE__ */ import_react.default.createElement(import_react.default.Fragment, null, Object.keys(contentsTitleIDToContentsContentValue).map((contentTitleID) => {
+      if (contentTitleID === chosenContentTitleID) {
+        const contentTitle = contentsTitleIDToValue[contentTitleID];
+        const contentValueGivenContentTitle = contentsTitleIDToContentsContentValue[contentTitleID];
+        return /* @__PURE__ */ import_react.default.createElement("div", { className: "contents-rectangle" }, /* @__PURE__ */ import_react.default.createElement(
+          "div",
+          {
+            className: "content-title",
+            isselected: "true"
+          },
+          " ",
+          contentTitle
+        ), /* @__PURE__ */ import_react.default.createElement("div", { className: "content-actual", dangerouslySetInnerHTML: { __html: contentValueGivenContentTitle } }));
+      } else {
+        return /* @__PURE__ */ import_react.default.createElement(import_react.default.Fragment, null);
+      }
+    }));
   }
   function Blog() {
     const [chosenCategoryID, setChosenCategory] = (0, import_react.useState)(null);

@@ -111,19 +111,40 @@ function ContentsTitle({setChosenContentTitle, chosenCategoryID, chosenSubCatego
 }
 
 function ContentsContent({chosenContentTitleID}) {
-    if (chosenContentTitleID === "democratizeRoads") {
-        return (
-            <div className="contents-rectangle">
-                <div className="content-title"
-                    isselected="true">
-                    Democratize the roads
-                </div>
-                <div className="content-actual" dangerouslySetInnerHTML={{__html: democratizeRoadsText}}/>
-            </div>
-        );
-    } else {
-        return <></>;
-    }
+    return (
+        <>
+        {Object.keys(contentsTitleIDToContentsContentValue).map((contentTitleID) => {
+            if (contentTitleID === chosenContentTitleID) {
+                const contentTitle = contentsTitleIDToValue[contentTitleID];
+                const contentValueGivenContentTitle = contentsTitleIDToContentsContentValue[contentTitleID];
+                return (
+                    <div className='contents-rectangle'>
+                        <div className='content-title'
+                            isselected='true'> { contentTitle }
+                        </div>
+                        <div className="content-actual" dangerouslySetInnerHTML={{__html: contentValueGivenContentTitle}}/>
+                    </div>
+                );
+            } else {
+                return (<></>);
+            }
+        })}
+        </>
+    );
+
+    // if (chosenContentTitleID === "democratizeRoads") {
+    //     return (
+    //         <div className="contents-rectangle">
+    //             <div className="content-title"
+    //                 isselected="true">
+    //                 Democratize the roads
+    //             </div>
+    //             <div className="content-actual" dangerouslySetInnerHTML={{__html: democratizeRoadsText}}/>
+    //         </div>
+    //     );
+    // } else {
+    //     return <></>;
+    // }
 }
 
 function Blog() {
