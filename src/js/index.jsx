@@ -24,7 +24,11 @@ const contentsTitleIDToTitle = {
     'democratizeRoads': 'Democratize the roads'
 }
 
-function Category({setChosenCategory, setChosenSubCategory, setChosenContentTitle, chosenCategory}) {
+const contentsTitleIDToContentsContent = {
+    'democratizeRoads': democratizeRoadsText
+}
+
+function Category({setChosenCategory, setChosenSubCategory, setChosenContentTitle, chosenCategoryID}) {
     const handleCategoryClick = (categoryID) => {
         setChosenCategory(categoryID);
         setChosenSubCategory(null);
@@ -37,7 +41,7 @@ function Category({setChosenCategory, setChosenSubCategory, setChosenContentTitl
             const categoryTitle = categoryIDToValue[categoryID];
             return(
                 <div className="category-title" 
-                    isselected={ chosenCategory === categoryID ?  "true" :  "false" }
+                    isselected={ chosenCategoryID === categoryID ?  "true" :  "false" }
                     key={ categoryID }
                     onClick={() => handleCategoryClick(categoryID)}> {categoryTitle} </div>
             );
@@ -46,7 +50,7 @@ function Category({setChosenCategory, setChosenSubCategory, setChosenContentTitl
     );
 }
 
-function SubCategory({setChosenSubCategory, setChosenContentTitle, chosenCategory, chosenSubCategory}) {
+function SubCategory({setChosenSubCategory, setChosenContentTitle, chosenCategoryID, chosenSubCategoryID}) {
     // If the person clicks subcategory, ChosenContentTitle should be back to null too
     const handleSubCategoryClick = (subCategoryID) => {
         setChosenSubCategory(subCategoryID);
@@ -56,13 +60,13 @@ function SubCategory({setChosenSubCategory, setChosenContentTitle, chosenCategor
     return (
         <div className="subcategory-rectangle">
         {Object.keys(categoryIDToValue).map((categoryID) => {
-            if (chosenCategory === categoryID) {
+            if (chosenCategoryID === categoryID) {
                 const subCategoriesIDGivenACategory = categoryIDTosubCategoriesIDs[categoryID];
                 for (let subCategoryID of subCategoriesIDGivenACategory){
                     const subCategoryTitle = subCategoryIDToTitle[subCategoryID];
                     return (
                         <div className="subcategory-title"
-                            isselected={ chosenSubCategory === subCategoryID ?  "true" :  "false" }
+                            isselected={ chosenSubCategoryID === subCategoryID ?  "true" :  "false" }
                             key={subCategoryID}
                             onClick={() => handleSubCategoryClick(subCategoryID)}> {subCategoryTitle}
                         </div>
@@ -75,60 +79,40 @@ function SubCategory({setChosenSubCategory, setChosenContentTitle, chosenCategor
 }
 
 function ContentsTitle({setChosenContentTitle, chosenSubCategoryID, chosenContentTitleID}) {
-    const handleContentsTitleClick = (chosenContentTitleID) => {
-        setChosenContentTitle(chosenContentTitleID);
-    };
+    const handleContentsTitleClick = (chosenContentTitle) => {
+        setChosenContentTitle(chosenContentTitle);
+      };
 
-    return (
-        <div className="contents-rectangle">
-        {Object.keys(subCategoryIDToTitle).map((subCategoryID) => {
-            if (chosenSubCategoryID === subCategoryID && chosenContentTitleID === null) {
-                const titleIDsGivenSubCategory = subCategoryIDToTitleIDs[subCategoryID];
-                for (let titleID of titleIDsGivenSubCategory){
-                    const contentTitle = contentsTitleIDToTitle[titleID];
-                    return (
-                        <div className="content-title"
-                            key={subCategoryID}
-                            onClick={() => handleContentsTitleClick({ titleID })}>
-                            { contentTitle } 
-                        </div>
-                    );
-                }
-            }
-        })}
-        </div>
-    );
+    // It checks chosenContentTitle is null so we don't show so many columns
+    if (chosenSubCategoryID === "urbanDesign" && chosenContentTitleID === null) {
+        return (
+            <div className="contents-rectangle">
+                <div className="content-title"
+                    onClick={() => handleContentsTitleClick("democratizeRoads")}> Democratize the roads </div>
+            </div>
+        );    
+    } else if (chosenContentTitleID === null) {
+        return (
+            <div className="contents-rectangle"/>
+        );
+    };
 }
 
 function ContentsContent({chosenContentTitleID}) {
-
-    return (
-        <div className="contents-rectangle">
-        {Object.keys(categoryIDToValue).map((categoryID) => {
-            const categoryTitle = categoryIDToValue[categoryID];
-            return(
-                <div className="category-title" 
-                    isselected={ chosenCategory === categoryID ?  "true" :  "false" }
-                    key={ categoryID }
-                    onClick={() => handleCategoryClick(categoryID)}> {categoryTitle} </div>
-            );
-        })}
-        </div>
-    );
-
-    // if (chosenContentTitle === "democratizeRoads") {
-    //     return (
-    //         <div className="contents-rectangle">
-    //             <div className="content-title"
-    //                 isselected="true">
-    //                 Democratize the roads
-    //             </div>
-    //             <div className="content-actual" dangerouslySetInnerHTML={{__html: democratizeRoadsText}}/>
-    //         </div>
-    //     );
-    // } else {
-    //     return <></>;
-    // }
+    console.log("HERRRR: " + JSON.stringify(chosenContentTitleID) );
+    if (chosenContentTitleID === "democratizeRoads") {
+        return (
+            <div className="contents-rectangle">
+                <div className="content-title"
+                    isselected="true">
+                    Democratize the roads
+                </div>
+                <div className="content-actual" dangerouslySetInnerHTML={{__html: democratizeRoadsText}}/>
+            </div>
+        );
+    } else {
+        return <></>;
+    }
 }
 
 function Blog() {

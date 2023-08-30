@@ -23510,6 +23510,11 @@
   // src/js/index.jsx
   var import_react = __toESM(require_react());
   var import_client = __toESM(require_client());
+
+  // src/writings/ideas/democratize_roads.txt
+  var democratize_roads_default = '<h3 id="human-centric-roads">Human-centric roads</h3>\n<p> 2023/08/29 </p>\n<p>I recently read an <a href="https://www.bloomberg.com/news/articles/2021-10-21/slowly-brooklyn-s-car-free-reinvention-takes-shape">article from Bloomberg</a> that both Manhattan and Brooklyn are trying to make some parts of the city less car-centric. I love it. But then I wonder why can&#39;t this happen across the whole city?</p>\n<p>Especially during covid, the number of cyclists has skyrocketed in the city and that&#39;s GREAT. It&#39;s good for the environment, good for the public health, quieter and more efficient. However, there are still lots of neighborhoods that don&#39;t even have proper bike lanes. Even in the neighborhoods that do have some bike lanes, the emerging population of ebikes really increase the need of separate lanes just for ebikes or scooters. Otherwise, it is literally dangerous all the time for regular bikers or pedestrians. (By the way, I do approve of ebikes because they are quiet, fast, and relatively cleaner than cars. It&#39;s just our current road system is not ready for them... yet!) If both bikes and ebikes are desirable in city life, shouldn&#39;t there be an equal portion of roads allocated for them?</p>\n<p>And what about pedestrians? It&#39;s not an exaggeration that most of Manhattan and Brooklyn are walkable, assuming the MTA still exists. If pedestrians don&#39;t have to wait at every freaking traffic light or worry about potentially getting hit by cars, the everyday lives of residents and tourists will be dramatically improved, not to mention the environment. On top of that, shrinking our oversized roadways could open up new space for events, restaurants, music, and art.</p>\n<p>I really hope this day comes soon.</p>';
+
+  // src/js/index.jsx
   var categoryIDToValue = {
     "ideas": "Ideas",
     "books": "Books"
@@ -23521,14 +23526,8 @@
   var subCategoryIDToTitle = {
     "urbanDesign": "Urban Design"
   };
-  var subCategoryIDToTitleIDs = {
-    "urbanDesign": ["democratizeRoads"]
-  };
-  var contentsTitleIDToTitle = {
-    "democratizeRoads": "Democratize the roads"
-  };
-  function Category({ setChosenCategory, setChosenSubCategory, setChosenContentTitle, chosenCategory: chosenCategory2 }) {
-    const handleCategoryClick2 = (categoryID) => {
+  function Category({ setChosenCategory, setChosenSubCategory, setChosenContentTitle, chosenCategoryID }) {
+    const handleCategoryClick = (categoryID) => {
       setChosenCategory(categoryID);
       setChosenSubCategory(null);
       setChosenContentTitle(null);
@@ -23539,9 +23538,9 @@
         "div",
         {
           className: "category-title",
-          isselected: chosenCategory2 === categoryID ? "true" : "false",
+          isselected: chosenCategoryID === categoryID ? "true" : "false",
           key: categoryID,
-          onClick: () => handleCategoryClick2(categoryID)
+          onClick: () => handleCategoryClick(categoryID)
         },
         " ",
         categoryTitle,
@@ -23549,13 +23548,13 @@
       );
     }));
   }
-  function SubCategory({ setChosenSubCategory, setChosenContentTitle, chosenCategory: chosenCategory2, chosenSubCategory }) {
+  function SubCategory({ setChosenSubCategory, setChosenContentTitle, chosenCategoryID, chosenSubCategoryID }) {
     const handleSubCategoryClick = (subCategoryID) => {
       setChosenSubCategory(subCategoryID);
       setChosenContentTitle(null);
     };
     return /* @__PURE__ */ import_react.default.createElement("div", { className: "subcategory-rectangle" }, Object.keys(categoryIDToValue).map((categoryID) => {
-      if (chosenCategory2 === categoryID) {
+      if (chosenCategoryID === categoryID) {
         const subCategoriesIDGivenACategory = categoryIDTosubCategoriesIDs[categoryID];
         for (let subCategoryID of subCategoriesIDGivenACategory) {
           const subCategoryTitle = subCategoryIDToTitle[subCategoryID];
@@ -23563,7 +23562,7 @@
             "div",
             {
               className: "subcategory-title",
-              isselected: chosenSubCategory === subCategoryID ? "true" : "false",
+              isselected: chosenSubCategoryID === subCategoryID ? "true" : "false",
               key: subCategoryID,
               onClick: () => handleSubCategoryClick(subCategoryID)
             },
@@ -23575,43 +23574,37 @@
     }));
   }
   function ContentsTitle({ setChosenContentTitle, chosenSubCategoryID, chosenContentTitleID }) {
-    const handleContentsTitleClick = (chosenContentTitleID2) => {
-      setChosenContentTitle(chosenContentTitleID2);
+    const handleContentsTitleClick = (chosenContentTitle) => {
+      setChosenContentTitle(chosenContentTitle);
     };
-    return /* @__PURE__ */ import_react.default.createElement("div", { className: "contents-rectangle" }, Object.keys(subCategoryIDToTitle).map((subCategoryID) => {
-      if (chosenSubCategoryID === subCategoryID && chosenContentTitleID === null) {
-        const titleIDsGivenSubCategory = subCategoryIDToTitleIDs[subCategoryID];
-        for (let titleID of titleIDsGivenSubCategory) {
-          const contentTitle = contentsTitleIDToTitle[titleID];
-          return /* @__PURE__ */ import_react.default.createElement(
-            "div",
-            {
-              className: "content-title",
-              key: subCategoryID,
-              onClick: () => handleContentsTitleClick({ titleID })
-            },
-            contentTitle
-          );
-        }
-      }
-    }));
-  }
-  function ContentsContent({ chosenContentTitleID }) {
-    return /* @__PURE__ */ import_react.default.createElement("div", { className: "contents-rectangle" }, Object.keys(categoryIDToValue).map((categoryID) => {
-      const categoryTitle = categoryIDToValue[categoryID];
-      return /* @__PURE__ */ import_react.default.createElement(
+    if (chosenSubCategoryID === "urbanDesign" && chosenContentTitleID === null) {
+      return /* @__PURE__ */ import_react.default.createElement("div", { className: "contents-rectangle" }, /* @__PURE__ */ import_react.default.createElement(
         "div",
         {
-          className: "category-title",
-          isselected: chosenCategory === categoryID ? "true" : "false",
-          key: categoryID,
-          onClick: () => handleCategoryClick(categoryID)
+          className: "content-title",
+          onClick: () => handleContentsTitleClick("democratizeRoads")
         },
-        " ",
-        categoryTitle,
-        " "
-      );
-    }));
+        " Democratize the roads "
+      ));
+    } else if (chosenContentTitleID === null) {
+      return /* @__PURE__ */ import_react.default.createElement("div", { className: "contents-rectangle" });
+    }
+    ;
+  }
+  function ContentsContent({ chosenContentTitleID }) {
+    console.log("HERRRR: " + JSON.stringify(chosenContentTitleID));
+    if (chosenContentTitleID === "democratizeRoads") {
+      return /* @__PURE__ */ import_react.default.createElement("div", { className: "contents-rectangle" }, /* @__PURE__ */ import_react.default.createElement(
+        "div",
+        {
+          className: "content-title",
+          isselected: "true"
+        },
+        "Democratize the roads"
+      ), /* @__PURE__ */ import_react.default.createElement("div", { className: "content-actual", dangerouslySetInnerHTML: { __html: democratize_roads_default } }));
+    } else {
+      return /* @__PURE__ */ import_react.default.createElement(import_react.default.Fragment, null);
+    }
   }
   function Blog() {
     const [chosenCategoryID, setChosenCategory] = (0, import_react.useState)(null);
