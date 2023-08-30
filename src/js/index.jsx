@@ -2,18 +2,22 @@ import React, { useState } from 'react';
 import { createRoot } from 'react-dom/client';
 import democratizeRoadsText from '../writings/ideas/democratize_roads.txt';
 
-const categoriesIDToTitle = {
+const categoryIDToValue = {
     'ideas': 'Ideas',
     'books': 'Books'
 };
 
-const categoriesIDTosubCategoriesID = {
+const categoryIDTosubCategoriesIDs = {
     'ideas': ['urbanDesign'],
     'books': []
 };
 
-const subCategoriesIDToTitle = {
+const subCategoryIDToTitle = {
     'urbanDesign': 'Urban Design'
+}
+
+const subCategoryIDToTitleIDs = {
+    'urbanDesign': ['democratizeRoads']
 }
 
 const contentsTitleIDToTitle = {
@@ -21,16 +25,16 @@ const contentsTitleIDToTitle = {
 }
 
 function Category({setChosenCategory, setChosenSubCategory, setChosenContentTitle, chosenCategory}) {
-    const handleCategoryClick = (category) => {
-        setChosenCategory(category);
+    const handleCategoryClick = (categoryID) => {
+        setChosenCategory(categoryID);
         setChosenSubCategory(null);
         setChosenContentTitle(null);
     };
 
     return (
         <div className="category-rectangle">
-        {Object.keys(categoriesIDToTitle).map((categoryID) => {
-            const categoryTitle = categoriesIDToTitle[categoryID];
+        {Object.keys(categoryIDToValue).map((categoryID) => {
+            const categoryTitle = categoryIDToValue[categoryID];
             return(
                 <div className="category-title" 
                     isselected={ chosenCategory === categoryID ?  "true" :  "false" }
@@ -44,23 +48,23 @@ function Category({setChosenCategory, setChosenSubCategory, setChosenContentTitl
 
 function SubCategory({setChosenSubCategory, setChosenContentTitle, chosenCategory, chosenSubCategory}) {
     // If the person clicks subcategory, ChosenContentTitle should be back to null too
-    const handleSubCategoryClick = (subCategory) => {
-        setChosenSubCategory(subCategory);
+    const handleSubCategoryClick = (subCategoryID) => {
+        setChosenSubCategory(subCategoryID);
         setChosenContentTitle(null);
     };
 
     return (
         <div className="subcategory-rectangle">
-        {Object.keys(categoriesIDToTitle).map((categoryID) => {
+        {Object.keys(categoryIDToValue).map((categoryID) => {
             if (chosenCategory === categoryID) {
-                const subCategoriesIDGivenACategory = categoriesIDTosubCategoriesID[categoryID];
+                const subCategoriesIDGivenACategory = categoryIDTosubCategoriesIDs[categoryID];
                 for (let subCategoryID of subCategoriesIDGivenACategory){
-                    const subCategoryTitle = subCategoriesIDToTitle[subCategoryID];
+                    const subCategoryTitle = subCategoryIDToTitle[subCategoryID];
                     return (
                         <div className="subcategory-title"
                             isselected={ chosenSubCategory === subCategoryID ?  "true" :  "false" }
                             key={subCategoryID}
-                            onClick={() => handleSubCategoryClick(subCategoryID)}> {subCategoryTitle}    
+                            onClick={() => handleSubCategoryClick(subCategoryID)}> {subCategoryTitle}
                         </div>
                     );
                 }
@@ -70,46 +74,67 @@ function SubCategory({setChosenSubCategory, setChosenContentTitle, chosenCategor
     );
 }
 
-function ContentsTitle({setChosenContentTitle, chosenSubCategory, chosenContentTitle}) {
-    const handleContentsTitleClick = (chosenContentTitle) => {
-        setChosenContentTitle(chosenContentTitle);
-      };
+function ContentsTitle({setChosenContentTitle, chosenSubCategoryID, chosenContentTitleID}) {
+    const handleContentsTitleClick = (chosenContentTitleID) => {
+        setChosenContentTitle(chosenContentTitleID);
+    };
 
-    // It checks chosenContentTitle is null so we don't show so many columns
-    if (chosenSubCategory === "urbanDesign" && chosenContentTitle === null) {
-        return (
-            <div className="contents-rectangle">
-                <div className="content-title"
-                    onClick={() => handleContentsTitleClick("democratizeRoads")}> Democratize the roads </div>
-            </div>
-        );    
-    } else if (chosenContentTitle === null) {
-        return (
-            <div className="contents-rectangle"/>
-        );
-    }
+    return (
+        <div className="contents-rectangle">
+        {Object.keys(subCategoryIDToTitle).map((subCategoryID) => {
+            if (chosenSubCategoryID === subCategoryID && chosenContentTitleID === null) {
+                const titleIDsGivenSubCategory = subCategoryIDToTitleIDs[subCategoryID];
+                for (let titleID of titleIDsGivenSubCategory){
+                    const contentTitle = contentsTitleIDToTitle[titleID];
+                    return (
+                        <div className="content-title"
+                            key={subCategoryID}
+                            onClick={() => handleContentsTitleClick({ titleID })}>
+                            { contentTitle } 
+                        </div>
+                    );
+                }
+            }
+        })}
+        </div>
+    );
 }
 
-function ContentsContent({chosenContentTitle}) {
-    if (chosenContentTitle === "democratizeRoads") {
-        return (
-            <div className="contents-rectangle">
-                <div className="content-title"
-                    isselected="true">
-                    Democratize the roads
-                </div>
-                <div className="content-actual" dangerouslySetInnerHTML={{__html: democratizeRoadsText}}/>
-            </div>
-        );
-    } else {
-        return <></>;
-    }
+function ContentsContent({chosenContentTitleID}) {
+
+    return (
+        <div className="contents-rectangle">
+        {Object.keys(categoryIDToValue).map((categoryID) => {
+            const categoryTitle = categoryIDToValue[categoryID];
+            return(
+                <div className="category-title" 
+                    isselected={ chosenCategory === categoryID ?  "true" :  "false" }
+                    key={ categoryID }
+                    onClick={() => handleCategoryClick(categoryID)}> {categoryTitle} </div>
+            );
+        })}
+        </div>
+    );
+
+    // if (chosenContentTitle === "democratizeRoads") {
+    //     return (
+    //         <div className="contents-rectangle">
+    //             <div className="content-title"
+    //                 isselected="true">
+    //                 Democratize the roads
+    //             </div>
+    //             <div className="content-actual" dangerouslySetInnerHTML={{__html: democratizeRoadsText}}/>
+    //         </div>
+    //     );
+    // } else {
+    //     return <></>;
+    // }
 }
 
 function Blog() {
-    const [chosenCategory, setChosenCategory] = useState(null);
-    const [chosenSubCategory, setChosenSubCategory] = useState(null);
-    const [chosenContentTitle, setChosenContentTitle] = useState(null);
+    const [chosenCategoryID, setChosenCategory] = useState(null);
+    const [chosenSubCategoryID, setChosenSubCategory] = useState(null);
+    const [chosenContentTitleID, setChosenContentTitle] = useState(null);
 
     return (
         <div className="rectangles-container">
@@ -117,23 +142,23 @@ function Blog() {
                 setChosenCategory={setChosenCategory}
                 setChosenSubCategory={setChosenSubCategory}
                 setChosenContentTitle={setChosenContentTitle}
-                chosenCategory={chosenCategory}/>
+                chosenCategoryID={chosenCategoryID}/>
             <SubCategory
                 setChosenSubCategory={setChosenSubCategory}
                 setChosenContentTitle={setChosenContentTitle}
-                chosenCategory={chosenCategory}
-                chosenSubCategory={chosenSubCategory}/>
+                chosenCategoryID={chosenCategoryID}
+                chosenSubCategoryID={chosenSubCategoryID}/>
             <ContentsTitle
                 setChosenContentTitle={setChosenContentTitle}
-                chosenSubCategory={chosenSubCategory}
-                chosenContentTitle={chosenContentTitle}/>
+                chosenSubCategoryID={chosenSubCategoryID}
+                chosenContentTitleID={chosenContentTitleID}/>
             <ContentsContent
-                chosenContentTitle={chosenContentTitle}/>
+                chosenContentTitleID={chosenContentTitleID}/>
         </div>
     )
 }
 
-addEventListener("DOMContentLoaded", (event) => {
+addEventListener("DOMContentLoaded", () => {
     const root = createRoot(document.querySelector('#root'));
     root.render(<Blog />);
 });
