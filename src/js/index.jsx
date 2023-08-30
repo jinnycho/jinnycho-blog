@@ -93,40 +93,24 @@ function ContentsTitle({setChosenContentTitle, chosenCategoryID, chosenSubCatego
                     return (
                         <div className='contents-rectangle' key = { titleID }>
                             <div className='content-title'
-                                onClick={() => handleContentsTitleClick(titleID)}
-                                key = { titleID }> {contentTitle}
+                                onClick={() => handleContentsTitleClick(titleID)}> {contentTitle}
                             </div>
                         </div>
                     );
                 }
             } else if (chosenContentTitleID == null || chosenCategoryID == null) {
                 return (
-                    <div className='contents-rectange' 
-                        key = { chosenContentTitleID }
+                    <div className='contents-rectangle' 
+                        key = { 1 }
                     />
                 );
             }
         })}
         </>
     );
-
-    // // It checks chosenContentTitle is null so we don't show so many columns
-    // if (chosenSubCategoryID === "urbanDesign" && chosenContentTitleID === null) {
-    //     return (
-    //         <div className="contents-rectangle">
-    //             <div className="content-title"
-    //                 onClick={() => handleContentsTitleClick("democratizeRoads")}> Democratize the roads </div>
-    //         </div>
-    //     );    
-    // } else if (chosenContentTitleID === null) {
-    //     return (
-    //         <div className="contents-rectangle"/>
-    //     );
-    // };
 }
 
 function ContentsContent({chosenContentTitleID}) {
-    console.log("HERRRR: " + JSON.stringify(chosenContentTitleID) );
     if (chosenContentTitleID === "democratizeRoads") {
         return (
             <div className="contents-rectangle">

@@ -23592,8 +23592,7 @@
             "div",
             {
               className: "content-title",
-              onClick: () => handleContentsTitleClick(titleID),
-              key: titleID
+              onClick: () => handleContentsTitleClick(titleID)
             },
             " ",
             contentTitle
@@ -23603,15 +23602,14 @@
         return /* @__PURE__ */ import_react.default.createElement(
           "div",
           {
-            className: "contents-rectange",
-            key: chosenContentTitleID
+            className: "contents-rectangle",
+            key: 1
           }
         );
       }
     }));
   }
   function ContentsContent({ chosenContentTitleID }) {
-    console.log("HERRRR: " + JSON.stringify(chosenContentTitleID));
     if (chosenContentTitleID === "democratizeRoads") {
       return /* @__PURE__ */ import_react.default.createElement("div", { className: "contents-rectangle" }, /* @__PURE__ */ import_react.default.createElement(
         "div",
