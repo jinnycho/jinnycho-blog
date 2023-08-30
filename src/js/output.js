@@ -23625,7 +23625,13 @@
           },
           " ",
           contentTitle
-        ), /* @__PURE__ */ import_react.default.createElement("div", { className: "content-actual", dangerouslySetInnerHTML: { __html: contentValueGivenContentTitle } }));
+        ), /* @__PURE__ */ import_react.default.createElement(
+          "div",
+          {
+            className: "content-actual",
+            dangerouslySetInnerHTML: { __html: contentValueGivenContentTitle }
+          }
+        ));
       } else {
         return /* @__PURE__ */ import_react.default.createElement(import_react.default.Fragment, null);
       }

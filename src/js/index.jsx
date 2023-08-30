@@ -122,7 +122,8 @@ function ContentsContent({chosenContentTitleID}) {
                         <div className='content-title'
                             isselected='true'> { contentTitle }
                         </div>
-                        <div className='content-actual' dangerouslySetInnerHTML={{__html: contentValueGivenContentTitle}}/>
+                        <div className='content-actual'
+                            dangerouslySetInnerHTML={{__html: contentValueGivenContentTitle}}/>
                     </div>
                 );
             } else {
