@@ -23523,8 +23523,14 @@
     "ideas": ["urbanDesign"],
     "books": []
   };
-  var subCategoryIDToTitle = {
+  var subCategoryIDToValue = {
     "urbanDesign": "Urban Design"
+  };
+  var subCategoryIDToTitleIDs = {
+    "urbanDesign": ["democratizeRoads"]
+  };
+  var contentsTitleIDToValue = {
+    "democratizeRoads": "Democratize the roads"
   };
   function Category({ setChosenCategory, setChosenSubCategory, setChosenContentTitle, chosenCategoryID }) {
     const handleCategoryClick = (categoryID) => {
@@ -23557,13 +23563,13 @@
       if (chosenCategoryID === categoryID) {
         const subCategoriesIDGivenACategory = categoryIDTosubCategoriesIDs[categoryID];
         for (let subCategoryID of subCategoriesIDGivenACategory) {
-          const subCategoryTitle = subCategoryIDToTitle[subCategoryID];
+          const subCategoryTitle = subCategoryIDToValue[subCategoryID];
           return /* @__PURE__ */ import_react.default.createElement(
             "div",
             {
               className: "subcategory-title",
               isselected: chosenSubCategoryID === subCategoryID ? "true" : "false",
-              key: subCategoryID,
+              key: subCategoryTitle,
               onClick: () => handleSubCategoryClick(subCategoryID)
             },
             " ",
@@ -23573,23 +23579,36 @@
       }
     }));
   }
-  function ContentsTitle({ setChosenContentTitle, chosenSubCategoryID, chosenContentTitleID }) {
-    const handleContentsTitleClick = (chosenContentTitle) => {
-      setChosenContentTitle(chosenContentTitle);
+  function ContentsTitle({ setChosenContentTitle, chosenCategoryID, chosenSubCategoryID, chosenContentTitleID }) {
+    const handleContentsTitleClick = (chosenContentTitleID2) => {
+      setChosenContentTitle(chosenContentTitleID2);
     };
-    if (chosenSubCategoryID === "urbanDesign" && chosenContentTitleID === null) {
-      return /* @__PURE__ */ import_react.default.createElement("div", { className: "contents-rectangle" }, /* @__PURE__ */ import_react.default.createElement(
-        "div",
-        {
-          className: "content-title",
-          onClick: () => handleContentsTitleClick("democratizeRoads")
-        },
-        " Democratize the roads "
-      ));
-    } else if (chosenContentTitleID === null) {
-      return /* @__PURE__ */ import_react.default.createElement("div", { className: "contents-rectangle" });
-    }
-    ;
+    return /* @__PURE__ */ import_react.default.createElement(import_react.default.Fragment, null, Object.keys(subCategoryIDToTitleIDs).map((subCategoryID) => {
+      if (chosenSubCategoryID === subCategoryID && chosenContentTitleID == null) {
+        const titleIDsGivenSubCategory = subCategoryIDToTitleIDs[chosenSubCategoryID];
+        for (let titleID of titleIDsGivenSubCategory) {
+          const contentTitle = contentsTitleIDToValue[titleID];
+          return /* @__PURE__ */ import_react.default.createElement("div", { className: "contents-rectangle", key: titleID }, /* @__PURE__ */ import_react.default.createElement(
+            "div",
+            {
+              className: "content-title",
+              onClick: () => handleContentsTitleClick(titleID),
+              key: titleID
+            },
+            " ",
+            contentTitle
+          ));
+        }
+      } else if (chosenContentTitleID == null || chosenCategoryID == null) {
+        return /* @__PURE__ */ import_react.default.createElement(
+          "div",
+          {
+            className: "contents-rectange",
+            key: chosenContentTitleID
+          }
+        );
+      }
+    }));
   }
   function ContentsContent({ chosenContentTitleID }) {
     console.log("HERRRR: " + JSON.stringify(chosenContentTitleID));
@@ -23630,6 +23649,7 @@
       ContentsTitle,
       {
         setChosenContentTitle,
+        chosenCategoryID,
         chosenSubCategoryID,
         chosenContentTitleID
       }

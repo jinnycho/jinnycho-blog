@@ -12,7 +12,7 @@ const categoryIDTosubCategoriesIDs = {
     'books': []
 };
 
-const subCategoryIDToTitle = {
+const subCategoryIDToValue = {
     'urbanDesign': 'Urban Design'
 }
 
@@ -20,11 +20,11 @@ const subCategoryIDToTitleIDs = {
     'urbanDesign': ['democratizeRoads']
 }
 
-const contentsTitleIDToTitle = {
+const contentsTitleIDToValue = {
     'democratizeRoads': 'Democratize the roads'
 }
 
-const contentsTitleIDToContentsContent = {
+const contentsTitleIDToContentsContentValue = {
     'democratizeRoads': democratizeRoadsText
 }
 
@@ -63,11 +63,11 @@ function SubCategory({setChosenSubCategory, setChosenContentTitle, chosenCategor
             if (chosenCategoryID === categoryID) {
                 const subCategoriesIDGivenACategory = categoryIDTosubCategoriesIDs[categoryID];
                 for (let subCategoryID of subCategoriesIDGivenACategory){
-                    const subCategoryTitle = subCategoryIDToTitle[subCategoryID];
+                    const subCategoryTitle = subCategoryIDToValue[subCategoryID];
                     return (
                         <div className="subcategory-title"
                             isselected={ chosenSubCategoryID === subCategoryID ?  "true" :  "false" }
-                            key={subCategoryID}
+                            key={ subCategoryTitle }
                             onClick={() => handleSubCategoryClick(subCategoryID)}> {subCategoryTitle}
                         </div>
                     );
@@ -78,24 +78,51 @@ function SubCategory({setChosenSubCategory, setChosenContentTitle, chosenCategor
     );
 }
 
-function ContentsTitle({setChosenContentTitle, chosenSubCategoryID, chosenContentTitleID}) {
-    const handleContentsTitleClick = (chosenContentTitle) => {
-        setChosenContentTitle(chosenContentTitle);
-      };
-
-    // It checks chosenContentTitle is null so we don't show so many columns
-    if (chosenSubCategoryID === "urbanDesign" && chosenContentTitleID === null) {
-        return (
-            <div className="contents-rectangle">
-                <div className="content-title"
-                    onClick={() => handleContentsTitleClick("democratizeRoads")}> Democratize the roads </div>
-            </div>
-        );    
-    } else if (chosenContentTitleID === null) {
-        return (
-            <div className="contents-rectangle"/>
-        );
+function ContentsTitle({setChosenContentTitle, chosenCategoryID, chosenSubCategoryID, chosenContentTitleID}) {
+    const handleContentsTitleClick = (chosenContentTitleID) => {
+        setChosenContentTitle(chosenContentTitleID);
     };
+
+    return (
+        <>
+        {Object.keys(subCategoryIDToTitleIDs).map((subCategoryID) => {
+            if (chosenSubCategoryID === subCategoryID && chosenContentTitleID == null) {
+                const titleIDsGivenSubCategory = subCategoryIDToTitleIDs[chosenSubCategoryID];
+                for (let titleID of titleIDsGivenSubCategory){
+                    const contentTitle = contentsTitleIDToValue[titleID];
+                    return (
+                        <div className='contents-rectangle' key = { titleID }>
+                            <div className='content-title'
+                                onClick={() => handleContentsTitleClick(titleID)}
+                                key = { titleID }> {contentTitle}
+                            </div>
+                        </div>
+                    );
+                }
+            } else if (chosenContentTitleID == null || chosenCategoryID == null) {
+                return (
+                    <div className='contents-rectange' 
+                        key = { chosenContentTitleID }
+                    />
+                );
+            }
+        })}
+        </>
+    );
+
+    // // It checks chosenContentTitle is null so we don't show so many columns
+    // if (chosenSubCategoryID === "urbanDesign" && chosenContentTitleID === null) {
+    //     return (
+    //         <div className="contents-rectangle">
+    //             <div className="content-title"
+    //                 onClick={() => handleContentsTitleClick("democratizeRoads")}> Democratize the roads </div>
+    //         </div>
+    //     );    
+    // } else if (chosenContentTitleID === null) {
+    //     return (
+    //         <div className="contents-rectangle"/>
+    //     );
+    // };
 }
 
 function ContentsContent({chosenContentTitleID}) {
@@ -134,6 +161,7 @@ function Blog() {
                 chosenSubCategoryID={chosenSubCategoryID}/>
             <ContentsTitle
                 setChosenContentTitle={setChosenContentTitle}
+                chosenCategoryID={chosenCategoryID}
                 chosenSubCategoryID={chosenSubCategoryID}
                 chosenContentTitleID={chosenContentTitleID}/>
             <ContentsContent
