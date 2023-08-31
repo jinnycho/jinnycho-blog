@@ -21,20 +21,18 @@ const subCategoryIDToValue = {
 
 const subCategoryIDToTitleIDs = {
     'urbanDesign': ['democratizeRoads'],
-    'architecture': ['cabinIdeas']
+    'architecture': ['cabinIdeas202308']
 }
 
 const contentsTitleIDToValue = {
-    'democratizeRoads': 'Democratize the roads',
-    'cabinIdeas': 'Dreaming Cabins'
+    'democratizeRoads': 'Democratize the Roads',
+    'cabinIdeas202308': 'Thinking about Cabins (August Edition)'
 }
 
 const contentsTitleIDToContentsContentValue = {
     'democratizeRoads': democratizeRoadsText,
-    'cabinIdeas': dreamingCabinsText
+    'cabinIdeas202308': dreamingCabinsText
 }
-
-let isChosen = false;
 
 function Category({setChosenCategory, setChosenSubCategory, setChosenContentTitle, chosenCategoryID}) {
     const handleCategoryClick = (categoryID) => {
