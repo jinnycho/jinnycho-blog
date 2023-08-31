@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { createRoot } from 'react-dom/client';
-import democratizeRoadsText from '../writings/ideas/democratize_roads.txt';
+import democratizeRoadsText from '../writings/ideas/democratizeRoads.txt';
+import dreamingCabinsText from '../writings/ideas/dreamingCabins.txt';
 import { marked } from 'marked';
 
 const categoryIDToValue = {
@@ -9,24 +10,28 @@ const categoryIDToValue = {
 };
 
 const categoryIDTosubCategoriesIDs = {
-    'ideas': ['urbanDesign'],
+    'ideas': ['urbanDesign', 'architecture'],
     'books': []
 };
 
 const subCategoryIDToValue = {
-    'urbanDesign': 'Urban Design'
+    'urbanDesign': 'Urban Design',
+    'architecture': 'Architecture'
 }
 
 const subCategoryIDToTitleIDs = {
-    'urbanDesign': ['democratizeRoads']
+    'urbanDesign': ['democratizeRoads'],
+    'architecture': ['cabinIdeas']
 }
 
 const contentsTitleIDToValue = {
-    'democratizeRoads': 'Democratize the roads'
+    'democratizeRoads': 'Democratize the roads',
+    'cabinIdeas': 'Dreaming Cabins'
 }
 
 const contentsTitleIDToContentsContentValue = {
-    'democratizeRoads': democratizeRoadsText
+    'democratizeRoads': democratizeRoadsText,
+    'cabinIdeas': dreamingCabinsText
 }
 
 function Category({setChosenCategory, setChosenSubCategory, setChosenContentTitle, chosenCategoryID}) {
@@ -63,7 +68,7 @@ function SubCategory({setChosenSubCategory, setChosenContentTitle, chosenCategor
         {Object.keys(categoryIDToValue).map((categoryID) => {
             if (chosenCategoryID === categoryID) {
                 const subCategoriesIDGivenACategory = categoryIDTosubCategoriesIDs[categoryID];
-                for (let subCategoryID of subCategoriesIDGivenACategory){
+                return ( subCategoriesIDGivenACategory.map((subCategoryID) => {
                     const subCategoryTitle = subCategoryIDToValue[subCategoryID];
                     return (
                         <div className='subcategory-title'
@@ -72,7 +77,7 @@ function SubCategory({setChosenSubCategory, setChosenContentTitle, chosenCategor
                             onClick={() => handleSubCategoryClick(subCategoryID)}> {subCategoryTitle}
                         </div>
                     );
-                }
+                }));
             }
         })}
         </div>
@@ -89,7 +94,7 @@ function ContentsTitle({setChosenContentTitle, chosenCategoryID, chosenSubCatego
         {Object.keys(subCategoryIDToTitleIDs).map((subCategoryID) => {
             if (chosenSubCategoryID === subCategoryID && chosenContentTitleID == null) {
                 const titleIDsGivenSubCategory = subCategoryIDToTitleIDs[chosenSubCategoryID];
-                for (let titleID of titleIDsGivenSubCategory){
+                return (titleIDsGivenSubCategory.map((titleID) => {
                     const contentTitle = contentsTitleIDToValue[titleID];
                     return (
                         <div className='contents-rectangle' key = { titleID }>
@@ -98,7 +103,7 @@ function ContentsTitle({setChosenContentTitle, chosenCategoryID, chosenSubCatego
                             </div>
                         </div>
                     );
-                }
+                }));
             } else if (chosenContentTitleID == null || chosenCategoryID == null) {
                 return (
                     <div className='contents-rectangle' 

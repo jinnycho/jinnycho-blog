@@ -23511,8 +23511,11 @@
   var import_react = __toESM(require_react());
   var import_client = __toESM(require_client());
 
-  // src/writings/ideas/democratize_roads.txt
-  var democratize_roads_default = "## Democratize roads\n### 2023/08/31\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ultricies lectus commodo pharetra vehicula. Duis et dolor gravida dolor hendrerit interdum. Sed malesuada congue ex quis pellentesque. In at pellentesque elit. Curabitur nec risus metus. Nunc et ante euismod, egestas dolor vel, pretium nibh. Mauris aliquet nisi at odio tristique commodo. Curabitur at elit a ipsum efficitur tincidunt. Aliquam cursus risus lorem, vel iaculis nisl pellentesque et.\n\nSuspendisse nec dignissim lorem. Morbi sed aliquam augue, et blandit tortor. Morbi fringilla rhoncus lectus, vitae imperdiet tellus pulvinar a. Praesent id faucibus nulla, eu sodales nulla. Cras suscipit non ligula ultrices laoreet. Phasellus erat ex, ultrices id libero sed, rhoncus maximus turpis. Nam viverra consequat erat, id ultricies nunc feugiat nec. Cras pretium ante sit amet enim varius, nec lacinia velit facilisis. Morbi id vulputate elit. Pellentesque eget nibh quis mi tincidunt faucibus.\n\nSuspendisse vel dolor pharetra, molestie lorem ut, sollicitudin nisl. Integer venenatis tortor ut ipsum ornare dapibus. Nunc molestie tempus suscipit. Proin id consequat quam. Cras orci nibh, lacinia vitae enim nec, commodo consequat nulla. Quisque vel lectus eget magna feugiat tristique. Etiam a leo sed tortor facilisis fermentum quis vel velit. Etiam pharetra non lorem ac ultricies. Pellentesque sollicitudin egestas lacus sit amet interdum. Cras a augue eu turpis interdum gravida. Maecenas sapien quam, posuere id posuere sit amet, venenatis vel ipsum. Sed in velit vehicula erat dictum tempus eu in sem. Morbi eget lobortis risus. Fusce interdum nunc et eros bibendum, maximus facilisis est euismod. Nam commodo consequat nunc a sollicitudin.\n\nPhasellus sit amet velit tortor. Nulla quam lectus, hendrerit sed nisi vitae, finibus vehicula turpis. Nunc tincidunt mi ante, ut ultrices tellus tempor a. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nullam lacus ligula, mattis congue bibendum ut, commodo quis sapien. Duis vel condimentum nunc. Aenean quis sagittis enim. Nam sed turpis ut lectus convallis euismod non in eros. Nam condimentum sit amet quam sit amet finibus. Pellentesque porta interdum magna, vitae tincidunt libero maximus vitae.\n\nProin tempor lorem ac euismod aliquet. Cras vehicula consectetur arcu, et aliquam nisl blandit a. Vestibulum ullamcorper lectus ligula, vitae elementum turpis eleifend ut. Aliquam a pellentesque velit. Ut sagittis velit eu neque efficitur tempor. Phasellus maximus nibh quis sodales mollis. Sed mollis tellus nibh. Curabitur rhoncus dui eleifend risus congue, a efficitur nulla imperdiet. Quisque quis facilisis enim. Ut tincidunt eget sapien ut dignissim. Ut congue lobortis mi, et maximus eros ullamcorper commodo. Vestibulum ligula nulla, vestibulum ac vestibulum vestibulum, sollicitudin quis mi.\n\nPellentesque posuere id massa nec aliquet. Curabitur nec lacinia nulla. Cras dapibus, sem a tempus bibendum, urna urna mollis odio, vitae volutpat purus purus non nulla. Curabitur mollis vulputate nulla, vel accumsan odio vestibulum nec. Fusce non nibh augue. Phasellus eu mattis nibh, in dignissim nunc. Aenean mattis erat non hendrerit placerat. Morbi auctor id odio quis varius. Aliquam aliquam arcu ante, nec aliquam nisi volutpat a. Aliquam finibus turpis nec metus pharetra, eget suscipit risus lobortis. Aenean sagittis dui eu sollicitudin commodo. Nulla pulvinar purus in metus cursus sagittis. Praesent ante erat, convallis non velit laoreet, blandit cursus ligula. Nullam venenatis purus nisi, eget egestas ligula suscipit ultricies.";
+  // src/writings/ideas/democratizeRoads.txt
+  var democratizeRoads_default = "## Democratize roads\n### 2023/08/31\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ultricies lectus commodo pharetra vehicula. Duis et dolor gravida dolor hendrerit interdum. Sed malesuada congue ex quis pellentesque. In at pellentesque elit. Curabitur nec risus metus. Nunc et ante euismod, egestas dolor vel, pretium nibh. Mauris aliquet nisi at odio tristique commodo. Curabitur at elit a ipsum efficitur tincidunt. Aliquam cursus risus lorem, vel iaculis nisl pellentesque et.\n\nSuspendisse nec dignissim lorem. Morbi sed aliquam augue, et blandit tortor. Morbi fringilla rhoncus lectus, vitae imperdiet tellus pulvinar a. Praesent id faucibus nulla, eu sodales nulla. Cras suscipit non ligula ultrices laoreet. Phasellus erat ex, ultrices id libero sed, rhoncus maximus turpis. Nam viverra consequat erat, id ultricies nunc feugiat nec. Cras pretium ante sit amet enim varius, nec lacinia velit facilisis. Morbi id vulputate elit. Pellentesque eget nibh quis mi tincidunt faucibus.\n\nSuspendisse vel dolor pharetra, molestie lorem ut, sollicitudin nisl. Integer venenatis tortor ut ipsum ornare dapibus. Nunc molestie tempus suscipit. Proin id consequat quam. Cras orci nibh, lacinia vitae enim nec, commodo consequat nulla. Quisque vel lectus eget magna feugiat tristique. Etiam a leo sed tortor facilisis fermentum quis vel velit. Etiam pharetra non lorem ac ultricies. Pellentesque sollicitudin egestas lacus sit amet interdum. Cras a augue eu turpis interdum gravida. Maecenas sapien quam, posuere id posuere sit amet, venenatis vel ipsum. Sed in velit vehicula erat dictum tempus eu in sem. Morbi eget lobortis risus. Fusce interdum nunc et eros bibendum, maximus facilisis est euismod. Nam commodo consequat nunc a sollicitudin.\n\nPhasellus sit amet velit tortor. Nulla quam lectus, hendrerit sed nisi vitae, finibus vehicula turpis. Nunc tincidunt mi ante, ut ultrices tellus tempor a. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nullam lacus ligula, mattis congue bibendum ut, commodo quis sapien. Duis vel condimentum nunc. Aenean quis sagittis enim. Nam sed turpis ut lectus convallis euismod non in eros. Nam condimentum sit amet quam sit amet finibus. Pellentesque porta interdum magna, vitae tincidunt libero maximus vitae.\n\nProin tempor lorem ac euismod aliquet. Cras vehicula consectetur arcu, et aliquam nisl blandit a. Vestibulum ullamcorper lectus ligula, vitae elementum turpis eleifend ut. Aliquam a pellentesque velit. Ut sagittis velit eu neque efficitur tempor. Phasellus maximus nibh quis sodales mollis. Sed mollis tellus nibh. Curabitur rhoncus dui eleifend risus congue, a efficitur nulla imperdiet. Quisque quis facilisis enim. Ut tincidunt eget sapien ut dignissim. Ut congue lobortis mi, et maximus eros ullamcorper commodo. Vestibulum ligula nulla, vestibulum ac vestibulum vestibulum, sollicitudin quis mi.\n\nPellentesque posuere id massa nec aliquet. Curabitur nec lacinia nulla. Cras dapibus, sem a tempus bibendum, urna urna mollis odio, vitae volutpat purus purus non nulla. Curabitur mollis vulputate nulla, vel accumsan odio vestibulum nec. Fusce non nibh augue. Phasellus eu mattis nibh, in dignissim nunc. Aenean mattis erat non hendrerit placerat. Morbi auctor id odio quis varius. Aliquam aliquam arcu ante, nec aliquam nisi volutpat a. Aliquam finibus turpis nec metus pharetra, eget suscipit risus lobortis. Aenean sagittis dui eu sollicitudin commodo. Nulla pulvinar purus in metus cursus sagittis. Praesent ante erat, convallis non velit laoreet, blandit cursus ligula. Nullam venenatis purus nisi, eget egestas ligula suscipit ultricies.";
+
+  // src/writings/ideas/dreamingCabins.txt
+  var dreamingCabins_default = "## August Cabin Ideas\n### 2023/08/31\n\nSuspendisse vel dolor pharetra, molestie lorem ut, sollicitudin nisl. Integer venenatis tortor ut ipsum ornare dapibus. Nunc molestie tempus suscipit. Proin id consequat quam. Cras orci nibh, lacinia vitae enim nec, commodo consequat nulla. Quisque vel lectus eget magna feugiat tristique. Etiam a leo sed tortor facilisis fermentum quis vel velit. Etiam pharetra non lorem ac ultricies. Pellentesque sollicitudin egestas lacus sit amet interdum. Cras a augue eu turpis interdum gravida. Maecenas sapien quam, posuere id posuere sit amet, venenatis vel ipsum. Sed in velit vehicula erat dictum tempus eu in sem. Morbi eget lobortis risus. Fusce interdum nunc et eros bibendum, maximus facilisis est euismod. Nam commodo consequat nunc a sollicitudin.\n\nPhasellus sit amet velit tortor. Nulla quam lectus, hendrerit sed nisi vitae, finibus vehicula turpis. Nunc tincidunt mi ante, ut ultrices tellus tempor a. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nullam lacus ligula, mattis congue bibendum ut, commodo quis sapien. Duis vel condimentum nunc. Aenean quis sagittis enim. Nam sed turpis ut lectus convallis euismod non in eros. Nam condimentum sit amet quam sit amet finibus. Pellentesque porta interdum magna, vitae tincidunt libero maximus vitae.\n\nProin tempor lorem ac euismod aliquet. Cras vehicula consectetur arcu, et aliquam nisl blandit a. Vestibulum ullamcorper lectus ligula, vitae elementum turpis eleifend ut. Aliquam a pellentesque velit. Ut sagittis velit eu neque efficitur tempor. Phasellus maximus nibh quis sodales mollis. Sed mollis tellus nibh. Curabitur rhoncus dui eleifend risus congue, a efficitur nulla imperdiet. Quisque quis facilisis enim. Ut tincidunt eget sapien ut dignissim. Ut congue lobortis mi, et maximus eros ullamcorper commodo. Vestibulum ligula nulla, vestibulum ac vestibulum vestibulum, sollicitudin quis mi.\n\nPellentesque posuere id massa nec aliquet. Curabitur nec lacinia nulla. Cras dapibus, sem a tempus bibendum, urna urna mollis odio, vitae volutpat purus purus non nulla. Curabitur mollis vulputate nulla, vel accumsan odio vestibulum nec. Fusce non nibh augue. Phasellus eu mattis nibh, in dignissim nunc. Aenean mattis erat non hendrerit placerat. Morbi auctor id odio quis varius. Aliquam aliquam arcu ante, nec aliquam nisi volutpat a. Aliquam finibus turpis nec metus pharetra, eget suscipit risus lobortis. Aenean sagittis dui eu sollicitudin commodo. Nulla pulvinar purus in metus cursus sagittis. Praesent ante erat, convallis non velit laoreet, blandit cursus ligula. Nullam venenatis purus nisi, eget egestas ligula suscipit ultricies.";
 
   // node_modules/marked/lib/marked.esm.js
   function _getDefaults() {
@@ -25728,20 +25731,24 @@ ${content}</tr>
     "books": "Books"
   };
   var categoryIDTosubCategoriesIDs = {
-    "ideas": ["urbanDesign"],
+    "ideas": ["urbanDesign", "architecture"],
     "books": []
   };
   var subCategoryIDToValue = {
-    "urbanDesign": "Urban Design"
+    "urbanDesign": "Urban Design",
+    "architecture": "Architecture"
   };
   var subCategoryIDToTitleIDs = {
-    "urbanDesign": ["democratizeRoads"]
+    "urbanDesign": ["democratizeRoads"],
+    "architecture": ["cabinIdeas"]
   };
   var contentsTitleIDToValue = {
-    "democratizeRoads": "Democratize the roads"
+    "democratizeRoads": "Democratize the roads",
+    "cabinIdeas": "Dreaming Cabins"
   };
   var contentsTitleIDToContentsContentValue = {
-    "democratizeRoads": democratize_roads_default
+    "democratizeRoads": democratizeRoads_default,
+    "cabinIdeas": dreamingCabins_default
   };
   function Category({ setChosenCategory, setChosenSubCategory, setChosenContentTitle, chosenCategoryID }) {
     const handleCategoryClick = (categoryID) => {
@@ -25773,7 +25780,7 @@ ${content}</tr>
     return /* @__PURE__ */ import_react.default.createElement("div", { className: "subcategory-rectangle" }, Object.keys(categoryIDToValue).map((categoryID) => {
       if (chosenCategoryID === categoryID) {
         const subCategoriesIDGivenACategory = categoryIDTosubCategoriesIDs[categoryID];
-        for (let subCategoryID of subCategoriesIDGivenACategory) {
+        return subCategoriesIDGivenACategory.map((subCategoryID) => {
           const subCategoryTitle = subCategoryIDToValue[subCategoryID];
           return /* @__PURE__ */ import_react.default.createElement(
             "div",
@@ -25786,7 +25793,7 @@ ${content}</tr>
             " ",
             subCategoryTitle
           );
-        }
+        });
       }
     }));
   }
@@ -25797,7 +25804,7 @@ ${content}</tr>
     return /* @__PURE__ */ import_react.default.createElement(import_react.default.Fragment, null, Object.keys(subCategoryIDToTitleIDs).map((subCategoryID) => {
       if (chosenSubCategoryID === subCategoryID && chosenContentTitleID == null) {
         const titleIDsGivenSubCategory = subCategoryIDToTitleIDs[chosenSubCategoryID];
-        for (let titleID of titleIDsGivenSubCategory) {
+        return titleIDsGivenSubCategory.map((titleID) => {
           const contentTitle = contentsTitleIDToValue[titleID];
           return /* @__PURE__ */ import_react.default.createElement("div", { className: "contents-rectangle", key: titleID }, /* @__PURE__ */ import_react.default.createElement(
             "div",
@@ -25808,7 +25815,7 @@ ${content}</tr>
             " ",
             contentTitle
           ));
-        }
+        });
       } else if (chosenContentTitleID == null || chosenCategoryID == null) {
         return /* @__PURE__ */ import_react.default.createElement(
           "div",
