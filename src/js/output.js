@@ -23606,7 +23606,7 @@
           "div",
           {
             className: "contents-rectangle",
-            key: 1
+            key: subCategoryID
           }
         );
       }
@@ -23617,11 +23617,12 @@
       if (contentTitleID === chosenContentTitleID) {
         const contentTitle = contentsTitleIDToValue[contentTitleID];
         const contentValueGivenContentTitle = contentsTitleIDToContentsContentValue[contentTitleID];
-        return /* @__PURE__ */ import_react.default.createElement("div", { className: "contents-rectangle" }, /* @__PURE__ */ import_react.default.createElement(
+        return /* @__PURE__ */ import_react.default.createElement("div", { className: "contents-rectangle", key: contentTitleID }, /* @__PURE__ */ import_react.default.createElement(
           "div",
           {
             className: "content-title",
-            isselected: "true"
+            isselected: "true",
+            key: contentTitleID + "title"
           },
           " ",
           contentTitle
@@ -23629,11 +23630,10 @@
           "div",
           {
             className: "content-actual",
+            key: contentTitleID + "actual",
             dangerouslySetInnerHTML: { __html: contentValueGivenContentTitle }
           }
         ));
-      } else {
-        return /* @__PURE__ */ import_react.default.createElement(import_react.default.Fragment, null);
       }
     }));
   }

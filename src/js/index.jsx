@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import { createRoot } from 'react-dom/client';
 import democratizeRoadsText from '../writings/ideas/democratize_roads.txt';
+import { v4 as uuidv4 } from 'uuid';
+
 
 const categoryIDToValue = {
     'ideas': 'Ideas',
@@ -101,7 +103,7 @@ function ContentsTitle({setChosenContentTitle, chosenCategoryID, chosenSubCatego
             } else if (chosenContentTitleID == null || chosenCategoryID == null) {
                 return (
                     <div className='contents-rectangle' 
-                        key = { 1 }
+                        key={ subCategoryID }
                     />
                 );
             }
@@ -118,16 +120,16 @@ function ContentsContent({chosenContentTitleID}) {
                 const contentTitle = contentsTitleIDToValue[contentTitleID];
                 const contentValueGivenContentTitle = contentsTitleIDToContentsContentValue[contentTitleID];
                 return (
-                    <div className='contents-rectangle'>
+                    <div className='contents-rectangle' key={ contentTitleID }>
                         <div className='content-title'
-                            isselected='true'> { contentTitle }
+                            isselected='true'
+                            key={ contentTitleID + 'title'}> { contentTitle }
                         </div>
                         <div className='content-actual'
+                            key={ contentTitleID + 'actual'}
                             dangerouslySetInnerHTML={{__html: contentValueGivenContentTitle}}/>
                     </div>
                 );
-            } else {
-                return (<></>);
             }
         })}
         </>
