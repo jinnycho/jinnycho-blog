@@ -23515,7 +23515,7 @@
   var democratizeRoads_default = "## Democratize roads\n### 2023/09/01\n\nComing soon\n\n![Takin](https://github.com/jinnycho/jinnycho.github.io/blob/main/src/assets/photos/takin.jpg?raw=true)";
 
   // src/writings/ideas/dreamingCabins.md
-  var dreamingCabins_default = "## September Cabin Ideas\n### 2023/09/01\n\nComing soon\n\n![Takin](https://github.com/jinnycho/jinnycho.github.io/blob/main/src/assets/photos/takin.jpg?raw=true)";
+  var dreamingCabins_default = "## September Cabin Ideas\n### 2023/08/31\n\nComing soon\n\n![Takin](https://github.com/jinnycho/jinnycho.github.io/blob/main/src/assets/photos/takin.jpg?raw=true)";
 
   // node_modules/marked/lib/marked.esm.js
   function _getDefaults() {
@@ -25740,15 +25740,15 @@ ${content}</tr>
   };
   var subCategoryIDToTitleIDs = {
     "urbanDesign": ["democratizeRoads"],
-    "architecture": ["cabinIdeas"]
+    "architecture": ["cabinIdeas202308"]
   };
   var contentsTitleIDToValue = {
-    "democratizeRoads": "Democratize the roads",
-    "cabinIdeas": "Dreaming Cabins"
+    "democratizeRoads": "Democratize the Roads",
+    "cabinIdeas202308": "Thinking about Cabins (August Edition)"
   };
   var contentsTitleIDToContentsContentValue = {
     "democratizeRoads": democratizeRoads_default,
-    "cabinIdeas": dreamingCabins_default
+    "cabinIdeas202308": dreamingCabins_default
   };
   function Category({ setChosenCategory, setChosenSubCategory, setChosenContentTitle, chosenCategoryID }) {
     const handleCategoryClick = (categoryID) => {
