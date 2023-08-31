@@ -46,6 +46,7 @@ body {
     padding: 15px;
     border: none;
     border-bottom: 1px solid var(--rectangle-color);
+    cursor: pointer;
 }
 
 .content-title {
@@ -57,6 +58,7 @@ body {
     padding: 15px;
     border: none;
     border-bottom: 1px solid var(--rectangle-color);
+    cursor: pointer;
 }
 
 .content-actual {
