@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { createRoot } from 'react-dom/client';
 import democratizeRoadsText from '../writings/ideas/democratize_roads.txt';
+import { marked } from 'marked';
 
 const categoryIDToValue = {
     'ideas': 'Ideas',
@@ -116,7 +117,7 @@ function ContentsContent({chosenContentTitleID}) {
         {Object.keys(contentsTitleIDToContentsContentValue).map((contentTitleID) => {
             if (contentTitleID === chosenContentTitleID) {
                 const contentTitle = contentsTitleIDToValue[contentTitleID];
-                const contentValueGivenContentTitle = contentsTitleIDToContentsContentValue[contentTitleID];
+                const contentValueGivenContentTitle = marked.parse(contentsTitleIDToContentsContentValue[contentTitleID]);
                 return (
                     <div className='contents-rectangle' key={ contentTitleID }>
                         <div className='content-title'

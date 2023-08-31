@@ -1,10 +1,7 @@
 :root {
     --background-white: #FFFFFF;
-    --background-yellow: #fcff30;
-    --background-green: #cef0b9;
     --rectangle-color: #3042ff;
     --default-black: black;
-
 }
 
 body {
@@ -69,7 +66,7 @@ body {
     justify-content: center;
     padding: 15px;
     overflow: scroll;
-    overflow-y:scroll;
+    height: 70vh;
 }
 
 .category-title[isselected=true] {
@@ -100,4 +97,16 @@ body {
 .content-title[isselected=false] {
     background-color: var(--background-white);
     color: var(--default-black);
+}
+
+::-webkit-scrollbar {
+    -webkit-appearance: none;
+    width: 10px;
+    top: 15px;
+}
+  
+::-webkit-scrollbar-thumb {
+    border-radius: 2px;
+    background-color: rgba(175, 143, 231, 0.5);
+    -webkit-box-shadow: 0 0 1px rgba(255,255,255,.5);
 }
