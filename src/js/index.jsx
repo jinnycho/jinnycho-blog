@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { createRoot } from 'react-dom/client';
-import democratizeRoadsText from '../writings/ideas/democratizeRoads.txt';
-import dreamingCabinsText from '../writings/ideas/dreamingCabins.txt';
+import democratizeRoadsText from '../writings/ideas/democratizeRoads.md';
+import dreamingCabinsText from '../writings/ideas/dreamingCabins.md';
 import { marked } from 'marked';
 
 const categoryIDToValue = {

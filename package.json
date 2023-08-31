@@ -6,7 +6,7 @@
     "react-dom": "^18.2.0"
   },
   "scripts": {
-    "build": "esbuild src/js/index.jsx --bundle --outfile=src/js/output.js",
-    "watch": "esbuild src/js/index.jsx --bundle --watch --outfile=src/js/output.js"
+    "build": "esbuild src/js/index.jsx --bundle --outfile=src/js/output.js --loader:.md=text",
+    "watch": "esbuild src/js/index.jsx --bundle --watch --outfile=src/js/output.js --loader:.md=text"
   }
 }
