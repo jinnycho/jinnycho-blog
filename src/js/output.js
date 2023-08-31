@@ -25816,16 +25816,8 @@ ${content}</tr>
             contentTitle
           ));
         });
-      } else if (chosenContentTitleID == null || chosenCategoryID == null) {
-        return /* @__PURE__ */ import_react.default.createElement(
-          "div",
-          {
-            className: "contents-rectangle",
-            key: subCategoryID
-          }
-        );
       }
-    }));
+    }), chosenCategoryID === null || chosenSubCategoryID === null ? /* @__PURE__ */ import_react.default.createElement("div", { className: "contents-rectangle" }) : "");
   }
   function ContentsContent({ chosenContentTitleID }) {
     return /* @__PURE__ */ import_react.default.createElement(import_react.default.Fragment, null, Object.keys(contentsTitleIDToContentsContentValue).map((contentTitleID) => {

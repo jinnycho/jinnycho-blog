@@ -34,6 +34,8 @@ const contentsTitleIDToContentsContentValue = {
     'cabinIdeas': dreamingCabinsText
 }
 
+let isChosen = false;
+
 function Category({setChosenCategory, setChosenSubCategory, setChosenContentTitle, chosenCategoryID}) {
     const handleCategoryClick = (categoryID) => {
         setChosenCategory(categoryID);
@@ -104,14 +106,9 @@ function ContentsTitle({setChosenContentTitle, chosenCategoryID, chosenSubCatego
                         </div>
                     );
                 }));
-            } else if (chosenContentTitleID == null || chosenCategoryID == null) {
-                return (
-                    <div className='contents-rectangle' 
-                        key={ subCategoryID }
-                    />
-                );
             }
         })}
+        { (chosenCategoryID === null || chosenSubCategoryID === null) ? <div className='contents-rectangle'/> :  "" }
         </>
     );
 }
