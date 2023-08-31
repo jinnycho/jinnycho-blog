@@ -1,8 +1,6 @@
 import React, { useState } from 'react';
 import { createRoot } from 'react-dom/client';
 import democratizeRoadsText from '../writings/ideas/democratize_roads.txt';
-import { v4 as uuidv4 } from 'uuid';
-
 
 const categoryIDToValue = {
     'ideas': 'Ideas',
