@@ -107,6 +107,6 @@ body {
   
 ::-webkit-scrollbar-thumb {
     border-radius: 2px;
-    background-color: rgba(175, 143, 231, 0.5);
+    background-color: rgba(242, 255, 0, 0.514);
     -webkit-box-shadow: 0 0 1px rgba(255,255,255,.5);
 }
