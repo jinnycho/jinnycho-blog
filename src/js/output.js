@@ -23621,8 +23621,7 @@
           "div",
           {
             className: "content-title",
-            isselected: "true",
-            key: contentTitleID + "title"
+            isselected: "true"
           },
           " ",
           contentTitle
@@ -23630,7 +23629,6 @@
           "div",
           {
             className: "content-actual",
-            key: contentTitleID + "actual",
             dangerouslySetInnerHTML: { __html: contentValueGivenContentTitle }
           }
         ));

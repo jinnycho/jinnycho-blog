@@ -122,11 +122,9 @@ function ContentsContent({chosenContentTitleID}) {
                 return (
                     <div className='contents-rectangle' key={ contentTitleID }>
                         <div className='content-title'
-                            isselected='true'
-                            key={ contentTitleID + 'title'}> { contentTitle }
+                            isselected='true'> { contentTitle }
                         </div>
                         <div className='content-actual'
-                            key={ contentTitleID + 'actual'}
                             dangerouslySetInnerHTML={{__html: contentValueGivenContentTitle}}/>
                     </div>
                 );
