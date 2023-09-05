@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { createRoot } from 'react-dom/client';
-import democratizeRoadsText from '../writings/ideas/urban_design/democratizeRoads.md';
 import dreamingHouse001Text from '../writings/ideas/architecture/dreamHouse001.md';
+import courageToBeDislikedText from '../writings/books/psychology/courageToBeDisliked.md';
 import { marked } from 'marked';
 
 const categoryIDToValue = {
@@ -11,27 +11,28 @@ const categoryIDToValue = {
 
 const categoryIDTosubCategoriesIDs = {
     'ideas': ['urbanDesign', 'architecture'],
-    'books': []
+    'books': ['psychology']
 };
 
 const subCategoryIDToValue = {
     'urbanDesign': 'Urban Design',
-    'architecture': 'Architecture'
+    'architecture': 'Architecture',
+    'psychology': 'Psychology'
 }
 
 const subCategoryIDToTitleIDs = {
-    'urbanDesign': ['democratizeRoads'],
-    'architecture': ['houseIdeas001']
+    'architecture': ['houseIdeas001'],
+    'psychology': ['courageToBeDisliked']
 }
 
 const contentsTitleIDToValue = {
-    'democratizeRoads': 'Democratize The Roads',
-    'houseIdeas001': 'I Want To Build My Own House (0.0.1)'
+    'houseIdeas001': 'I Want To Build My Own House (0.0.1)',
+    'courageToBeDisliked': 'Courage To Be Disliked'
 }
 
 const contentsTitleIDToContentsContentValue = {
-    'democratizeRoads': democratizeRoadsText,
-    'houseIdeas001': dreamingHouse001Text
+    'houseIdeas001': dreamingHouse001Text,
+    'courageToBeDisliked': courageToBeDislikedText
 }
 
 function Category({setChosenCategory, setChosenSubCategory, setChosenContentTitle, chosenCategoryID}) {

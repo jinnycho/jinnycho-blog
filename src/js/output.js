@@ -23511,9 +23511,6 @@
   var import_react = __toESM(require_react());
   var import_client = __toESM(require_client());
 
-  // src/writings/ideas/urban_design/democratizeRoads.md
-  var democratizeRoads_default = "# Democratize roads\n## 2023/09/01\n\n\n\n![Takin](https://github.com/jinnycho/jinnycho.github.io/blob/main/src/assets/photos/takin.jpg?raw=true)";
-
   // src/writings/ideas/architecture/dreamHouse001.md
   var dreamHouse001_default = `# I want to build my own house <span style="color:#CDC4C1"> (0.0.1) </span>
 ## 2023/09/04
@@ -23575,6 +23572,9 @@ Once this extensive list is satisfied and we find a place, we can then think abo
 | **Ceiling fans** | \u{1F333}\u2699\uFE0F  | Heard that it really cools down the space without having to use A/C. |
 | **Windows @ kitchen, bathrooms** | \u{1F333}\u2699\uFE0F\u{1F485}   | Ventilation is important in these areas and natural sunlight is always a plus. |
 | **Kitchen island** | \u2699\uFE0F\u{1F485}  |  |`;
+
+  // src/writings/books/psychology/courageToBeDisliked.md
+  var courageToBeDisliked_default = "Coming soon!";
 
   // node_modules/marked/lib/marked.esm.js
   function _getDefaults() {
@@ -25791,23 +25791,24 @@ ${content}</tr>
   };
   var categoryIDTosubCategoriesIDs = {
     "ideas": ["urbanDesign", "architecture"],
-    "books": []
+    "books": ["psychology"]
   };
   var subCategoryIDToValue = {
     "urbanDesign": "Urban Design",
-    "architecture": "Architecture"
+    "architecture": "Architecture",
+    "psychology": "Psychology"
   };
   var subCategoryIDToTitleIDs = {
-    "urbanDesign": ["democratizeRoads"],
-    "architecture": ["houseIdeas001"]
+    "architecture": ["houseIdeas001"],
+    "psychology": ["courageToBeDisliked"]
   };
   var contentsTitleIDToValue = {
-    "democratizeRoads": "Democratize The Roads",
-    "houseIdeas001": "I Want To Build My Own House (0.0.1)"
+    "houseIdeas001": "I Want To Build My Own House (0.0.1)",
+    "courageToBeDisliked": "Courage To Be Disliked"
   };
   var contentsTitleIDToContentsContentValue = {
-    "democratizeRoads": democratizeRoads_default,
-    "houseIdeas001": dreamHouse001_default
+    "houseIdeas001": dreamHouse001_default,
+    "courageToBeDisliked": courageToBeDisliked_default
   };
   function Category({ setChosenCategory, setChosenSubCategory, setChosenContentTitle, chosenCategoryID }) {
     const handleCategoryClick = (categoryID) => {
