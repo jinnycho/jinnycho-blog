@@ -23511,11 +23511,32 @@
   var import_react = __toESM(require_react());
   var import_client = __toESM(require_client());
 
-  // src/writings/ideas/democratizeRoads.md
-  var democratizeRoads_default = "## Democratize roads\n### 2023/09/01\n\nComing soon\n\n![Takin](https://github.com/jinnycho/jinnycho.github.io/blob/main/src/assets/photos/takin.jpg?raw=true)";
+  // src/writings/ideas/urban_design/democratizeRoads.md
+  var democratizeRoads_default = "# Democratize roads\n## 2023/09/01\n\n\n\n![Takin](https://github.com/jinnycho/jinnycho.github.io/blob/main/src/assets/photos/takin.jpg?raw=true)";
 
-  // src/writings/ideas/dreamingCabins.md
-  var dreamingCabins_default = "## September Cabin Ideas\n### 2023/08/31\n\nComing soon\n\n![Takin](https://github.com/jinnycho/jinnycho.github.io/blob/main/src/assets/photos/takin.jpg?raw=true)";
+  // src/writings/ideas/architecture/dreamHouse001.md
+  var dreamHouse001_default = `# I want to build my own house <span style="color:#CDC4C1"> (0.0.1) </span>
+## 2023/09/04
+
+I find myself constantly thinking about my ideal house, engaging in passionate debates within my own mind about the materials, design, and contents of the house. It might sound a bit crazy, but I can spend hours immersed in these thoughts. I decided to document my ideas to prevent them from fading and to continue refining them. It would also be a good way to communicate when I actually build one with Charles, my soul twin.
+
+### Lifestyle
+1. **Urban**
+2. **Nature**
+I've recently purchased a condo in the beautiful neighborhood of Brooklyn, NY. It's right next to Prospect Park. I plan to keep this property not only because of the low mortgage rate but also because I just genuinely like Brooklyn. I've made many fun, ridiculously smart yet genuinely sweet friends, have access to hundreds of excellent grocery stores, numerous job opportunities with high salaries, and great access to the delicious Korean food.
+
+### Basic Requirements
+1. **Money**
+2. **Views**
+3. **Food**
+4. **Safety**
+
+### Thinking about a Cozy House
+
+#### Exterior
+
+#### Interior
+`;
 
   // node_modules/marked/lib/marked.esm.js
   function _getDefaults() {
@@ -25740,15 +25761,15 @@ ${content}</tr>
   };
   var subCategoryIDToTitleIDs = {
     "urbanDesign": ["democratizeRoads"],
-    "architecture": ["cabinIdeas202308"]
+    "architecture": ["houseIdeas001"]
   };
   var contentsTitleIDToValue = {
-    "democratizeRoads": "Democratize the Roads",
-    "cabinIdeas202308": "Thinking about Cabins (August Edition)"
+    "democratizeRoads": "Democratize The Roads",
+    "houseIdeas001": "I Want To Build My Own House (0.0.1)"
   };
   var contentsTitleIDToContentsContentValue = {
     "democratizeRoads": democratizeRoads_default,
-    "cabinIdeas202308": dreamingCabins_default
+    "houseIdeas001": dreamHouse001_default
   };
   function Category({ setChosenCategory, setChosenSubCategory, setChosenContentTitle, chosenCategoryID }) {
     const handleCategoryClick = (categoryID) => {

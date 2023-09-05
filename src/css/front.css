@@ -2,6 +2,7 @@
     --background-white: #FFFFFF;
     --rectangle-color: #3042ff;
     --default-black: black;
+    --scrollbar-color: rgba(0, 255, 157, 0.303);
 }
 
 body {
@@ -109,6 +110,6 @@ body {
   
 ::-webkit-scrollbar-thumb {
     border-radius: 2px;
-    background-color: rgba(242, 255, 0, 0.514);
+    background-color: var(--scrollbar-color);
     -webkit-box-shadow: 0 0 1px rgba(255,255,255,.5);
 }

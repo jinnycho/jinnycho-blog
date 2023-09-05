@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { createRoot } from 'react-dom/client';
-import democratizeRoadsText from '../writings/ideas/democratizeRoads.md';
-import dreamingCabinsText from '../writings/ideas/dreamingCabins.md';
+import democratizeRoadsText from '../writings/ideas/urban_design/democratizeRoads.md';
+import dreamingHouse001Text from '../writings/ideas/architecture/dreamHouse001.md';
 import { marked } from 'marked';
 
 const categoryIDToValue = {
@@ -21,17 +21,17 @@ const subCategoryIDToValue = {
 
 const subCategoryIDToTitleIDs = {
     'urbanDesign': ['democratizeRoads'],
-    'architecture': ['cabinIdeas202308']
+    'architecture': ['houseIdeas001']
 }
 
 const contentsTitleIDToValue = {
-    'democratizeRoads': 'Democratize the Roads',
-    'cabinIdeas202308': 'Thinking about Cabins (August Edition)'
+    'democratizeRoads': 'Democratize The Roads',
+    'houseIdeas001': 'I Want To Build My Own House (0.0.1)'
 }
 
 const contentsTitleIDToContentsContentValue = {
     'democratizeRoads': democratizeRoadsText,
-    'cabinIdeas202308': dreamingCabinsText
+    'houseIdeas001': dreamingHouse001Text
 }
 
 function Category({setChosenCategory, setChosenSubCategory, setChosenContentTitle, chosenCategoryID}) {
