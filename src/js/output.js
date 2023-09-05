@@ -23545,32 +23545,36 @@ Once this extensive list is satisfied and we find a place, we can then think abo
 - Functional(\u2699\uFE0F): Improves the quality of life
 
 #### Exterior
-1. **Balcony**: (\u{1F333}\u2699\uFE0F) With a balcony and additional sunshade, it will help keep the indoors cool in summer and warm in winter because the sun's position changes throughout the seasons. It will also give us easy access to a wider view.
-2. **Raindrop windows**: (\u{1F485}\u2699\uFE0F) Charles loves watching rain drops on the window during rainy days.
-3. **A-shaped roof**: (\u{1F485}\u{1F333}) An A-shaped roof is more weather-resistant compared to a flat roof.
-4. **Solar panels**: (\u{1F333})
-5. **Quality materials that age well**: (\u{1F333}\u{1F485}\u2699\uFE0F) Need further investigation on what it is.
-6. **Places to dry clothes & comforter**: (\u{1F333}\u2699\uFE0F) It is highly energy-efficient, offers natural disinfection, and provides numerous other beneficial effects.
-7. **Sunlight**: (\u{1F333}\u2699\uFE0F)
-8. **Bouldering**: (\u2699\uFE0F) Always though it'd be cool to have one.
-9. **Courtyard**: (\u{1F333}\u2699\uFE0F\u{1F485}) A courtyard brings the outside in, enabling people to enjoy the outdoors more privately and freely. It is also known to help keep the interior cooler in hot weather and warmer in cold weather.
-10. **Food garden**: (\u{1F333}\u2699\uFE0F)
-11. **Ceiling window**: (\u{1F333}\u2699\uFE0F\u{1F485})
-12. **Passive House principles**: (\u{1F333}\u2699\uFE0F)
+| Item | Criteria | Details |
+|:---:|:---:|:---:|
+| **Hardwood floor** | \u{1F333}\u2699\uFE0F\u{1F485}   | Expensive but always good to have hardwood floor. I'm wondering if I could make it myself. |
+| **Cross breeze** | \u{1F333}\u2699\uFE0F  |  |
+| **Tilt-and-turn windows** | \u{1F333}\u2699\uFE0F  |  |
+| **External shades** | \u{1F333}\u2699\uFE0F  | I noticed lots of external shades in Germany. It's a good idea to keep the house cool in summer and warm in winter. |
+| **Fire place** | \u{1F333}\u2699\uFE0F\u{1F485}   |  |
+| **Thermal heating** | \u{1F333}\u2699\uFE0F  |  |
+| **Air purifier** | \u{1F333}\u2699\uFE0F  |  |
+| **HRV** | \u{1F333}\u2699\uFE0F  |  |
+| **Crafting space** | \u2699\uFE0F | We always wish to have a dedicated space for crafting, such as wood/metalworking, watchmaking, and drafting. This space could also have an office space if needed for remote work. |
+| **Ceiling fans** | \u{1F333}\u2699\uFE0F  | Heard that it really cools down the space without having to use A/C. |
+| **Windows @ kitchen, bathrooms** | \u{1F333}\u2699\uFE0F\u{1F485}   | Ventilation is important in these areas and natural sunlight is always a plus. |
+| **Kitchen island** | \u2699\uFE0F\u{1F485}  |  |
 
 #### Interior
-1. **Hardwood floor**: (\u{1F333}\u2699\uFE0F\u{1F485}) Expensive but always good to have hardwood floor. I'm wondering if I could make it myself.
-2. **Cross breeze**: (\u{1F333}\u2699\uFE0F)
-3. **Tilt-and-turn windows**: (\u{1F333}\u2699\uFE0F)
-4. **External shades**: (\u{1F333}\u2699\uFE0F) I noticed lots of external shades in Germany. It's a good idea to keep the house cool in summer and warm in winter.
-5. **Fire place**: (\u{1F333}\u2699\uFE0F\u{1F485})
-6. **Thermal heating**: (\u{1F333}\u2699\uFE0F)
-7. **Air purifier**: (\u{1F333}\u2699\uFE0F)
-8. **HRV**: (\u{1F333}\u2699\uFE0F)
-9. **Crafting space**: (\u2699\uFE0F) We always wish to have a dedicated space for crafting, such as wood/metalworking, watchmaking, and drafting. This space could also have an office space if needed for remote work.
-10. **Ceiling fans**: (\u{1F333}\u2699\uFE0F) Heard that it really cools down the space without having to use A/C.
-11. **Windows @ kitchen, bathrooms**: (\u{1F333}\u2699\uFE0F\u{1F485}) Ventilation is important in these areas and natural sunlight is always a plus.
-12. **Kitchen island**: (\u2699\uFE0F\u{1F485})`;
+| Item | Criteria | Details |
+|:---:|:---:|:---:|
+| **Hardwood floor** | \u{1F333}\u2699\uFE0F\u{1F485}   | Expensive but always good to have hardwood floor. I'm wondering if I could make it myself. |
+| **Cross breeze** | \u{1F333}\u2699\uFE0F  |  |
+| **Tilt-and-turn windows** | \u{1F333}\u2699\uFE0F  |  |
+| **External shades** | \u{1F333}\u2699\uFE0F  | I noticed lots of external shades in Germany. It's a good idea to keep the house cool in summer and warm in winter. |
+| **Fire place** | \u{1F333}\u2699\uFE0F\u{1F485}   |  |
+| **Thermal heating** | \u{1F333}\u2699\uFE0F  |  |
+| **Air purifier** | \u{1F333}\u2699\uFE0F  |  |
+| **HRV** | \u{1F333}\u2699\uFE0F  |  |
+| **Crafting space** | \u2699\uFE0F | We always wish to have a dedicated space for crafting, such as wood/metalworking, watchmaking, and drafting. This space could also have an office space if needed for remote work. |
+| **Ceiling fans** | \u{1F333}\u2699\uFE0F  | Heard that it really cools down the space without having to use A/C. |
+| **Windows @ kitchen, bathrooms** | \u{1F333}\u2699\uFE0F\u{1F485}   | Ventilation is important in these areas and natural sunlight is always a plus. |
+| **Kitchen island** | \u2699\uFE0F\u{1F485}  |  |`;
 
   // node_modules/marked/lib/marked.esm.js
   function _getDefaults() {
