@@ -25790,11 +25790,10 @@ ${content}</tr>
     "books": "Books"
   };
   var categoryIDTosubCategoriesIDs = {
-    "ideas": ["urbanDesign", "architecture"],
+    "ideas": ["architecture"],
     "books": ["psychology"]
   };
   var subCategoryIDToValue = {
-    "urbanDesign": "Urban Design",
     "architecture": "Architecture",
     "psychology": "Psychology"
   };

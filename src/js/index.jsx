@@ -10,12 +10,11 @@ const categoryIDToValue = {
 };
 
 const categoryIDTosubCategoriesIDs = {
-    'ideas': ['urbanDesign', 'architecture'],
+    'ideas': ['architecture'],
     'books': ['psychology']
 };
 
 const subCategoryIDToValue = {
-    'urbanDesign': 'Urban Design',
     'architecture': 'Architecture',
     'psychology': 'Psychology'
 }
