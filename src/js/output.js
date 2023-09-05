@@ -23570,8 +23570,7 @@ Once this extensive list is satisfied and we find a place, we can then think abo
 9. **Crafting space**: (\u2699\uFE0F) We always wish to have a dedicated space for crafting, such as wood/metalworking, watchmaking, and drafting. This space could also have an office space if needed for remote work.
 10. **Ceiling fans**: (\u{1F333}\u2699\uFE0F) Heard that it really cools down the space without having to use A/C.
 11. **Windows @ kitchen, bathrooms**: (\u{1F333}\u2699\uFE0F\u{1F485}) Ventilation is important in these areas and natural sunlight is always a plus.
-12. **Kitchen island**:
-`;
+12. **Kitchen island**: (\u2699\uFE0F\u{1F485})`;
 
   // node_modules/marked/lib/marked.esm.js
   function _getDefaults() {

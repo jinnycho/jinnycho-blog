@@ -53,4 +53,4 @@ Once this extensive list is satisfied and we find a place, we can then think abo
 9. **Crafting space**: (⚙️) We always wish to have a dedicated space for crafting, such as wood/metalworking, watchmaking, and drafting. This space could also have an office space if needed for remote work.
 10. **Ceiling fans**: (🌳⚙️) Heard that it really cools down the space without having to use A/C.
 11. **Windows @ kitchen, bathrooms**: (🌳⚙️💅) Ventilation is important in these areas and natural sunlight is always a plus.
-12. **Kitchen island**:
+12. **Kitchen island**: (⚙️💅)
