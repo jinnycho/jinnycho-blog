@@ -2,6 +2,7 @@
     --background-white: #FFFFFF;
     --rectangle-color: #3042ff;
     --default-black: black;
+    --scrollbar-color: rgba(0, 255, 157, 0.303);
 }
 
 body {
@@ -109,6 +110,34 @@ body {
   
 ::-webkit-scrollbar-thumb {
     border-radius: 2px;
-    background-color: rgba(242, 255, 0, 0.514);
+    background-color: var(--scrollbar-color);
     -webkit-box-shadow: 0 0 1px rgba(255,255,255,.5);
+}
+
+table {
+    border-collapse: collapse;
+    border: 1px solid black;
+    font-variant-numeric: tabular;
+}
+
+th {
+    font-weight: bold;
+    border: 1px solid black;
+
+}
+  
+tr:nth-child(2) td {
+   padding-top: 12px;
+   border: 1px solid black;
+}
+
+tr:nth-child(odd) td {
+    background: #f2f2f2;
+    border: 1px solid black;
+}
+
+th, td {
+    text-align: left;
+    padding: 6px 12px;
+    border: 1px solid black;
 }
