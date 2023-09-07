@@ -30,18 +30,18 @@ Once this extensive list is satisfied and we find a place, we can then think abo
 #### Exterior
 | Item | Criteria | Details |
 |:---:|:---:|:---:|
-| **Hardwood floor** | 🌳⚙️💅   | Expensive but always good to have hardwood floor. I'm wondering if I could make it myself. |
-| **Cross breeze** | 🌳⚙️  |  |
-| **Tilt-and-turn windows** | 🌳⚙️  |  |
-| **External shades** | 🌳⚙️  | I noticed lots of external shades in Germany. It's a good idea to keep the house cool in summer and warm in winter. |
-| **Fire place** | 🌳⚙️💅   |  |
-| **Thermal heating** | 🌳⚙️  |  |
-| **Air purifier** | 🌳⚙️  |  |
-| **HRV** | 🌳⚙️  |  |
-| **Crafting space** | ⚙️ | We always wish to have a dedicated space for crafting, such as wood/metalworking, watchmaking, and drafting. This space could also have an office space if needed for remote work. |
-| **Ceiling fans** | 🌳⚙️  | Heard that it really cools down the space without having to use A/C. |
-| **Windows @ kitchen, bathrooms** | 🌳⚙️💅   | Ventilation is important in these areas and natural sunlight is always a plus. |
-| **Kitchen island** | ⚙️💅  |  |
+| **Balcony** | 🌳⚙️  | With a balcony and additional sunshade, it will help keep the indoors cool in summer and warm in winter because the sun's position changes throughout the seasons. It will also give us easy access to a wider view.s |
+| **Raindrop windows** | 💅⚙️  | Charles loves watching rain drops on the window during rainy days |
+| **A-shaped roof** | 💅🌳  | An A-shaped roof is more weather-resistant compared to a flat roof. |
+| **Solar panels** | 🌳 |  |
+| **Quality materials that age well** | 🌳💅⚙️   | Need further investigation on what it is, |
+| **Places to dry clothes & comforter** | 🌳⚙️  | It is highly energy-efficient, offers natural disinfection, and provides numerous other beneficial effects. |
+| **Sunlight** | 🌳⚙️  |  |
+| **Bouldering** | ⚙️ | Always thought it'd be cool to have one. |
+| **Courtyard** | 🌳⚙️💅   | A courtyard brings the outside in, enabling people to enjoy the outdoors more privately and freely. It is also known to help keep the interior cooler in hot weather and warmer in cold weather. |
+| **Food garden** | 🌳⚙️  | Heard that it really cools down the space without having to use A/C. |
+| **Ceiling window** | 🌳⚙️💅   | Ventilation is important in these areas and natural sunlight is always a plus. |
+| **Passive House principles** | 🌳⚙️  |  |
 
 #### Interior
 | Item | Criteria | Details |
