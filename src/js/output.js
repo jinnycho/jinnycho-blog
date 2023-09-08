@@ -23564,7 +23564,7 @@ Once this extensive list is satisfied and we find a place, we can then think abo
 | **Cross breeze** | \u{1F333}\u2699\uFE0F |  |
 | **Tilt-and-turn windows** | \u{1F333}\u2699\uFE0F |  |
 | **External shades** | \u{1F333}\u2699\uFE0F | I noticed lots of external shades in Germany. It's a good idea to keep the house cool in summer and warm in winter. |
-| **Fire place** | \u{1F333}\u2699\uFE0F\u{1F485} |  |
+| **Fire place** | \u{1F333}\u{1F485}\u2699\uFE0F |  |
 | **Thermal heating** | \u{1F333}\u2699\uFE0F |  |
 | **Air purifier** | \u{1F333}\u2699\uFE0F |  |
 | **HRV** | \u{1F333}\u2699\uFE0F |  |

@@ -50,7 +50,7 @@ Once this extensive list is satisfied and we find a place, we can then think abo
 | **Cross breeze** | 🌳⚙️ |  |
 | **Tilt-and-turn windows** | 🌳⚙️ |  |
 | **External shades** | 🌳⚙️ | I noticed lots of external shades in Germany. It's a good idea to keep the house cool in summer and warm in winter. |
-| **Fire place** | 🌳⚙️💅 |  |
+| **Fire place** | 🌳💅⚙️ |  |
 | **Thermal heating** | 🌳⚙️ |  |
 | **Air purifier** | 🌳⚙️ |  |
 | **HRV** | 🌳⚙️ |  |
