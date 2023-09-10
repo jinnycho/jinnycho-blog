@@ -139,7 +139,7 @@ This makes me reflect on my current work with my coworker. Am I being too contro
 
 > Placing confidence in others is connected to seeing others as comrades.
 
-I appreciate the opportunity to build a deeper relationship with Charles. This relationship has allowed me to reflect more thoroughly on my life. Wanting to spend quality time with him has helped me recognize some unhealthy tendencies I have in certain situations, which have caused certain troubles. For example, I've noticed that I sometimes become competitive with Charles, thinking 'I'm right, he's wrong, and I need to win.' This mindset has caused several interpersonal issues - and, after all, even if I won, I felt bad.
+I appreciate the opportunity to build a deeper relationship with Charles. This relationship has allowed me to reflect more thoroughly on my life. For example, I've noticed that I sometimes become competitive with Charles, thinking 'I'm right, he's wrong, and I need to win.'  After all, even if I 'won', I felt bad.
 
 ### 13. Self Acceptance
 > With self-acceptance, if one cannot do something, one is simply accepting "one's incapable self" as is and moving forward so that one can do whatever one can. ... One simply has to focus on what one can chamge, rather than on what one cannot. ... affirmative resignation.
