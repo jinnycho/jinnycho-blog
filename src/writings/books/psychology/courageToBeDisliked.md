@@ -77,7 +77,7 @@ This happened a few times during the travel too. I really should be careful with
 
 > The awareness of "having one's own refuge" is called "community feeling". Community is not merley one of the preexisitng frameworks that the word might bring into mind but is also inclusive of literally everything - the entire universe from the past to the future. ... You make the switch from attachment to self (self-interest) to conern for others (social-interest).
 
-> It is when one is able to feel "I am beneficial to the community" that one can have a true sense of one's worth. 
+> It is when one is able to feel "I am beneficial to the community" that one can have a true sense of one's worth.
 
 ### Love
 > Whenever I'm with this person, I can behave very freely, one can really feel love. One can be in a calm and quite natural state, without having feelings of inferiority or being beset with the need to flaunt one's superiority. That is what real love is like.
@@ -119,5 +119,29 @@ This gets me thinking a lot about my current work with my coworker. Am I being t
 
 > Having concern for others, building horizontal relationships, and taking the approach of encouragement.
 
+> When one feels "I am of use to someone.", contriubtion to others, rather than being about getting rid of the "I" and being service to someone, is actually something one does in order to be truly aware of the worth of the "I".
+
 ### Horizontal relationships
-> If you are building even one vertical relationship with someone, before you even notice what is happening, 
+> If you are building even one vertical relationship with someone, before you even notice what is happening, you will be treating all your interpersonal relations as vertical.
+
+> What is important is to be equal in consciousness, and to assert that which needs to be asserted.
+
+> Interpersonal relations is founded not on trust but on confidence. ... It is doing without any set conditions whatsoever when believing in others. Even if one does not have sufficient objective grounds for trusting someone, one believes. One believes uconditionally without concerning onself with such things as security. That is confidence.
+
+> Unconditional confidence iis a means for making your interpersonal relationship with a person better and for building a horizontal relationship. If you do not have the desire to make your relationship with that person better, go ahead and sever it.
+
+> If it is a shallow relationship, when it falls apart the pain will be slight. And the joy that relationship brings each day will also be slight. It is precisely because one can gain the courage to enter into deepr relationships by having confidence in others that the joy of one's interpersonal relations can grow and one's joy in life can grow too.
+
+> Placing confidence in others is connected to seeing others as comrades.
+
+### Self Acceptance
+> With self-acceptance, if one cannot do something, one is simply accepting "one's incapable self" as is and moving forward so that one can do whatever one can. ... One simply has to focus on what one can chamge, rather than on what one cannot. ... affirmative resignation.
+
+### Freedom & Harmony
+> Do not be dependent on vertical relationships or be afraid of being disliked, and just make your way forward freely.
+
+> A way of living that acknowledges only company work is one that is lacking in harmony of life.
+
+> The courage to be happy. ... For a human being, the greates unhappiness is not being able to like oneself.
+
+> There is no freedom in a feeling of contribution that is gained through the desire for recognition.
