@@ -1,1 +1,123 @@
-Coming soon!
+# Courage To be Disliked
+## 2023/09/08
+
+If I choose the most impactful book this year, <Courage to be Disliked> would be the one. This is the book based off of Adlerian psychology. I'd like to keep a note of quotes that resonate a lot to me with some additional thoughts.
+
+### It's me that makes the world
+> This is not because the world is complicated. It's because you are making the world complicated.
+
+> Well water stays at pretty much the same temperature all year around - but when you drink the water in the summer it seems cool, and when you drink the same water in the winter it seems warm.
+
+> It's as if you see the world through dark glasses, so naturally everything seems dark.
+
+### Sick of "trauma" 
+> Who I am now (the effect) is determined by occurrences in the past (the causes) ... If we focus only on past causes and try to explain things soley through cause and effect, we end up with "determinism". Because what this says is that our present and future have already been decided by past occurrences, and are unalterable.
+
+> In Adlerian psychology, we do not think about past "causes" but rather about present "goals". For example, if there's a guy, who has shut himself in his room for years, in Adlerian psychology, he had a goal of not going out beforehand and he's been manufacturing a state of anxiety and fear as a means to achieve the goal.
+
+> Difference between etiology (the study of causation) and teleology (the study of the purpose of a given phenomenon, rather than its cause) ... As long as we stay in etiology, we will not take a single step forward.
+
+> In Adlerian psychology, trauma is definitively denied. ... We are not determined by our experiences, but the meaning we give them is self-determining.
+
+### People change
+> You could consider that issue is not personality but rather the view of the world. It seems that the world "personality" is nuanced and suggests being unchangeable. But if we are talking about a view of the world, that should be possible to alter.
+
+> People can change at anytime, regardless of the environments they are in. You are unable to change only because you are making a decision not to. 
+
+> Not change - you could say it's like driving your old, familiar car. It might rattle a bit, but one can take that into account and maneuver easily. When we try to change our lifestyle, we put our great courage to the test.
+
+### Am I just making excuses?
+> He wants to live inside the realm of possiblities, where he can say that he could do it if he only had the time, or that he could write if he just had the proper environment, and that he really does have the talent for it.
+
+> I won't get any work done if I'm shunned by my direct superior. That's Adler's life-lie again. I can't do my work because I was shunned by my boss. It's the boss's fault that my work isn't going well. ... I don't want to work, so I'll create an awful boss, or I don't want to acknowledge my incapable self, so I'll create an awful boss.
+
+> Gordian Knot - Destiny is not something brought about by legend, but claring away with one's own sword.
+
+> For me, it was more convenient not to repair my relationship with my father. I could use having a father like that as an excuse for why my own life wasn't going well.
+
+### All Problems are Interpersonal Problems
+> It's basically impossible to not get hurt in your relations with other people.
+
+> Let's learn a way to settle things without using the emotion of anger. Because after all, anger is a tool. A means for achieving a goal. 
+
+> Irascible people do not have short tempers - it is only that they do not know that there are effective communications tools other than anger.
+
+> You had the goal of taking a dislike to Mr. A beforehand and then started looking for the flaws to satisfy the goal. So that you could avoid an interpersonal relationship with Mr. A. 
+
+### Inferiority & Superiority Complex
+> You notice only your shortcomings because you've resolved to not start liking yourself. ... You've avoided interpersonal relationships by dislking yourself.
+
+I think similar thing happened when I was travelling in Berlin. It ended up being such a different place, I started to try to find things that I dislike about myself - just to avoid the situation?
+
+> It's crucial to not mix up "feeling of inferiority" and "inferiority complex", and to think about them as clearly separate. There is nothing particularly wrong with the feeling of inferiority itself. The feeling of inferiority can be a trigger for striving and growth. The inferiority complex, on the other hand, refers to a condition of having begun to use one's feeling of inferiority as a kind of excuse and people who aren't equipped with courage end up stepping into an inferiority complex.
+
+> Those who make themselves look bigger on borrowed power are essentially living according to other people's value systems - they're living other people's lives... Those who go so far as to boast about things out loud actually have no confidence in themselves. "The one who boasts does so only out of a feeling of inferiority."
+
+### Competition Bullshit
+> It's enough to just keep moving in a forward direction, without competing with anyone. And, of course, there is no need to compare oneself with others. ... A healthy feeling of inferiority is not something that comes from comparing oneself to others; it comes from one's comparison with one's ideal self.
+
+> Everyone is different. Don't mix up that difference with good and bad, and superior or inferior. Whatever differences we may have, we are all equal.
+
+> Before you know it, you start to see each and every person, everyone in the whole world, as your enemy.
+
+> The reason so many people don't really feel happy while they're building up their success in the eyes of society is that they are living in competition. Because to them, the world is a perilous place that is overflowing with enemies.
+
+This is what I've been unconsciously feeling recently when I started the project with another teammate. Don't try to compete for god sake!
+
+> If someone were to abuse me to my face, I would think about the person's hidden goal. Even if you're not directly abusive, when you feel genuinely angry due to another person's words or behavior, please consider that the person is challenging you to a power struggle. And one must not allow oneself to be taken in.
+
+> One more thing about power struggles. In every instance, no matter how much you might think you are right, try not to criticize the other party on that basis. The moment one is convinced that "I am right", one has already stepped into a power struggle. .. Then many people will rush into a power struggle and try to make other submit to them. ... Because of one's mindset of not wanting to lose, one is unable to admit one's mistake, the result being that one ends up choosing the wrong path. ... it clouds your judgment.
+
+This happened a few times during the travel too. I really should be careful with the competitive mindset.
+
+### Objectives in Life
+> to be self-reliant and to live in harmony with society ... consciousness that I have the ability and the consciousness that people are my comarades
+
+> If you change, those around you will change too. Adlerian psychology is a psychology for changing onself - not others.
+
+> The awareness of "having one's own refuge" is called "community feeling". Community is not merley one of the preexisitng frameworks that the word might bring into mind but is also inclusive of literally everything - the entire universe from the past to the future. ... You make the switch from attachment to self (self-interest) to conern for others (social-interest).
+
+> It is when one is able to feel "I am beneficial to the community" that one can have a true sense of one's worth. 
+
+### Love
+> Whenever I'm with this person, I can behave very freely, one can really feel love. One can be in a calm and quite natural state, without having feelings of inferiority or being beset with the need to flaunt one's superiority. That is what real love is like.
+
+### Recognition Bullshit
+> There is no need to be recognized by others. Actually, one must not seek recognition. This point cannot be overstated.
+
+> Adler was very critical of education by reward and punishment. If no one is going to praise me, I won't take appropriate actions and if no one is going to punish me, I'll engage in inappropriate actions, too.
+
+> We are not living to satisfy other people's expectations.
+
+> There is no reason of any sort that one should not live one's life as one pleases.
+
+> A stone is powerless. Once it has begun to roll downhill, it will continue to roll until released from the natural laws of gravity and inertia. But we are not stones. ... Are you going to wear yourself down like a rolling astone, until everything is smoothed away? ... Freedom is being disliked by other people.
+
+> You want to be thought well of by others, and that is why you worry about the way they look at you. That is not concern for others. It is nothing but attachment to self.
+
+> When one praises another, the goal is "to manipulate someone who has less ability than you". It is not done out of gratitude or respect.
+
+> "Judgment" is a word that comes out of vertical relationships. If one is building horizontal relationships, there will be words of more straightforward gratitude and repsect and joy. 
+
+### My task vs. Your task
+> One does not intrude on other people's tasks. In general, all interpersonal relationship troubles are caused by intruding on other people's tasks.
+
+> Calmly delieate up to what point one's own tasks go, and from what point they become another person's tasks. And do not intervene in other people's tasks, or allow even a single person to intervene one's own tasks.
+
+This gets me thinking a lot about my current work with my coworker. Am I being too controlling and intrusive? I think I was being a little insecure because of the frontend stuff. You're not competing with this person.
+
+> When reading a book, if one brings one's face too close to it, one cannot see anything. In the same way, forming good relationships requires a certain degree of distance.
+
+> I did not change to change my father. That is an erroneous notion of trying to manipulate another person.
+
+> You are not the center of the world - other people are not living to satisfy your expectations.
+
+### Community Feeling
+> You will see that all the hardship you went through in school was a storm in a teacup. The moment you leave the teacup, that raging storm will be gone, and a gentle breeze will greet you in its place.
+
+> If unreasonable demands are being thrust on you, it is fine to object to them directly. Do not cling to the small community right in front of you.
+
+> Having concern for others, building horizontal relationships, and taking the approach of encouragement.
+
+### Horizontal relationships
+> If you are building even one vertical relationship with someone, before you even notice what is happening, 
