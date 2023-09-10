@@ -23732,7 +23732,7 @@ I appreciate the opportunity to build a deeper relationship with Charles. This r
 
 My life has been the complete opposite of what this book has advised. According to the book, it will take half of the time I've lived to fully internalize its lessons, which means it will take 15 years. I'm grateful that I came across this book at a younger age and not when I was 60. I also want to express my gratitude once again to my high school friend who recommended this book to me.
 
-If anyone is suffering from pain in the past, let's move on like hawks. After all, we are humans who deserve to live freely.`;
+If anyone is suffering from pain in the past, let's move on like goldfish. After all, we are humans who deserve to live freely.`;
 
   // node_modules/marked/lib/marked.esm.js
   function _getDefaults() {
