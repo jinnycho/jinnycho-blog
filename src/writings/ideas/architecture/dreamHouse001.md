@@ -4,7 +4,7 @@
 I constantly find myself thinking about my ideal home and living situation, engaging in passionate debates within my own mind about the location, materials, and design of the house I'm going to build. It might sound a bit crazy, but I can spend hours immersed in these thoughts. I decided to document my ideas to prevent them from fading and to continue refining them. It would also be a good way to communicate when I actually build one with Charles - my sweet buddy.
 
 ### Lifestyle
-1. **Urban**: Easy access to smart people, job opportunities, good restaurants (especially Korean), cultural activities, exotic groceries, and fun hangouts with friends.
+1. **Urban**: Easy access to many interesting people, job opportunities, good restaurants (especially Korean), cultural activities, exotic groceries, and fun hangouts with friends.
 2. **Nature**: Easy access to more space, nature, create, farm, grow, meditate, and hike.
 
 I separated them into two criteria because it's very challenging to find both in one place. I recently purchased a nice condo in Brooklyn, NY, which aligns perfectly with my first criterion so I will now focus on the second lifestyle aspect, 'Nature', in this blog post.
@@ -23,38 +23,39 @@ I separated them into two criteria because it's very challenging to find both in
 
 ### Thinking about a Cozy House
 Once this extensive list is satisfied and we find a place, we can then think about the building itself. The following is a rough list of things that we think it'd be nice to have inside and out. The main theme is "well-designed & sustainable". There are three categories that I'd like to consider:
-- Design(💅): Primarily for aesthetics
 - Sustainable(🌳): Saves excessive use of energy and money
+- Design(💅): Primarily for aesthetics
 - Functional(⚙️): Improves the quality of life
 
 #### Exterior
 | Item | Criteria | Details |
 |:---:|:---:|:---:|
-| **Balcony** | 🌳⚙️  | With a balcony and additional sunshade, it will help keep the indoors cool in summer and warm in winter because the sun's position changes throughout the seasons. It will also give us easy access to a wider view.s |
-| **Raindrop windows** | 💅⚙️  | Charles loves watching rain drops on the window during rainy days |
-| **A-shaped roof** | 💅🌳  | An A-shaped roof is more weather-resistant compared to a flat roof. |
+| **Balcony** | 🌳⚙️ | With a balcony and additional sunshade, it will help keep the indoors cool in summer and warm in winter because the sun's position changes throughout the seasons. It will also give us easy access to wider views. |
+| **Raindrop windows** | 💅⚙️ | Charles loves watching rain drops on the window during rainy days. |
+| **A-shaped roof** | 🌳💅 | An A-shaped roof is more weather-resistant compared to a flat roof. |
 | **Solar panels** | 🌳 |  |
-| **Quality materials that age well** | 🌳💅⚙️   | Need further investigation on what it is, |
-| **Places to dry clothes & comforter** | 🌳⚙️  | It is highly energy-efficient, offers natural disinfection, and provides numerous other beneficial effects. |
-| **Sunlight** | 🌳⚙️  |  |
+| **Quality materials that age well** | 🌳💅⚙️ | Need further investigation on what it can be. |
+| **Places to dry clothes & comforter** | 🌳⚙️ | It is highly energy-efficient, offers natural disinfection, and provides numerous other beneficial effects. |
+| **Sunlight** | 🌳⚙️ |  |
 | **Bouldering** | ⚙️ | Always thought it'd be cool to have one. |
-| **Courtyard** | 🌳⚙️💅   | A courtyard brings the outside in, enabling people to enjoy the outdoors more privately and freely. It is also known to help keep the interior cooler in hot weather and warmer in cold weather. |
-| **Food garden** | 🌳⚙️  | Heard that it really cools down the space without having to use A/C. |
-| **Ceiling window** | 🌳⚙️💅   | Ventilation is important in these areas and natural sunlight is always a plus. |
-| **Passive House principles** | 🌳⚙️  |  |
+| **Courtyard** | 🌳💅⚙️ | A courtyard brings the outside in, enabling people to enjoy the outdoors more privately and freely. It is also known to help keep the interior cooler in hot weather and warmer in cold weather. |
+| **Food garden** | 🌳⚙️ | Heard that it really cools down the space without having to use A/C. |
+| **Ceiling window** | 🌳💅⚙️ | Ventilation is important in these areas and natural sunlight is always a plus. |
+| **Passive House principles** | 🌳⚙️ |  |
 
 #### Interior
 | Item | Criteria | Details |
 |:---:|:---:|:---:|
-| **Hardwood floor** | 🌳⚙️💅   | Expensive but always good to have hardwood floor. I'm wondering if I could make it myself. |
-| **Cross breeze** | 🌳⚙️  |  |
-| **Tilt-and-turn windows** | 🌳⚙️  |  |
-| **External shades** | 🌳⚙️  | I noticed lots of external shades in Germany. It's a good idea to keep the house cool in summer and warm in winter. |
-| **Fire place** | 🌳⚙️💅   |  |
-| **Thermal heating** | 🌳⚙️  |  |
-| **Air purifier** | 🌳⚙️  |  |
-| **HRV** | 🌳⚙️  |  |
+| **Hardwood floor** | 🌳💅⚙️ | Expensive but always good to have hardwood floor. I'm wondering if I could make it myself. |
+| **Cross breeze** | 🌳⚙️ |  |
+| **Tilt-and-turn windows** | 🌳⚙️ |  |
+| **External shades** | 🌳⚙️ | I noticed lots of external shades in Germany. It's a good idea to keep the house cool in summer and warm in winter. |
+| **Fire place** | 🌳💅⚙️ |  |
+| **Thermal heating** | 🌳⚙️ |  |
+| **Air purifier** | 🌳⚙️ |  |
+| **HRV** | 🌳⚙️ |  |
 | **Crafting space** | ⚙️ | We always wish to have a dedicated space for crafting, such as wood/metalworking, watchmaking, and drafting. This space could also have an office space if needed for remote work. |
-| **Ceiling fans** | 🌳⚙️  | Heard that it really cools down the space without having to use A/C. |
-| **Windows @ kitchen, bathrooms** | 🌳⚙️💅   | Ventilation is important in these areas and natural sunlight is always a plus. |
-| **Kitchen island** | ⚙️💅  |  |
+| **Ceiling fans** | 🌳⚙️ | Heard that it really cools down the space without having to use A/C. |
+| **Windows @ kitchen, bathrooms** | 🌳💅⚙️ | Ventilation is important in these areas and natural sunlight is always a plus. |
+| **Kitchen island** | 💅⚙️ |  |
+| **Miele Washer/Dryer/Vacuum** | 💅⚙️ | I really liked it when I used it |

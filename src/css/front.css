@@ -141,3 +141,14 @@ th, td {
     padding: 6px 12px;
     border: 1px solid black;
 }
+
+blockquote {
+    margin-left: 1em;
+    border-left: 4px rgb(224, 223, 223) solid;
+    font-style: italic;
+    color: rgb(115, 115, 115);
+}
+
+blockquote > p {
+    margin-left: 1em;
+}
