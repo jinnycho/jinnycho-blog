@@ -59,4 +59,4 @@ Once this extensive list is satisfied and I find a place, I can then think about
 | **Ceiling fans** | 🌳⚙️ | Heard that it really cools down the space without having to use A/C. |
 | **Windows @ kitchen, bathrooms** | 🌳💅⚙️ | Ventilation is important in these areas and natural sunlight is always a plus. |
 | **Kitchen island** | 💅⚙️ |  |
-| **Miele Washer/Dryer/Vacuum** | 💅⚙️ | I really liked it when I used it |
+| **Miele Washer/Dryer/Vacuum** | 💅⚙️ | I really liked them. |
