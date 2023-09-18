@@ -3,6 +3,12 @@ import { createRoot } from 'react-dom/client';
 import dreamingHouse001Text from '../writings/ideas/architecture/dreamHouse001.md';
 import courageToBeDislikedText from '../writings/books/psychology/courageToBeDisliked.md';
 import { marked } from 'marked';
+import {
+    BrowserRouter as Router,
+    Switch,
+    Route,
+    Link
+  } from "react-router-dom";
 
 const categoryIDToValue = {
     'ideas': 'Ideas',
