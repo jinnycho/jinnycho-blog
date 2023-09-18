@@ -39,9 +39,9 @@ I noticed that the term 'trauma' is often overused, with many people attempting 
 
 > For me, it was more convenient not to repair my relationship with my father. I could use having a father like that as an excuse for why my own life wasn't going well.
 
-This part also resonates with me. During a recent trip to Berlin with Charles, I found myself feeling less attractive compared to other girls on the street. However, I later realized that my insecurities were likely stemming from anxiety and nervousness in the new environment, leading me to degrade my own appearance as an excuse. 
+This part also resonates with me. During a recent trip to Berlin with Charles, I found myself feeling less attractive compared to other girls on the street. However, I later realized that my insecurities likely stemmed from anxiety and nervousness in the new environment, causing me to degrade my own appearance as an excuse to avoid the new city.
 
-Equally interestingly, this unhealthy mindset revived my hierarchical and competitive tendencies that I'm accustomed to, causing some troubles during the trip. I appreciate the opportunity to reacquaint myself with Adlerian psychology and recognize that such self-degrading mindset is not in line with the healthy person I aspire to be.
+Equally interestingly, this unhealthy mindset revived my hierarchical and competitive tendencies that I had tried not to have, causing some troubles during the trip. I appreciate the opportunity to acquaint myself with Adlerian psychology and recognize that such self-degrading mindset is not in line with the healthy person I aspire to be.
 
 ### 5. All Problems are Interpersonal Problems
 > It's basically impossible to not get hurt in your relations with other people.
@@ -139,7 +139,7 @@ This makes me reflect on my current work with my coworker. Am I being too contro
 
 > Placing confidence in others is connected to seeing others as comrades.
 
-I appreciate the opportunity to build a deeper relationship with Charles. This relationship has allowed me to reflect more thoroughly on my life. For example, I've noticed that I sometimes become competitive with Charles, thinking 'I'm right, he's wrong, and I need to win.'  After all, even if I 'won', I felt bad.
+Having a horizontal-relationship mindset helps reflect on the relationships in my life. For example, I've noticed that I sometimes become competitive with Charles, thinking 'I'm right, he's wrong, and I need to win.'  After all, even if I 'won', I felt bad.
 
 ### 13. Self Acceptance
 > With self-acceptance, if one cannot do something, one is simply accepting "one's incapable self" as is and moving forward so that one can do whatever one can. ... One simply has to focus on what one can chamge, rather than on what one cannot. ... affirmative resignation.

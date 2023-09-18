@@ -23515,7 +23515,7 @@
   var dreamHouse001_default = `# I want to build my own house <span style="color:#CDC4C1"> (0.0.1) </span>
 ## 2023/09/04
 
-I constantly find myself thinking about my ideal home and living situation, engaging in passionate debates within my own mind about the location, materials, and design of the house I'm going to build. It might sound a bit crazy, but I can spend hours immersed in these thoughts. I decided to document my ideas to prevent them from fading and to continue refining them. It would also be a good way to communicate when I actually build one with Charles - my sweet buddy.
+I constantly find myself thinking about my ideal home and living situation, engaging in passionate debates within my own mind about the location, materials, and design of the house I'm going to build. It might sound a bit crazy, but I can spend hours immersed in these thoughts. I decided to document my ideas to prevent them from fading and to continue refining them. It would also be a good way to communicate when I actually build one with Charles.
 
 ### Lifestyle
 1. **Urban**: Easy access to many interesting people, job opportunities, good restaurants (especially Korean), cultural activities, exotic groceries, and fun hangouts with friends.
@@ -23536,7 +23536,7 @@ I separated them into two criteria because it's very challenging to find both in
 10. **Hospital**
 
 ### Thinking about a Cozy House
-Once this extensive list is satisfied and we find a place, we can then think about the building itself. The following is a rough list of things that we think it'd be nice to have inside and out. The main theme is "well-designed & sustainable". There are three categories that I'd like to consider:
+Once this extensive list is satisfied and I find a place, I can then think about the building itself. The following is a rough list of things that I think it'd be nice to have inside and out. The main theme is "well-designed & sustainable". There are three categories that I'd like to consider:
 - Sustainable(\u{1F333}): Saves excessive use of energy and money
 - Design(\u{1F485}): Primarily for aesthetics
 - Functional(\u2699\uFE0F): Improves the quality of life
@@ -23553,7 +23553,8 @@ Once this extensive list is satisfied and we find a place, we can then think abo
 | **Sunlight** | \u{1F333}\u2699\uFE0F |  |
 | **Bouldering** | \u2699\uFE0F | Always thought it'd be cool to have one. |
 | **Courtyard** | \u{1F333}\u{1F485}\u2699\uFE0F | A courtyard brings the outside in, enabling people to enjoy the outdoors more privately and freely. It is also known to help keep the interior cooler in hot weather and warmer in cold weather. |
-| **Food garden** | \u{1F333}\u2699\uFE0F | Heard that it really cools down the space without having to use A/C. |
+| **Land Heating** | \u{1F333}\u2699\uFE0F | Heard that it really cools down the space without having to use A/C. |
+| **Food Garden**  | \u{1F333}\u2699\uFE0F |  |
 | **Ceiling window** | \u{1F333}\u{1F485}\u2699\uFE0F | Ventilation is important in these areas and natural sunlight is always a plus. |
 | **Passive House principles** | \u{1F333}\u2699\uFE0F |  |
 
@@ -23572,7 +23573,7 @@ Once this extensive list is satisfied and we find a place, we can then think abo
 | **Ceiling fans** | \u{1F333}\u2699\uFE0F | Heard that it really cools down the space without having to use A/C. |
 | **Windows @ kitchen, bathrooms** | \u{1F333}\u{1F485}\u2699\uFE0F | Ventilation is important in these areas and natural sunlight is always a plus. |
 | **Kitchen island** | \u{1F485}\u2699\uFE0F |  |
-| **Miele Washer/Dryer/Vacuum** | \u{1F485}\u2699\uFE0F | I really liked it when I used it |`;
+| **Miele Washer/Dryer/Vacuum** | \u{1F485}\u2699\uFE0F | I really liked them. |`;
 
   // src/writings/books/psychology/courageToBeDisliked.md
   var courageToBeDisliked_default = `# Courage To be Disliked
@@ -23616,9 +23617,9 @@ I noticed that the term 'trauma' is often overused, with many people attempting 
 
 > For me, it was more convenient not to repair my relationship with my father. I could use having a father like that as an excuse for why my own life wasn't going well.
 
-This part also resonates with me. During a recent trip to Berlin with Charles, I found myself feeling less attractive compared to other girls on the street. However, I later realized that my insecurities were likely stemming from anxiety and nervousness in the new environment, leading me to degrade my own appearance as an excuse. 
+This part also resonates with me. During a recent trip to Berlin with Charles, I found myself feeling less attractive compared to other girls on the street. However, I later realized that my insecurities likely stemmed from anxiety and nervousness in the new environment, causing me to degrade my own appearance as an excuse to avoid the new city.
 
-Equally interestingly, this unhealthy mindset revived my hierarchical and competitive tendencies that I'm accustomed to, causing some troubles during the trip. I appreciate the opportunity to reacquaint myself with Adlerian psychology and recognize that such self-degrading mindset is not in line with the healthy person I aspire to be.
+Equally interestingly, this unhealthy mindset revived my hierarchical and competitive tendencies that I had tried not to have, causing some troubles during the trip. I appreciate the opportunity to acquaint myself with Adlerian psychology and recognize that such self-degrading mindset is not in line with the healthy person I aspire to be.
 
 ### 5. All Problems are Interpersonal Problems
 > It's basically impossible to not get hurt in your relations with other people.
@@ -23716,7 +23717,7 @@ This makes me reflect on my current work with my coworker. Am I being too contro
 
 > Placing confidence in others is connected to seeing others as comrades.
 
-I appreciate the opportunity to build a deeper relationship with Charles. This relationship has allowed me to reflect more thoroughly on my life. For example, I've noticed that I sometimes become competitive with Charles, thinking 'I'm right, he's wrong, and I need to win.'  After all, even if I 'won', I felt bad.
+Having a horizontal-relationship mindset helps reflect on the relationships in my life. For example, I've noticed that I sometimes become competitive with Charles, thinking 'I'm right, he's wrong, and I need to win.'  After all, even if I 'won', I felt bad.
 
 ### 13. Self Acceptance
 > With self-acceptance, if one cannot do something, one is simply accepting "one's incapable self" as is and moving forward so that one can do whatever one can. ... One simply has to focus on what one can chamge, rather than on what one cannot. ... affirmative resignation.
