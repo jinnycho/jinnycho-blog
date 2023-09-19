@@ -5,7 +5,6 @@ import courageToBeDislikedText from '../writings/books/psychology/courageToBeDis
 import { marked } from 'marked';
 import {
     BrowserRouter as Router,
-    Switch,
     Route,
     Link
   } from "react-router-dom";
