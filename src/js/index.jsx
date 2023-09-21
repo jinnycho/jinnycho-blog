@@ -5,9 +5,10 @@ import courageToBeDislikedText from '../writings/books/psychology/courageToBeDis
 import { marked } from 'marked';
 import {
     BrowserRouter as Router,
+    Routes,
     Route,
     Link
-  } from "react-router-dom";
+} from "react-router-dom";
 
 const categoryIDToValue = {
     'ideas': 'Ideas',
