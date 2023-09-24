@@ -1084,7 +1084,7 @@
             }
             return dispatcher.useContext(Context);
           }
-          function useState2(initialState) {
+          function useState6(initialState) {
             var dispatcher = resolveDispatcher();
             return dispatcher.useState(initialState);
           }
@@ -1886,7 +1886,7 @@
           exports.useMemo = useMemo;
           exports.useReducer = useReducer;
           exports.useRef = useRef;
-          exports.useState = useState2;
+          exports.useState = useState6;
           exports.useSyncExternalStore = useSyncExternalStore;
           exports.useTransition = useTransition;
           exports.version = ReactVersion;
@@ -2382,9 +2382,9 @@
           if (typeof __REACT_DEVTOOLS_GLOBAL_HOOK__ !== "undefined" && typeof __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStart === "function") {
             __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStart(new Error());
           }
-          var React2 = require_react();
+          var React7 = require_react();
           var Scheduler = require_scheduler();
-          var ReactSharedInternals = React2.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED;
+          var ReactSharedInternals = React7.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED;
           var suppressWarning = false;
           function setSuppressWarning(newSuppressWarning) {
             {
@@ -3989,7 +3989,7 @@
             {
               if (props.value == null) {
                 if (typeof props.children === "object" && props.children !== null) {
-                  React2.Children.forEach(props.children, function(child) {
+                  React7.Children.forEach(props.children, function(child) {
                     if (child == null) {
                       return;
                     }
@@ -12436,7 +12436,7 @@
             }
           }
           var fakeInternalInstance = {};
-          var emptyRefsObject = new React2.Component().refs;
+          var emptyRefsObject = new React7.Component().refs;
           var didWarnAboutStateAssignmentForComponent;
           var didWarnAboutUninitializedState;
           var didWarnAboutGetSnapshotBeforeUpdateWithoutDidUpdate;
@@ -23508,8 +23508,14 @@
   });
 
   // src/js/index.jsx
-  var import_react = __toESM(require_react());
+  var import_react6 = __toESM(require_react());
   var import_client = __toESM(require_client());
+
+  // src/js/Blog.jsx
+  var import_react5 = __toESM(require_react());
+
+  // src/js/Category.jsx
+  var import_react = __toESM(require_react());
 
   // src/writings/ideas/architecture/dreamHouse001.md
   var dreamHouse001_default = `# I want to build my own house <span style="color:#CDC4C1"> (0.0.1) </span>
@@ -23734,6 +23740,112 @@ Having a horizontal-relationship mindset helps reflect on the relationships in m
 My life has been the complete opposite of what this book has advised. According to the book, it will take half of the time I've lived to fully internalize its lessons, which means it will take 15 years. I'm grateful that I came across this book at a younger age and not when I was 60. I also want to express my gratitude once again to my high school friend who recommended this book to me.
 
 If anyone is suffering from pain in the past, let's move on like goldfish. After all, we are humans who deserve to live freely.`;
+
+  // src/js/Config.jsx
+  var categoryIDToValue = {
+    "ideas": "Ideas",
+    "books": "Books"
+  };
+  var categoryIDTosubCategoriesIDs = {
+    "ideas": ["architecture"],
+    "books": ["psychology"]
+  };
+  var subCategoryIDToValue = {
+    "architecture": "Architecture",
+    "psychology": "Psychology"
+  };
+  var subCategoryIDToTitleIDs = {
+    "architecture": ["houseIdeas001"],
+    "psychology": ["courageToBeDisliked"]
+  };
+  var contentsTitleIDToValue = {
+    "houseIdeas001": "I Want To Build My Own House (0.0.1)",
+    "courageToBeDisliked": "Courage To Be Disliked"
+  };
+  var contentsTitleIDToContentsContentValue = {
+    "houseIdeas001": dreamHouse001_default,
+    "courageToBeDisliked": courageToBeDisliked_default
+  };
+
+  // src/js/Category.jsx
+  function Category({ setChosenCategory, setChosenSubCategory, setChosenContentTitle, chosenCategoryID }) {
+    const handleCategoryClick = (categoryID) => {
+      setChosenCategory(categoryID);
+      setChosenSubCategory(null);
+      setChosenContentTitle(null);
+    };
+    return /* @__PURE__ */ import_react.default.createElement("div", { className: "category-rectangle" }, Object.keys(categoryIDToValue).map((categoryID) => {
+      const categoryTitle = categoryIDToValue[categoryID];
+      return /* @__PURE__ */ import_react.default.createElement(
+        "div",
+        {
+          className: "category-title",
+          isselected: chosenCategoryID === categoryID ? "true" : "false",
+          key: categoryID,
+          onClick: () => handleCategoryClick(categoryID)
+        },
+        " ",
+        categoryTitle,
+        " "
+      );
+    }));
+  }
+
+  // src/js/SubCategory.jsx
+  var import_react2 = __toESM(require_react());
+  function SubCategory({ setChosenSubCategory, setChosenContentTitle, chosenCategoryID, chosenSubCategoryID }) {
+    const handleSubCategoryClick = (subCategoryID) => {
+      setChosenSubCategory(subCategoryID);
+      setChosenContentTitle(null);
+    };
+    return /* @__PURE__ */ import_react2.default.createElement("div", { className: "subcategory-rectangle" }, Object.keys(categoryIDToValue).map((categoryID) => {
+      if (chosenCategoryID === categoryID) {
+        const subCategoriesIDGivenACategory = categoryIDTosubCategoriesIDs[categoryID];
+        return subCategoriesIDGivenACategory.map((subCategoryID) => {
+          const subCategoryTitle = subCategoryIDToValue[subCategoryID];
+          return /* @__PURE__ */ import_react2.default.createElement(
+            "div",
+            {
+              className: "subcategory-title",
+              isselected: chosenSubCategoryID === subCategoryID ? "true" : "false",
+              key: subCategoryTitle,
+              onClick: () => handleSubCategoryClick(subCategoryID)
+            },
+            " ",
+            subCategoryTitle
+          );
+        });
+      }
+    }));
+  }
+
+  // src/js/ContentsTitle.jsx
+  var import_react3 = __toESM(require_react());
+  function ContentsTitle({ setChosenContentTitle, chosenCategoryID, chosenSubCategoryID, chosenContentTitleID }) {
+    const handleContentsTitleClick = (chosenContentTitleID2) => {
+      setChosenContentTitle(chosenContentTitleID2);
+    };
+    return /* @__PURE__ */ import_react3.default.createElement(import_react3.default.Fragment, null, Object.keys(subCategoryIDToTitleIDs).map((subCategoryID) => {
+      if (chosenSubCategoryID === subCategoryID && chosenContentTitleID == null) {
+        const titleIDsGivenSubCategory = subCategoryIDToTitleIDs[chosenSubCategoryID];
+        return titleIDsGivenSubCategory.map((titleID) => {
+          const contentTitle = contentsTitleIDToValue[titleID];
+          return /* @__PURE__ */ import_react3.default.createElement("div", { className: "contents-rectangle", key: titleID }, /* @__PURE__ */ import_react3.default.createElement(
+            "div",
+            {
+              className: "content-title",
+              onClick: () => handleContentsTitleClick(titleID)
+            },
+            " ",
+            contentTitle
+          ));
+        });
+      }
+    }), chosenCategoryID === null || chosenSubCategoryID === null ? /* @__PURE__ */ import_react3.default.createElement("div", { className: "contents-rectangle" }) : "");
+  }
+
+  // src/js/ContentsContent.jsx
+  var import_react4 = __toESM(require_react());
 
   // node_modules/marked/lib/marked.esm.js
   function _getDefaults() {
@@ -25943,106 +26055,13 @@ ${content}</tr>
   var parser = _Parser.parse;
   var lexer = _Lexer.lex;
 
-  // src/js/index.jsx
-  var categoryIDToValue = {
-    "ideas": "Ideas",
-    "books": "Books"
-  };
-  var categoryIDTosubCategoriesIDs = {
-    "ideas": ["architecture"],
-    "books": ["psychology"]
-  };
-  var subCategoryIDToValue = {
-    "architecture": "Architecture",
-    "psychology": "Psychology"
-  };
-  var subCategoryIDToTitleIDs = {
-    "architecture": ["houseIdeas001"],
-    "psychology": ["courageToBeDisliked"]
-  };
-  var contentsTitleIDToValue = {
-    "houseIdeas001": "I Want To Build My Own House (0.0.1)",
-    "courageToBeDisliked": "Courage To Be Disliked"
-  };
-  var contentsTitleIDToContentsContentValue = {
-    "houseIdeas001": dreamHouse001_default,
-    "courageToBeDisliked": courageToBeDisliked_default
-  };
-  function Category({ setChosenCategory, setChosenSubCategory, setChosenContentTitle, chosenCategoryID }) {
-    const handleCategoryClick = (categoryID) => {
-      setChosenCategory(categoryID);
-      setChosenSubCategory(null);
-      setChosenContentTitle(null);
-    };
-    return /* @__PURE__ */ import_react.default.createElement("div", { className: "category-rectangle" }, Object.keys(categoryIDToValue).map((categoryID) => {
-      const categoryTitle = categoryIDToValue[categoryID];
-      return /* @__PURE__ */ import_react.default.createElement(
-        "div",
-        {
-          className: "category-title",
-          isselected: chosenCategoryID === categoryID ? "true" : "false",
-          key: categoryID,
-          onClick: () => handleCategoryClick(categoryID)
-        },
-        " ",
-        categoryTitle,
-        " "
-      );
-    }));
-  }
-  function SubCategory({ setChosenSubCategory, setChosenContentTitle, chosenCategoryID, chosenSubCategoryID }) {
-    const handleSubCategoryClick = (subCategoryID) => {
-      setChosenSubCategory(subCategoryID);
-      setChosenContentTitle(null);
-    };
-    return /* @__PURE__ */ import_react.default.createElement("div", { className: "subcategory-rectangle" }, Object.keys(categoryIDToValue).map((categoryID) => {
-      if (chosenCategoryID === categoryID) {
-        const subCategoriesIDGivenACategory = categoryIDTosubCategoriesIDs[categoryID];
-        return subCategoriesIDGivenACategory.map((subCategoryID) => {
-          const subCategoryTitle = subCategoryIDToValue[subCategoryID];
-          return /* @__PURE__ */ import_react.default.createElement(
-            "div",
-            {
-              className: "subcategory-title",
-              isselected: chosenSubCategoryID === subCategoryID ? "true" : "false",
-              key: subCategoryTitle,
-              onClick: () => handleSubCategoryClick(subCategoryID)
-            },
-            " ",
-            subCategoryTitle
-          );
-        });
-      }
-    }));
-  }
-  function ContentsTitle({ setChosenContentTitle, chosenCategoryID, chosenSubCategoryID, chosenContentTitleID }) {
-    const handleContentsTitleClick = (chosenContentTitleID2) => {
-      setChosenContentTitle(chosenContentTitleID2);
-    };
-    return /* @__PURE__ */ import_react.default.createElement(import_react.default.Fragment, null, Object.keys(subCategoryIDToTitleIDs).map((subCategoryID) => {
-      if (chosenSubCategoryID === subCategoryID && chosenContentTitleID == null) {
-        const titleIDsGivenSubCategory = subCategoryIDToTitleIDs[chosenSubCategoryID];
-        return titleIDsGivenSubCategory.map((titleID) => {
-          const contentTitle = contentsTitleIDToValue[titleID];
-          return /* @__PURE__ */ import_react.default.createElement("div", { className: "contents-rectangle", key: titleID }, /* @__PURE__ */ import_react.default.createElement(
-            "div",
-            {
-              className: "content-title",
-              onClick: () => handleContentsTitleClick(titleID)
-            },
-            " ",
-            contentTitle
-          ));
-        });
-      }
-    }), chosenCategoryID === null || chosenSubCategoryID === null ? /* @__PURE__ */ import_react.default.createElement("div", { className: "contents-rectangle" }) : "");
-  }
+  // src/js/ContentsContent.jsx
   function ContentsContent({ chosenContentTitleID }) {
-    return /* @__PURE__ */ import_react.default.createElement(import_react.default.Fragment, null, Object.keys(contentsTitleIDToContentsContentValue).map((contentTitleID) => {
+    return /* @__PURE__ */ import_react4.default.createElement(import_react4.default.Fragment, null, Object.keys(contentsTitleIDToContentsContentValue).map((contentTitleID) => {
       if (contentTitleID === chosenContentTitleID) {
         const contentTitle = contentsTitleIDToValue[contentTitleID];
         const contentValueGivenContentTitle = marked.parse(contentsTitleIDToContentsContentValue[contentTitleID]);
-        return /* @__PURE__ */ import_react.default.createElement("div", { className: "contents-rectangle", key: contentTitleID }, /* @__PURE__ */ import_react.default.createElement(
+        return /* @__PURE__ */ import_react4.default.createElement("div", { className: "contents-rectangle", key: contentTitleID }, /* @__PURE__ */ import_react4.default.createElement(
           "div",
           {
             className: "content-title",
@@ -26050,7 +26069,7 @@ ${content}</tr>
           },
           " ",
           contentTitle
-        ), /* @__PURE__ */ import_react.default.createElement(
+        ), /* @__PURE__ */ import_react4.default.createElement(
           "div",
           {
             className: "content-actual",
@@ -26060,11 +26079,13 @@ ${content}</tr>
       }
     }));
   }
+
+  // src/js/Blog.jsx
   function Blog() {
-    const [chosenCategoryID, setChosenCategory] = (0, import_react.useState)(null);
-    const [chosenSubCategoryID, setChosenSubCategory] = (0, import_react.useState)(null);
-    const [chosenContentTitleID, setChosenContentTitle] = (0, import_react.useState)(null);
-    return /* @__PURE__ */ import_react.default.createElement("div", { className: "rectangles-container" }, /* @__PURE__ */ import_react.default.createElement(
+    const [chosenCategoryID, setChosenCategory] = (0, import_react5.useState)(null);
+    const [chosenSubCategoryID, setChosenSubCategory] = (0, import_react5.useState)(null);
+    const [chosenContentTitleID, setChosenContentTitle] = (0, import_react5.useState)(null);
+    return /* @__PURE__ */ import_react5.default.createElement("div", { className: "rectangles-container" }, /* @__PURE__ */ import_react5.default.createElement(
       Category,
       {
         setChosenCategory,
@@ -26072,7 +26093,7 @@ ${content}</tr>
         setChosenContentTitle,
         chosenCategoryID
       }
-    ), /* @__PURE__ */ import_react.default.createElement(
+    ), /* @__PURE__ */ import_react5.default.createElement(
       SubCategory,
       {
         setChosenSubCategory,
@@ -26080,7 +26101,7 @@ ${content}</tr>
         chosenCategoryID,
         chosenSubCategoryID
       }
-    ), /* @__PURE__ */ import_react.default.createElement(
+    ), /* @__PURE__ */ import_react5.default.createElement(
       ContentsTitle,
       {
         setChosenContentTitle,
@@ -26088,16 +26109,18 @@ ${content}</tr>
         chosenSubCategoryID,
         chosenContentTitleID
       }
-    ), /* @__PURE__ */ import_react.default.createElement(
+    ), /* @__PURE__ */ import_react5.default.createElement(
       ContentsContent,
       {
         chosenContentTitleID
       }
     ));
   }
+
+  // src/js/index.jsx
   addEventListener("DOMContentLoaded", () => {
     const root = (0, import_client.createRoot)(document.querySelector("#root"));
-    root.render(/* @__PURE__ */ import_react.default.createElement(Blog, null));
+    root.render(/* @__PURE__ */ import_react6.default.createElement(Blog, null));
   });
 })();
 /*! Bundled license information:
