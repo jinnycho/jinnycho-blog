@@ -1,17 +1,21 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { createRoot } from 'react-dom/client';
-import dreamingHouse001Text from '../writings/ideas/architecture/dreamHouse001.md';
-import courageToBeDislikedText from '../writings/books/psychology/courageToBeDisliked.md';
-import { marked } from 'marked';
 import {
     BrowserRouter,
     Routes,
     Route,
     Link
 } from "react-router-dom";
-import Blog from "./Blog";
+import { Blog } from "./Blog";
 
 addEventListener('DOMContentLoaded', () => {
     const root = createRoot(document.querySelector('#root'));
-    // root.render(<Blog />);
+    root.render(<Blog />);
+    // root.render(
+        // <React.StrictMode>
+        //     <BrowserRouter>
+        //         <Blog />
+        //     </BrowserRouter>
+        // </React.StrictMode>
+    // );
 });
