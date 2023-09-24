@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Route, Routes } from "react-router-dom"
 import { Category } from "./Category";
 import { SubCategory } from "./SubCategory";
 import { ContentsTitle } from "./ContentsTitle";
@@ -10,24 +11,38 @@ export function Blog() {
     const [chosenContentTitleID, setChosenContentTitle] = useState(null);
 
     return (
-        <div className='rectangles-container'>
-            <Category
-                setChosenCategory={setChosenCategory}
-                setChosenSubCategory={setChosenSubCategory}
-                setChosenContentTitle={setChosenContentTitle}
-                chosenCategoryID={chosenCategoryID}/>
-            <SubCategory
-                setChosenSubCategory={setChosenSubCategory}
-                setChosenContentTitle={setChosenContentTitle}
-                chosenCategoryID={chosenCategoryID}
-                chosenSubCategoryID={chosenSubCategoryID}/>
-            <ContentsTitle
-                setChosenContentTitle={setChosenContentTitle}
-                chosenCategoryID={chosenCategoryID}
-                chosenSubCategoryID={chosenSubCategoryID}
-                chosenContentTitleID={chosenContentTitleID}/>
-            <ContentsContent
-                chosenContentTitleID={chosenContentTitleID}/>
-        </div>
+        <>
+            <div className='rectangles-container'>
+                <Category
+                    setChosenCategory={setChosenCategory}
+                    setChosenSubCategory={setChosenSubCategory}
+                    setChosenContentTitle={setChosenContentTitle}
+                    chosenCategoryID={chosenCategoryID}/>
+                <SubCategory
+                    setChosenSubCategory={setChosenSubCategory}
+                    setChosenContentTitle={setChosenContentTitle}
+                    chosenCategoryID={chosenCategoryID}
+                    chosenSubCategoryID={chosenSubCategoryID}/>
+
+            </div>
+            <Routes>
+                <Route path="/:categoryID" element={
+                    <Category
+                        setChosenCategory={setChosenCategory}
+                        setChosenSubCategory={setChosenSubCategory}
+                        setChosenContentTitle={setChosenContentTitle}
+                        chosenCategoryID={chosenCategoryID}
+                    />}
+                />
+                {/* <Route path="/:categoryIDpath/:subcategoryIDpath" element={
+                    <SubCategory 
+                        setChosenSubCategory={setChosenSubCategory}
+                        setChosenContentTitle={setChosenContentTitle}
+                        chosenCategoryID={chosenCategoryID}
+                        chosenSubCategoryID={chosenSubCategoryID}
+                    />}
+                /> */}
+            </Routes>
+        </>
     )
 }
