@@ -4,7 +4,7 @@ import dreamingHouse001Text from '../writings/ideas/architecture/dreamHouse001.m
 import courageToBeDislikedText from '../writings/books/psychology/courageToBeDisliked.md';
 import { marked } from 'marked';
 import {
-    BrowserRouter as Router,
+    BrowserRouter,
     Routes,
     Route,
     Link
@@ -13,5 +13,5 @@ import Blog from "./Blog";
 
 addEventListener('DOMContentLoaded', () => {
     const root = createRoot(document.querySelector('#root'));
-    root.render(<Blog />);
+    // root.render(<Blog />);
 });
