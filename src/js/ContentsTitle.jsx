@@ -1,10 +1,18 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
+import { useParams, Link } from "react-router-dom";
 import {
     subCategoryIDToTitleIDs,
     contentsTitleIDToValue,
 } from "./Config";
 
 export function ContentsTitle({setChosenContentTitle, chosenCategoryID, chosenSubCategoryID, chosenContentTitleID}) {
+    const { categoryIDPath, subCategoryIDPath, contentTitleIDPath } = useParams();
+    useEffect(() => {
+        if (contentTitleIDPath !== undefined) {
+            setChosenContentTitle(contentTitleIDPath);
+        }
+      }, [contentTitleIDPath]);    
+
     const handleContentsTitleClick = (chosenContentTitleID) => {
         setChosenContentTitle(chosenContentTitleID);
     };
@@ -17,10 +25,14 @@ export function ContentsTitle({setChosenContentTitle, chosenCategoryID, chosenSu
                 return (titleIDsGivenSubCategory.map((titleID) => {
                     const contentTitle = contentsTitleIDToValue[titleID];
                     return (
-                        <div className='contents-rectangle' key = { titleID }>
-                            <div className='content-title'
-                                onClick={() => handleContentsTitleClick(titleID)}> {contentTitle}
-                            </div>
+                        <div className='contents-rectangle' key={ titleID }>
+                            <Link 
+                                to={`/${categoryIDPath}/${subCategoryID}/${titleID}`}
+                            >
+                                <div className='content-title'
+                                    onClick={() => handleContentsTitleClick(titleID)}> {contentTitle}
+                                </div>
+                            </Link>
                         </div>
                     );
                 }));

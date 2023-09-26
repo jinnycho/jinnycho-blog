@@ -5,11 +5,15 @@ import {
 } from "./Config";
 
 export function Category({setChosenCategory, setChosenSubCategory, setChosenContentTitle, chosenCategoryID}) {
-    const { categoryID } = useParams();
-
+    const { categoryIDPath } = useParams();
     useEffect(() => {
-        console.log('categoryID from useParams():', categoryID);
-      }, [categoryID]);    
+        if (categoryIDPath !== undefined) {
+            setChosenCategory(categoryIDPath);
+            setChosenSubCategory(null);
+            setChosenContentTitle(null);
+        }
+    }, [categoryIDPath]);    
+
     const handleCategoryClick = (categoryID) => {
         setChosenCategory(categoryID);
         setChosenSubCategory(null);
@@ -21,10 +25,12 @@ export function Category({setChosenCategory, setChosenSubCategory, setChosenCont
         {Object.keys(categoryIDToValue).map((categoryID) => {
             const categoryTitle = categoryIDToValue[categoryID];
             return(
-                <Link to={`/${categoryID}`}>
+                <Link
+                    to={`/${categoryID}`}
+                    key={ categoryID }
+                >
                 <div className='category-title' 
                     isselected={ chosenCategoryID === categoryID ?  'true' :  'false' }
-                    key={ categoryID }
                     onClick={() => handleCategoryClick(categoryID)}> 
                         {categoryTitle}
                 </div>

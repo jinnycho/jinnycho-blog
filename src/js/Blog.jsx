@@ -13,36 +13,81 @@ export function Blog() {
     return (
         <>
             <div className='rectangles-container'>
-                <Category
-                    setChosenCategory={setChosenCategory}
-                    setChosenSubCategory={setChosenSubCategory}
-                    setChosenContentTitle={setChosenContentTitle}
-                    chosenCategoryID={chosenCategoryID}/>
-                <SubCategory
-                    setChosenSubCategory={setChosenSubCategory}
-                    setChosenContentTitle={setChosenContentTitle}
-                    chosenCategoryID={chosenCategoryID}
-                    chosenSubCategoryID={chosenSubCategoryID}/>
-
-            </div>
             <Routes>
-                <Route path="/:categoryID" element={
-                    <Category
-                        setChosenCategory={setChosenCategory}
-                        setChosenSubCategory={setChosenSubCategory}
-                        setChosenContentTitle={setChosenContentTitle}
-                        chosenCategoryID={chosenCategoryID}
-                    />}
+                <Route path="/" element={
+                    <>
+                        <Category
+                            setChosenCategory={setChosenCategory}
+                            setChosenSubCategory={setChosenSubCategory}
+                            setChosenContentTitle={setChosenContentTitle}
+                            chosenCategoryID={""} />
+                        <SubCategory
+                            setChosenSubCategory={setChosenSubCategory}
+                            setChosenContentTitle={setChosenContentTitle}
+                            chosenCategoryID={chosenCategoryID}
+                            chosenSubCategoryID={""} />
+                    </>
+                    }
                 />
-                {/* <Route path="/:categoryIDpath/:subcategoryIDpath" element={
-                    <SubCategory 
-                        setChosenSubCategory={setChosenSubCategory}
-                        setChosenContentTitle={setChosenContentTitle}
-                        chosenCategoryID={chosenCategoryID}
-                        chosenSubCategoryID={chosenSubCategoryID}
-                    />}
-                /> */}
+                <Route path="/:categoryIDPath" element={
+                    <>
+                        <Category
+                            setChosenCategory={setChosenCategory}
+                            setChosenSubCategory={setChosenSubCategory}
+                            setChosenContentTitle={setChosenContentTitle}
+                            chosenCategoryID={chosenCategoryID} />
+                        <SubCategory
+                            setChosenSubCategory={setChosenSubCategory}
+                            setChosenContentTitle={setChosenContentTitle}
+                            chosenCategoryID={chosenCategoryID}
+                            chosenSubCategoryID={""} />
+                    </>
+                    }
+                />
+                <Route path="/:categoryIDPath/:subCategoryIDPath" element={
+                    <>
+                        <Category
+                            setChosenCategory={setChosenCategory}
+                            setChosenSubCategory={setChosenSubCategory}
+                            setChosenContentTitle={setChosenContentTitle}
+                            chosenCategoryID={chosenCategoryID} />
+                        <SubCategory
+                            setChosenSubCategory={setChosenSubCategory}
+                            setChosenContentTitle={setChosenContentTitle}
+                            chosenCategoryID={chosenCategoryID}
+                            chosenSubCategoryID={chosenSubCategoryID} />
+                        <ContentsTitle
+                            setChosenContentTitle={setChosenContentTitle}
+                            chosenCategoryID={chosenCategoryID}
+                            chosenSubCategoryID={chosenSubCategoryID}
+                            chosenContentTitleID={chosenContentTitleID}/>
+                    </>
+                    }
+                />
+                <Route path="/:categoryIDPath/:subCategoryIDPath/:contentTitleIDPath" element={
+                    <>
+                        <Category
+                            setChosenCategory={setChosenCategory}
+                            setChosenSubCategory={setChosenSubCategory}
+                            setChosenContentTitle={setChosenContentTitle}
+                            chosenCategoryID={chosenCategoryID} />
+                        <SubCategory
+                            setChosenSubCategory={setChosenSubCategory}
+                            setChosenContentTitle={setChosenContentTitle}
+                            chosenCategoryID={chosenCategoryID}
+                            chosenSubCategoryID={chosenSubCategoryID} />
+                        <ContentsTitle
+                            setChosenContentTitle={setChosenContentTitle}
+                            chosenCategoryID={chosenCategoryID}
+                            chosenSubCategoryID={chosenSubCategoryID}
+                            chosenContentTitleID={chosenContentTitleID}/>
+                        <ContentsContent
+                            chosenContentTitleID={chosenContentTitleID}/>
+                    </>
+                    }
+                />
             </Routes>
+            </div>
         </>
     )
 }

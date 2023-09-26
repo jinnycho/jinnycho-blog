@@ -7,10 +7,13 @@ import {
 } from "./Config";
 
 export function SubCategory({setChosenSubCategory, setChosenContentTitle, chosenCategoryID, chosenSubCategoryID}) {
-    const { categoryID, subCategoryID } = useParams();
+    const { categoryIDPath, subCategoryIDPath } = useParams();
     useEffect(() => {
-        console.log('subCategoryID from useParams():', subCategoryID);
-      }, [subCategoryID]);    
+        if (subCategoryIDPath !== undefined) {
+            setChosenSubCategory(subCategoryIDPath);
+            setChosenContentTitle(null);
+        }
+    }, [subCategoryIDPath]);    
 
     // If the person clicks subcategory, ChosenContentTitle should be back to null too
     const handleSubCategoryClick = (subCategoryID) => {
@@ -26,10 +29,12 @@ export function SubCategory({setChosenSubCategory, setChosenContentTitle, chosen
                 return ( subCategoriesIDGivenACategory.map((subCategoryID) => {
                     const subCategoryTitle = subCategoryIDToValue[subCategoryID];
                     return (
-                        <Link to={`/${categoryID}/${subCategoryID}`}>
+                        <Link 
+                            to={`/${categoryID}/${subCategoryID}`}
+                            key={ subCategoryTitle }
+                        >
                         <div className='subcategory-title'
                             isselected={ chosenSubCategoryID === subCategoryID ?  'true' :  'false' }
-                            key={ subCategoryTitle }
                             onClick={() => handleSubCategoryClick(subCategoryID)}> {subCategoryTitle}
                         </div>
                         </Link>
