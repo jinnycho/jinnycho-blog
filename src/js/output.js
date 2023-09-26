@@ -25540,30 +25540,39 @@ My life has been the complete opposite of what this book has advised. According 
 
 If anyone is suffering from pain in the past, let's move on like goldfish. After all, we are humans who deserve to live freely.`;
 
+  // src/writings/create/woodworking/myFirstTable.md
+  var myFirstTable_default = "# The First Table I made\n## 2023/09/26\n\nI heard that my grandpa used to handcraft his own farming tools, some of which were built to last a lifetime. My mom mentioned that those were the best tools she had ever used. I remember she was very sad when they all somehow went missing after he passed away. The lesson I learned is that things you create from scratch last a lifetime and are very special. They become precious creations that grow more beautiful with time.\n\nI've always been interested in design and the process of creating something from scratch. Woodworking, in that sense, is fascinating because it allows you to transform rough wood into a beautiful creation that many people will appreciate. Being the creator of your own masterpiece, just like Jesus! (Fun fact: Jesus was a carpenter too.)\n\nWhile in Berlin for a month, I took a beginner woodworking class and became particularly interested in learning more joinery. And I made this table.\n\n![Table 1](https://github.com/jinnycho/jinnycho.github.io/blob/main/src/assets/photos/my_first_table_1.png?raw=true)\n\nI initially intended to use it as a laptop table but ended up using it as a plant holder.\n\nMy woodworking journey hasn't stopped! I plan to take more courses in Brooklyn, including both introductory woodworking and handtools. I'll post more updates here!\n";
+
   // src/js/Config.jsx
   var categoryIDToValue = {
     "ideas": "Ideas",
-    "books": "Books"
+    "books": "Books",
+    "create": "Create"
   };
   var categoryIDTosubCategoriesIDs = {
     "ideas": ["architecture"],
-    "books": ["psychology"]
+    "books": ["psychology"],
+    "create": ["woodworking"]
   };
   var subCategoryIDToValue = {
     "architecture": "Architecture",
-    "psychology": "Psychology"
+    "psychology": "Psychology",
+    "woodworking": "Woodworking"
   };
   var subCategoryIDToTitleIDs = {
     "architecture": ["houseIdeas001"],
-    "psychology": ["courageToBeDisliked"]
+    "psychology": ["courageToBeDisliked"],
+    "woodworking": ["myFirstTable"]
   };
   var contentsTitleIDToValue = {
     "houseIdeas001": "I Want To Build My Own House (0.0.1)",
-    "courageToBeDisliked": "Courage To Be Disliked"
+    "courageToBeDisliked": "Courage To Be Disliked",
+    "myFirstTable": "The First Table I Made"
   };
   var contentsTitleIDToContentsContentValue = {
     "houseIdeas001": dreamHouse001_default,
-    "courageToBeDisliked": courageToBeDisliked_default
+    "courageToBeDisliked": courageToBeDisliked_default,
+    "myFirstTable": myFirstTable_default
   };
 
   // src/js/Category.jsx
