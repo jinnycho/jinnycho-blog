@@ -25349,7 +25349,7 @@ Once this extensive list is satisfied and I find a place, I can then think about
 #### Exterior
 | Item | Criteria | Details |
 |:---:|:---:|:---:|
-| **Balcony** | \u{1F333}\u2699\uFE0F | With a balcony and additional sunshade, it will help keep the indoors cool in summer and warm in winter because the sun's position changes throughout the seasons. It will also give us easy access to wider views. |
+| **Balcony** | \u{1F333}\u2699\uFE0F | With a balcony and additional sunshade, it will help keep the indoors cool in summer and warm in winter. This is because in the summer, the sun is located higher in the sky, which means it won't significantly heat indoors. But in the winter, the sun is positioned lower, allowing us to enjoy its warmth indoors. It will also give us an easy access to wider views. |
 | **Raindrop windows** | \u{1F485}\u2699\uFE0F | Charles loves watching rain drops on the window during rainy days. |
 | **A-shaped roof** | \u{1F333}\u{1F485} | An A-shaped roof is more weather-resistant compared to a flat roof. |
 | **Solar panels** | \u{1F333} |  |
