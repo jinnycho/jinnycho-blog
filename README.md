@@ -13,3 +13,8 @@ or
 cd jinnycho.github.io
 python3 -m http.server 8000
 ```
+
+or 
+```
+ruby -rsinatra -e'set :public_folder, "."; set :port, 8000; not_found { File.read "index.html" }'
+```

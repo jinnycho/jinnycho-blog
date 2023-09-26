@@ -1,4 +1,5 @@
-import React, { useState } from 'react';
+import React from 'react';
+import { useParams, Link } from "react-router-dom";
 import { marked } from 'marked';
 import {
     contentsTitleIDToValue,
@@ -13,7 +14,7 @@ export function ContentsContent({chosenContentTitleID}) {
                 const contentTitle = contentsTitleIDToValue[contentTitleID];
                 const contentValueGivenContentTitle = marked.parse(contentsTitleIDToContentsContentValue[contentTitleID]);
                 return (
-                    <div className='contents-rectangle' key={ contentTitleID }>
+                    <div className='contents-rectangle' key = { contentTitleID }>
                         <div className='content-title'
                             isselected='true'> { contentTitle }
                         </div>
