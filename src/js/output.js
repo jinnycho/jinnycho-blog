@@ -25353,7 +25353,7 @@ Once this extensive list is satisfied and I find a place, I can then think about
 | **Raindrop windows** | \u{1F485}\u2699\uFE0F | Charles loves watching rain drops on the window during rainy days. |
 | **A-shaped roof** | \u{1F333}\u{1F485} | An A-shaped roof is more weather-resistant compared to a flat roof. |
 | **Solar panels** | \u{1F333} |  |
-| **Quality materials that age well** | \u{1F333}\u{1F485}\u2699\uFE0F | Need further investigation on what it can be. |
+| **Quality materials that age well** | \u{1F333}\u{1F485}\u2699\uFE0F | |
 | **Places to dry clothes & comforter** | \u{1F333}\u2699\uFE0F | It is highly energy-efficient, offers natural disinfection, and provides numerous other beneficial effects. |
 | **Sunlight** | \u{1F333}\u2699\uFE0F |  |
 | **Bouldering** | \u2699\uFE0F | Always thought it'd be cool to have one. |

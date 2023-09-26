@@ -34,7 +34,7 @@ Once this extensive list is satisfied and I find a place, I can then think about
 | **Raindrop windows** | 💅⚙️ | Charles loves watching rain drops on the window during rainy days. |
 | **A-shaped roof** | 🌳💅 | An A-shaped roof is more weather-resistant compared to a flat roof. |
 | **Solar panels** | 🌳 |  |
-| **Quality materials that age well** | 🌳💅⚙️ | Need further investigation on what it can be. |
+| **Quality materials that age well** | 🌳💅⚙️ | |
 | **Places to dry clothes & comforter** | 🌳⚙️ | It is highly energy-efficient, offers natural disinfection, and provides numerous other beneficial effects. |
 | **Sunlight** | 🌳⚙️ |  |
 | **Bouldering** | ⚙️ | Always thought it'd be cool to have one. |
