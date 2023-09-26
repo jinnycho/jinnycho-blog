@@ -7,7 +7,7 @@ I constantly find myself thinking about my ideal home and living situation, enga
 1. **Urban**: Easy access to many interesting people, job opportunities, good restaurants (especially Korean), cultural activities, exotic groceries, and fun hangouts with friends.
 2. **Nature**: Easy access to more space, nature, create, farm, grow, meditate, and hike.
 
-I separated them into two criteria because it's very challenging to find both in one place. I recently purchased a nice condo in Brooklyn, NY, which aligns perfectly with my first criterion so I will now focus on the second lifestyle aspect, 'Nature', in this blog post.
+I separated them into two criteria because it's very challenging to find both in one place. I am currently living in Brooklyn, which has been well in line with my first criterion so I will now focus on the second lifestyle aspect, 'Nature', in this blog post.
 
 ### Basic Requirements
 1. **Capital**: A lump sum of money to purchase land and build a house.
