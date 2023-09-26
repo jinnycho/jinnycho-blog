@@ -1,6 +1,6 @@
 import dreamingHouse001Text from '../writings/ideas/architecture/dreamHouse001.md';
 import courageToBeDislikedText from '../writings/books/psychology/courageToBeDisliked.md';
-import myFirstTableText from from '../writings/create/woodworking/myFirstTable.md';
+import myFirstTableText from '../writings/create/woodworking/myFirstTable.md';
 
 const categoryIDToValue = {
     'ideas': 'Ideas',
