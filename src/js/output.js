@@ -25543,27 +25543,33 @@ If anyone is suffering from pain in the past, let's move on like goldfish. After
   // src/js/Config.jsx
   var categoryIDToValue = {
     "ideas": "Ideas",
-    "books": "Books"
+    "books": "Books",
+    "create": "Create"
   };
   var categoryIDTosubCategoriesIDs = {
     "ideas": ["architecture"],
-    "books": ["psychology"]
+    "books": ["psychology"],
+    "create": ["woodworking"]
   };
   var subCategoryIDToValue = {
     "architecture": "Architecture",
-    "psychology": "Psychology"
+    "psychology": "Psychology",
+    "woodworking": "Woodworking"
   };
   var subCategoryIDToTitleIDs = {
     "architecture": ["houseIdeas001"],
-    "psychology": ["courageToBeDisliked"]
+    "psychology": ["courageToBeDisliked"],
+    "woodworking": ["myFirstTable"]
   };
   var contentsTitleIDToValue = {
     "houseIdeas001": "I Want To Build My Own House (0.0.1)",
-    "courageToBeDisliked": "Courage To Be Disliked"
+    "courageToBeDisliked": "Courage To Be Disliked",
+    "myFirstTable": "The First Table I Made"
   };
   var contentsTitleIDToContentsContentValue = {
     "houseIdeas001": dreamHouse001_default,
-    "courageToBeDisliked": courageToBeDisliked_default
+    "courageToBeDisliked": courageToBeDisliked_default,
+    "myFirstTable": myFirstTableText
   };
 
   // src/js/Category.jsx
