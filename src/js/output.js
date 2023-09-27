@@ -25393,7 +25393,7 @@ If I were to choose the most impactful book of this year, 'Courage to Be Dislike
 
 This idea aligns with Buddhism. The wise monk Huineng once said, 'Neither the wind nor the flag is moving.' When asked, 'Then what is it that is moving?' he replied, 'Your mind is moving.' 
 
-At the end of the day, the world is perceived through my eyes, and it is inherently subjective. This idea is refreshingly enlightening and invigorating because it empowers me to take the initiative to see the world more clearly and postively.
+At the end of the day, the world is perceived through my eyes, and it is inherently subjective. This idea is refreshingly enlightening and invigorating because it empowers me to take the initiative to see the world more postively.
 
 ### 2. Sick of "trauma" 
 > Who I am now (the effect) is determined by occurrences in the past (the causes) ... If we focus only on past causes and try to explain things soley through cause and effect, we end up with "determinism". Because what this says is that our present and future have already been decided by past occurrences, and are unalterable.
@@ -25536,9 +25536,9 @@ Having a horizontal-relationship mindset helps reflect on the relationships in m
 
 > There is no freedom in a feeling of contribution that is gained through the desire for recognition.
 
-My life has been the complete opposite of what this book has advised. According to the book, it will take half of the time I've lived to fully internalize its lessons, which means it will take 15 years. I'm grateful that I came across this book at a younger age and not when I was 60. I also want to express my gratitude once again to my high school friend who recommended this book to me.
+My life has been the complete opposite of what this book has advised. According to the book, it will take half of the time I've lived to fully internalize its lessons, which means it will take 15 years. I'm grateful that I came across this book at a younger age and not when I was 60. I also want to express my gratitude once again to my high school friend who recommended this book to me. If anyone is suffering from pain in the past, let's move on like goldfish!
 
-If anyone is suffering from pain in the past, let's move on like goldfish. After all, we are humans who deserve to live freely.`;
+I'll end this blog with a Cherokee story about two wolves. There's an ongoing battle inside each of us\u2014a fierce struggle between two wolves. One is evil, representing anger, envy, sorrow, regret, greed, arrogance, self-pity, guilt, resentment, inferiority, lies, false pride, superiority, and ego. The other is good, embodying joy, peace, love, hope, serenity, humility, kindness, benevolence, empathy, generosity, truth, compassion, and faith. The wolf that we feed ultimately wins.`;
 
   // src/writings/create/woodworking/myFirstTable.md
   var myFirstTable_default = "# The First Table I made\n## 2023/09/26\n\nI heard that my grandpa used to handcraft his own farming tools, some of which were built to last a lifetime. My mom mentioned that those were the best tools she had ever used. I remember she was very sad when they all somehow went missing after he passed away. The lesson I learned is that things you create are very special.\n\nI've always been interested in design and the process of creating something from scratch. Woodworking, in that sense, is fascinating because it allows you to transform rough wood into a beautiful creation that many people will appreciate. Being the creator of your own masterpiece, just like Jesus! (Fun fact: Jesus was a carpenter too.)\n\nWhile in Berlin for a month, I took a beginner woodworking class and became particularly interested in learning more joinery. And I made this table.\n\n![Table 1](https://github.com/jinnycho/jinnycho.github.io/blob/main/src/assets/photos/my_first_table_1.png?raw=true)\n\nI initially intended to use it as a laptop table but ended up using it as a plant holder.\n\nMy woodworking journey hasn't stopped! I plan to take more courses in Brooklyn, including both introductory woodworking and handtools. I'll post more updates here!\n";
