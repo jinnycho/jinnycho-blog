@@ -2,6 +2,7 @@ import dreamingHouse001Text from '../writings/ideas/architecture/dreamHouse001.m
 import courageToBeDislikedText from '../writings/books/psychology/courageToBeDisliked.md';
 import myFirstTableText from '../writings/hobbies/woodworking/myFirstTable.md';
 import myBlogHistoryText from '../writings/tech/create/myBlogHistory.md';
+import companyOfOneText from '../writings/books/entrepreneur/companyOfOne.md';
 
 const categoryIDToValue = {
     'ideas': 'Ideas',
@@ -12,7 +13,7 @@ const categoryIDToValue = {
 
 const categoryIDTosubCategoriesIDs = {
     'ideas': ['architecture'],
-    'books': ['psychology'],
+    'books': ['psychology', 'entrepreneur'],
     'hobbies': ['woodworking'],
     'tech': ['create'],
 };
@@ -22,6 +23,7 @@ const subCategoryIDToValue = {
     'psychology': 'Psychology',
     'woodworking': 'Woodworking',
     'create': 'Create',
+    'entrepreneur': 'Entrepreneur',
 }
 
 const subCategoryIDToTitleIDs = {
@@ -29,6 +31,7 @@ const subCategoryIDToTitleIDs = {
     'psychology': ['courageToBeDisliked'],
     'woodworking': ['myFirstTable'],
     'create': ['myBlogHistory'],
+    'entrepreneur': ['companyOfOne'],
 }
 
 const contentsTitleIDToValue = {
@@ -36,6 +39,7 @@ const contentsTitleIDToValue = {
     'courageToBeDisliked': 'Courage To Be Disliked',
     'myFirstTable': 'The First Table I Made',
     'myBlogHistory': 'The Evolution of My Blogging Journey',
+    'companyOfOne': 'Company Of One',
 }
 
 const contentsTitleIDToContentsContentValue = {
@@ -43,6 +47,7 @@ const contentsTitleIDToContentsContentValue = {
     'courageToBeDisliked': courageToBeDislikedText,
     'myFirstTable': myFirstTableText,
     'myBlogHistory': myBlogHistoryText,
+    'companyOfOne': companyOfOneText,
 }
 
 export {
