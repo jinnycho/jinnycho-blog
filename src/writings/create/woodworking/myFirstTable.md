@@ -7,7 +7,7 @@ I've always been interested in design and the process of creating something from
 
 While in Berlin for a month, I took a beginner woodworking class and became particularly interested in learning more joinery. And I made this table.
 
-![Table 1](https://github.com/jinnycho/jinnycho.github.io/blob/main/src/assets/photos/my_first_table_1.png?raw=true)
+![Table 1 alt ><](https://github.com/jinnycho/jinnycho.github.io/blob/main/src/assets/photos/my_first_table_1.png?raw=true)
 
 I initially intended to use it as a laptop table but ended up using it as a plant holder.
 
