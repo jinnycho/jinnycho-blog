@@ -26,6 +26,11 @@ export function Blog() {
                             setChosenContentTitle={setChosenContentTitle}
                             chosenCategoryID={chosenCategoryID}
                             chosenSubCategoryID={""} />
+                        <ContentsTitle
+                            setChosenContentTitle={setChosenContentTitle}
+                            chosenCategoryID={chosenCategoryID}
+                            chosenSubCategoryID={chosenSubCategoryID}
+                            chosenContentTitleID={chosenContentTitleID}/>
                     </>
                     }
                 />
@@ -41,6 +46,11 @@ export function Blog() {
                             setChosenContentTitle={setChosenContentTitle}
                             chosenCategoryID={chosenCategoryID}
                             chosenSubCategoryID={""} />
+                        <ContentsTitle
+                            setChosenContentTitle={setChosenContentTitle}
+                            chosenCategoryID={chosenCategoryID}
+                            chosenSubCategoryID={chosenSubCategoryID}
+                            chosenContentTitleID={chosenContentTitleID}/>
                     </>
                     }
                 />

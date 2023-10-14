@@ -27950,6 +27950,14 @@ ${content}</tr>
             chosenCategoryID,
             chosenSubCategoryID: ""
           }
+        ), /* @__PURE__ */ import_react5.default.createElement(
+          ContentsTitle,
+          {
+            setChosenContentTitle,
+            chosenCategoryID,
+            chosenSubCategoryID,
+            chosenContentTitleID
+          }
         ))
       }
     ), /* @__PURE__ */ import_react5.default.createElement(
@@ -27971,6 +27979,14 @@ ${content}</tr>
             setChosenContentTitle,
             chosenCategoryID,
             chosenSubCategoryID: ""
+          }
+        ), /* @__PURE__ */ import_react5.default.createElement(
+          ContentsTitle,
+          {
+            setChosenContentTitle,
+            chosenCategoryID,
+            chosenSubCategoryID,
+            chosenContentTitleID
           }
         ))
       }
