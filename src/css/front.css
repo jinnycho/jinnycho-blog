@@ -138,11 +138,12 @@ body {
 
 .email-input {
     font-family: monospace;
-    top:2px;
+    margin-right: 10px;
 }
 
 .email-submit-button {
     font-family: monospace;
+    cursor: pointer;
 }
 
 .close-div {
