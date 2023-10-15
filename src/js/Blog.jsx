@@ -4,6 +4,7 @@ import { Category } from "./Category";
 import { SubCategory } from "./SubCategory";
 import { ContentsTitle } from "./ContentsTitle";
 import { ContentsContent } from "./ContentsContent";
+import { Subscribe } from "./Subscribe";
 
 export function Blog() {
     const [chosenCategoryID, setChosenCategory] = useState(null);
@@ -12,6 +13,7 @@ export function Blog() {
 
     return (
         <>
+            <Subscribe />
             <div className='rectangles-container'>
             <Routes>
                 <Route path="/" element={
