@@ -79,4 +79,36 @@
 
 > When you treat your relationship with your customer base as simply transactional, you'll be preoccupied with how much you can sell them and how often. The more you begin to treat new customers as real relationships that you can grow and foster, and the more you can figure out how what you do can help them, them ore likely they are to want to stay on as customers. Customer success is the cornerstoneof a profitable company of one.
 
->
+> Even a company of one that doesn't want to grow much needs to constantly learn, adapt, and grow.
+
+### Right mindset
+> To succeed as a company of one, you have to have a real underlying purpose.
+
+> Company's success isdue to being a "responsible" company.
+
+> We're talking about who you work with, what you offer, where you focus your time and energy, and even how you define your audience. If your business is fully aligned with your purpose, you'll be more motivated to keep at it, even during the tough moments.
+
+> Purpose-based, values-driven companies outperform their counterparts in stock prices by a factor of twelve.
+
+> Your purpose is what drives you to succeed and defines what success is. It's not so much what you do as how and why you do it.
+
+### Passion myth
+> Purpose and passion are quite different.
+
+> Newport believese that we need to be craftspeople, focused on getting better and better at how we use our skills ... The craftsperson mind-set keeps you focused on what you can offer the world; the passion mind-set focuses instead on what the world can offer you.
+
+> Her passion came after her hard work - as a result of it - not the other way around. ... Passion doesn't preced mastery, but follows it.
+
+> Engaging work comprises four key components: clearly defined assignments, tasks you excel at, performance feedback, and work autonomy.
+
+> It's far easier to simply work at getting really good at something in demand, discovering how those skills can be applied to something else, and then testing your idea in a small way to see if it will pay.
+
+### Multitask myth
+
+> We now incorrectly assume that we must have numerous priorities and multitask to get ahead in business, even though working this way can deeply affect (and hurt) our productiviy.
+
+> Attempting to focus on more than one priority at at ime reduces productivity by as much as 40 percent.
+
+> In workplace, you have to be relentless in protecting your own schedule and workload.
+
+> Glei sugegests doing a productiviy audit once or twice a year: for a week or two, record what tasks you're working on, for how long, and where the big distractions lie. ... even create a "stop doing" list.
