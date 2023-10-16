@@ -36,4 +36,4 @@ Firstly, I abandoned the conventional mindmap style and transitioned into a more
 
 Engineering-wise, I definitely built it from scratch using JavaScript and CSS. However, I used React to manage various states, from user interactions to URL routing. Using `react-router` was particularly satisfying because it allowed me to link to a particular post with a URL like https://jinnycho.github.io/ideas/architecture/houseIdeas001. I also added a `Subscribe` button using `react-modal` and Cloudflare worker to notify readers when I write new blogs, with the hope that many people will see them. :D
 
-So far, I'm very satisfied. It finally feels like a good cozy homemade furniture that looks good and comfortable to me. But I want to give 4 stars because now I need to write more. Time to get to work!
+So far, I'm very satisfied. It finally feels like a good cozy handmade furniture that looks good and comfortable to me. But I want to give 4 stars because now I need to write more. Time to get to work!
