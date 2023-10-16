@@ -27811,39 +27811,48 @@ My life has been the complete opposite of what this book has advised. According 
 
 I'll end this blog with a Cherokee story about two wolves. There's an ongoing battle inside each of us\u2014a fierce struggle between two wolves. One is evil, representing anger, envy, sorrow, regret, greed, arrogance, self-pity, guilt, resentment, inferiority, lies, false pride, superiority, and ego. The other is good, embodying joy, peace, love, hope, serenity, humility, kindness, benevolence, empathy, generosity, truth, compassion, and faith. The wolf that we feed ultimately wins.`;
 
-  // src/writings/create/woodworking/myFirstTable.md
+  // src/writings/hobbies/woodworking/myFirstTable.md
   var myFirstTable_default = "# The First Table I made\n## 2023/09/26\n\nI heard that my grandpa used to handcraft his own farming tools, some of which were built to last a lifetime. My mom mentioned that those were the best tools she had ever used. I remember she was very sad when they all somehow went missing after he passed away. The lesson I learned is that things you create are very special.\n\nI've always been interested in design and the process of creating something from scratch. Woodworking, in that sense, is fascinating because it allows you to transform rough wood into a beautiful creation that many people will appreciate. Being the creator of your own masterpiece. (Fun fact: Jesus was a carpenter too.)\n\nWhile in Berlin for a month, I took a beginner woodworking class and became particularly interested in learning more joinery. And I made this table.\n\n![Table 1 alt ><](https://github.com/jinnycho/jinnycho.github.io/blob/main/src/assets/photos/my_first_table_1.png?raw=true)\n\nI initially intended to use it as a laptop table but ended up using it as a plant holder.\n\nMy woodworking journey hasn't stopped! I plan to take more courses in Brooklyn, including both introductory woodworking and handtools. I'll post more updates here!\n";
+
+  // src/writings/tech/create/myBlogHistory.md
+  var myBlogHistory_default = "# The Evolution of My Blogging Journey\n## 2023/10/15\nBelieve it or not, my blogging history goes back 5 years, with changes almost every year. I wanted to share my likes, dislikes, and how I created my all-time favorite version.\n\n### What I was looking for\n1. I want my blog to look unique & well designed.\n2. I want to write many blogs that are well organized.\n3. I'd love to have full control to add or change things on my blog as I go. (e.g. subscription)\n\n### Version 1 \u2605\u2606\u2606\u2606\u2606\nI used a static site generator called [Hugo](https://gohugo.io/). It was very well-documented and easy to set up with many interesting templates to choose from. The blog itself was loaded fast too. However, it was quite tricky to customize anything (at least at that time). All the 'templates' they offered were quite boring as well, to be honest. I didn't feel attached to it and quickly grew bored over time; it felt more like mass-produced IKEA furniture rather than a handmade piece, if that makes sense.\n### Version 2 \u2605\u2605\u2606\u2606\u2606\n";
 
   // src/js/Config.jsx
   var categoryIDToValue = {
     "ideas": "Ideas",
     "books": "Books",
-    "create": "Create"
+    "hobbies": "Hobbies",
+    "tech": "Tech"
   };
   var categoryIDTosubCategoriesIDs = {
     "ideas": ["architecture"],
     "books": ["psychology"],
-    "create": ["woodworking"]
+    "hobbies": ["woodworking"],
+    "tech": ["create"]
   };
   var subCategoryIDToValue = {
     "architecture": "Architecture",
     "psychology": "Psychology",
-    "woodworking": "Woodworking"
+    "woodworking": "Woodworking",
+    "create": "Create"
   };
   var subCategoryIDToTitleIDs = {
     "architecture": ["houseIdeas001"],
     "psychology": ["courageToBeDisliked"],
-    "woodworking": ["myFirstTable"]
+    "woodworking": ["myFirstTable"],
+    "create": ["myBlogHistory"]
   };
   var contentsTitleIDToValue = {
     "houseIdeas001": "I Want To Build My Own House (0.0.1)",
     "courageToBeDisliked": "Courage To Be Disliked",
-    "myFirstTable": "The First Table I Made"
+    "myFirstTable": "The First Table I Made",
+    "myBlogHistory": "The Evolution of My Blogging Journey"
   };
   var contentsTitleIDToContentsContentValue = {
     "houseIdeas001": dreamHouse001_default,
     "courageToBeDisliked": courageToBeDisliked_default,
-    "myFirstTable": myFirstTable_default
+    "myFirstTable": myFirstTable_default,
+    "myBlogHistory": myBlogHistory_default
   };
 
   // src/js/Category.jsx
