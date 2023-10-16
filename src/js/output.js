@@ -27818,7 +27818,88 @@ I'll end this blog with a Cherokee story about two wolves. There's an ongoing ba
   var myBlogHistory_default = "# The Evolution of My Blogging Journey\n## 2023/10/15\nBelieve it or not, my blogging history goes back 5 years, with changes almost every year. I wanted to share my likes, dislikes, and how I created my all-time favorite version.\n\n### What I was looking for\n1. I want my blog to look unique & well designed.\n2. I want to write many blogs that are well organized.\n3. I'd love to have full control to add or change things on my blog as I go. (e.g. subscription)\n\n### Version 1 \u2605\u2606\u2606\u2606\u2606\nI used a static site generator called [Hugo](https://gohugo.io/). It was very well-documented and easy to set up with many interesting templates to choose from. The blog itself was loaded fast too. \n\nHowever, it was quite tricky to customize anything (at least at that time). All the 'templates' they offered were quite boring as well, to be honest. I didn't feel attached to it and quickly grew bored over time; it felt more like mass-produced IKEA furniture rather than a handmade piece, if that makes sense.\n\n![Blog version 2 alt ><](https://github.com/jinnycho/jinnycho.github.io/blob/main/src/assets/photos/blog1.jpeg?raw=true)\n\n\n### Version 2 \u2605\u2605\u2606\u2606\u2606\nMy second version was driven by my strong desire to have a very unique and artistic blog of my own. I just used good old `javascript` and `CSS`. I was largely inspired by early 2000s web style and I was a huge fan of pixel fonts. I also coded using [p5.js](https://p5js.org/) for the cool 3D effects on the front page because I liked the way it looks.\n\nHowever, I instinctively felt that I really needed better content organization. I was like, 'Should I use tags? Should I add a search engine?' I was worried about what would happen if I had 100 blog posts, even though I had only written 4. I also found that the web aesthetics of the 2000s with chunky pixel fonts were a bit hard to read. It felt like avant-garde design furniture, yet it wasn't particularly comfortable.\n\n![Blog version 2 alt ><](https://github.com/jinnycho/jinnycho.github.io/blob/main/src/assets/photos/blog2.png?raw=true)\n\n### Version 3 \u2605\u2605\u2605\u2606\u2606\nI focused a lot more on improving the content organization for the version 3. Charles inspired me to consider the mind map style and that's what I did. I continued to use `javascript` & `CSS`.\n\nHowever, the mindmap style turned out to be quite challenging. First, positioning each circle was not easy. Plus, as I added more circles, things started to look messy and harder to navigate. It looked worse on the mobile or smaller screen.\n\n![Blog version 3 alt ><](https://github.com/jinnycho/jinnycho.github.io/blob/main/src/assets/photos/blog3.png?raw=true)\n\n### Version 4 \u2605\u2605\u2605\u2605\u2606\nSo here we are, I did another major redesign & refacturing of the code. \n\nFirstly, I abandoned the conventional mindmap style and transitioned into a more tabular layout. Then I introduced the concept of categories and subcategories to efficiently organize my blogs. I still kept the 2000s web aesthetics with programmer fonts, but I dialed it back to make it less overwhelming.\n\nEngineering-wise, I definitely built it from scratch using `javascript` and `CSS`. However, I additionally used `React` to manage various states, from user interactions to URL routing. Using `react-router` was particularly satisfying because it allowed me to link to a particular post with a [URL like this](https://jinnycho.github.io/ideas/architecture/houseIdeas001). I also added a Subscribe button using `react-modal` and Cloudflare worker to notify readers when I write new blogs, with the hope that many people will see them. :D\n\nSo far, I'm very satisfied. It finally feels like a good cozy handmade furniture that looks good and comfortable to me. But I want to give 4 stars because now I need to write more. Time to get to work!";
 
   // src/writings/books/entrepreneur/companyOfOne.md
-  var companyOfOne_default = "# Company Of One\n## 2023/10/01\n";
+  var companyOfOne_default = `# Company Of One
+## 2023/10/16
+
+> But scaling up might not be the best or smartest solution to the basic problem. What if you acquired more customers simply by creating more efficiency so you didn't have to hire more people?
+
+> Blind growth is the main cause of buisness problems. It can leave you with an unmaintainable number of employees, unsustainable cost, and more work than hours in a day. It can force you to lay off employees, sell your company at a less than optimal price, or, even worse, close up shop completely.
+
+> The word "intrapreneur" points to one example of a company of one within a larger organization. It describes corporate leaders who come up with their own goals and then execute them. They don't need much direction, micromanaging, or oversight, as they've been given full work autonomy. They know what needs doing and they just do it.
+
+> Many large corporations have companies of one hiding within them. If the skills and passion for innovation and autonomy of these employees are fostered, it can greatly benefit the entire business as a whole. But if they are stifled in their creativeness and freethinking, they tend to move on quickly to other employemnt or entrepreneurialism.
+
+> A company of one questions growth first, and then resists it if there's a better, smarter way forwrad.
+
+> Being or becoming a company of one has a lot to do with resilience: the capacity and fortitude to recover quickly from difficulties.
+
+> The first trait that resilient people have is an acceptance of reality. They don't need for things to be a certain way and don't engage in wishful thinking. ... They have a down-to-earth view that most of what happens in our lives is not entirely within our control and the best we can do is to steer the boat a little as we float down the river of life.
+
+> The second characteristic of resilietn people is a sense of purpose - being motivated by a sense of meaning rather than by just money.
+
+> The last trait of resilietn people in a company of one is the ability to adapt when things change - because they invariably do.
+
+> The ability to creatively solve problems in new and unique ways without throwing "more" at the problem.
+
+> These traits for resilience are absolutely learnable.
+
+> But to achieve autonomy as a company of one, you have to be a master at your core skill set. Competence and autonomy are tied together.
+
+> Achieving control over a company of one requires more than just using the core skill you are hired for. It also requires proficiency at sales, marketing, project management, and client retention.
+
+> Companies of one question their systems, processes, and structure to become more efficient and to achieve more with the same number of employees and fewer hours of work.
+
+> For a company of one at any size, simple rules, simple processes, and simple solutions typically win. ... After a few years of adding steps here and there, a task once took a handful of steps now requires sign-off by 6 depertment heads, a legal review, and a dozen or more meetings with stakeholders.
+
+> Is thies process efficient enough? What stesp can be removed and the end result will be the same or better? Is this rule helping or hindering our business?
+
+> success can be personally defined, and that whiel profit and sustainability are absolutely important to a business, they aren't the only driving forces, metrics, or factors in business success.
+
+> Sean is easily able to meet his $500k per year profit goal, not through marketing and promotion, but by paying close attention to his existing customer base.
+
+> Companies need to focus on becoming better instead of simply growing bigger.
+
+> The Kauffman Foundation study also illustrated that almost 86 percent of companies that succeeded in the long term did not take VC money.
+
+> Quite simply, the days of throwing retirement parties for employees of 50 years and sending them off with a gold watch and a great pension are long gone.
+
+> Although the mostly white, wealthy, and male leadership preached total inclusivity and open values to their communities, she was constantly met with resistence on her own career growth.
+
+> Growth feeds our ego and social standing.
+
+> Who we are and what we actually want become overshadowed when we internally compare ourselves to others.
+
+> Envy also takes the focus off your work, your business, and your customers.
+
+> Introverted leaders, especailyl when they are manging skilled and proactive teams, can be highly successful.
+
+> Any leaders who listen carefully and are receptive to smart and useful suggestions from their team, whether they're introverted ro not, can build the trust required to earn cooperation.
+
+> Introducing more processes and structure helped fewer people accomplish more - while allowing them the autonomy to solve problems in their own way, using a common tool set.
+
+> The problem is not so much employees taking advantage of perks like flex hours or remote work, but leaders assuming that they need to give less direction. A leader's job is to provide clear direction and then get out of the way.
+
+> Decision making can be mentally taxing and draining, and when that happens, many people start to make bad decisions because they're tired of deciding. By scaling down large, stressful decisions into smaller, more digestible decisions, you can choose a direction more quickly, in a smarter way, and with less stress involved.
+
+> Hansson despises this paradigm of working more as the only way to be succesful. ... Companies need to stop hustling and should encourage their employees to focus on accepting that there's life outside of work, that thers' real usefulness to sleep and recuperation, and that their work habits should be much calmer.
+
+> Power is a tumor that ends up killing its victims' sympathies. ... The qualities that lead to the leadership roles we achive are the exact qualities that diminish once leadership roles are attained.
+
+> Empathy, self-awareness, transparency, and gratitude in growing into and, more importantly, maintaining a healthy leadership role.
+
+> Empathy is feeling with people ... In many quickly growing companies, however, leaders feel that they are required to detach from human relationships and focus on using people as resources to achieve necessary growth by any means necessary. The problem is that a leader who stops feeling what is either motivating or demotivating within their team stops being able to lead. ***
+
+> By decreasing the number of subscription cancellations, Magazines.com would see better profits and gains than it would by trying to increase the number of subscribers. ... from constantly searching for new customerse to making sure existing customers were so please with their service that they'd renew for another year.
+
+> Most companies grow for four reasons: inflation, investors, churn, and ego.
+
+> Scale it down to what can be done right now, on the cheap and fast, and then iterated upon.
+
+> Automation can happen later. Scale, if desired, can happen later. Infrastructure and process can happen later. Focus on where you can test the waters without a massive investment of time or money, and then pay attention to what happens when casual contacts turn into customers.
+
+> When you treat your relationship with your customer base as simply transactional, you'll be preoccupied with how much you can sell them and how often. The more you begin to treat new customers as real relationships that you can grow and foster, and the more you can figure out how what you do can help them, them ore likely they are to want to stay on as customers. Customer success is the cornerstoneof a profitable company of one.
+
+>`;
 
   // src/js/Config.jsx
   var categoryIDToValue = {
