@@ -163,6 +163,7 @@ body {
     border: 1px solid var(--rectangle-color);
     background-color: var(--background-white);
     font-family: monospace;
+    z-index: 1; /* Add this line */
 }
 
 .subscribe-form-button:hover {

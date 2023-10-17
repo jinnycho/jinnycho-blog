@@ -27931,7 +27931,34 @@ I'll end this blog with a Cherokee story about two wolves. There's an ongoing ba
 
 > In workplace, you have to be relentless in protecting your own schedule and workload.
 
-> Glei sugegests doing a productiviy audit once or twice a year: for a week or two, record what tasks you're working on, for how long, and where the big distractions lie. ... even create a "stop doing" list.`;
+> Glei sugegests doing a productiviy audit once or twice a year: for a week or two, record what tasks you're working on, for how long, and where the big distractions lie. ... even create a "stop doing" list.
+
+> Creating the image of busyness may be all the rage in startup and corporate culture, but the busier we are, the less space we have to think and be cretive in solving the problems that companies of one need to solve.
+
+> The social badge of honor for alwayas being busy and always working has no rewards past bragging rights.
+
+> attention is the most important currency anyone can give a business, and thatattention is worth more than revenue or possessions.
+
+> You need to learn how to elicit a strong emotional response to your business, and the personality of your brand, beecause while it's easy to forget or lose interest in information, it's much harder to forget strong emotion.
+
+### Vanilla
+> being vanilla isn't going to allow you or your work to stand out
+
+> showing an audience why they should believe in what you're marketing enough to want it at any cost, simply because they agree with what you're doing.
+
+> we should proudly exclude people, because we can't please everyone. ... if we try to appeal to everyone, we won't appeal to anyone in particular, muddying our message. ... "one size fits all" approach rarely works and often leads to mediocrity.
+
+> To be a polarizing company of one, you can look into 3 strategies. The first if _placation_: trying to change the minds of the so-called haters, ... the second strategy is _padding_: by intentionally antagonizing haters, you may sway neutral customers into becoming supporters ... the third strategy is _amplification_: singling out a single characteristic and leaning heavily on it.
+
+> There's overwhelming evidence that treating customers well, as if they're your one and only customer, drives values to your bottom line.
+
+> CDBaby focuses on treating its customers like friends, and friends don't route their personal phone number to an automated system that says "your call is important to us, please continue to hold".
+
+> Keeping customers happy and helping them succeed reduce churn, increasing the likelihood of repeat business, even help in winning new business.
+
+> resounding number of profitable innovations within companies have originated with customers.
+
+> Customer happiness is the new marketing. If your customer `;
 
   // src/js/Config.jsx
   var categoryIDToValue = {
