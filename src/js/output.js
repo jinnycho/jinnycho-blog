@@ -27933,10 +27933,94 @@ I'll end this blog with a Cherokee story about two wolves. There's an ongoing ba
   }
 
   // src/js/ContentsTitle.jsx
+  var import_react5 = __toESM(require_react());
+
+  // src/js/Subscribe.jsx
+  var import_react4 = __toESM(require_react());
+
+  // src/js/EmailInputModal.jsx
   var import_react3 = __toESM(require_react());
+  var import_react_modal = __toESM(require_lib());
+  var customStyles = {
+    content: {
+      top: "50%",
+      left: "50%",
+      right: "auto",
+      bottom: "auto",
+      marginRight: "-50%",
+      transform: "translate(-50%, -50%)"
+    }
+  };
+  function EmailInputModal({ isOpen, onRequestClose, onSubmit }) {
+    const [email, setEmail] = (0, import_react3.useState)("");
+    const handleSubmit = () => {
+      onSubmit(email);
+    };
+    return /* @__PURE__ */ import_react3.default.createElement(
+      import_react_modal.default,
+      {
+        isOpen,
+        onRequestClose,
+        style: customStyles,
+        contentLabel: "Email Input Modal"
+      },
+      /* @__PURE__ */ import_react3.default.createElement(
+        "input",
+        {
+          className: "email-input",
+          type: "email",
+          placeholder: "Your Email",
+          value: email,
+          onChange: (e) => setEmail(e.target.value)
+        }
+      ),
+      /* @__PURE__ */ import_react3.default.createElement("button", { onClick: handleSubmit, className: "email-submit-button" }, "Submit"),
+      /* @__PURE__ */ import_react3.default.createElement("div", { className: "close-div" }, /* @__PURE__ */ import_react3.default.createElement("i", { className: "close", onClick: onRequestClose }))
+    );
+  }
+
+  // src/js/Subscribe.jsx
+  function Subscribe() {
+    const [isModalOpen, setIsModalOpen] = (0, import_react4.useState)(false);
+    const openEmailInputModal = () => {
+      setIsModalOpen(true);
+    };
+    const closeModal = () => {
+      setIsModalOpen(false);
+    };
+    async function handleEmailSubmit(email) {
+      closeModal();
+      const emailData = {
+        "email": email
+      };
+      const response = await fetch("https://my-blog-subscribe.eunjincho503.workers.dev", {
+        method: "POST",
+        mode: "no-cors",
+        cache: "no-cache",
+        credentials: "same-origin",
+        headers: {
+          "Content-Type": "application/json"
+        },
+        redirect: "follow",
+        referrerPolicy: "no-referrer",
+        body: JSON.stringify(emailData)
+      });
+    }
+    ;
+    return /* @__PURE__ */ import_react4.default.createElement(import_react4.default.Fragment, null, /* @__PURE__ */ import_react4.default.createElement("button", { className: "subscribe-form-button", onClick: openEmailInputModal }, " Subscribe "), /* @__PURE__ */ import_react4.default.createElement(
+      EmailInputModal,
+      {
+        isOpen: isModalOpen,
+        onRequestClose: closeModal,
+        onSubmit: handleEmailSubmit
+      }
+    ));
+  }
+
+  // src/js/ContentsTitle.jsx
   function ContentsTitle({ setChosenContentTitle, chosenCategoryID, chosenSubCategoryID, chosenContentTitleID }) {
     const { categoryIDPath, subCategoryIDPath, contentTitleIDPath } = useParams();
-    (0, import_react3.useEffect)(() => {
+    (0, import_react5.useEffect)(() => {
       if (contentTitleIDPath !== void 0) {
         setChosenContentTitle(contentTitleIDPath);
       }
@@ -27944,17 +28028,17 @@ I'll end this blog with a Cherokee story about two wolves. There's an ongoing ba
     const handleContentsTitleClick = (chosenContentTitleID2) => {
       setChosenContentTitle(chosenContentTitleID2);
     };
-    return /* @__PURE__ */ import_react3.default.createElement(import_react3.default.Fragment, null, Object.keys(subCategoryIDToTitleIDs).map((subCategoryID) => {
+    return /* @__PURE__ */ import_react5.default.createElement(import_react5.default.Fragment, null, Object.keys(subCategoryIDToTitleIDs).map((subCategoryID) => {
       if (chosenSubCategoryID === subCategoryID && chosenContentTitleID == null) {
         const titleIDsGivenSubCategory = subCategoryIDToTitleIDs[chosenSubCategoryID];
         return titleIDsGivenSubCategory.map((titleID) => {
           const contentTitle = contentsTitleIDToValue[titleID];
-          return /* @__PURE__ */ import_react3.default.createElement("div", { className: "contents-rectangle", key: titleID }, /* @__PURE__ */ import_react3.default.createElement(
+          return /* @__PURE__ */ import_react5.default.createElement("div", { className: "contents-rectangle", key: titleID }, /* @__PURE__ */ import_react5.default.createElement(Subscribe, null), /* @__PURE__ */ import_react5.default.createElement(
             Link,
             {
               to: `/${categoryIDPath}/${subCategoryID}/${titleID}`
             },
-            /* @__PURE__ */ import_react3.default.createElement(
+            /* @__PURE__ */ import_react5.default.createElement(
               "div",
               {
                 className: "content-title",
@@ -27966,11 +28050,11 @@ I'll end this blog with a Cherokee story about two wolves. There's an ongoing ba
           ));
         });
       }
-    }), chosenCategoryID === null || chosenSubCategoryID === null ? /* @__PURE__ */ import_react3.default.createElement("div", { className: "contents-rectangle" }) : "");
+    }), chosenCategoryID === null || chosenSubCategoryID === null ? /* @__PURE__ */ import_react5.default.createElement("div", { className: "contents-rectangle" }, /* @__PURE__ */ import_react5.default.createElement(Subscribe, null)) : "");
   }
 
   // src/js/ContentsContent.jsx
-  var import_react4 = __toESM(require_react());
+  var import_react6 = __toESM(require_react());
 
   // node_modules/marked/lib/marked.esm.js
   function _getDefaults() {
@@ -30182,11 +30266,11 @@ ${content}</tr>
 
   // src/js/ContentsContent.jsx
   function ContentsContent({ chosenContentTitleID }) {
-    return /* @__PURE__ */ import_react4.default.createElement(import_react4.default.Fragment, null, Object.keys(contentsTitleIDToContentsContentValue).map((contentTitleID) => {
+    return /* @__PURE__ */ import_react6.default.createElement(import_react6.default.Fragment, null, Object.keys(contentsTitleIDToContentsContentValue).map((contentTitleID) => {
       if (contentTitleID === chosenContentTitleID) {
         const contentTitle = contentsTitleIDToValue[contentTitleID];
         const contentValueGivenContentTitle = marked.parse(contentsTitleIDToContentsContentValue[contentTitleID]);
-        return /* @__PURE__ */ import_react4.default.createElement("div", { className: "contents-rectangle", key: contentTitleID }, /* @__PURE__ */ import_react4.default.createElement(
+        return /* @__PURE__ */ import_react6.default.createElement("div", { className: "contents-rectangle", key: contentTitleID }, /* @__PURE__ */ import_react6.default.createElement(Subscribe, null), /* @__PURE__ */ import_react6.default.createElement(
           "div",
           {
             className: "content-title",
@@ -30194,7 +30278,7 @@ ${content}</tr>
           },
           " ",
           contentTitle
-        ), /* @__PURE__ */ import_react4.default.createElement(
+        ), /* @__PURE__ */ import_react6.default.createElement(
           "div",
           {
             className: "content-actual",
@@ -30205,94 +30289,12 @@ ${content}</tr>
     }));
   }
 
-  // src/js/Subscribe.jsx
-  var import_react6 = __toESM(require_react());
-
-  // src/js/EmailInputModal.jsx
-  var import_react5 = __toESM(require_react());
-  var import_react_modal = __toESM(require_lib());
-  var customStyles = {
-    content: {
-      top: "50%",
-      left: "50%",
-      right: "auto",
-      bottom: "auto",
-      marginRight: "-50%",
-      transform: "translate(-50%, -50%)"
-    }
-  };
-  function EmailInputModal({ isOpen, onRequestClose, onSubmit }) {
-    const [email, setEmail] = (0, import_react5.useState)("");
-    const handleSubmit = () => {
-      onSubmit(email);
-    };
-    return /* @__PURE__ */ import_react5.default.createElement(
-      import_react_modal.default,
-      {
-        isOpen,
-        onRequestClose,
-        style: customStyles,
-        contentLabel: "Email Input Modal"
-      },
-      /* @__PURE__ */ import_react5.default.createElement(
-        "input",
-        {
-          className: "email-input",
-          type: "email",
-          placeholder: "Your Email",
-          value: email,
-          onChange: (e) => setEmail(e.target.value)
-        }
-      ),
-      /* @__PURE__ */ import_react5.default.createElement("button", { onClick: handleSubmit, className: "email-submit-button" }, "Submit"),
-      /* @__PURE__ */ import_react5.default.createElement("div", { className: "close-div" }, /* @__PURE__ */ import_react5.default.createElement("i", { className: "close", onClick: onRequestClose }))
-    );
-  }
-
-  // src/js/Subscribe.jsx
-  function Subscribe() {
-    const [isModalOpen, setIsModalOpen] = (0, import_react6.useState)(false);
-    const openEmailInputModal = () => {
-      setIsModalOpen(true);
-    };
-    const closeModal = () => {
-      setIsModalOpen(false);
-    };
-    async function handleEmailSubmit(email) {
-      closeModal();
-      const emailData = {
-        "email": email
-      };
-      const response = await fetch("https://my-blog-subscribe.eunjincho503.workers.dev", {
-        method: "POST",
-        mode: "no-cors",
-        cache: "no-cache",
-        credentials: "same-origin",
-        headers: {
-          "Content-Type": "application/json"
-        },
-        redirect: "follow",
-        referrerPolicy: "no-referrer",
-        body: JSON.stringify(emailData)
-      });
-    }
-    ;
-    return /* @__PURE__ */ import_react6.default.createElement(import_react6.default.Fragment, null, /* @__PURE__ */ import_react6.default.createElement("button", { className: "subscribe-form-button", onClick: openEmailInputModal }, " Subscribe "), /* @__PURE__ */ import_react6.default.createElement(
-      EmailInputModal,
-      {
-        isOpen: isModalOpen,
-        onRequestClose: closeModal,
-        onSubmit: handleEmailSubmit
-      }
-    ));
-  }
-
   // src/js/Blog.jsx
   function Blog() {
     const [chosenCategoryID, setChosenCategory] = (0, import_react7.useState)(null);
     const [chosenSubCategoryID, setChosenSubCategory] = (0, import_react7.useState)(null);
     const [chosenContentTitleID, setChosenContentTitle] = (0, import_react7.useState)(null);
-    return /* @__PURE__ */ import_react7.default.createElement(import_react7.default.Fragment, null, /* @__PURE__ */ import_react7.default.createElement(Subscribe, null), /* @__PURE__ */ import_react7.default.createElement("div", { className: "rectangles-container" }, /* @__PURE__ */ import_react7.default.createElement(Routes, null, /* @__PURE__ */ import_react7.default.createElement(
+    return /* @__PURE__ */ import_react7.default.createElement(import_react7.default.Fragment, null, /* @__PURE__ */ import_react7.default.createElement("div", { className: "rectangles-container" }, /* @__PURE__ */ import_react7.default.createElement(Routes, null, /* @__PURE__ */ import_react7.default.createElement(
       Route,
       {
         path: "/",
