@@ -26,6 +26,40 @@ body {
     min-height: 500px;
 }
 
+@media screen and (max-width: 700px) {
+    .rectangles-container {
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        margin-top: 1vh;
+        margin-left: 1vw;
+        height: inherit;
+        width: 90vw;
+        min-width: inherit;
+        min-height: inherit;
+    }
+
+    html .category-rectangle,
+    html .subcategory-rectangle,
+    html .contents-rectangle {
+        width: 100%;
+        position: inherit;
+    }
+
+    html .subscribe-form-button {
+        position: absolute;
+        top: 20px;
+        right: 30px;
+    }
+
+    html .content-actual {
+        overflow: inherit;
+        height: inherit;
+    }
+
+}
+
+
 .category-rectangle,
 .subcategory-rectangle,
 .contents-rectangle {
