@@ -4,6 +4,7 @@ import {
     contentsTitleIDToValue,
     contentsTitleIDToContentsContentValue,
 } from "./Config";
+import { Subscribe } from "./Subscribe";
 
 export function ContentsContent({chosenContentTitleID}) {
     return (
@@ -14,6 +15,7 @@ export function ContentsContent({chosenContentTitleID}) {
                 const contentValueGivenContentTitle = marked.parse(contentsTitleIDToContentsContentValue[contentTitleID]);
                 return (
                     <div className='contents-rectangle' key = { contentTitleID }>
+                            <Subscribe />
                         <div className='content-title'
                             isselected='true'> { contentTitle }
                         </div>

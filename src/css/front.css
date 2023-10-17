@@ -11,6 +11,7 @@
 
 body {
     background: var(--background-white);
+    margin-top: 50px;
 }
 
 .rectangles-container {
@@ -40,6 +41,7 @@ body {
 
 .contents-rectangle {
     width: 54%;
+    position: relative;
 }
 
 .category-title,
@@ -121,10 +123,9 @@ body {
 
 /** Subscribe modal **/
 .subscribe-form-button {
-    margin-top: 4vh;
-    margin-left: 79.5vw;
-    width: 130px;
-    height: 30px;
+    position: absolute;
+    top: -30px;
+    right: 0px;
     border: 1px solid var(--rectangle-color);
     background-color: var(--background-white);
     font-family: monospace;

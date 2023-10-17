@@ -4,6 +4,7 @@ import {
     subCategoryIDToTitleIDs,
     contentsTitleIDToValue,
 } from "./Config";
+import { Subscribe } from "./Subscribe";
 
 export function ContentsTitle({setChosenContentTitle, chosenCategoryID, chosenSubCategoryID, chosenContentTitleID}) {
     const { categoryIDPath, subCategoryIDPath, contentTitleIDPath } = useParams();
@@ -26,6 +27,8 @@ export function ContentsTitle({setChosenContentTitle, chosenCategoryID, chosenSu
                     const contentTitle = contentsTitleIDToValue[titleID];
                     return (
                         <div className='contents-rectangle' key={ titleID }>
+
+                            <Subscribe />
                             <Link 
                                 to={`/${categoryIDPath}/${subCategoryID}/${titleID}`}
                             >
@@ -38,7 +41,8 @@ export function ContentsTitle({setChosenContentTitle, chosenCategoryID, chosenSu
                 }));
             }
         })}
-        { (chosenCategoryID === null || chosenSubCategoryID === null) ? <div className='contents-rectangle'/> :  "" }
+        { (chosenCategoryID === null || chosenSubCategoryID === null) ? <div className='contents-rectangle'>
+                            <Subscribe /></div> :  "" }
         </>
     );
 }
