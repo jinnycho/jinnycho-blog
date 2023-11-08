@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+<channel>
+ <title>Jinny Ch</title>
+ <description>This is Jinny's blog</description>
+ <link>https://jinnycho.github.io/</link>
+ <copyright>2020 Example.com All rights reserved</copyright>
+ <lastBuildDate>Tue, 7 Nov 2023 00:01:00 +0000</lastBuildDate>
+ <ttl>1800</ttl>
+
+ <item>
+  <title>Company of One</title>
+  <description>Book review of Company of One.</description>
+  <link>https://jinnycho.github.io/books/entrepreneur/companyOfOne</link>
+  <guid isPermaLink="false">7bd204c6-1655-4c27-aeee-53f933c5395f</guid>
+ </item>
+
+</channel>
+</rss>
