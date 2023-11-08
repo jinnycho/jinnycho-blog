@@ -1,11 +1,9 @@
 # Company Of One
-## 2023/10/23
+## 2023/11/07
 
-When I was in high school, I wrote an essay about how much I love small, local bakeries over large franchise ones like 'Paris Baguette,' even though they don't even use any ingredients from France.
+When I was in high school, I wrote an essay about how much I love small, local bakeries over large franchise chains like 'Paris Baguette,' which probably don't even use any ingredients from France & significantly less tasty. This book has reignited my drive to seek greater meaning in my life - should I start my small yet high-quality business?
 
-Quality over quantity is still my north star, and I don't see any merit in the opposite approach. This book has reignited my drive to explore a more enriching life, which may involve creating a small yet efficiently operating business with a strong emphasis on quality.
-
-### Growth is Overrated
+### Growth is Overrated!
 > There's no such thing as perpetual growth. Yet that's what traditional business people crave. But what is growth meant to achieve? If Oxford University is so successful, then why isn't there a branch in Washington, D.C? If a symphony is successful with 120 musicians, why not even more so with 600? "To grow bigger" is not much of an effective business strategy at all.
 
 > Blind growth is the main cause of buisness problems. It can leave you with an unmaintainable number of employees, unsustainable cost, and more work than hours in a day. It can force you to lay off employees, sell your company at a less than optimal price, or, even worse, close up shop completely.
@@ -26,18 +24,14 @@ The myth that more people will fix more problems is debatable; it might just cau
 
 > The problem is not so much employees taking advantage of perks like flex hours or remote work, but leaders assuming that they need to give less direction. A leader's job is to provide clear direction and then get out of the way.
 
-I find myself & many other people becoming significantly more creative when we are woodworking. We can make basically anything from a simple piece of wood. we have a full agency to ideate and bring those ideas to life - anything from a wooden table with a built-in phone charger to a fully modular desk system that can hold a record player.
+When I was in the woodworking class, I find myself & many other people becoming significantly more creative. We can make basically anything from a simple piece of wood. We have a full agency to ideate and bring those ideas to life - anything from a wooden table with a built-in phone charger to a fully modular desk system that can hold a record player.
 
-I think the company of one should learn from woodworking. We should still have certain guidelines/values to follow, but ultimately we should have the complete freedom to shape our ideas and see them through to execution.
+I think the company of one or any company should learn from woodworking. Just like how we learn the ropes of using a table saw, we should still have certain guidelines/values to follow. But at the end of the day, we should be free to run with our ideas and make them happen.
 
-### Intuition is Underrated
-> Is thies process efficient enough? What steps can be removed and the end result will be the same or better? Is this rule helping or hindering our business?
-
+### You Can't Quantify Everything
 > success can be personally defined, and that while profit and sustainability are absolutely important to a business, they aren't the only driving forces, metrics, or factors in business success.
 
-> Sean is easily able to meet his $500k per year profit goal, not through marketing and promotion, but by paying close attention to his existing customer base.
-
-This is something I've been thinking a lot too. There are lots of values that can't be easily quantified. There are many 'data-driven' companies that invest days and months in searching for the right 'data' to support their planned initiatives. But every now and then, we can just try based on our intuition and customer requests. In my opinion, numbers and data shouldn't be the only focus. (As the old Korean saying goes, "you don't have to taste the poop to know it's poop".)
+This is something I've been thinking a lot too. Many values can't be easily quantified. Companies often obsess over immediate 'data' like sales or profits. However, there are aspects that provide subtle satisfaction to users, which may not yield shiny data immediately but are beneficial in the long run. For example, I believe one of the reasons Amazon has so many loyal customers is its extremely easy return policy. Although this policy might harm the company's profits in the short term, it has garnered the trust of many users. Can we easily quantify this impact? I don't think so. Such decisions are often based more on our intuition and empathy. Sometimes, we need to look at the forest rather than focusing on the trees.
 
 ### Multitask is Overrated
 > We now incorrectly assume that we must have numerous priorities and multitask to get ahead in business, even though working this way can deeply affect (and hurt) our productiviy.
@@ -48,7 +42,7 @@ This is something I've been thinking a lot too. There are lots of values that ca
 
 > You need to learn how to elicit a strong emotional response to your business, and the personality of your brand, beecause while it's easy to forget or lose interest in information, it's much harder to forget strong emotion.
 
-In workplace, you have to be relentless in protecting your own schedule and workload; otherwise, you'll end up juggling tons of works and meetings, leaving you unable to work on anything more deeply or efficiently. What's worse is that people think that's our job and consider it a good thing. Once again, woodworking is teaching me a different lesson – being organized and focusing on one thing at a time is crucial. If you're doing bandsawing in one hand and sanding in the other, you are going to lose your finger.
+In workplace, you have to be relentless in protecting your own schedule and workload; otherwise, you'll end up juggling ten meetings and five projects, leaving you unable to work on anything more deeply or efficiently. What's worse is that people consider it a good thing. Once again, woodworking is teaching me a different lesson – being organized and focusing on one thing at a time is crucial. If you're doing bandsawing in one hand and sanding in the other, you are going to lose your finger.
 
 ### Working More Does Not Mean Better
 > Decision making can be mentally taxing and draining, and when that happens, many people start to make bad decisions because they're tired of deciding. By scaling down large, stressful decisions into smaller, more digestible decisions, you can choose a direction more quickly, in a smarter way, and with less stress involved.
@@ -57,7 +51,7 @@ In workplace, you have to be relentless in protecting your own schedule and work
 
 This also happens a lot in the workplace and goes hand in hand with the myth of multitasking. If I take on a managerial role, I will ensure that people focus on one task at a time, trust their judgment, and avoid overworking. The goal is to complete one task well and leave work early. If someone is struggling to perform well, I tend to think it's because of the system rather than the individual. I'd question whether the person's role is too vague or if they're juggling too many tasks simultaneously. It's also possible that the goals are unreasonably high. 
 
-Overworking is a good recipe for people to make mistakes and feel burned out, which ultimately leads to decreased creativity, efficiency, and morale.
+Overworking & lack of agency is a good recipe for people to make mistakes and feel burned out, which ultimately leads to decreased creativity, efficiency, and morale.
 
 ### Resilience
 
@@ -66,6 +60,8 @@ Overworking is a good recipe for people to make mistakes and feel burned out, wh
 > The first trait that resilient people have is an acceptance of reality. They don't need for things to be a certain way and don't engage in wishful thinking ... They have a down-to-earth view that most of what happens in our lives is not entirely within our control and the best we can do is to steer the boat a little as we float down the river of life. The second characteristic of resilient people is a sense of purpose - being motivated by a sense of meaning rather than by just money. The last trait of resilient people in a company of one is the ability to adapt when things change - because they invariably do.
 
 > These traits for resilience are absolutely learnable.
+
+One thing that's different from buddhism is they don't tell people that there's a "heaven" and 
 
 ### Empathy
 > Power is a tumor that ends up killing its victims' sympathies ... The qualities that lead to the leadership roles we achive are the exact qualities that diminish once leadership roles are attained ... Any leaders who listen carefully and are receptive to smart and useful suggestions from their team, whether they're introverted ro not, can build the trust required to earn cooperation.
@@ -111,7 +107,6 @@ Overworking is a good recipe for people to make mistakes and feel burned out, wh
 
 > At the core of many massive, profitable, global companies is an old idea executed exceptionally well.
 
-I agree that customer happiness is vital for a successful business. Amazon's customer-first strategy, including easy returns, 24/7 customer support, and Prime delivery, has contributed to their millions of loyal customers despite being very bad in other areas. If they're not so acceptable with returns or prime delivery to make people happy, their business won't last.  
 
 ### Teaching
 > To stand out and build an audience as a company of one, you have to out-teach and outshare the competition, not outscale them.
