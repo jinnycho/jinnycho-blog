@@ -18,3 +18,9 @@ or
 ```
 ruby -rsinatra -e'set :public_folder, "."; set :port, 8000; not_found { File.read "index.html" }'
 ```
+
+And then
+
+```
+npm run watch
+```
