@@ -28142,12 +28142,12 @@ Overall, the book was good, and I agreed with all of what the author said, thoug
     const handleContentsTitleClick = (chosenContentTitleID2) => {
       setChosenContentTitle(chosenContentTitleID2);
     };
-    return /* @__PURE__ */ import_react5.default.createElement(import_react5.default.Fragment, null, Object.keys(subCategoryIDToTitleIDs).map((subCategoryID) => {
+    return /* @__PURE__ */ import_react5.default.createElement(import_react5.default.Fragment, null, /* @__PURE__ */ import_react5.default.createElement("div", { className: "contents-rectangle" }, /* @__PURE__ */ import_react5.default.createElement(Subscribe, null), Object.keys(subCategoryIDToTitleIDs).map((subCategoryID) => {
       if (chosenSubCategoryID === subCategoryID && chosenContentTitleID == null) {
         const titleIDsGivenSubCategory = subCategoryIDToTitleIDs[chosenSubCategoryID];
         return titleIDsGivenSubCategory.map((titleID) => {
           const contentTitle = contentsTitleIDToValue[titleID];
-          return /* @__PURE__ */ import_react5.default.createElement("div", { className: "contents-rectangle", key: titleID }, /* @__PURE__ */ import_react5.default.createElement(Subscribe, null), /* @__PURE__ */ import_react5.default.createElement(
+          return /* @__PURE__ */ import_react5.default.createElement(
             Link,
             {
               to: `/${categoryIDPath}/${subCategoryID}/${titleID}`
@@ -28161,10 +28161,10 @@ Overall, the book was good, and I agreed with all of what the author said, thoug
               " ",
               contentTitle
             )
-          ));
+          );
         });
       }
-    }), chosenCategoryID === null || chosenSubCategoryID === null ? /* @__PURE__ */ import_react5.default.createElement("div", { className: "contents-rectangle" }, /* @__PURE__ */ import_react5.default.createElement(Subscribe, null)) : "");
+    })));
   }
 
   // src/js/ContentsContent.jsx
@@ -30380,11 +30380,11 @@ ${content}</tr>
 
   // src/js/ContentsContent.jsx
   function ContentsContent({ chosenContentTitleID }) {
-    return /* @__PURE__ */ import_react6.default.createElement(import_react6.default.Fragment, null, Object.keys(contentsTitleIDToContentsContentValue).map((contentTitleID) => {
+    return /* @__PURE__ */ import_react6.default.createElement(import_react6.default.Fragment, null, /* @__PURE__ */ import_react6.default.createElement("div", { className: "contents-rectangle" }, /* @__PURE__ */ import_react6.default.createElement(Subscribe, null), Object.keys(contentsTitleIDToContentsContentValue).map((contentTitleID) => {
       if (contentTitleID === chosenContentTitleID) {
         const contentTitle = contentsTitleIDToValue[contentTitleID];
         const contentValueGivenContentTitle = marked.parse(contentsTitleIDToContentsContentValue[contentTitleID]);
-        return /* @__PURE__ */ import_react6.default.createElement("div", { className: "contents-rectangle", key: contentTitleID }, /* @__PURE__ */ import_react6.default.createElement(Subscribe, null), /* @__PURE__ */ import_react6.default.createElement(
+        return /* @__PURE__ */ import_react6.default.createElement(import_react6.default.Fragment, null, /* @__PURE__ */ import_react6.default.createElement(
           "div",
           {
             className: "content-title",
@@ -30400,7 +30400,7 @@ ${content}</tr>
           }
         ));
       }
-    }));
+    })));
   }
 
   // src/js/Blog.jsx
@@ -30517,14 +30517,6 @@ ${content}</tr>
             setChosenContentTitle,
             chosenCategoryID,
             chosenSubCategoryID
-          }
-        ), /* @__PURE__ */ import_react7.default.createElement(
-          ContentsTitle,
-          {
-            setChosenContentTitle,
-            chosenCategoryID,
-            chosenSubCategoryID,
-            chosenContentTitleID
           }
         ), /* @__PURE__ */ import_react7.default.createElement(
           ContentsContent,
