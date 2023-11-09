@@ -27819,9 +27819,9 @@ I'll end this blog with a Cherokee story about two wolves. There's an ongoing ba
 
   // src/writings/books/entrepreneur/companyOfOne.md
   var companyOfOne_default = `# Company Of One
-## 2023/11/07
+## 2023/11/08
 
-When I was in high school, I wrote an essay about how much I love small, local bakeries over large franchise chains like 'Paris Baguette,' which probably don't even use any ingredients from France & significantly less tasty. This book has reignited my drive to seek greater meaning in my life - should I start my small yet high-quality business?
+When I was a kid, I wrote an essay about how much I love small, local bakeries over large franchise chains like 'Paris Baguette'. This book has reignited my desire to seek greater meaning in my life - should I start my small yet high-quality business?
 
 ### Growth is Overrated!
 > There's no such thing as perpetual growth. Yet that's what traditional business people crave. But what is growth meant to achieve? If Oxford University is so successful, then why isn't there a branch in Washington, D.C? If a symphony is successful with 120 musicians, why not even more so with 600? "To grow bigger" is not much of an effective business strategy at all.
@@ -27881,7 +27881,7 @@ Overworking & lack of agency is a good recipe for people to make mistakes and fe
 
 > These traits for resilience are absolutely learnable.
 
-One thing that's different from buddhism is they don't tell people that there's a "heaven" and 
+If a mother has lost her child, Christians may console her by saying there's a 'heaven' where her child will find peace. However, personally, I find the Buddhist way of thinking more helpful. Buddhists would tell her that everyone will die eventually. To me, that's what resilient people would think. For someone with a 'company of one' lifestyle, they should be resilient in the face of failures and difficulties. I should believe that these challenges are something everyone encounters when they're exploring and learning and move on.
 
 ### Empathy
 > Power is a tumor that ends up killing its victims' sympathies ... The qualities that lead to the leadership roles we achive are the exact qualities that diminish once leadership roles are attained ... Any leaders who listen carefully and are receptive to smart and useful suggestions from their team, whether they're introverted ro not, can build the trust required to earn cooperation.
@@ -27890,24 +27890,16 @@ One thing that's different from buddhism is they don't tell people that there's 
 
 > attention is the most important currency anyone can give a business, and that attention is worth more than revenue or possessions.
 
+If there's something I want to work on, it's empathy. This is the kind of intelligence that society should promote more vigorously early on, not just IQ. The Machiavellian leadership approach of 'better to be feared than liked' is outdated and fundamentally flawed. We don't have to be people-pleasers, but we do need to listen to others before making decisions. The best leader I've worked with was someone who actively listened to the voices of the workers and genuinely tried to improve their quality of life. With that kind of leader, you don't want to quit, even if the work is difficult or frustrating. Similarly, I believe that empathy is effective with customers; it's the engine of any relationship.
 
-### Right Mindset & Value
+### Value-driven company
 > To succeed as a company of one, you have to have a real underlying purpose.
 
-> Company's success isdue to being a "responsible" company ... We're talking about who you work with, what you offer, where you focus your time and energy, and even how you define your audience. If your business is fully aligned with your purpose, you'll be more motivated to keep at it, even during the tough moments.
+> Company's success is due to being a "responsible" company ... We're talking about who you work with, what you offer, where you focus your time and energy, and even how you define your audience. If your business is fully aligned with your purpose, you'll be more motivated to keep at it, even during the tough moments.
 
 > Purpose-based, values-driven companies outperform their counterparts in stock prices by a factor of twelve ... Your purpose is what drives you to succeed and defines what success is. It's not so much what you do as how and why you do it.
 
-### Should We Believe in Passion?
-> Purpose and passion are quite different.
-
-> Newport believese that we need to be craftspeople, focused on getting better and better at how we use our skills ... The craftsperson mind-set keeps you focused on what you can offer the world; the passion mind-set focuses instead on what the world can offer you.
-
-> Her passion came after her hard work - as a result of it - not the other way around. ... Passion doesn't preced mastery, but follows it.
-
-> Engaging work comprises four key components: clearly defined assignments, tasks you excel at, performance feedback, and work autonomy.
-
-> It's far easier to simply work at getting really good at something in demand, discovering how those skills can be applied to something else, and then testing your idea in a small way to see if it will pay.
+I believe we should consider the company's values, both externally and internally. External values are values that we promise with users. Internal values are more of how we manage the business internally.
 
 ### Courage To Be Disliked 
 > being vanilla isn't going to allow you or your work to stand out
@@ -27918,22 +27910,7 @@ One thing that's different from buddhism is they don't tell people that there's 
 
 > To be a polarizing company of one, you can look into 3 strategies. The first if _placation_: trying to change the minds of the so-called haters, ... the second strategy is _padding_: by intentionally antagonizing haters, you may sway neutral customers into becoming supporters ... the third strategy is _amplification_: singling out a single characteristic and leaning heavily on it.
 
-### But Keeping my Customers Happy
-> resounding number of profitable innovations within companies have originated with customers.
-
-> Companies of one need to turn complaints into opportunities to do better and use them to attempt to build closer relationships with the customers who stick around.
-
-> businesses with a culture of keeping their word are much more profitable than those that go back on their word or only say things that don't align with their actions. ... The first strategy is to make fewer and better commitments to customers. ... should track its commitments ... leaving actual processes in place to meet these commitments is required.
-
-> At the core of many massive, profitable, global companies is an old idea executed exceptionally well.
-
-
-### Teaching
-> To stand out and build an audience as a company of one, you have to out-teach and outshare the competition, not outscale them.
-
-> Customer education - providing an audience with the knowledge, skills, and abilities to become an informed buyer - is one of the most important parts of a sales cycle. ... The more those clientes were educated on the pros and cons of the financial products the investment firm offered, the more they trusted that firm, the more loyalty to the firm they developed, and the more appreciative they became of the firm's customer service for taking the time to educate them.
-
-> Teach everything you know and don't be afraid to give away your best ideas.`;
+Overall, the book was good, and I agreed with all of what the author said, though it was a bit repetitive. The book helped me think that life is short, and I should follow my own values.`;
 
   // src/js/Config.jsx
   var categoryIDToValue = {
