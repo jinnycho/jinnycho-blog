@@ -1,7 +1,7 @@
 # Company Of One
 ## 2023/11/08
 
-When I was a kid, I wrote an essay about how much I love small, local bakeries over large franchise chains like 'Paris Baguette'. This book has reignited my desire to seek greater meaning in my life - should I start my small yet high-quality business?
+When I was a kid, I wrote an essay about how much I love small, local bakeries over large franchise chains like 'Paris Baguette'. This book has reignited my desire to seek greater meaning in my life - should I start my small and high-quality business?
 
 ### Growth is Overrated!
 > There's no such thing as perpetual growth. Yet that's what traditional business people crave. But what is growth meant to achieve? If Oxford University is so successful, then why isn't there a branch in Washington, D.C? If a symphony is successful with 120 musicians, why not even more so with 600? "To grow bigger" is not much of an effective business strategy at all.
@@ -12,7 +12,7 @@ When I was a kid, I wrote an essay about how much I love small, local bakeries o
 
 When I see recent layoffs in multiple companies, I wonder why they needed 90,000 people in the first place. The problem of over-growth is also something I've personally encountered during my time at several companies. I remember things were more effective, creative or at the very least more enjoyable, when there were fewer people.
 
-The myth that more people will fix more problems is debatable; it might just cause more unnecessary coordinations, take much more time to make any decisions, and create the feeling that there are more people managing staffs than actual engineers.
+The claim that more people will fix more problems is debatable; it might just cause more unnecessary coordinations, take much more time to make any decisions, and create the feeling that there are more people managing staffs than actual engineers.
 
 ### Autonomy is Creativity 
 
