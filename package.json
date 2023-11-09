@@ -9,7 +9,7 @@
     "react-router-dom": "^6.16.0"
   },
   "scripts": {
-    "build": "esbuild src/js/index.jsx --bundle --outfile=src/js/output.js --loader:.md=text",
-    "watch": "esbuild src/js/index.jsx --bundle --watch --outfile=src/js/output.js --loader:.md=text"
+    "build": "esbuild src/js/index.jsx --bundle --sourcemap --outfile=src/js/output.js --loader:.md=text",
+    "watch": "esbuild src/js/index.jsx --bundle --sourcemap --watch --outfile=src/js/output.js --loader:.md=text"
   }
 }

@@ -85,8 +85,9 @@ export function Blog() {
                             setChosenSubCategory={setChosenSubCategory}
                             setChosenContentTitle={setChosenContentTitle}
                             chosenCategoryID={chosenCategoryID}
-                            chosenSubCategoryID={chosenSubCategoryID} />
+                            chosenSubCategoryID={chosenSubCategoryID} />    
                         <ContentsContent
+                            setChosenContentTitle={setChosenContentTitle}
                             chosenContentTitleID={chosenContentTitleID}/>
                     </>
                     }

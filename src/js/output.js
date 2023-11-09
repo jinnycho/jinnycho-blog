@@ -1096,7 +1096,7 @@
             var dispatcher = resolveDispatcher();
             return dispatcher.useRef(initialValue);
           }
-          function useEffect7(create, deps) {
+          function useEffect8(create, deps) {
             var dispatcher = resolveDispatcher();
             return dispatcher.useEffect(create, deps);
           }
@@ -1878,7 +1878,7 @@
           exports.useContext = useContext3;
           exports.useDebugValue = useDebugValue;
           exports.useDeferredValue = useDeferredValue;
-          exports.useEffect = useEffect7;
+          exports.useEffect = useEffect8;
           exports.useId = useId;
           exports.useImperativeHandle = useImperativeHandle;
           exports.useInsertionEffect = useInsertionEffect;
@@ -28150,7 +28150,8 @@ Overall, the book was good, and I agreed with all of what the author said, thoug
           return /* @__PURE__ */ import_react5.default.createElement(
             Link,
             {
-              to: `/${categoryIDPath}/${subCategoryID}/${titleID}`
+              to: `/${categoryIDPath}/${subCategoryID}/${titleID}`,
+              key: titleID
             },
             /* @__PURE__ */ import_react5.default.createElement(
               "div",
@@ -30379,26 +30380,18 @@ ${content}</tr>
   var lexer = _Lexer.lex;
 
   // src/js/ContentsContent.jsx
-  function ContentsContent({ chosenContentTitleID }) {
+  function ContentsContent({ setChosenContentTitle, chosenContentTitleID }) {
+    const { contentTitleIDPath } = useParams();
+    (0, import_react6.useEffect)(() => {
+      if (contentTitleIDPath !== void 0) {
+        setChosenContentTitle(contentTitleIDPath);
+      }
+    }, [contentTitleIDPath]);
     return /* @__PURE__ */ import_react6.default.createElement(import_react6.default.Fragment, null, /* @__PURE__ */ import_react6.default.createElement("div", { className: "contents-rectangle" }, /* @__PURE__ */ import_react6.default.createElement(Subscribe, null), Object.keys(contentsTitleIDToContentsContentValue).map((contentTitleID) => {
       if (contentTitleID === chosenContentTitleID) {
         const contentTitle = contentsTitleIDToValue[contentTitleID];
         const contentValueGivenContentTitle = marked.parse(contentsTitleIDToContentsContentValue[contentTitleID]);
-        return /* @__PURE__ */ import_react6.default.createElement(import_react6.default.Fragment, null, /* @__PURE__ */ import_react6.default.createElement(
-          "div",
-          {
-            className: "content-title",
-            isselected: "true"
-          },
-          " ",
-          contentTitle
-        ), /* @__PURE__ */ import_react6.default.createElement(
-          "div",
-          {
-            className: "content-actual",
-            dangerouslySetInnerHTML: { __html: contentValueGivenContentTitle }
-          }
-        ));
+        return /* @__PURE__ */ import_react6.default.createElement("div", { key: contentTitleID }, /* @__PURE__ */ import_react6.default.createElement("div", { className: "content-title", isselected: "true" }, contentTitle), /* @__PURE__ */ import_react6.default.createElement("div", { className: "content-actual", dangerouslySetInnerHTML: { __html: contentValueGivenContentTitle } }));
       }
     })));
   }
@@ -30521,6 +30514,7 @@ ${content}</tr>
         ), /* @__PURE__ */ import_react7.default.createElement(
           ContentsContent,
           {
+            setChosenContentTitle,
             chosenContentTitleID
           }
         ))

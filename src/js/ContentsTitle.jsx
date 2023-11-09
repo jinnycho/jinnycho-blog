@@ -31,6 +31,7 @@ export function ContentsTitle({setChosenContentTitle, chosenCategoryID, chosenSu
 
                             <Link 
                                 to={`/${categoryIDPath}/${subCategoryID}/${titleID}`}
+                                key={ titleID }
                             >
                                 <div className='content-title'
                                     onClick={() => handleContentsTitleClick(titleID)}> {contentTitle}
