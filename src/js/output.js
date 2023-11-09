@@ -27853,7 +27853,7 @@ I think the company of one or any company should learn from woodworking. Just li
 
 This is something I've been thinking a lot too. Many values can't be easily quantified. Companies often obsess over immediate 'data' like sales or profits. However, there are aspects that provide subtle satisfaction to users, which may not yield shiny data immediately but are beneficial in the long run. For example, I believe one of the reasons Amazon has so many loyal customers is its extremely easy return policy. Although this policy might harm the company's profits in the short term, it has garnered the trust of many users. Can we easily quantify this impact? I don't think so. Such decisions are often based more on our intuition and empathy. Sometimes, we need to look at the forest rather than focusing on the trees.
 
-### Multitask is Overrated
+### Multitasking is Overrated
 > We now incorrectly assume that we must have numerous priorities and multitask to get ahead in business, even though working this way can deeply affect (and hurt) our productiviy.
 
 > Attempting to focus on more than one priority at at ime reduces productivity by as much as 40 percent ... Creating the image of busyness may be all the rage in startup and corporate culture, but the busier we are, the less space we have to think and be cretive in solving the problems that companies of one need to solve.
