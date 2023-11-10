@@ -60,3 +60,5 @@ Once this extensive list is satisfied and I find a place, I can then think about
 | **Windows @ kitchen, bathrooms** | 🌳💅🧱 | Ventilation is important in these areas and natural sunlight is always a plus. |
 | **Kitchen island** | 💅🧱 |  |
 | **Miele Washer/Dryer/Vacuum** | 💅🧱 | I really liked them. |
+
+![Alt Text alt ><](https://media.giphy.com/media/ianAz6rcKfjoY/giphy.gif)

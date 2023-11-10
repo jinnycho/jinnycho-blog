@@ -27649,7 +27649,9 @@ Once this extensive list is satisfied and I find a place, I can then think about
 | **Ceiling fans** | \u{1F333}\u{1F9F1} | Heard that it really cools down the space without having to use A/C. |
 | **Windows @ kitchen, bathrooms** | \u{1F333}\u{1F485}\u{1F9F1} | Ventilation is important in these areas and natural sunlight is always a plus. |
 | **Kitchen island** | \u{1F485}\u{1F9F1} |  |
-| **Miele Washer/Dryer/Vacuum** | \u{1F485}\u{1F9F1} | I really liked them. |`;
+| **Miele Washer/Dryer/Vacuum** | \u{1F485}\u{1F9F1} | I really liked them. |
+
+![Alt Text alt ><](https://media.giphy.com/media/ianAz6rcKfjoY/giphy.gif)`;
 
   // src/writings/books/psychology/courageToBeDisliked.md
   var courageToBeDisliked_default = `# Courage To be Disliked
