@@ -27842,8 +27842,6 @@ The claim that more people will fix more problems is debatable; it might just ca
 
 > But to achieve autonomy as a company of one, you have to be a master at your core skill set. Competence and autonomy are tied together.
 
-> The problem is not so much employees taking advantage of perks like flex hours or remote work, but leaders assuming that they need to give less direction. A leader's job is to provide clear direction and then get out of the way.
-
 When I was in the woodworking class, I find myself & many other people becoming significantly more creative. We can make basically anything from a simple piece of wood. We have a full agency to ideate and bring those ideas to life - anything from a wooden table with a built-in phone charger to a fully modular desk system that can hold a record player.
 
 I think the company of one or any company should learn from woodworking. Just like how we learn the ropes of using a table saw, we should still have certain guidelines/values to follow. But at the end of the day, we should be free to run with our ideas and make them happen.
@@ -27868,6 +27866,8 @@ In workplace, you have to be relentless in protecting your own schedule and work
 > Decision making can be mentally taxing and draining, and when that happens, many people start to make bad decisions because they're tired of deciding. By scaling down large, stressful decisions into smaller, more digestible decisions, you can choose a direction more quickly, in a smarter way, and with less stress involved.
 
 > Hansson despises this paradigm of working more as the only way to be succesful. ... Companies need to stop hustling and should encourage their employees to focus on accepting that there's life outside of work, that there's real usefulness to sleep and recuperation, and that their work habits should be much calmer.
+
+> The problem is not so much employees taking advantage of perks like flex hours or remote work, but leaders assuming that they need to give less direction. A leader's job is to provide clear direction and then get out of the way.
 
 This also happens a lot in the workplace and goes hand in hand with the myth of multitasking. If I take on a managerial role, I will ensure that people focus on one task at a time, trust their judgment, and avoid overworking. The goal is to complete one task well and leave work early. If someone is struggling to perform well, I tend to think it's because of the system rather than the individual. I'd question whether the person's role is too vague or if they're juggling too many tasks simultaneously. It's also possible that the goals are unreasonably high. 
 
@@ -30650,3 +30650,4 @@ react-router-dom/dist/index.js:
    * @license MIT
    *)
 */
+//# sourceMappingURL=output.js.map
