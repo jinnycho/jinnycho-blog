@@ -27603,7 +27603,7 @@ I separated them into two criteria because it's very challenging to find both in
 1. **Capital**: A lump sum of money to purchase land and build a house.
 2. **Income**: Constant source of income to support any additional costs that may arise during/after the process of building a house.
 3. **View**
-4. **Space**: It doesn't have to be gigantic, but space for growing vegetables, crafting, and a couple of animals would be nice.
+4. **Space**: It doesn't have to be gigantic, but space for growing vegetables, crafting, and a couple of animals would be nice. (super easy)
 5. **Accessible Food & Culture**: It doesn't have to be walkable, but a relatively easy access to groceries and culture, even if it's as small as a farmer's market.
 6. **Nature**: An easy access to the nature - and we prefer the forest over the ocean.
 7. **Clean water**
