@@ -25,38 +25,38 @@ I separated them into two criteria because it's very challenging to find both in
 Once this extensive list is satisfied and I find a place, I can then think about the building itself. The following is a rough list of things that I think it'd be nice to have inside and out. The main theme is "well-designed & sustainable". There are three categories that I'd like to consider:
 - Sustainable(🌳): Saves excessive use of energy and money
 - Design(💅): Primarily for aesthetics
-- Functional(⚙️): Improves the quality of life
+- Functional(🧱): Improves the quality of life
 
 #### Exterior
 | Item | Criteria | Details |
 |:---:|:---:|:---:|
-| **Balcony** | 🌳⚙️ | With a balcony and additional sunshade, it will help keep the indoors cool in summer and warm in winter. This is because in the summer, the sun is located higher in the sky, which means it won't significantly heat indoors. But in the winter, the sun is positioned lower, allowing us to enjoy its warmth indoors. It will also give us an easy access to wider views. |
-| **Raindrop windows** | 💅⚙️ | Charles loves watching rain drops on the window during rainy days. |
+| **Balcony** | 🌳🧱 | With a balcony and additional sunshade, it will help keep the indoors cool in summer and warm in winter. This is because in the summer, the sun is located higher in the sky, which means it won't significantly heat indoors. But in the winter, the sun is positioned lower, allowing us to enjoy its warmth indoors. It will also give us an easy access to wider views. |
+| **Raindrop windows** | 💅🧱 | Charles loves watching rain drops on the window during rainy days. |
 | **A-shaped roof** | 🌳💅 | An A-shaped roof is more weather-resistant compared to a flat roof. |
 | **Solar panels** | 🌳 |  |
-| **Quality materials that age well** | 🌳💅⚙️ | |
-| **Places to dry clothes & comforter** | 🌳⚙️ | It is highly energy-efficient, offers natural disinfection, and provides numerous other beneficial effects. |
-| **Sunlight** | 🌳⚙️ |  |
-| **Bouldering** | ⚙️ | Always thought it'd be cool to have one. |
-| **Courtyard** | 🌳💅⚙️ | A courtyard brings the outside in, enabling people to enjoy the outdoors more privately and freely. It is also known to help keep the interior cooler in hot weather and warmer in cold weather. |
-| **Land Heating** | 🌳⚙️ | Heard that it really cools down the space without having to use A/C. |
-| **Food Garden**  | 🌳⚙️ |  |
-| **Ceiling window** | 🌳💅⚙️ | Ventilation is important in these areas and natural sunlight is always a plus. |
-| **Passive House principles** | 🌳⚙️ |  |
+| **Quality materials that age well** | 🌳💅🧱 | |
+| **Places to dry clothes & comforter** | 🌳🧱 | It is highly energy-efficient, offers natural disinfection, and provides numerous other beneficial effects. |
+| **Sunlight** | 🌳🧱 |  |
+| **Bouldering** | 🧱 | Always thought it'd be cool to have one. |
+| **Courtyard** | 🌳💅🧱 | A courtyard brings the outside in, enabling people to enjoy the outdoors more privately and freely. It is also known to help keep the interior cooler in hot weather and warmer in cold weather. |
+| **Land Heating** | 🌳🧱 | Heard that it really cools down the space without having to use A/C. |
+| **Food Garden**  | 🌳🧱 |  |
+| **Ceiling window** | 🌳💅🧱 | Ventilation is important in these areas and natural sunlight is always a plus. |
+| **Passive House principles** | 🌳🧱 |  |
 
 #### Interior
 | Item | Criteria | Details |
 |:---:|:---:|:---:|
-| **Hardwood floor** | 🌳💅⚙️ | Expensive but always good to have hardwood floor. I'm wondering if I could make it myself. |
-| **Cross breeze** | 🌳⚙️ |  |
-| **Tilt-and-turn windows** | 🌳⚙️ |  |
-| **External shades** | 🌳⚙️ | I noticed lots of external shades in Germany. It's a good idea to keep the house cool in summer and warm in winter. |
-| **Fire place** | 🌳💅⚙️ |  |
-| **Thermal heating** | 🌳⚙️ |  |
-| **Air purifier** | 🌳⚙️ |  |
-| **HRV** | 🌳⚙️ |  |
-| **Crafting space** | ⚙️ | We always wish to have a dedicated space for crafting, such as wood/metalworking, watchmaking, and drafting. This space could also have an office space if needed for remote work. |
-| **Ceiling fans** | 🌳⚙️ | Heard that it really cools down the space without having to use A/C. |
-| **Windows @ kitchen, bathrooms** | 🌳💅⚙️ | Ventilation is important in these areas and natural sunlight is always a plus. |
-| **Kitchen island** | 💅⚙️ |  |
-| **Miele Washer/Dryer/Vacuum** | 💅⚙️ | I really liked them. |
+| **Hardwood floor** | 🌳💅🧱 | Expensive but always good to have hardwood floor. I'm wondering if I could make it myself. |
+| **Cross breeze** | 🌳🧱 |  |
+| **Tilt-and-turn windows** | 🌳🧱 |  |
+| **External shades** | 🌳🧱 | I noticed lots of external shades in Germany. It's a good idea to keep the house cool in summer and warm in winter. |
+| **Fire place** | 🌳💅🧱 |  |
+| **Thermal heating** | 🌳🧱 |  |
+| **Air purifier** | 🌳🧱 |  |
+| **HRV** | 🌳🧱 |  |
+| **Crafting space** | 🧱 | We always wish to have a dedicated space for crafting, such as wood/metalworking, watchmaking, and drafting. This space could also have an office space if needed for remote work. |
+| **Ceiling fans** | 🌳🧱 | Heard that it really cools down the space without having to use A/C. |
+| **Windows @ kitchen, bathrooms** | 🌳💅🧱 | Ventilation is important in these areas and natural sunlight is always a plus. |
+| **Kitchen island** | 💅🧱 |  |
+| **Miele Washer/Dryer/Vacuum** | 💅🧱 | I really liked them. |

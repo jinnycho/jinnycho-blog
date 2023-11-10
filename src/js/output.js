@@ -27615,41 +27615,41 @@ I separated them into two criteria because it's very challenging to find both in
 Once this extensive list is satisfied and I find a place, I can then think about the building itself. The following is a rough list of things that I think it'd be nice to have inside and out. The main theme is "well-designed & sustainable". There are three categories that I'd like to consider:
 - Sustainable(\u{1F333}): Saves excessive use of energy and money
 - Design(\u{1F485}): Primarily for aesthetics
-- Functional(\u2699\uFE0F): Improves the quality of life
+- Functional(\u{1F9F1}): Improves the quality of life
 
 #### Exterior
 | Item | Criteria | Details |
 |:---:|:---:|:---:|
-| **Balcony** | \u{1F333}\u2699\uFE0F | With a balcony and additional sunshade, it will help keep the indoors cool in summer and warm in winter. This is because in the summer, the sun is located higher in the sky, which means it won't significantly heat indoors. But in the winter, the sun is positioned lower, allowing us to enjoy its warmth indoors. It will also give us an easy access to wider views. |
-| **Raindrop windows** | \u{1F485}\u2699\uFE0F | Charles loves watching rain drops on the window during rainy days. |
+| **Balcony** | \u{1F333}\u{1F9F1} | With a balcony and additional sunshade, it will help keep the indoors cool in summer and warm in winter. This is because in the summer, the sun is located higher in the sky, which means it won't significantly heat indoors. But in the winter, the sun is positioned lower, allowing us to enjoy its warmth indoors. It will also give us an easy access to wider views. |
+| **Raindrop windows** | \u{1F485}\u{1F9F1} | Charles loves watching rain drops on the window during rainy days. |
 | **A-shaped roof** | \u{1F333}\u{1F485} | An A-shaped roof is more weather-resistant compared to a flat roof. |
 | **Solar panels** | \u{1F333} |  |
-| **Quality materials that age well** | \u{1F333}\u{1F485}\u2699\uFE0F | |
-| **Places to dry clothes & comforter** | \u{1F333}\u2699\uFE0F | It is highly energy-efficient, offers natural disinfection, and provides numerous other beneficial effects. |
-| **Sunlight** | \u{1F333}\u2699\uFE0F |  |
-| **Bouldering** | \u2699\uFE0F | Always thought it'd be cool to have one. |
-| **Courtyard** | \u{1F333}\u{1F485}\u2699\uFE0F | A courtyard brings the outside in, enabling people to enjoy the outdoors more privately and freely. It is also known to help keep the interior cooler in hot weather and warmer in cold weather. |
-| **Land Heating** | \u{1F333}\u2699\uFE0F | Heard that it really cools down the space without having to use A/C. |
-| **Food Garden**  | \u{1F333}\u2699\uFE0F |  |
-| **Ceiling window** | \u{1F333}\u{1F485}\u2699\uFE0F | Ventilation is important in these areas and natural sunlight is always a plus. |
-| **Passive House principles** | \u{1F333}\u2699\uFE0F |  |
+| **Quality materials that age well** | \u{1F333}\u{1F485}\u{1F9F1} | |
+| **Places to dry clothes & comforter** | \u{1F333}\u{1F9F1} | It is highly energy-efficient, offers natural disinfection, and provides numerous other beneficial effects. |
+| **Sunlight** | \u{1F333}\u{1F9F1} |  |
+| **Bouldering** | \u{1F9F1} | Always thought it'd be cool to have one. |
+| **Courtyard** | \u{1F333}\u{1F485}\u{1F9F1} | A courtyard brings the outside in, enabling people to enjoy the outdoors more privately and freely. It is also known to help keep the interior cooler in hot weather and warmer in cold weather. |
+| **Land Heating** | \u{1F333}\u{1F9F1} | Heard that it really cools down the space without having to use A/C. |
+| **Food Garden**  | \u{1F333}\u{1F9F1} |  |
+| **Ceiling window** | \u{1F333}\u{1F485}\u{1F9F1} | Ventilation is important in these areas and natural sunlight is always a plus. |
+| **Passive House principles** | \u{1F333}\u{1F9F1} |  |
 
 #### Interior
 | Item | Criteria | Details |
 |:---:|:---:|:---:|
-| **Hardwood floor** | \u{1F333}\u{1F485}\u2699\uFE0F | Expensive but always good to have hardwood floor. I'm wondering if I could make it myself. |
-| **Cross breeze** | \u{1F333}\u2699\uFE0F |  |
-| **Tilt-and-turn windows** | \u{1F333}\u2699\uFE0F |  |
-| **External shades** | \u{1F333}\u2699\uFE0F | I noticed lots of external shades in Germany. It's a good idea to keep the house cool in summer and warm in winter. |
-| **Fire place** | \u{1F333}\u{1F485}\u2699\uFE0F |  |
-| **Thermal heating** | \u{1F333}\u2699\uFE0F |  |
-| **Air purifier** | \u{1F333}\u2699\uFE0F |  |
-| **HRV** | \u{1F333}\u2699\uFE0F |  |
-| **Crafting space** | \u2699\uFE0F | We always wish to have a dedicated space for crafting, such as wood/metalworking, watchmaking, and drafting. This space could also have an office space if needed for remote work. |
-| **Ceiling fans** | \u{1F333}\u2699\uFE0F | Heard that it really cools down the space without having to use A/C. |
-| **Windows @ kitchen, bathrooms** | \u{1F333}\u{1F485}\u2699\uFE0F | Ventilation is important in these areas and natural sunlight is always a plus. |
-| **Kitchen island** | \u{1F485}\u2699\uFE0F |  |
-| **Miele Washer/Dryer/Vacuum** | \u{1F485}\u2699\uFE0F | I really liked them. |`;
+| **Hardwood floor** | \u{1F333}\u{1F485}\u{1F9F1} | Expensive but always good to have hardwood floor. I'm wondering if I could make it myself. |
+| **Cross breeze** | \u{1F333}\u{1F9F1} |  |
+| **Tilt-and-turn windows** | \u{1F333}\u{1F9F1} |  |
+| **External shades** | \u{1F333}\u{1F9F1} | I noticed lots of external shades in Germany. It's a good idea to keep the house cool in summer and warm in winter. |
+| **Fire place** | \u{1F333}\u{1F485}\u{1F9F1} |  |
+| **Thermal heating** | \u{1F333}\u{1F9F1} |  |
+| **Air purifier** | \u{1F333}\u{1F9F1} |  |
+| **HRV** | \u{1F333}\u{1F9F1} |  |
+| **Crafting space** | \u{1F9F1} | We always wish to have a dedicated space for crafting, such as wood/metalworking, watchmaking, and drafting. This space could also have an office space if needed for remote work. |
+| **Ceiling fans** | \u{1F333}\u{1F9F1} | Heard that it really cools down the space without having to use A/C. |
+| **Windows @ kitchen, bathrooms** | \u{1F333}\u{1F485}\u{1F9F1} | Ventilation is important in these areas and natural sunlight is always a plus. |
+| **Kitchen island** | \u{1F485}\u{1F9F1} |  |
+| **Miele Washer/Dryer/Vacuum** | \u{1F485}\u{1F9F1} | I really liked them. |`;
 
   // src/writings/books/psychology/courageToBeDisliked.md
   var courageToBeDisliked_default = `# Courage To be Disliked
