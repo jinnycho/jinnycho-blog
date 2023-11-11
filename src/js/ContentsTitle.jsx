@@ -42,8 +42,6 @@ export function ContentsTitle({setChosenContentTitle, chosenCategoryID, chosenSu
             }
         })}
         </div>
-        {/* { (chosenCategoryID === null || chosenSubCategoryID === null) ? <div className='contents-rectangle'>
-            <Subscribe /></div> :  "" } */}
         </>
     );
 }
