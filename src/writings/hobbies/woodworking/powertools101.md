@@ -59,11 +59,18 @@ Table saws cut straighter lines and make smoother cuts on small and long boards.
     - Check if the board is not square and flat.
     - Don't let go of the board during a cut.
 
-### 2.1 Dado Cut
+### 2.1 Dado Blades
+Dado blades allow us to make a cut that is wider than a standard saw blade, converting the table saw into a versatile
+tool for creating many types of joinery. In my case, I used these blades to make cross-lap & bridle joints.
 
 ## 3. Drill Press
+It allows us to make holes. Make sure the wood is not wobbly and there's no chip.
 
-## 4. Bed Saw
+<span style="color:blue">Some Tips</span>
+- Create a larger, shorter hole initially, and then make a smaller, longer hole so that the screw fits securely.
+- Wood will crack over time, so avoid using excessive glue as it will lead to cracking. Instead, use a drill press and screws.
+
+## 4. Bandsaw
 
 ## 5. Routing
 
