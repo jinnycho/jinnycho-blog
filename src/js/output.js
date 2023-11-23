@@ -27912,7 +27912,63 @@ Overall, the book was good, and I agreed with all of what the author said, thoug
   var myFirstTable_default = "# The First Table I made\n## 2023/09/26\n\nI heard that my grandpa used to handcraft his own farming tools, some of which were built to last a lifetime. My mom mentioned that those were the best tools she had ever used. I remember she was very sad when they all somehow went missing after he passed away. The lesson I learned is that things you create are very special.\n\nI've always been interested in design and the process of creating something from scratch. Woodworking, in that sense, is fascinating because it allows you to transform rough wood into a beautiful creation that many people will appreciate. Being the creator of your own masterpiece. (Fun fact: Jesus was a carpenter too.)\n\nWhile in Berlin for a month, I took a beginner woodworking class and became particularly interested in learning more joinery. And I made this table.\n\n![Table 1 alt ><](https://github.com/jinnycho/jinnycho.github.io/blob/main/src/assets/photos/my_first_table_1.png?raw=true)\n\nI initially intended to use it as a laptop table but ended up using it as a plant holder.\n\nMy woodworking journey hasn't stopped! I plan to take more courses in Brooklyn, including both introductory woodworking and handtools. I'll post more updates here!\n";
 
   // src/writings/hobbies/woodworking/powertools101.md
-  var powertools101_default = "# Woodworking - Power Tools 101\n## 2023/11/09\n\nFinished my intro to woodworking class (specifically power tools) from [Makeville studio](https://makeville.com). I made a small cherry tree side table from scratch featuring bridle joints and a round top. In short, I loved it! Steve Ceraso, who was my instructor, was very friendly, and the studio itself was really well-furnished and organized. I'd like to write about some of the main tools and techniques I learned during this class.\n\nThis is what I made:\n\n![Powertool 1 alt ><](https://github.com/jinnycho/jinnycho.github.io/blob/main/src/assets/photos/powertool1.png?raw=true)\n\nThis is the photo of the studio:\n\n![Powertool 2 alt ><](https://github.com/jinnycho/jinnycho.github.io/blob/main/src/assets/photos/powertool2.png?raw=true)\n\n\n## 1. Milling Lumber\nPeople like to mill lumber because it's cheaper and gives them more control over the material. One pro tip was **chalk** was so good in this process. It was better than a pencil because it's easier to erase and simply nicer.\n\n### 1.1 Miter Saw\nWe used it to cut a large piece of wood into smaller pieces. This is ideal for cross-cutting, which means cutting the wood against the grain direction.\n\n### 1.2 Jointer\n\n![Powertool 3 alt ><](https://github.com/jinnycho/jinnycho.github.io/blob/main/src/assets/photos/powertool3.png?raw=true)\n\n### 1.3 Thicknesser\n\n## 2. Table Saw\n\n### 2.1 Dado Cut\n\n## 3. Drill Press\n\n## 4. Bed Saw\n\n## 5. Routing\n\n## 6. Sander\n\n\n\n\n";
+  var powertools101_default = `# Woodworking - Power Tools 101
+## 2023/11/23
+
+Finished my intro to woodworking class (specifically power tools) from [Makeville studio](https://makeville.com). I made a small cherry tree side table from scratch featuring bridle joints and a round top. In short, I loved it! Steve, who was my instructor, was very friendly, and the studio itself was really well-furnished and organized. I'd like to write about some of the main tools and techniques I learned during this class.
+
+First of all, this is what I made:
+
+![Powertool 1 alt ><](https://github.com/jinnycho/jinnycho.github.io/blob/main/src/assets/photos/powertool1.png?raw=true)
+
+This is the photo of the studio:
+
+![Powertool 2 alt ><](https://github.com/jinnycho/jinnycho.github.io/blob/main/src/assets/photos/powertool2.png?raw=true)
+
+
+## 1. Milling Lumber
+People like to mill rough lumber because it's cheaper and gives them more control over the material. One pro tip from Steve was to use a **chalk** in this process. It was better than a pencil because it's easier to erase and simply nicer to use.
+
+### 1.1 Miter Saw
+We used it to cut a large piece of wood into smaller pieces. This is ideal for cross-cutting, which means cutting the wood against the grain direction. This is relatively rough cut so it shouldn't have to be very accurate.
+
+<span style="color:blue">Some Tips</span>
+- Do not use the miter saw to cut small pieces.
+- We need to position ourselves to the left of the miter saw, and we'll use the board on the left.
+- If the lumber is not completely flat, make sure the bow is correct so it doesn't wobble.
+- The hand should be on the machine.
+
+
+### 1.2 Jointer
+
+![Powertool 3 alt ><](https://github.com/jinnycho/jinnycho.github.io/blob/main/src/assets/photos/powertool3.png?raw=true)
+
+It is a specialized tool that can create smooth, straight edges and flat surfaces in woodworking projects.
+
+<span style="color:blue">Some Tips</span>
+- Adjust the depth correctly; you don't want to cut too deep. It's better to make multiple shallow cuts instead (about 3 times).
+- Double check the red part is working properly. It has to work.
+- Use 2 pushsticks!
+- Turn on the dust collector.
+
+### 1.3 Thicknesser
+
+## 2. Table Saw
+
+### 2.1 Dado Cut
+
+## 3. Drill Press
+
+## 4. Bed Saw
+
+## 5. Routing
+
+## 6. Sander
+
+
+
+
+`;
 
   // src/writings/tech/create/myBlogHistory.md
   var myBlogHistory_default = "# The Evolution of My Blogging Journey\n## 2023/10/15\nBelieve it or not, my blogging history goes back 5 years, with changes almost every year. I wanted to share my likes, dislikes, and how I created my all-time favorite version.\n\n### What I was looking for\n1. I want my blog to look unique & well designed.\n2. I want to write many blogs that are well organized.\n3. I'd love to have full control to add or change things on my blog as I go. (e.g. subscription)\n\n### Version 1 \u2605\u2606\u2606\u2606\u2606\nI used a static site generator called [Hugo](https://gohugo.io/). It was very well-documented and easy to set up with many interesting templates to choose from. The blog itself was loaded fast too. \n\nHowever, it was quite tricky to customize anything (at least at that time). All the 'templates' they offered were quite boring as well, to be honest. I didn't feel attached to it and quickly grew bored over time; it felt more like mass-produced IKEA furniture rather than a handmade piece, if that makes sense.\n\n![Blog version 2 alt ><](https://github.com/jinnycho/jinnycho.github.io/blob/main/src/assets/photos/blog1.jpeg?raw=true)\n\n\n### Version 2 \u2605\u2605\u2606\u2606\u2606\nMy second version was driven by my strong desire to have a very unique and artistic blog of my own. I just used good old `javascript` and `CSS`. I was largely inspired by early 2000s web style and I was a huge fan of pixel fonts. I also coded using [p5.js](https://p5js.org/) for the cool 3D effects on the front page because I liked the way it looks.\n\nHowever, I instinctively felt that I really needed better content organization. I was like, 'Should I use tags? Should I add a search engine?' I was worried about what would happen if I had 100 blog posts, even though I had only written 4. I also found that the web aesthetics of the 2000s with chunky pixel fonts were a bit hard to read. It felt like avant-garde design furniture, yet it wasn't particularly comfortable.\n\n![Blog version 2 alt ><](https://github.com/jinnycho/jinnycho.github.io/blob/main/src/assets/photos/blog2.png?raw=true)\n\n### Version 3 \u2605\u2605\u2605\u2606\u2606\nI focused a lot more on improving the content organization for the version 3. Charles inspired me to consider the mind map style and that's what I did. I continued to use `javascript` & `CSS`.\n\nHowever, the mindmap style turned out to be quite challenging. First, positioning each circle was not easy. Plus, as I added more circles, things started to look messy and harder to navigate. It looked worse on the mobile or smaller screen.\n\n![Blog version 3 alt ><](https://github.com/jinnycho/jinnycho.github.io/blob/main/src/assets/photos/blog3.png?raw=true)\n\n### Version 4 \u2605\u2605\u2605\u2605\u2606\nSo here we are, I did another major redesign & refacturing of the code. \n\nFirstly, I abandoned the conventional mindmap style and transitioned into a more tabular layout. Then I introduced the concept of categories and subcategories to efficiently organize my blogs. I still kept the 2000s web aesthetics with programmer fonts, but I dialed it back to make it less overwhelming.\n\nEngineering-wise, I definitely built it from scratch using `javascript` and `CSS`. However, I additionally used `React` to manage various states, from user interactions to URL routing. Using `react-router` was particularly satisfying because it allowed me to link to a particular post with a [URL like this](https://jinnycho.github.io/ideas/architecture/houseIdeas001). I also added a Subscribe button using `react-modal` and Cloudflare worker to notify readers when I write new blogs, with the hope that many people will see them. :D\n\nSo far, I'm very satisfied. It finally feels like a good cozy handmade furniture that looks good and comfortable to me. But I want to give 4 stars because now I need to write more. Time to get to work!";
