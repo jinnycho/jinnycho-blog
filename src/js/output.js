@@ -27987,6 +27987,8 @@ It allows us to make holes. Make sure the wood is not wobbly and there's no chip
 - Wood will crack over time, so avoid using excessive glue as it will lead to cracking. Instead, use a drill press and screws.
 
 ## 4. Bandsaw
+The bandsaw is a natural choice for cutting curves, but it can also do cross cuts, rip cuts as well as angles and compound shapes. It's very versatile.
+
 
 ## 5. Routing
 
