@@ -60,6 +60,8 @@ Table saws cut straighter lines and make smoother cuts on small and long boards.
     - Don't let go of the board during a cut.
 
 ### 2.1 Dado Blades
+![Powertool 5 alt ><](https://github.com/jinnycho/jinnycho.github.io/blob/main/src/assets/photos/powertool5.png?raw=true)
+
 Dado blades allow us to make a cut that is wider than a standard saw blade, converting the table saw into a versatile
 tool for creating many types of joinery. In my case, I used these blades to make cross-lap & bridle joints.
 
