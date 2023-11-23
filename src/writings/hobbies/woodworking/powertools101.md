@@ -39,7 +39,19 @@ It is a specialized tool that can create smooth, straight edges and flat surface
 
 ### 1.3 Thicknesser
 
+![Powertool 4 alt ><](https://github.com/jinnycho/jinnycho.github.io/blob/main/src/assets/photos/powertool4.png?raw=true)
+
+It is a tool to trim boards to a consistent thickness throughout their length and flat on both surfaces.
+
 ## 2. Table Saw
+
+Table saws cut straighter lines and make smoother cuts on small and long boards. It IS dangerous so it's always better to have a "saw stop" attachment. Table saw can do both rip-cut (cutting along the grain direction) & cross-cut. Rip-cut blade is bigger than that of cross-cut. Always be careful with the kickback!
+
+<span style="color:blue">Some Tips</span>
+- It could tear the fibers on the bottom part of the wood. Do it more slowly.
+- Make sure the blade is upright and square. To check, remove the cover and adjust the angle.
+- The edge of the blade shouldn't be significantly higher than the height of the wood; it should be approximately the same height.
+- To avoid kickback, stand close to the left of the machine & make sure the left hand stays. Also Hold the wood when turning on the machine.
 
 ### 2.1 Dado Cut
 
