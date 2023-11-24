@@ -5,7 +5,7 @@
  <description>This is Jinny's blog</description>
  <link>https://jinnycho.github.io/</link>
  <copyright>2020 Example.com All rights reserved</copyright>
- <lastBuildDate>Wed, 8 Nov 2023 00:01:00 +0000</lastBuildDate>
+ <lastBuildDate>Fri, 24 Nov 2023 00:01:00 +0000</lastBuildDate>
  <ttl>1800</ttl>
 
  <item>
@@ -14,6 +14,14 @@
   <link>https://jinnycho.github.io/books/entrepreneur/companyOfOne</link>
   <guid isPermaLink="false">7bd204c6-1655-4c27-aeee-53f933c5395f</guid>
  </item>
+
+  <item>
+  <title>Woodworking - Power Tools 101</title>
+  <description>Photos, thoughts & tools learned from woodworking class</description>
+  <link>https://jinnycho.github.io/hobbies/woodworking/powertools101</link>
+  <guid isPermaLink="false">7bd204c6-1655-4c27-aeee-53f933c5395f</guid>
+ </item>
+
 
 </channel>
 </rss>
