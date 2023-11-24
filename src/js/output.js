@@ -1096,7 +1096,7 @@
             var dispatcher = resolveDispatcher();
             return dispatcher.useRef(initialValue);
           }
-          function useEffect7(create, deps) {
+          function useEffect8(create, deps) {
             var dispatcher = resolveDispatcher();
             return dispatcher.useEffect(create, deps);
           }
@@ -1878,7 +1878,7 @@
           exports.useContext = useContext3;
           exports.useDebugValue = useDebugValue;
           exports.useDeferredValue = useDeferredValue;
-          exports.useEffect = useEffect7;
+          exports.useEffect = useEffect8;
           exports.useId = useId;
           exports.useImperativeHandle = useImperativeHandle;
           exports.useInsertionEffect = useInsertionEffect;
@@ -27813,12 +27813,6 @@ My life has been the complete opposite of what this book has advised. According 
 
 I'll end this blog with a Cherokee story about two wolves. There's an ongoing battle inside each of us\u2014a fierce struggle between two wolves. One is evil, representing anger, envy, sorrow, regret, greed, arrogance, self-pity, guilt, resentment, inferiority, lies, false pride, superiority, and ego. The other is good, embodying joy, peace, love, hope, serenity, humility, kindness, benevolence, empathy, generosity, truth, compassion, and faith. The wolf that we feed ultimately wins.`;
 
-  // src/writings/hobbies/woodworking/myFirstTable.md
-  var myFirstTable_default = "# The First Table I made\n## 2023/09/26\n\nI heard that my grandpa used to handcraft his own farming tools, some of which were built to last a lifetime. My mom mentioned that those were the best tools she had ever used. I remember she was very sad when they all somehow went missing after he passed away. The lesson I learned is that things you create are very special.\n\nI've always been interested in design and the process of creating something from scratch. Woodworking, in that sense, is fascinating because it allows you to transform rough wood into a beautiful creation that many people will appreciate. Being the creator of your own masterpiece. (Fun fact: Jesus was a carpenter too.)\n\nWhile in Berlin for a month, I took a beginner woodworking class and became particularly interested in learning more joinery. And I made this table.\n\n![Table 1 alt ><](https://github.com/jinnycho/jinnycho.github.io/blob/main/src/assets/photos/my_first_table_1.png?raw=true)\n\nI initially intended to use it as a laptop table but ended up using it as a plant holder.\n\nMy woodworking journey hasn't stopped! I plan to take more courses in Brooklyn, including both introductory woodworking and handtools. I'll post more updates here!\n";
-
-  // src/writings/tech/create/myBlogHistory.md
-  var myBlogHistory_default = "# The Evolution of My Blogging Journey\n## 2023/10/15\nBelieve it or not, my blogging history goes back 5 years, with changes almost every year. I wanted to share my likes, dislikes, and how I created my all-time favorite version.\n\n### What I was looking for\n1. I want my blog to look unique & well designed.\n2. I want to write many blogs that are well organized.\n3. I'd love to have full control to add or change things on my blog as I go. (e.g. subscription)\n\n### Version 1 \u2605\u2606\u2606\u2606\u2606\nI used a static site generator called [Hugo](https://gohugo.io/). It was very well-documented and easy to set up with many interesting templates to choose from. The blog itself was loaded fast too. \n\nHowever, it was quite tricky to customize anything (at least at that time). All the 'templates' they offered were quite boring as well, to be honest. I didn't feel attached to it and quickly grew bored over time; it felt more like mass-produced IKEA furniture rather than a handmade piece, if that makes sense.\n\n![Blog version 2 alt ><](https://github.com/jinnycho/jinnycho.github.io/blob/main/src/assets/photos/blog1.jpeg?raw=true)\n\n\n### Version 2 \u2605\u2605\u2606\u2606\u2606\nMy second version was driven by my strong desire to have a very unique and artistic blog of my own. I just used good old `javascript` and `CSS`. I was largely inspired by early 2000s web style and I was a huge fan of pixel fonts. I also coded using [p5.js](https://p5js.org/) for the cool 3D effects on the front page because I liked the way it looks.\n\nHowever, I instinctively felt that I really needed better content organization. I was like, 'Should I use tags? Should I add a search engine?' I was worried about what would happen if I had 100 blog posts, even though I had only written 4. I also found that the web aesthetics of the 2000s with chunky pixel fonts were a bit hard to read. It felt like avant-garde design furniture, yet it wasn't particularly comfortable.\n\n![Blog version 2 alt ><](https://github.com/jinnycho/jinnycho.github.io/blob/main/src/assets/photos/blog2.png?raw=true)\n\n### Version 3 \u2605\u2605\u2605\u2606\u2606\nI focused a lot more on improving the content organization for the version 3. Charles inspired me to consider the mind map style and that's what I did. I continued to use `javascript` & `CSS`.\n\nHowever, the mindmap style turned out to be quite challenging. First, positioning each circle was not easy. Plus, as I added more circles, things started to look messy and harder to navigate. It looked worse on the mobile or smaller screen.\n\n![Blog version 3 alt ><](https://github.com/jinnycho/jinnycho.github.io/blob/main/src/assets/photos/blog3.png?raw=true)\n\n### Version 4 \u2605\u2605\u2605\u2605\u2606\nSo here we are, I did another major redesign & refacturing of the code. \n\nFirstly, I abandoned the conventional mindmap style and transitioned into a more tabular layout. Then I introduced the concept of categories and subcategories to efficiently organize my blogs. I still kept the 2000s web aesthetics with programmer fonts, but I dialed it back to make it less overwhelming.\n\nEngineering-wise, I definitely built it from scratch using `javascript` and `CSS`. However, I additionally used `React` to manage various states, from user interactions to URL routing. Using `react-router` was particularly satisfying because it allowed me to link to a particular post with a [URL like this](https://jinnycho.github.io/ideas/architecture/houseIdeas001). I also added a Subscribe button using `react-modal` and Cloudflare worker to notify readers when I write new blogs, with the hope that many people will see them. :D\n\nSo far, I'm very satisfied. It finally feels like a good cozy handmade furniture that looks good and comfortable to me. But I want to give 4 stars because now I need to write more. Time to get to work!";
-
   // src/writings/books/entrepreneur/companyOfOne.md
   var companyOfOne_default = `# Company Of One
 ## 2023/11/08
@@ -27914,6 +27908,119 @@ I believe we should consider the company's values, both externally and internall
 
 Overall, the book was good, and I agreed with all of what the author said, though it was a bit repetitive. The book helped me think that life is short, and I should follow my own values.`;
 
+  // src/writings/hobbies/woodworking/myFirstTable.md
+  var myFirstTable_default = "# The First Table I made\n## 2023/09/26\n\nI heard that my grandpa used to handcraft his own farming tools, some of which were built to last a lifetime. My mom mentioned that those were the best tools she had ever used. I remember she was very sad when they all somehow went missing after he passed away. The lesson I learned is that things you create are very special.\n\nI've always been interested in design and the process of creating something from scratch. Woodworking, in that sense, is fascinating because it allows you to transform rough wood into a beautiful creation that many people will appreciate. Being the creator of your own masterpiece. (Fun fact: Jesus was a carpenter too.)\n\nWhile in Berlin for a month, I took a beginner woodworking class and became particularly interested in learning more joinery. And I made this table.\n\n![Table 1 alt ><](https://github.com/jinnycho/jinnycho.github.io/blob/main/src/assets/photos/my_first_table_1.png?raw=true)\n\nI initially intended to use it as a laptop table but ended up using it as a plant holder.\n\nMy woodworking journey hasn't stopped! I plan to take more courses in Brooklyn, including both introductory woodworking and handtools. I'll post more updates here!\n";
+
+  // src/writings/hobbies/woodworking/powertools101.md
+  var powertools101_default = `# Woodworking - Power Tools 101
+## 2023/11/23
+
+Finished my intro to woodworking class (specifically power tools) from [Makeville studio](https://makeville.com). I made a small cherry tree side table from scratch featuring bridle joints and a round top. In short, I loved it! Steve, who was my instructor, was very friendly, and the studio itself was really well-furnished and organized. I'd like to write about some of the main tools and techniques I learned during this class.
+
+First of all, this is what I made:
+
+![Powertool 1 alt ><](https://github.com/jinnycho/jinnycho.github.io/blob/main/src/assets/photos/powertool1.png?raw=true)
+
+This is the photo of the studio:
+
+![Powertool 2 alt ><](https://github.com/jinnycho/jinnycho.github.io/blob/main/src/assets/photos/powertool2.png?raw=true)
+
+
+## 1. Milling Lumber
+People like to mill rough lumber because it's cheaper and gives them more control over the material. One pro tip from Steve was to use a **chalk** in this process. It was better than a pencil because it's easier to erase and simply nicer to use.
+
+### 1.1 Miter Saw
+We used it to cut a large piece of wood into smaller pieces. This is ideal for cross-cutting, which means cutting the wood against the grain direction. This is relatively rough cut so it shouldn't have to be very accurate.
+
+<span style="color:blue">Some Tips</span>
+- Do not use the miter saw to cut small pieces.
+- We need to position ourselves to the left of the miter saw, and we'll use the board on the left.
+- If the lumber is not completely flat, make sure the bow is correct so it doesn't wobble.
+- The hand should be on the machine.
+
+
+### 1.2 Jointer
+
+![Powertool 3 alt ><](https://github.com/jinnycho/jinnycho.github.io/blob/main/src/assets/photos/powertool3.png?raw=true)
+
+It is a specialized tool that can create smooth, straight edges and flat surfaces in woodworking projects.
+
+<span style="color:blue">Some Tips</span>
+- Adjust the depth correctly; you don't want to cut too deep. It's better to make multiple shallow cuts instead (about 3 times).
+- Double check the red part is working properly. It has to work.
+- Use 2 pushsticks!
+- Turn on the dust collector.
+
+### 1.3 Thicknesser
+
+![Powertool 4 alt ><](https://github.com/jinnycho/jinnycho.github.io/blob/main/src/assets/photos/powertool4.png?raw=true)
+
+It is a tool to trim boards to a consistent thickness throughout their length and flat on both surfaces.
+
+## 2. Table Saw
+
+![Powertool 6 alt ><](https://github.com/jinnycho/jinnycho.github.io/blob/main/src/assets/photos/powertool6.png?raw=true)
+
+Table saws cut straighter lines and make smoother cuts on small and long boards. It IS dangerous so it's always better to have a "saw stop" attachment. Table saw can do both rip-cut (cutting parallel with the grain direction) & cross-cut. Rip-cut blade is bigger than that of cross-cut. Always be careful with the kickback!
+
+<span style="color:blue">Some Tips</span>
+- It could tear the fibers on the bottom part of the wood. Do it more slowly.
+- Make sure the blade is upright and square. To check, remove the cover and adjust the angle.
+- The edge of the blade shouldn't be significantly higher than the height of the wood; it should be approximately the same height.
+- To avoid kickback:
+    - Stand close to the left of the machine.
+    - Make sure the left hand stays. Don't let go of the board during a cut.
+    - Hold the wood when turning on the machine.
+    - Make sure the workpiece to not shift into the back of the blade during a cut.
+    - Check if the board is not square and flat.
+
+### 2.1 Dado Blades
+![Powertool 5 alt ><](https://github.com/jinnycho/jinnycho.github.io/blob/main/src/assets/photos/powertool5.png?raw=true)
+
+Dado blades allow us to make a cut that is wider than a standard saw blade, converting the table saw into a versatile
+tool for creating many types of joinery. In my case, I used these blades to make cross-lap & bridle joints. (2 circles in the above photo)
+
+## 3. Drill Press
+It allows us to make holes. Make sure the wood is not wobbly and there's no chip.
+
+<span style="color:blue">Some Tips</span>
+- Create a larger, shorter hole initially, and then make a smaller, longer hole so that the screw fits securely.
+- Wood will crack over time, so avoid using excessive glue as it will lead to cracking. Instead, use a drill press and screws.
+
+## 4. Bandsaw
+The bandsaw is a natural choice for cutting curves, but it can also do cross cuts, rip cuts as well as angles and compound shapes. It's very versatile!
+
+<span style="color:blue">Some Tips</span>
+- Don't cut all the way to the line. Leave some room so the sander can sand that remaining part.
+- You don't have to hold too much. Actually do it faster because otherwise it will burn the wood.
+- Don't stop in the middle of the cut.
+- Turn on the dust collector.
+- To cut a circle, rotate counter-clockwise.  
+
+## 5. Router Table
+It was so cool. It is a handheld router mounted upside down in a table. This is to make the best round disk for the tabletop. What we did is attaching the MDF template to the disk I roughly cut from the bandsaw. Then we let the whole thing hit the bearing and rotate. (This is called "pattern routing")
+
+<span style="color:blue">Some Tips</span>
+- Similarly, don't hold it too much since it will burn.
+- Rotate it counter clockwise again!
+
+## 6. Sander
+I used the disk sander. Careful not to touch it.
+
+<span style="color:blue">Some Tips</span>
+- Rotate counter-clockwise in the middle to avoid kickback. Rotate the middle part of the disk.
+- Don't stay too long because it will burn.
+- Use the rubber stick to clean the disk every now and then.
+
+## Overall
+
+![Powertool 7 alt ><](https://github.com/jinnycho/jinnycho.github.io/blob/main/src/assets/photos/powertool7.png?raw=true)
+
+It was a delightful 4 weeks. Waking up early and walking there for 40 minutes in the morning, strolling along Park Slope was truly wholesome. I personally found this more satisfying than the handtools class (which I'd like to cover next time) because it's less exhausting but honestly you need to do both. I'm excited to create more going forward!`;
+
+  // src/writings/tech/create/myBlogHistory.md
+  var myBlogHistory_default = "# The Evolution of My Blogging Journey\n## 2023/10/15\nBelieve it or not, my blogging history goes back 5 years, with changes almost every year. I wanted to share my likes, dislikes, and how I created my all-time favorite version.\n\n### What I was looking for\n1. I want my blog to look unique & well designed.\n2. I want to write many blogs that are well organized.\n3. I'd love to have full control to add or change things on my blog as I go. (e.g. subscription)\n\n### Version 1 \u2605\u2606\u2606\u2606\u2606\nI used a static site generator called [Hugo](https://gohugo.io/). It was very well-documented and easy to set up with many interesting templates to choose from. The blog itself was loaded fast too. \n\nHowever, it was quite tricky to customize anything (at least at that time). All the 'templates' they offered were quite boring as well, to be honest. I didn't feel attached to it and quickly grew bored over time; it felt more like mass-produced IKEA furniture rather than a handmade piece, if that makes sense.\n\n![Blog version 2 alt ><](https://github.com/jinnycho/jinnycho.github.io/blob/main/src/assets/photos/blog1.jpeg?raw=true)\n\n\n### Version 2 \u2605\u2605\u2606\u2606\u2606\nMy second version was driven by my strong desire to have a very unique and artistic blog of my own. I just used good old `javascript` and `CSS`. I was largely inspired by early 2000s web style and I was a huge fan of pixel fonts. I also coded using [p5.js](https://p5js.org/) for the cool 3D effects on the front page because I liked the way it looks.\n\nHowever, I instinctively felt that I really needed better content organization. I was like, 'Should I use tags? Should I add a search engine?' I was worried about what would happen if I had 100 blog posts, even though I had only written 4. I also found that the web aesthetics of the 2000s with chunky pixel fonts were a bit hard to read. It felt like avant-garde design furniture, yet it wasn't particularly comfortable.\n\n![Blog version 2 alt ><](https://github.com/jinnycho/jinnycho.github.io/blob/main/src/assets/photos/blog2.png?raw=true)\n\n### Version 3 \u2605\u2605\u2605\u2606\u2606\nI focused a lot more on improving the content organization for the version 3. Charles inspired me to consider the mind map style and that's what I did. I continued to use `javascript` & `CSS`.\n\nHowever, the mindmap style turned out to be quite challenging. First, positioning each circle was not easy. Plus, as I added more circles, things started to look messy and harder to navigate. It looked worse on the mobile or smaller screen.\n\n![Blog version 3 alt ><](https://github.com/jinnycho/jinnycho.github.io/blob/main/src/assets/photos/blog3.png?raw=true)\n\n### Version 4 \u2605\u2605\u2605\u2605\u2606\nSo here we are, I did another major redesign & refacturing of the code. \n\nFirstly, I abandoned the conventional mindmap style and transitioned into a more tabular layout. Then I introduced the concept of categories and subcategories to efficiently organize my blogs. I still kept the 2000s web aesthetics with programmer fonts, but I dialed it back to make it less overwhelming.\n\nEngineering-wise, I definitely built it from scratch using `javascript` and `CSS`. However, I additionally used `React` to manage various states, from user interactions to URL routing. Using `react-router` was particularly satisfying because it allowed me to link to a particular post with a [URL like this](https://jinnycho.github.io/ideas/architecture/houseIdeas001). I also added a Subscribe button using `react-modal` and Cloudflare worker to notify readers when I write new blogs, with the hope that many people will see them. :D\n\nSo far, I'm very satisfied. It finally feels like a good cozy handmade furniture that looks good and comfortable to me. But I want to give 4 stars because now I need to write more. Time to get to work!";
+
   // src/js/Config.jsx
   var categoryIDToValue = {
     "ideas": "Ideas",
@@ -27937,23 +28044,33 @@ Overall, the book was good, and I agreed with all of what the author said, thoug
   var subCategoryIDToTitleIDs = {
     "architecture": ["houseIdeas001"],
     "psychology": ["courageToBeDisliked"],
-    "woodworking": ["myFirstTable"],
+    "woodworking": ["myFirstTable", "powertools101"],
     "create": ["myBlogHistory"],
     "entrepreneur": ["companyOfOne"]
   };
   var contentsTitleIDToValue = {
+    // Ideas
     "houseIdeas001": "I Want To Build My Own House (0.0.1)",
+    // Books
     "courageToBeDisliked": "Courage To Be Disliked",
+    "companyOfOne": "Company Of One",
+    // Hobbies
     "myFirstTable": "The First Table I Made",
-    "myBlogHistory": "The Evolution of My Blogging Journey",
-    "companyOfOne": "Company Of One"
+    "powertools101": "Power Tools 101",
+    // Tech
+    "myBlogHistory": "The Evolution of My Blogging Journey"
   };
   var contentsTitleIDToContentsContentValue = {
+    // Ideas
     "houseIdeas001": dreamHouse001_default,
+    // Books
     "courageToBeDisliked": courageToBeDisliked_default,
+    "companyOfOne": companyOfOne_default,
+    // Hobbies
     "myFirstTable": myFirstTable_default,
-    "myBlogHistory": myBlogHistory_default,
-    "companyOfOne": companyOfOne_default
+    "powertools101": powertools101_default,
+    // Tech
+    "myBlogHistory": myBlogHistory_default
   };
 
   // src/js/Category.jsx
@@ -28129,15 +28246,16 @@ Overall, the book was good, and I agreed with all of what the author said, thoug
     const handleContentsTitleClick = (chosenContentTitleID2) => {
       setChosenContentTitle(chosenContentTitleID2);
     };
-    return /* @__PURE__ */ import_react5.default.createElement(import_react5.default.Fragment, null, Object.keys(subCategoryIDToTitleIDs).map((subCategoryID) => {
+    return /* @__PURE__ */ import_react5.default.createElement(import_react5.default.Fragment, null, /* @__PURE__ */ import_react5.default.createElement("div", { className: "contents-rectangle" }, /* @__PURE__ */ import_react5.default.createElement(Subscribe, null), Object.keys(subCategoryIDToTitleIDs).map((subCategoryID) => {
       if (chosenSubCategoryID === subCategoryID && chosenContentTitleID == null) {
         const titleIDsGivenSubCategory = subCategoryIDToTitleIDs[chosenSubCategoryID];
         return titleIDsGivenSubCategory.map((titleID) => {
           const contentTitle = contentsTitleIDToValue[titleID];
-          return /* @__PURE__ */ import_react5.default.createElement("div", { className: "contents-rectangle", key: titleID }, /* @__PURE__ */ import_react5.default.createElement(Subscribe, null), /* @__PURE__ */ import_react5.default.createElement(
+          return /* @__PURE__ */ import_react5.default.createElement(
             Link,
             {
-              to: `/${categoryIDPath}/${subCategoryID}/${titleID}`
+              to: `/${categoryIDPath}/${subCategoryID}/${titleID}`,
+              key: titleID
             },
             /* @__PURE__ */ import_react5.default.createElement(
               "div",
@@ -28148,10 +28266,10 @@ Overall, the book was good, and I agreed with all of what the author said, thoug
               " ",
               contentTitle
             )
-          ));
+          );
         });
       }
-    }), chosenCategoryID === null || chosenSubCategoryID === null ? /* @__PURE__ */ import_react5.default.createElement("div", { className: "contents-rectangle" }, /* @__PURE__ */ import_react5.default.createElement(Subscribe, null)) : "");
+    })));
   }
 
   // src/js/ContentsContent.jsx
@@ -30366,28 +30484,20 @@ ${content}</tr>
   var lexer = _Lexer.lex;
 
   // src/js/ContentsContent.jsx
-  function ContentsContent({ chosenContentTitleID }) {
-    return /* @__PURE__ */ import_react6.default.createElement(import_react6.default.Fragment, null, Object.keys(contentsTitleIDToContentsContentValue).map((contentTitleID) => {
+  function ContentsContent({ setChosenContentTitle, chosenContentTitleID }) {
+    const { contentTitleIDPath } = useParams();
+    (0, import_react6.useEffect)(() => {
+      if (contentTitleIDPath !== void 0) {
+        setChosenContentTitle(contentTitleIDPath);
+      }
+    }, [contentTitleIDPath]);
+    return /* @__PURE__ */ import_react6.default.createElement(import_react6.default.Fragment, null, /* @__PURE__ */ import_react6.default.createElement("div", { className: "contents-rectangle" }, /* @__PURE__ */ import_react6.default.createElement(Subscribe, null), Object.keys(contentsTitleIDToContentsContentValue).map((contentTitleID) => {
       if (contentTitleID === chosenContentTitleID) {
         const contentTitle = contentsTitleIDToValue[contentTitleID];
         const contentValueGivenContentTitle = marked.parse(contentsTitleIDToContentsContentValue[contentTitleID]);
-        return /* @__PURE__ */ import_react6.default.createElement("div", { className: "contents-rectangle", key: contentTitleID }, /* @__PURE__ */ import_react6.default.createElement(Subscribe, null), /* @__PURE__ */ import_react6.default.createElement(
-          "div",
-          {
-            className: "content-title",
-            isselected: "true"
-          },
-          " ",
-          contentTitle
-        ), /* @__PURE__ */ import_react6.default.createElement(
-          "div",
-          {
-            className: "content-actual",
-            dangerouslySetInnerHTML: { __html: contentValueGivenContentTitle }
-          }
-        ));
+        return /* @__PURE__ */ import_react6.default.createElement("div", { key: contentTitleID }, /* @__PURE__ */ import_react6.default.createElement("div", { className: "content-title", isselected: "true" }, contentTitle), /* @__PURE__ */ import_react6.default.createElement("div", { className: "content-actual", dangerouslySetInnerHTML: { __html: contentValueGivenContentTitle } }));
       }
-    }));
+    })));
   }
 
   // src/js/Blog.jsx
@@ -30506,16 +30616,9 @@ ${content}</tr>
             chosenSubCategoryID
           }
         ), /* @__PURE__ */ import_react7.default.createElement(
-          ContentsTitle,
-          {
-            setChosenContentTitle,
-            chosenCategoryID,
-            chosenSubCategoryID,
-            chosenContentTitleID
-          }
-        ), /* @__PURE__ */ import_react7.default.createElement(
           ContentsContent,
           {
+            setChosenContentTitle,
             chosenContentTitleID
           }
         ))
@@ -30652,3 +30755,4 @@ react-router-dom/dist/index.js:
    * @license MIT
    *)
 */
+//# sourceMappingURL=output.js.map

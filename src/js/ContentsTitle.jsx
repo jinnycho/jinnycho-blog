@@ -20,29 +20,28 @@ export function ContentsTitle({setChosenContentTitle, chosenCategoryID, chosenSu
 
     return (
         <>
+        <div className='contents-rectangle'>
+        <Subscribe />
         {Object.keys(subCategoryIDToTitleIDs).map((subCategoryID) => {
             if (chosenSubCategoryID === subCategoryID && chosenContentTitleID == null) {
                 const titleIDsGivenSubCategory = subCategoryIDToTitleIDs[chosenSubCategoryID];
                 return (titleIDsGivenSubCategory.map((titleID) => {
                     const contentTitle = contentsTitleIDToValue[titleID];
                     return (
-                        <div className='contents-rectangle' key={ titleID }>
 
-                            <Subscribe />
                             <Link 
                                 to={`/${categoryIDPath}/${subCategoryID}/${titleID}`}
+                                key={ titleID }
                             >
                                 <div className='content-title'
                                     onClick={() => handleContentsTitleClick(titleID)}> {contentTitle}
                                 </div>
                             </Link>
-                        </div>
                     );
                 }));
             }
         })}
-        { (chosenCategoryID === null || chosenSubCategoryID === null) ? <div className='contents-rectangle'>
-                            <Subscribe /></div> :  "" }
+        </div>
         </>
     );
 }
