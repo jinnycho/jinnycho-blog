@@ -102,4 +102,4 @@ I used the disk sander. Careful not to touch it.
 
 ![Powertool 7 alt ><](https://github.com/jinnycho/jinnycho.github.io/blob/main/src/assets/photos/powertool7.png?raw=true)
 
-It was a delightful 4 weeks. Waking up early and walking there for 40 minutes in the morning, strolling along Park Slope was truly wholesome. I personally found it more satisfying than the handtools class (which I'd like to cover next time) because it's less exhausting but honestly you need to do both. I'm excited to create more going forward!
+It was a delightful 4 weeks. Waking up early and walking there for 40 minutes in the morning, strolling along Park Slope was truly wholesome. I personally found this more satisfying than the handtools class (which I'd like to cover next time) because it's less exhausting but honestly you need to do both. I'm excited to create more going forward!
