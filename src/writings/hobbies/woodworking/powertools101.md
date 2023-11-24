@@ -45,6 +45,8 @@ It is a tool to trim boards to a consistent thickness throughout their length an
 
 ## 2. Table Saw
 
+![Powertool 6 alt ><](https://github.com/jinnycho/jinnycho.github.io/blob/main/src/assets/photos/powertool6.png?raw=true)
+
 Table saws cut straighter lines and make smoother cuts on small and long boards. It IS dangerous so it's always better to have a "saw stop" attachment. Table saw can do both rip-cut (cutting parallel with the grain direction) & cross-cut. Rip-cut blade is bigger than that of cross-cut. Always be careful with the kickback!
 
 <span style="color:blue">Some Tips</span>
@@ -95,3 +97,9 @@ I used the disk sander. Careful not to touch it.
 - Rotate counter-clockwise in the middle to avoid kickback. Rotate the middle part of the disk.
 - Don't stay too long because it will burn.
 - Use the rubber stick to clean the disk every now and then.
+
+## Overall
+
+![Powertool 7 alt ><](https://github.com/jinnycho/jinnycho.github.io/blob/main/src/assets/photos/powertool7.png?raw=true)
+
+It was a delightful 4 weeks. Waking up early and walking there for 40 minutes in the morning, strolling along Park Slope was truly wholesome. I personally found it more satisfying than the handtools class (which I'd like to cover next time) because it's less exhausting but honestly you need to do both. I'm excited to create more going forward!
