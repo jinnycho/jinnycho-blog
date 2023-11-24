@@ -53,17 +53,16 @@ Table saws cut straighter lines and make smoother cuts on small and long boards.
 - The edge of the blade shouldn't be significantly higher than the height of the wood; it should be approximately the same height.
 - To avoid kickback:
     - Stand close to the left of the machine.
-    - Make sure the left hand stays. 
+    - Make sure the left hand stays. Don't let go of the board during a cut.
     - Hold the wood when turning on the machine.
-    - Make sure the workpiece to don't shift into the back of the blade during a cut.
+    - Make sure the workpiece to not shift into the back of the blade during a cut.
     - Check if the board is not square and flat.
-    - Don't let go of the board during a cut.
 
 ### 2.1 Dado Blades
 ![Powertool 5 alt ><](https://github.com/jinnycho/jinnycho.github.io/blob/main/src/assets/photos/powertool5.png?raw=true)
 
 Dado blades allow us to make a cut that is wider than a standard saw blade, converting the table saw into a versatile
-tool for creating many types of joinery. In my case, I used these blades to make cross-lap & bridle joints.
+tool for creating many types of joinery. In my case, I used these blades to make cross-lap & bridle joints. (2 circles in the above photo)
 
 ## 3. Drill Press
 It allows us to make holes. Make sure the wood is not wobbly and there's no chip.
@@ -73,13 +72,26 @@ It allows us to make holes. Make sure the wood is not wobbly and there's no chip
 - Wood will crack over time, so avoid using excessive glue as it will lead to cracking. Instead, use a drill press and screws.
 
 ## 4. Bandsaw
-The bandsaw is a natural choice for cutting curves, but it can also do cross cuts, rip cuts as well as angles and compound shapes. It's very versatile.
+The bandsaw is a natural choice for cutting curves, but it can also do cross cuts, rip cuts as well as angles and compound shapes. It's very versatile!
 
+<span style="color:blue">Some Tips</span>
+- Don't cut all the way to the line. Leave some room so the sander can sand that remaining part.
+- You don't have to hold too much. Actually do it faster because otherwise it will burn the wood.
+- Don't stop in the middle of the cut.
+- Turn on the dust collector.
+- To cut a circle, rotate counter-clockwise.  
 
-## 5. Routing
+## 5. Router Table
+It was so cool. It is a handheld router mounted upside down in a table. This is to make the best round disk for the tabletop. What we did is attaching the MDF template to the disk I roughly cut from the bandsaw. Then we let the whole thing hit the bearing and rotate. (This is called "pattern routing")
+
+<span style="color:blue">Some Tips</span>
+- Similarly, don't hold it too much since it will burn.
+- Rotate it counter clockwise again!
 
 ## 6. Sander
+I used the disk sander. Careful not to touch it.
 
-
-
-
+<span style="color:blue">Some Tips</span>
+- Rotate counter-clockwise in the middle to avoid kickback. Rotate the middle part of the disk.
+- Don't stay too long because it will burn.
+- Use the rubber stick to clean the disk every now and then.

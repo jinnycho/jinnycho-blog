@@ -27967,17 +27967,16 @@ Table saws cut straighter lines and make smoother cuts on small and long boards.
 - The edge of the blade shouldn't be significantly higher than the height of the wood; it should be approximately the same height.
 - To avoid kickback:
     - Stand close to the left of the machine.
-    - Make sure the left hand stays. 
+    - Make sure the left hand stays. Don't let go of the board during a cut.
     - Hold the wood when turning on the machine.
-    - Make sure the workpiece to don't shift into the back of the blade during a cut.
+    - Make sure the workpiece to not shift into the back of the blade during a cut.
     - Check if the board is not square and flat.
-    - Don't let go of the board during a cut.
 
 ### 2.1 Dado Blades
 ![Powertool 5 alt ><](https://github.com/jinnycho/jinnycho.github.io/blob/main/src/assets/photos/powertool5.png?raw=true)
 
 Dado blades allow us to make a cut that is wider than a standard saw blade, converting the table saw into a versatile
-tool for creating many types of joinery. In my case, I used these blades to make cross-lap & bridle joints.
+tool for creating many types of joinery. In my case, I used these blades to make cross-lap & bridle joints. (2 circles in the above photo)
 
 ## 3. Drill Press
 It allows us to make holes. Make sure the wood is not wobbly and there's no chip.
@@ -27987,17 +27986,29 @@ It allows us to make holes. Make sure the wood is not wobbly and there's no chip
 - Wood will crack over time, so avoid using excessive glue as it will lead to cracking. Instead, use a drill press and screws.
 
 ## 4. Bandsaw
-The bandsaw is a natural choice for cutting curves, but it can also do cross cuts, rip cuts as well as angles and compound shapes. It's very versatile.
+The bandsaw is a natural choice for cutting curves, but it can also do cross cuts, rip cuts as well as angles and compound shapes. It's very versatile!
 
+<span style="color:blue">Some Tips</span>
+- Don't cut all the way to the line. Leave some room so the sander can sand that remaining part.
+- You don't have to hold too much. Actually do it faster because otherwise it will burn the wood.
+- Don't stop in the middle of the cut.
+- Turn on the dust collector.
+- To cut a circle, rotate counter-clockwise.  
 
-## 5. Routing
+## 5. Router Table
+It was so cool. It is a handheld router mounted upside down in a table. This is to make the best round disk for the tabletop. What we did is attaching the MDF template to the disk I roughly cut from the bandsaw. Then we let the whole thing hit the bearing and rotate. (This is called "pattern routing")
+
+<span style="color:blue">Some Tips</span>
+- Similarly, don't hold it too much since it will burn.
+- Rotate it counter clockwise again!
 
 ## 6. Sander
+I used the disk sander. Careful not to touch it.
 
-
-
-
-`;
+<span style="color:blue">Some Tips</span>
+- Rotate counter-clockwise in the middle to avoid kickback. Rotate the middle part of the disk.
+- Don't stay too long because it will burn.
+- Use the rubber stick to clean the disk every now and then.`;
 
   // src/writings/tech/create/myBlogHistory.md
   var myBlogHistory_default = "# The Evolution of My Blogging Journey\n## 2023/10/15\nBelieve it or not, my blogging history goes back 5 years, with changes almost every year. I wanted to share my likes, dislikes, and how I created my all-time favorite version.\n\n### What I was looking for\n1. I want my blog to look unique & well designed.\n2. I want to write many blogs that are well organized.\n3. I'd love to have full control to add or change things on my blog as I go. (e.g. subscription)\n\n### Version 1 \u2605\u2606\u2606\u2606\u2606\nI used a static site generator called [Hugo](https://gohugo.io/). It was very well-documented and easy to set up with many interesting templates to choose from. The blog itself was loaded fast too. \n\nHowever, it was quite tricky to customize anything (at least at that time). All the 'templates' they offered were quite boring as well, to be honest. I didn't feel attached to it and quickly grew bored over time; it felt more like mass-produced IKEA furniture rather than a handmade piece, if that makes sense.\n\n![Blog version 2 alt ><](https://github.com/jinnycho/jinnycho.github.io/blob/main/src/assets/photos/blog1.jpeg?raw=true)\n\n\n### Version 2 \u2605\u2605\u2606\u2606\u2606\nMy second version was driven by my strong desire to have a very unique and artistic blog of my own. I just used good old `javascript` and `CSS`. I was largely inspired by early 2000s web style and I was a huge fan of pixel fonts. I also coded using [p5.js](https://p5js.org/) for the cool 3D effects on the front page because I liked the way it looks.\n\nHowever, I instinctively felt that I really needed better content organization. I was like, 'Should I use tags? Should I add a search engine?' I was worried about what would happen if I had 100 blog posts, even though I had only written 4. I also found that the web aesthetics of the 2000s with chunky pixel fonts were a bit hard to read. It felt like avant-garde design furniture, yet it wasn't particularly comfortable.\n\n![Blog version 2 alt ><](https://github.com/jinnycho/jinnycho.github.io/blob/main/src/assets/photos/blog2.png?raw=true)\n\n### Version 3 \u2605\u2605\u2605\u2606\u2606\nI focused a lot more on improving the content organization for the version 3. Charles inspired me to consider the mind map style and that's what I did. I continued to use `javascript` & `CSS`.\n\nHowever, the mindmap style turned out to be quite challenging. First, positioning each circle was not easy. Plus, as I added more circles, things started to look messy and harder to navigate. It looked worse on the mobile or smaller screen.\n\n![Blog version 3 alt ><](https://github.com/jinnycho/jinnycho.github.io/blob/main/src/assets/photos/blog3.png?raw=true)\n\n### Version 4 \u2605\u2605\u2605\u2605\u2606\nSo here we are, I did another major redesign & refacturing of the code. \n\nFirstly, I abandoned the conventional mindmap style and transitioned into a more tabular layout. Then I introduced the concept of categories and subcategories to efficiently organize my blogs. I still kept the 2000s web aesthetics with programmer fonts, but I dialed it back to make it less overwhelming.\n\nEngineering-wise, I definitely built it from scratch using `javascript` and `CSS`. However, I additionally used `React` to manage various states, from user interactions to URL routing. Using `react-router` was particularly satisfying because it allowed me to link to a particular post with a [URL like this](https://jinnycho.github.io/ideas/architecture/houseIdeas001). I also added a Subscribe button using `react-modal` and Cloudflare worker to notify readers when I write new blogs, with the hope that many people will see them. :D\n\nSo far, I'm very satisfied. It finally feels like a good cozy handmade furniture that looks good and comfortable to me. But I want to give 4 stars because now I need to write more. Time to get to work!";
