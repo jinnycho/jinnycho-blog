@@ -9,10 +9,6 @@
     scrollbar-color: var(--scrollbar-color) var(--background-white);
 }
 
-a:visited {
-    color: orange;
-}
-
 body {
     background: var(--background-white);
     margin-top: 50px;
