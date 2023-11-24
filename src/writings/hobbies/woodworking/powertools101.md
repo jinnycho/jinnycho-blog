@@ -1,5 +1,5 @@
 # Woodworking - Power Tools 101
-## 2023/11/23
+## 2023/11/24
 
 Finished my intro to woodworking class (specifically power tools) from [Makeville studio](https://makeville.com). I made a small cherry tree side table from scratch featuring bridle joints and a round top. In short, I loved it! Steve, who was my instructor, was very friendly, and the studio itself was really well-furnished and organized. I'd like to write about some of the main tools and techniques I learned during this class.
 
