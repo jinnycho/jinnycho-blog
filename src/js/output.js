@@ -27658,7 +27658,7 @@ Once this extensive list is satisfied and I find a place, I can then think about
 
 ## 2023/11/25
 
-We parked our campervan near the Cholla Cactus Garden in _Joshua Tree_ National Park, gazing upon the breathtaking view of the pristine plain, surrounded by majestic mountains and rocks. It felt as if I had traveled back hundreds of thousands of years. Similarly at _Zion_ National Park, everywhere I go was the awe-inspiring sight of mountains, stars, and valleys. It felt as if I were looking at the landscape through the eyes of the Native Americans from bygone days who must have had similarly deep appreciation for the view. The more I love these places, the more I believe we should give them different names. 
+We parked our campervan near the Cholla Cactus Garden in _Joshua Tree_ National Park, gazing upon the breathtaking view of the pristine plain, surrounded by majestic mountains and rocks. It felt as if I had traveled back hundreds of thousands of years. Similarly at _Zion_ National Park, everywhere I go was the awe-inspiring sight of mountains, stars, and valleys. It felt as if I were looking at the landscape through the eyes of the Native Americans from bygone days who must have had similarly deep appreciation for the view. However, the more I love these places, the more I believe we should call them differently. 
 
 ### It's Not "Joshua Tree"
 
@@ -27674,8 +27674,9 @@ If choosing any one of the Native American names is hard, the tree honestly look
 
 ![JoshuaTree 2 alt ><](https://github.com/jinnycho/jinnycho.github.io/blob/main/src/assets/photos/joshuaTree3.png?raw=true)
 
-Similarly Zion National Park was called "Mukuntuweap" for thousands years even until 1917. Honestly this transition from Mukuntuweap to Zion is ridiculous. Every mountain peak was also so religious like Angels Landing, Temple of Sinawava, Abraham, Isaac... I thought it was a joke. If changing name is this easy, we should change it back.
-`;
+Similarly Zion National Park was called "Mukuntuweap" for thousands years, even until 1917. This transition from Mukuntuweap to Zion seems ridiculous. This is America, not Jerusalem. And to be honest, more than 50% of the Americans are not that religious anyway ([gallup](https://news.gallup.com/poll/341963/church-membership-falls-below-majority-first-time.aspx)). Then why should every mountain peak at Zion be so uncomfortably Christian like Angels Landing, Temple of Sinawava, Abraham, Isaac... If changing a name is this easy, maybe we should change it back to its original name that was called by original settlers for thousands of years.
+
+Or, at the very least, maybe we can consider a different, more neutral name. _Mt. Ryan_ in Joshua Tree National Park looked more like a rhino to me. We might as well call it Rhino Peak.`;
 
   // src/writings/books/psychology/courageToBeDisliked.md
   var courageToBeDisliked_default = `# Courage To be Disliked
