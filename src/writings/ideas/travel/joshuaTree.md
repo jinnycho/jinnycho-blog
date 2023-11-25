@@ -12,7 +12,7 @@ For thousands of years, many different native American groups embraced this gian
 
 At the very least, using a completely unrelated biblical name **Joshua** seems out of context for this desert in California. Apparently, the name "Joshua tree" was given by a group of Mormon settlers who crossed the Mojave Desert in the mid-19th century. Holding onto this new Mormon name not only shows disrespect to the Native Americans who inhabited the region for millennia but also perpetuates the violence of colonialism for future generations. Similar to the increased attention given to pronouns, name matters. Understanding more about names in Native American culture can prevent the repetition of similar tragedy that native americans had in the future.
 
-If choosing any one of the Native American names is hard, the tree honestly looks more like a dragon tail or caterpillar. And I called it "Dragon Tail Tree" the whole time I was there.
+If choosing any one of the Native American names is hard, the tree honestly looks more like a dragon tail or caterpillar. So I called it "Dragon Tail Tree" the whole time I was there.
 
 ### Same goes Zion and more
 
@@ -20,4 +20,4 @@ If choosing any one of the Native American names is hard, the tree honestly look
 
 Similarly Zion National Park was called "Mukuntuweap" for thousands years, even until 1917. This transition from Mukuntuweap to Zion seems ridiculous. This is America, not Jerusalem. And to be honest, more than 50% of the Americans are not that religious anyway ([gallup](https://news.gallup.com/poll/341963/church-membership-falls-below-majority-first-time.aspx)). Then why should every mountain peak at Zion be so uncomfortably Christian like Angels Landing, Temple of Sinawava, Abraham, Isaac... If changing a name is this easy, maybe we should change it back to its original name that was called by original settlers for thousands of years.
 
-Or, at the very least, maybe we can consider a different, more neutral name. _Mt. Ryan_ in Joshua Tree National Park looked more like a rhino to me. We might as well call it Rhino Peak.
+Jinhae is my hometown in South Korea. It used to be called 'Gomnae,' which is a pure Korean name meaning "a stream for bears". However, it was suddenly changed to Jinhae during the Japanese occupation, a name that means 'conquering the sea' in Japanese. It's disheartening to see these beautiful names with profound and affectionate meanings erased by colonialists for their convenience and values. Perhaps that's why transitions like those to Joshua Tree or Zion feel more disrepectful to me. Names have power, and we should respect the existing cultures.
