@@ -1,5 +1,6 @@
 // Ideas
 import dreamingHouse001Text from '../writings/ideas/architecture/dreamHouse001.md';
+import joshuaTreeText from '../writings/ideas/travel/joshuaTree.md';
 
 // Books
 import courageToBeDislikedText from '../writings/books/psychology/courageToBeDisliked.md';
@@ -21,7 +22,7 @@ const categoryIDToValue = {
 };
 
 const categoryIDTosubCategoriesIDs = {
-    'ideas': ['architecture'],
+    'ideas': ['architecture', 'travel'],
     'books': ['psychology', 'entrepreneur'],
     'hobbies': ['woodworking'],
     'tech': ['create'],
@@ -29,6 +30,7 @@ const categoryIDTosubCategoriesIDs = {
 
 const subCategoryIDToValue = {
     'architecture': 'Architecture',
+    'travel': 'Travel',
     'psychology': 'Psychology',
     'woodworking': 'Woodworking',
     'create': 'Create',
@@ -37,6 +39,7 @@ const subCategoryIDToValue = {
 
 const subCategoryIDToTitleIDs = {
     'architecture': ['houseIdeas001'],
+    'travel': ['joshuaTree'],
     'psychology': ['courageToBeDisliked'],
     'woodworking': ['myFirstTable', 'powertools101'],
     'create': ['myBlogHistory'],
@@ -46,6 +49,7 @@ const subCategoryIDToTitleIDs = {
 const contentsTitleIDToValue = {
     // Ideas
     'houseIdeas001': 'I Want To Build My Own House (0.0.1)',
+    'joshuaTree': 'Joshua.. Tree?',
 
     // Books
     'courageToBeDisliked': 'Courage To Be Disliked',
@@ -62,6 +66,7 @@ const contentsTitleIDToValue = {
 const contentsTitleIDToContentsContentValue = {
     // Ideas
     'houseIdeas001': dreamingHouse001Text,
+    'joshuaTree': joshuaTreeText,
 
     // Books
     'courageToBeDisliked': courageToBeDislikedText,

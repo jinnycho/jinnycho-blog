@@ -27653,6 +27653,9 @@ Once this extensive list is satisfied and I find a place, I can then think about
 
 ![Alt Text alt ><](https://media.giphy.com/media/ianAz6rcKfjoY/giphy.gif)`;
 
+  // src/writings/ideas/travel/joshuaTree.md
+  var joshuaTree_default = "# Why I Refuse to Call It a Joshua Tree\n\n## 2023/11/25\n\n";
+
   // src/writings/books/psychology/courageToBeDisliked.md
   var courageToBeDisliked_default = `# Courage To be Disliked
 ## 2023/09/10
@@ -28029,13 +28032,14 @@ It was a delightful 4 weeks. Waking up early and walking there for 40 minutes in
     "tech": "Tech"
   };
   var categoryIDTosubCategoriesIDs = {
-    "ideas": ["architecture"],
+    "ideas": ["architecture", "travel"],
     "books": ["psychology", "entrepreneur"],
     "hobbies": ["woodworking"],
     "tech": ["create"]
   };
   var subCategoryIDToValue = {
     "architecture": "Architecture",
+    "travel": "Travel",
     "psychology": "Psychology",
     "woodworking": "Woodworking",
     "create": "Create",
@@ -28043,6 +28047,7 @@ It was a delightful 4 weeks. Waking up early and walking there for 40 minutes in
   };
   var subCategoryIDToTitleIDs = {
     "architecture": ["houseIdeas001"],
+    "travel": ["joshuaTree"],
     "psychology": ["courageToBeDisliked"],
     "woodworking": ["myFirstTable", "powertools101"],
     "create": ["myBlogHistory"],
@@ -28051,6 +28056,7 @@ It was a delightful 4 weeks. Waking up early and walking there for 40 minutes in
   var contentsTitleIDToValue = {
     // Ideas
     "houseIdeas001": "I Want To Build My Own House (0.0.1)",
+    "joshuaTree": "Joshua.. Tree?",
     // Books
     "courageToBeDisliked": "Courage To Be Disliked",
     "companyOfOne": "Company Of One",
@@ -28063,6 +28069,7 @@ It was a delightful 4 weeks. Waking up early and walking there for 40 minutes in
   var contentsTitleIDToContentsContentValue = {
     // Ideas
     "houseIdeas001": dreamHouse001_default,
+    "joshuaTree": joshuaTree_default,
     // Books
     "courageToBeDisliked": courageToBeDisliked_default,
     "companyOfOne": companyOfOne_default,
