@@ -22,4 +22,4 @@ Similarly Zion National Park was called "Mukuntuweap" for thousands of years, ev
 
 Jinhae is my hometown in South Korea. It used to be called 'Gomnae,' which is a pure Korean name meaning "a stream for bears". However, it was suddenly changed to Jinhae during the Japanese occupation, a name that means 'conquering the sea' in Japanese. It's disheartening to see these beautiful names with profound and affectionate meanings erased by colonialists for their convenience and values. Perhaps that's why transitions like those to Joshua Tree or Zion came more personal to me. Names have power, and we should respect the existing cultures more.
 
-![Alt Text alt ><](https://giphy.com/gifs/artists-on-tumblr-foxadhd-Y7FAoriN3YcQ8)
+![Alt Text alt ><](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZm8wOG83emtsa3JhczFidXoyazN6bjkyeWkwZWtta292OHE1dDM2YiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Y7FAoriN3YcQ8/giphy.gif)
