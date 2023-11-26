@@ -27658,7 +27658,7 @@ Once this extensive list is satisfied and I find a place, I can then think about
 
 ## 2023/11/27
 
-We parked our campervan near the Cholla Cactus Garden in _Joshua Tree_ National Park, gazing upon the breathtaking view of the pristine plain, surrounded by majestic mountains and rocks. It felt as if I had traveled back hundreds of thousands of years. Similarly at _Zion_ National Park, everywhere I go was the awe-inspiring sight of mountains, stars, and valleys. However, the more I love these places, the more I believe we should call them differently. 
+We parked our campervan near the Cholla Cactus Garden in _Joshua Tree_ National Park, gazing upon the breathtaking view of the pristine plain, surrounded by majestic mountains and rocks. It felt as if I had traveled back hundreds of thousands of years. However, the more I love these places, the more I believe we should call them differently. 
 
 ### It's Not "Joshua Tree"
 
