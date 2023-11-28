@@ -28103,10 +28103,10 @@ Despite the fact that platypuses live in one area of the world, they experience 
 Isn't it incredible that there is a semi-aquatic, egg-laying, venomous, electrolocating, milk-sweating, biofluorescent, stomachless, teethless, temperature-controlled animal? And they just so happen to be adorable!
 
 **References**
-- [washingtonpost](washingtonpost.com/news/speaking-of-science/wp/2015/04/01/the-platypus-is-so-weird-that-scientists-thought-the-first-specimen-was-a-hoax)
-- [reed college](https://www.reed.edu/biology/professors/srenn/pages/teaching/web_2007/myp_site/)
+- [Washington Post](washingtonpost.com/news/speaking-of-science/wp/2015/04/01/the-platypus-is-so-weird-that-scientists-thought-the-first-specimen-was-a-hoax)
+- [Reed college](https://www.reed.edu/biology/professors/srenn/pages/teaching/web_2007/myp_site/)
 - [San Diego zoo](https://animals.sandiegozoo.org/animals/platypus)
-- [NewAtlas](https://newatlas.com/platypus-milk-antimicrobial-protein-csiro-deakin/53809/)
+- [New Atlas](https://newatlas.com/platypus-milk-antimicrobial-protein-csiro-deakin/53809/)
 - [Guardian](https://www.theguardian.com/science/2020/dec/19/tasmanian-devils-glow-in-the-dark-australian-animals-glowing-platypus-wombat-echidna-bandicoot-scientists-investigate-australia-marsupials-light)`;
 
   // src/js/Config.jsx
