@@ -1,4 +1,4 @@
-# Fun Facts About Platypus
+# Fun Facts About Platypuses
 ## 2023/11/29
 
 Did you know that there's an animal that is missing this major organ, and doesn't have nipples? I'll tell you more! :P
