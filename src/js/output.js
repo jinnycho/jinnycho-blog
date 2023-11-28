@@ -28049,10 +28049,10 @@ It was a delightful 4 weeks. Waking up early and walking there for 40 minutes in
   var myBlogHistory_default = "# The Evolution of My Blogging Journey\n## 2023/10/15\nBelieve it or not, my blogging history goes back 5 years, with changes almost every year. I wanted to share my likes, dislikes, and how I created my all-time favorite version.\n\n### What I was looking for\n1. I want my blog to look unique & well designed.\n2. I want to write many blogs that are well organized.\n3. I'd love to have full control to add or change things on my blog as I go. (e.g. subscription)\n\n### Version 1 \u2605\u2606\u2606\u2606\u2606\nI used a static site generator called [Hugo](https://gohugo.io/). It was very well-documented and easy to set up with many interesting templates to choose from. The blog itself was loaded fast too. \n\nHowever, it was quite tricky to customize anything (at least at that time). All the 'templates' they offered were quite boring as well, to be honest. I didn't feel attached to it and quickly grew bored over time; it felt more like mass-produced IKEA furniture rather than a handmade piece, if that makes sense.\n\n![Blog version 2 alt ><](https://github.com/jinnycho/jinnycho.github.io/blob/main/src/assets/photos/blog1.jpeg?raw=true)\n\n\n### Version 2 \u2605\u2605\u2606\u2606\u2606\nMy second version was driven by my strong desire to have a very unique and artistic blog of my own. I just used good old `javascript` and `CSS`. I was largely inspired by early 2000s web style and I was a huge fan of pixel fonts. I also coded using [p5.js](https://p5js.org/) for the cool 3D effects on the front page because I liked the way it looks.\n\nHowever, I instinctively felt that I really needed better content organization. I was like, 'Should I use tags? Should I add a search engine?' I was worried about what would happen if I had 100 blog posts, even though I had only written 4. I also found that the web aesthetics of the 2000s with chunky pixel fonts were a bit hard to read. It felt like avant-garde design furniture, yet it wasn't particularly comfortable.\n\n![Blog version 2 alt ><](https://github.com/jinnycho/jinnycho.github.io/blob/main/src/assets/photos/blog2.png?raw=true)\n\n### Version 3 \u2605\u2605\u2605\u2606\u2606\nI focused a lot more on improving the content organization for the version 3. Charles inspired me to consider the mind map style and that's what I did. I continued to use `javascript` & `CSS`.\n\nHowever, the mindmap style turned out to be quite challenging. First, positioning each circle was not easy. Plus, as I added more circles, things started to look messy and harder to navigate. It looked worse on the mobile or smaller screen.\n\n![Blog version 3 alt ><](https://github.com/jinnycho/jinnycho.github.io/blob/main/src/assets/photos/blog3.png?raw=true)\n\n### Version 4 \u2605\u2605\u2605\u2605\u2606\nSo here we are, I did another major redesign & refacturing of the code. \n\nFirstly, I abandoned the conventional mindmap style and transitioned into a more tabular layout. Then I introduced the concept of categories and subcategories to efficiently organize my blogs. I still kept the 2000s web aesthetics with programmer fonts, but I dialed it back to make it less overwhelming.\n\nEngineering-wise, I definitely built it from scratch using `javascript` and `CSS`. However, I additionally used `React` to manage various states, from user interactions to URL routing. Using `react-router` was particularly satisfying because it allowed me to link to a particular post with a [URL like this](https://jinnycho.github.io/ideas/architecture/houseIdeas001). I also added a Subscribe button using `react-modal` and Cloudflare worker to notify readers when I write new blogs, with the hope that many people will see them. :D\n\nSo far, I'm very satisfied. It finally feels like a good cozy handmade furniture that looks good and comfortable to me. But I want to give 4 stars because now I need to write more. Time to get to work!";
 
   // src/writings/funfact/animals/platypus.md
-  var platypus_default = `# Fun Facts About Platypuses
+  var platypus_default = `# Fun Facts About Platypus
 ## 2023/11/29
 
-Did you know that there's an animal that is missing this major organ, and doesn't have nipples? I'll tell you more! :P
+Did you know that there's an animal that is missing a major organ and doesn't have nipples? I'll tell you more! :P
 
 ![Alt Platypus alt ><](https://media.giphy.com/media/iPgo1ADaEkrP8Dr1BS/giphy-downsized.gif)
 
@@ -28064,48 +28064,49 @@ English captain John Hunter first wrote about the platypuses in 1797 with some s
 
 ### 2. Its bill is goddamn powerful
 
-What appears to be a beak is actually part of its skull. And apparently it's quite soft in the middle.
+What appears to be a beak is actually part of its skull. Apparently it's quite soft in the middle.
 
-This bill is not just aesthetically cute; it's also incredibly powerful. It allows a platypus to detect underwater prey using electrical impulses (a.k.a electroreception) to locate objects in the deepest and darkest of waters. It works so well that platypus can hunt with its eyes, ears, and nose all closed, relying entirely on the bill\u2019s electrolocation.
-
-But unfortuantely it doesn't have teeth. So it must scoop up bits of gravel with its food to help \u201Cchew\u201D its meal. XD
+This bill is not just aesthetically cute; it's incredibly powerful. It allows platypuses to detect underwater prey using electrical impulses (a.k.a electroreception) to locate objects in the deepest and darkest of waters. It works so well that platypuses can hunt with their eyes, ears, and nose all closed, relying entirely on the bill\u2019s electrolocation.
 
 ![Platypus 2 alt ><](https://github.com/jinnycho/jinnycho.github.io/blob/main/src/assets/photos/platypus2.png?raw=true)
 
-### 3. But it doesn't have stomach
-It's unclear why they lack a stomach, but indeed, platypuses are one of the two mammals that don't have a stomach. Perhaps their diet makes a stomach unnecessary.
+### 3. But they don't have teeth
+They don't have teeth, they must scoop up bits of gravel with its food to help \u201Cchew\u201D its meal. XD
 
-### 4. And they don't have nipples
-As egg-laying mammals, platypuses also have a unique method for nursing their babies. They don't have nipples. They "sweat" milk through specialized glands in the skin. 
+### 4. They don't have stomachs
+It's unclear why they lack a stomach, but indeed, platypuses are one of the two mammals that don't have a stomach. (The other is the echidna!) Perhaps their diet makes a stomach unnecessary.
 
-Because of this strange feeding system, which can be challenging for babies, platypuses have developed milk with highly antibacterial properties and extremely high iron content. Scientists are trying to solve the global superbug threat with platypuses' milk. Go platypuses!
+### 5. They don't have nipples either
+As egg-laying mammals, platypuses have a unique method for nursing their babies. They don't have nipples, instead they "sweat" milk through specialized glands in the skin. 
 
-### 5. And they're venomous too
-Male platypuses have spurs that are connected to a venom gland. It is lethal enough to kill a medium-sized dog but not humans (though it's still excruciatingly painful & there is no antivenom so be careful). The venom is more plentiful during the breeding season, leading scientists to believe that it is used to defend mates and resources from rival males.
+Because of this strange feeding system, platypuses have developed milk with highly antibacterial properties and extremely high iron content. Scientists are trying to solve the global superbug threat with platypuses' milk. Go platypuses!
+
+### 6. They're venomous too
+Male platypuses have spurs that are connected to a venom gland. It is lethal enough to kill a medium-sized dog but not humans (though it's still excruciatingly painful & there is no antivenom so be careful). The venom is more potent during the breeding season, leading scientists to believe that it is used to defend mates and resources from rival males.
 
 ![platypus venom alt ><](https://upload.wikimedia.org/wikipedia/commons/3/3d/Platypus_spur.JPG)
 
-### 6. They can drown pretty easily
-Even though it sounds like they're a badass animal, they can drown pretty easily. Normally, a platypus stays underwater for between 1 and 2 minutes. So "Opera house\u201D nets that people set to catch crayfish and yabbies can be death traps for platypuses. BE CAREFUL!
+### 7. They can drown pretty easily
+Even though they're a badass animal, they can drown pretty easily. Normally, a platypus stays underwater for between 1 and 2 minutes. So "Opera house\u201D nets that people set to catch crayfish and yabbies can be death traps for platypuses. BE CAREFUL!
 ![Platypus 3 alt ><](https://github.com/jinnycho/jinnycho.github.io/blob/main/src/assets/photos/platypus3.png?raw=true)
 
-### 7. They are biofluorescent
-Under the UV light, they are all glowing. Scientists think it's probably because they're nocturnals so being biofluorescent help them see & communicate each other.
+### 8. They are biofluorescent
+Under UV light, they all glow. Scientists think it's probably because they're nocturnals so being biofluorescent help them see & communicate each other.
 
 ![platypus biofluorescent alt ><](https://cdn.mos.cms.futurecdn.net/J29hZbBGEePokbrTdRYCEi.jpg)
 
-### 8. Last but not least, they maintain a stable body heat
-Its fur is waterproof and traps an insulating layer of air to keep its body temperature stable, even in cold water.
+### 9. Last but not least, they maintain a stable body heat
+Its fur is waterproof and traps an insulating layer of air to keep its body temperature stable, even in cold water for hours.
 
 ![platypus scratching alt ><](https://media.giphy.com/media/kyuhMhJnpGnz9C7TT4/giphy-downsized.gif)
 
-Isn't it incredible that there is a semi-aquatic, egg-laying, venomous, electrolocating, milk-sweating, biofluorescent, stomachless, teethless, temperature-controlled animal that's also super adorable?
+Isn't it incredible that there is a semi-aquatic, egg-laying, venomous, electrolocating, milk-sweating, biofluorescent, stomachless, teethless, temperature-controlled animal? And they just so happen to be adorable!
 
-References
+**References**
 - [washingtonpost](washingtonpost.com/news/speaking-of-science/wp/2015/04/01/the-platypus-is-so-weird-that-scientists-thought-the-first-specimen-was-a-hoax)
-- [reed](https://www.reed.edu/biology/professors/srenn/pages/teaching/web_2007/myp_site/)
-- [SD zoo](https://animals.sandiegozoo.org/animals/platypus)
-- [platypus milk](https://newatlas.com/platypus-milk-antimicrobial-protein-csiro-deakin/53809/)
+- [reed college](https://www.reed.edu/biology/professors/srenn/pages/teaching/web_2007/myp_site/)
+- [San Diego zoo](https://animals.sandiegozoo.org/animals/platypus)
+- [NewAtlas](https://newatlas.com/platypus-milk-antimicrobial-protein-csiro-deakin/53809/)
 - [Guardian](https://www.theguardian.com/science/2020/dec/19/tasmanian-devils-glow-in-the-dark-australian-animals-glowing-platypus-wombat-echidna-bandicoot-scientists-investigate-australia-marsupials-light)`;
 
   // src/js/Config.jsx
