@@ -5,3 +5,4 @@ Did you know that platypuses are missing this major organ, and they don't even h
 
 ![Alt Platypus alt ><](https://media.giphy.com/media/kyuhMhJnpGnz9C7TT4/giphy-downsized-large.gif)
 
+### 1. People didn't believe it was real
