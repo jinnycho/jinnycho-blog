@@ -28062,7 +28062,7 @@ English captain John Hunter first wrote about the platypuses in 1797 with some s
 
 ![Platypus 1 alt ><](https://github.com/jinnycho/jinnycho.github.io/blob/main/src/assets/photos/platypus1.png?raw=true)
 
-### 2. Its beak is goddamn powerful
+### 2. Its bill is goddamn powerful
 
 What appears to be a beak is actually part of its skull. And apparently it's quite soft in the middle.
 
