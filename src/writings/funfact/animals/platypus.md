@@ -1,11 +1,11 @@
 # Fun Facts About Platypus
 ## 2023/11/29
 
-Did you know that platypuses are missing this major organ, and they don't have nipples? I'll tell you more! :P
+Did you know that there's an animal that is missing this major organ, and doesn't have nipples? I'll tell you more! :P
 
 ![Alt Platypus alt ><](https://media.giphy.com/media/iPgo1ADaEkrP8Dr1BS/giphy-downsized.gif)
 
-### 1. People didn't believe it was real
+### 1. People didn't believe platypus was real
 
 English captain John Hunter first wrote about the platypuses in 1797 with some sketches & a specimen. Nobody believed it was real.
 
