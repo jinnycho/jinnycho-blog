@@ -1,4 +1,4 @@
-# Fun Facts of Platypus
+# Fun Facts About Platypus
 ## 2023/11/29
 
 Did you know that platypuses are missing this major organ, and they don't have nipples? I'll tell you more! :P
@@ -15,7 +15,7 @@ English captain John Hunter first wrote about the platypuses in 1797 with some s
 
 What appears to be a beak is actually part of its skull. And apparently it's quite soft in the middle.
 
-This beak is not just aesthetically cute; it's also incredibly powerful. It allows a platypus to detect underwater prey using electrical impulses (a.k.a electroreception) to locate objects in the deepest and darkest of waters. This is why platypuses often close their eyes when moving because they use their beaks.
+This bill is not just aesthetically cute; it's also incredibly powerful. It allows a platypus to detect underwater prey using electrical impulses (a.k.a electroreception) to locate objects in the deepest and darkest of waters. It works so well that platypus can hunt with its eyes, ears, and nose all closed, relying entirely on the bill’s electrolocation.
 
 But unfortuantely it doesn't have teeth. So it must scoop up bits of gravel with its food to help “chew” its meal. XD
 
