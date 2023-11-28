@@ -28048,18 +28048,23 @@ It was a delightful 4 weeks. Waking up early and walking there for 40 minutes in
   // src/writings/tech/create/myBlogHistory.md
   var myBlogHistory_default = "# The Evolution of My Blogging Journey\n## 2023/10/15\nBelieve it or not, my blogging history goes back 5 years, with changes almost every year. I wanted to share my likes, dislikes, and how I created my all-time favorite version.\n\n### What I was looking for\n1. I want my blog to look unique & well designed.\n2. I want to write many blogs that are well organized.\n3. I'd love to have full control to add or change things on my blog as I go. (e.g. subscription)\n\n### Version 1 \u2605\u2606\u2606\u2606\u2606\nI used a static site generator called [Hugo](https://gohugo.io/). It was very well-documented and easy to set up with many interesting templates to choose from. The blog itself was loaded fast too. \n\nHowever, it was quite tricky to customize anything (at least at that time). All the 'templates' they offered were quite boring as well, to be honest. I didn't feel attached to it and quickly grew bored over time; it felt more like mass-produced IKEA furniture rather than a handmade piece, if that makes sense.\n\n![Blog version 2 alt ><](https://github.com/jinnycho/jinnycho.github.io/blob/main/src/assets/photos/blog1.jpeg?raw=true)\n\n\n### Version 2 \u2605\u2605\u2606\u2606\u2606\nMy second version was driven by my strong desire to have a very unique and artistic blog of my own. I just used good old `javascript` and `CSS`. I was largely inspired by early 2000s web style and I was a huge fan of pixel fonts. I also coded using [p5.js](https://p5js.org/) for the cool 3D effects on the front page because I liked the way it looks.\n\nHowever, I instinctively felt that I really needed better content organization. I was like, 'Should I use tags? Should I add a search engine?' I was worried about what would happen if I had 100 blog posts, even though I had only written 4. I also found that the web aesthetics of the 2000s with chunky pixel fonts were a bit hard to read. It felt like avant-garde design furniture, yet it wasn't particularly comfortable.\n\n![Blog version 2 alt ><](https://github.com/jinnycho/jinnycho.github.io/blob/main/src/assets/photos/blog2.png?raw=true)\n\n### Version 3 \u2605\u2605\u2605\u2606\u2606\nI focused a lot more on improving the content organization for the version 3. Charles inspired me to consider the mind map style and that's what I did. I continued to use `javascript` & `CSS`.\n\nHowever, the mindmap style turned out to be quite challenging. First, positioning each circle was not easy. Plus, as I added more circles, things started to look messy and harder to navigate. It looked worse on the mobile or smaller screen.\n\n![Blog version 3 alt ><](https://github.com/jinnycho/jinnycho.github.io/blob/main/src/assets/photos/blog3.png?raw=true)\n\n### Version 4 \u2605\u2605\u2605\u2605\u2606\nSo here we are, I did another major redesign & refacturing of the code. \n\nFirstly, I abandoned the conventional mindmap style and transitioned into a more tabular layout. Then I introduced the concept of categories and subcategories to efficiently organize my blogs. I still kept the 2000s web aesthetics with programmer fonts, but I dialed it back to make it less overwhelming.\n\nEngineering-wise, I definitely built it from scratch using `javascript` and `CSS`. However, I additionally used `React` to manage various states, from user interactions to URL routing. Using `react-router` was particularly satisfying because it allowed me to link to a particular post with a [URL like this](https://jinnycho.github.io/ideas/architecture/houseIdeas001). I also added a Subscribe button using `react-modal` and Cloudflare worker to notify readers when I write new blogs, with the hope that many people will see them. :D\n\nSo far, I'm very satisfied. It finally feels like a good cozy handmade furniture that looks good and comfortable to me. But I want to give 4 stars because now I need to write more. Time to get to work!";
 
+  // src/writings/funfact/animals/platypus.md
+  var platypus_default = "# Fun Facts of Platypus\n## 2023/11/29\n\nDid you know that platypuses are missing this major organ, and they don't even have nipples? I'll tell you more! :P\n\n![Alt Platypus alt ><](https://media.giphy.com/media/kyuhMhJnpGnz9C7TT4/giphy-downsized-large.gif)\n\n";
+
   // src/js/Config.jsx
   var categoryIDToValue = {
     "ideas": "Ideas",
     "books": "Books",
     "hobbies": "Hobbies",
-    "tech": "Tech"
+    "tech": "Tech",
+    "funfact": "Fun Fact"
   };
   var categoryIDTosubCategoriesIDs = {
     "ideas": ["architecture", "travel"],
     "books": ["psychology", "entrepreneur"],
     "hobbies": ["woodworking"],
-    "tech": ["create"]
+    "tech": ["create"],
+    "funfact": ["animals"]
   };
   var subCategoryIDToValue = {
     "architecture": "Architecture",
@@ -28067,7 +28072,8 @@ It was a delightful 4 weeks. Waking up early and walking there for 40 minutes in
     "psychology": "Psychology",
     "woodworking": "Woodworking",
     "create": "Create",
-    "entrepreneur": "Entrepreneur"
+    "entrepreneur": "Entrepreneur",
+    "animals": "Animals"
   };
   var subCategoryIDToTitleIDs = {
     "architecture": ["houseIdeas001"],
@@ -28075,7 +28081,8 @@ It was a delightful 4 weeks. Waking up early and walking there for 40 minutes in
     "psychology": ["courageToBeDisliked"],
     "woodworking": ["myFirstTable", "powertools101"],
     "create": ["myBlogHistory"],
-    "entrepreneur": ["companyOfOne"]
+    "entrepreneur": ["companyOfOne"],
+    "animals": ["platypus"]
   };
   var contentsTitleIDToValue = {
     // Ideas
@@ -28088,7 +28095,9 @@ It was a delightful 4 weeks. Waking up early and walking there for 40 minutes in
     "myFirstTable": "The First Table I Made",
     "powertools101": "Power Tools 101",
     // Tech
-    "myBlogHistory": "The Evolution of My Blogging Journey"
+    "myBlogHistory": "The Evolution of My Blogging Journey",
+    // Fun Facts
+    "platypus": "An animal without a stomach?!"
   };
   var contentsTitleIDToContentsContentValue = {
     // Ideas
@@ -28101,7 +28110,8 @@ It was a delightful 4 weeks. Waking up early and walking there for 40 minutes in
     "myFirstTable": myFirstTable_default,
     "powertools101": powertools101_default,
     // Tech
-    "myBlogHistory": myBlogHistory_default
+    "myBlogHistory": myBlogHistory_default,
+    "platypus": platypus_default
   };
 
   // src/js/Category.jsx
