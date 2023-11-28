@@ -28096,7 +28096,7 @@ Under UV light, they all glow. Scientists think it's probably because they're no
 ![platypus biofluorescent alt ><](https://cdn.mos.cms.futurecdn.net/J29hZbBGEePokbrTdRYCEi.jpg)
 
 ### 9. Last but not least, they maintain a stable body heat
-Its fur is waterproof and traps an insulating layer of air to keep its body temperature stable, even in cold water for hours.
+Despite the fact that platypuses live in one area of the world, they experience a very extreme climate; from toasty plateaus and rainforests, to the chilly mountainous regions of Tasmania and the Australian Alps. However, that's not a problem because its fur is waterproof and traps an insulating layer of air to keep its body temperature stable, even in cold water for hours.
 
 ![platypus scratching alt ><](https://media.giphy.com/media/kyuhMhJnpGnz9C7TT4/giphy-downsized.gif)
 
