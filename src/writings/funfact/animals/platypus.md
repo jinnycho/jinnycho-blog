@@ -11,4 +11,7 @@ English zoologist George Shaw first wrote about the platypuses in 1799 with some
 
 ![Platypus 1 alt ><](https://github.com/jinnycho/jinnycho.github.io/blob/main/src/assets/photos/platypus1.png?raw=true)
 
-### 2. People didn't believe it was real
+### 2. The beak is damn powerful
+
+
+![Platypus 1 alt ><](https://github.com/jinnycho/jinnycho.github.io/blob/main/src/assets/photos/platypus2.png?raw=true)
