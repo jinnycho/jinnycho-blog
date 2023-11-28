@@ -28090,7 +28090,6 @@ Even though they are aquatic animals, they can drown pretty easily. Normally, a 
 ![Platypus 3 alt ><](https://github.com/jinnycho/jinnycho.github.io/blob/main/src/assets/photos/platypus3.png?raw=true)
 
 ### 7. Last but not least, they are biofluorescent
-
 Under the UV light, they are all glowing. Scientists think it's probably because they're nocturnals so being biofluorescent help them see & communicate each other.
 
 ![platypus biofluorescent alt ><](https://cdn.mos.cms.futurecdn.net/J29hZbBGEePokbrTdRYCEi.jpg)
