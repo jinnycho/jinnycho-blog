@@ -1,7 +1,7 @@
 # Fun Facts About Platypus
 ## 2023/11/29
 
-Did you know that there's an animal that is missing a major organ and doesn't have nipples? I'll tell you more! :P
+Did you know that there's an animal that is missing a major organ? I'll tell you more! :P
 
 ![Alt Platypus alt ><](https://media.giphy.com/media/iPgo1ADaEkrP8Dr1BS/giphy-downsized.gif)
 
