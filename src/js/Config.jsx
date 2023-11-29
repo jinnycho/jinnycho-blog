@@ -13,12 +13,16 @@ import powertools101Text from '../writings/hobbies/woodworking/powertools101.md'
 // Tech
 import myBlogHistoryText from '../writings/tech/create/myBlogHistory.md';
 
+// Fun Fact
+import platypusText from '../writings/funfact/animals/platypus.md';
+
 
 const categoryIDToValue = {
     'ideas': 'Ideas',
     'books': 'Books',
     'hobbies': 'Hobbies',
     'tech': 'Tech',
+    'funfact': 'Fun Fact',
 };
 
 const categoryIDTosubCategoriesIDs = {
@@ -26,6 +30,7 @@ const categoryIDTosubCategoriesIDs = {
     'books': ['psychology', 'entrepreneur'],
     'hobbies': ['woodworking'],
     'tech': ['create'],
+    'funfact': ['animals'],
 };
 
 const subCategoryIDToValue = {
@@ -35,6 +40,7 @@ const subCategoryIDToValue = {
     'woodworking': 'Woodworking',
     'create': 'Create',
     'entrepreneur': 'Entrepreneur',
+    'animals': 'Animals',
 }
 
 const subCategoryIDToTitleIDs = {
@@ -44,6 +50,7 @@ const subCategoryIDToTitleIDs = {
     'woodworking': ['myFirstTable', 'powertools101'],
     'create': ['myBlogHistory'],
     'entrepreneur': ['companyOfOne'],
+    'animals': ['platypus'],
 }
 
 const contentsTitleIDToValue = {
@@ -61,6 +68,9 @@ const contentsTitleIDToValue = {
 
     // Tech
     'myBlogHistory': 'The Evolution of My Blogging Journey',
+
+    // Fun Facts
+    'platypus': 'An animal without a stomach?!'
 }
 
 const contentsTitleIDToContentsContentValue = {
@@ -78,6 +88,7 @@ const contentsTitleIDToContentsContentValue = {
 
     // Tech
     'myBlogHistory': myBlogHistoryText,
+    'platypus': platypusText,
 }
 
 export {
