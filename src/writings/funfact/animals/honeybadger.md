@@ -1,7 +1,7 @@
 # Fun Facts About Honey Badger
 ## 2023/12/02
 
-Do you know what is the most fearless animal on earth? This animal is a true fighter - bees, crested porcupines, cobras, leopards, even lions - it'll take on anyone.
+Did you know that the Guinness Book of Records named this animal as the most fearless animal. They are true fighters - bees, crested porcupines, cobras, scorpions, leopards, and even lions - they are eager to pick a fight with anyone.
 
 ![honeybadger_on_ground 1 alt ><](https://b2177947.smushcdn.com/2177947/wp-content/uploads//Amapa.png?lossy=1&strip=1&webp=1)
 
@@ -11,14 +11,14 @@ The honey badgers are compact, typically measuring around 9 to 11 inches in heig
 
 ### 2. They like honey
 
-Just as the name suggests, honey badgers like honey. And they can surely survive bee stings. Their coarse hair, loose fitting skin, and fat layer make them highly impervious to bee stings. On top of that, they basically fart to attack the bees. And voila, they get their hands on the delicious honey.
+Just as the name suggests, honey badgers like honey. And they can surely survive bee stings. Their coarse hair, loose fitting skin, and fat layer make them highly impervious. Honestly, knifes and spears won’t penetrate either so don't use them. It'll just make the badger even more pissed. Additionally, they basically fart to attack the bees. And voila, they get their hands on the tasty honey.
 
 One fun fact is badgers can't properly digest beeswax. But they don't care.
 
 ![honey_badger 2 alt ><](https://github.com/jinnycho/jinnycho.github.io/blob/main/src/assets/photos/honeybadger3.png?raw=true)
 
 ### 3. They eat porcupines
-These African crested porcupines boast lengthy, sharp quills that are basically deadly arrows that have been known to injure or even kill lions, leopards, hyenas, and humans.
+These African crested porcupines boast lengthy, sharp quills that are basically arrows that have been known to injure or even kill lions, leopards, hyenas, and humans.
 
 But of course, our badgers will not surrender. 
 
@@ -30,14 +30,14 @@ Our relentless honey badgers have developed immunity over their life time after 
 
 ![honeybadger_w_snake 1 alt ><](https://cdn.jwplayer.com/v2/media/CpXdNWGV/poster.jpg?width=480)
 
-The snakes they eat are not just average venomous snakes though. They are one of the deadliest snakes on earth. It only takes two drops of black mamba venom to kill an adult human, while a single bite from a King Cobra can take down an elephant.
+The snakes they eat are not just average venomous snakes though. They are one of the deadliest snakes on earth. It only takes two drops of black mamba venom to kill an adult human, and a single bite from a King Cobra can take down an elephant.
 
 Our honey badgers are not afraid. They usually attack the snake's head, fall into a deep, hour long sleep, then wake up all refreshed to finish the rest of the snake.
 
 ![honeybadger_w_snake 2 alt ><](https://github.com/jinnycho/jinnycho.github.io/blob/main/src/assets/photos/honeybadger4.gif?raw=true)
 
 ### 5. They are smart
-They're not only fearless fighters, but they are thinkers too. A lot of zoos and shelters are having hard time because they keep escaping using any available tool. Some people think they might be one of the smartest animals.
+The world is unfair because they're very smart too. A lot of shelters have been having hard time because they keep escaping using any available tool. Some people think they might be one of the smartest animals.
 
 ![honey_badger 1 alt ><](https://github.com/jinnycho/jinnycho.github.io/blob/main/src/assets/photos/honeybadger1.gif?raw=true)
 
