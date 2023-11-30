@@ -37,6 +37,18 @@ Our honey badgers are not afraid. They usually attack the snake's head, fall int
 ![honeybadger_w_snake 2 alt ><](https://github.com/jinnycho/jinnycho.github.io/blob/main/src/assets/photos/honeybadger4.gif?raw=true)
 
 ### 5. They are smart
-They're not only fearless fighters, but they are smart too. 
+They're not only fearless fighters, but they are thinkers too. A lot of zoos and shelters are having hard time because they keep escaping using any available tool. Some people think they might be one of the smartest animals.
 
 ![honey_badger 1 alt ><](https://github.com/jinnycho/jinnycho.github.io/blob/main/src/assets/photos/honeybadger1.gif?raw=true)
+
+### 6. They like to casterate
+
+### 7. They like to fart
+
+
+![honey_badger 3 alt ><](https://media.giphy.com/media/f8k6R32qjJGV2/giphy-downsized.gif)
+
+**References**
+- [Oregon zoo](https://www.oregonzoo.org/animals/african-crested-porcupine#:~:text=The%20tips%20of%20its%20quills,%2C%20hyenas%2C%20and%20even%20humans.)
+- [A-z animals](https://a-z-animals.com/blog/these-honey-badgers-are-basically-genius-safe-crackers/)
+- [pbs](https://www.pbs.org/wnet/nature/are-honey-badgers-one-worlds-smartest-animals/21144/)
