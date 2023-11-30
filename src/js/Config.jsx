@@ -15,6 +15,7 @@ import myBlogHistoryText from '../writings/tech/create/myBlogHistory.md';
 
 // Fun Fact
 import platypusText from '../writings/funfact/animals/platypus.md';
+import honeyBadgerText from '../writings/funfact/animals/honeybadger.md';
 
 
 const categoryIDToValue = {
@@ -50,7 +51,7 @@ const subCategoryIDToTitleIDs = {
     'woodworking': ['myFirstTable', 'powertools101'],
     'create': ['myBlogHistory'],
     'entrepreneur': ['companyOfOne'],
-    'animals': ['platypus'],
+    'animals': ['platypus', 'honeybadger'],
 }
 
 const contentsTitleIDToValue = {
@@ -70,7 +71,8 @@ const contentsTitleIDToValue = {
     'myBlogHistory': 'The Evolution of My Blogging Journey',
 
     // Fun Facts
-    'platypus': 'An animal without a stomach?!'
+    'platypus': 'An Animal Without A Stomach?!',
+    'honeybadger': 'The Most Fearless Animal On Earth'
 }
 
 const contentsTitleIDToContentsContentValue = {
@@ -89,6 +91,7 @@ const contentsTitleIDToContentsContentValue = {
     // Tech
     'myBlogHistory': myBlogHistoryText,
     'platypus': platypusText,
+    'honeybadger': honeyBadgerText,
 }
 
 export {

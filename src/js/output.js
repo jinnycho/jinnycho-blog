@@ -28109,6 +28109,9 @@ Isn't it incredible that there is a semi-aquatic, egg-laying, venomous, electrol
 - [New Atlas](https://newatlas.com/platypus-milk-antimicrobial-protein-csiro-deakin/53809/)
 - [Guardian](https://www.theguardian.com/science/2020/dec/19/tasmanian-devils-glow-in-the-dark-australian-animals-glowing-platypus-wombat-echidna-bandicoot-scientists-investigate-australia-marsupials-light)`;
 
+  // src/writings/funfact/animals/honeybadger.md
+  var honeybadger_default = "# Fun Facts About Honey Badger\n## 2023/12/02";
+
   // src/js/Config.jsx
   var categoryIDToValue = {
     "ideas": "Ideas",
@@ -28140,7 +28143,7 @@ Isn't it incredible that there is a semi-aquatic, egg-laying, venomous, electrol
     "woodworking": ["myFirstTable", "powertools101"],
     "create": ["myBlogHistory"],
     "entrepreneur": ["companyOfOne"],
-    "animals": ["platypus"]
+    "animals": ["platypus", "honeybadger"]
   };
   var contentsTitleIDToValue = {
     // Ideas
@@ -28155,7 +28158,8 @@ Isn't it incredible that there is a semi-aquatic, egg-laying, venomous, electrol
     // Tech
     "myBlogHistory": "The Evolution of My Blogging Journey",
     // Fun Facts
-    "platypus": "An animal without a stomach?!"
+    "platypus": "An Animal Without A Stomach?!",
+    "honeybadger": "The Most Fearless Animal On Earth"
   };
   var contentsTitleIDToContentsContentValue = {
     // Ideas
@@ -28169,7 +28173,8 @@ Isn't it incredible that there is a semi-aquatic, egg-laying, venomous, electrol
     "powertools101": powertools101_default,
     // Tech
     "myBlogHistory": myBlogHistory_default,
-    "platypus": platypus_default
+    "platypus": platypus_default,
+    "honeybadger": honeybadger_default
   };
 
   // src/js/Category.jsx
