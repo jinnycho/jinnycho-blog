@@ -1,7 +1,7 @@
 # Fun Facts About Honey Badger
 ## 2023/12/02
 
-Did you know that the Guinness Book of Records named this animal as the most fearless animal. They are true fighters - bees, crested porcupines, cobras, scorpions, leopards, and even lions - they are eager to pick a fight with anyone.
+Did you know that the Guinness Book of Records named this animal as the most fearless animal? They are true fighters - bees, crested porcupines, cobras, scorpions, leopards, and even lions - they are gonna pick a fight with anyone.
 
 ![honeybadger_on_ground 1 alt ><](https://b2177947.smushcdn.com/2177947/wp-content/uploads//Amapa.png?lossy=1&strip=1&webp=1)
 
