@@ -23,4 +23,6 @@ Our relentless honey badgers have developed immunity over their life time after 
 
 The snakes that honey badgers eat are not just normal snakes though. They are one of the deadliest snakes on earth. It only takes two drops of black mamba venom to kill an adult human, while a single bite from a King Cobra can take down an elephant.
 
-![honeybadger_w_snake 2 alt ><](https://y.yarn.co/587df4b5-c4e8-4a0e-80de-6cea8c19e6c1_200_10.gif)
+They typically go for the head when attacking snakes, but getting bitten is inevitable. However, they just have a deep sleep for an hour or two, then wake up all refreshed to finish the rest of the snake.
+
+![honeybadger_w_snake 2 alt ><](https://github.com/jinnycho/jinnycho.github.io/blob/main/src/assets/photos/honeybadger4.gif?raw=true)
