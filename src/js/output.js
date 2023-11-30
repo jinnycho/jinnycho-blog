@@ -28110,7 +28110,7 @@ Isn't it incredible that there is a semi-aquatic, egg-laying, venomous, electrol
 - [Guardian](https://www.theguardian.com/science/2020/dec/19/tasmanian-devils-glow-in-the-dark-australian-animals-glowing-platypus-wombat-echidna-bandicoot-scientists-investigate-australia-marsupials-light)`;
 
   // src/writings/funfact/animals/honeybadger.md
-  var honeybadger_default = "# Fun Facts About Honey Badger\n## 2023/12/02";
+  var honeybadger_default = "# Fun Facts About Honey Badger\n## 2023/12/02\n\nDo you know what is the most fearless animal on earth? This animal is a true fighter - bees, crested porcupines, cobras, leopards, bees, even lions - it'll take on anyone.\n\n![honeybadger_on_ground 1 alt ><](https://b2177947.smushcdn.com/2177947/wp-content/uploads//Amapa.png?lossy=1&strip=1&webp=1)\n\n### 1. It is small\n\nThe honey badger is a compact mammal, typically measuring around 9 to 11 inches in height at the shoulder and weighing between 20 to 35 pounds. This is about the size of a large corgi.\n\n### 2. And it eats honey\n\nJust as the name suggests, honey badgers eat honey. And they can surely survive bee stings. Their coarse hair, loose fitting skin, and fat layer make them highly impervious to bee stings. On top of that, it is known that they basically fart to attack the bees. And voila, they get their hands on the delicious honey.\n\n![Platypus_honey alt ><](https://github.com/jinnycho/jinnycho.github.io/blob/main/src/assets/photos/honeybadger3.png?raw=true)\n\n\n On top of that, they have developed immunity over their life time after numerous small injetcions of venom from bees, scorpions, and snakes.\n\n![honeybadger_w_snake 1 alt ><](https://cdn.jwplayer.com/v2/media/CpXdNWGV/poster.jpg?width=480)\n";
 
   // src/js/Config.jsx
   var categoryIDToValue = {
@@ -28159,7 +28159,7 @@ Isn't it incredible that there is a semi-aquatic, egg-laying, venomous, electrol
     "myBlogHistory": "The Evolution of My Blogging Journey",
     // Fun Facts
     "platypus": "An Animal Without A Stomach?!",
-    "honeybadger": "The Most Fearless Animal On Earth"
+    "honeybadger": "Honey Badger Doesn't Give A Sh*t"
   };
   var contentsTitleIDToContentsContentValue = {
     // Ideas

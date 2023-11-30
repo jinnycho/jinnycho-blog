@@ -72,7 +72,7 @@ const contentsTitleIDToValue = {
 
     // Fun Facts
     'platypus': 'An Animal Without A Stomach?!',
-    'honeybadger': 'The Most Fearless Animal On Earth'
+    'honeybadger': 'Honey Badger Doesn\'t Give A Sh*t'
 }
 
 const contentsTitleIDToContentsContentValue = {
