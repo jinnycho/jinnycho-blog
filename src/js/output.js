@@ -28115,14 +28115,14 @@ Isn't it incredible that there is a semi-aquatic, egg-laying, venomous, electrol
     "books": "Books",
     "hobbies": "Hobbies",
     "tech": "Tech",
-    "funfact": "Fun Fact"
+    "funfacts": "Fun Facts"
   };
   var categoryIDTosubCategoriesIDs = {
     "ideas": ["architecture", "travel"],
     "books": ["psychology", "entrepreneur"],
     "hobbies": ["woodworking"],
     "tech": ["create"],
-    "funfact": ["animals"]
+    "funfacts": ["animals"]
   };
   var subCategoryIDToValue = {
     "architecture": "Architecture",

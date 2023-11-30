@@ -22,7 +22,7 @@ const categoryIDToValue = {
     'books': 'Books',
     'hobbies': 'Hobbies',
     'tech': 'Tech',
-    'funfact': 'Fun Fact',
+    'funfacts': 'Fun Facts',
 };
 
 const categoryIDTosubCategoriesIDs = {
@@ -30,7 +30,7 @@ const categoryIDTosubCategoriesIDs = {
     'books': ['psychology', 'entrepreneur'],
     'hobbies': ['woodworking'],
     'tech': ['create'],
-    'funfact': ['animals'],
+    'funfacts': ['animals'],
 };
 
 const subCategoryIDToValue = {
