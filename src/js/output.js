@@ -27913,7 +27913,7 @@ If a mother has lost her child, Christians may console her by saying there's a '
 
 > attention is the most important currency anyone can give a business, and that attention is worth more than revenue or possessions.
 
-If there's something I want to work on, it's empathy. This is the kind of intelligence that society should promote more vigorously early on, not just IQ. The Machiavellian leadership approach of 'better to be feared than liked' is outdated and fundamentally flawed. We don't have to be people-pleasers, but we do need to listen to others before making decisions. The best leader I've worked with was someone who actively listened to the voices of the workers and genuinely tried to improve their quality of life. With that kind of leader, you don't want to quit, even if the work is difficult or frustrating. Similarly, I believe that empathy is effective with customers; it's the engine of any relationship.
+If there's something I want to work on, it's empathy. This is the kind of intelligence that society should promote more vigorously early on, not just IQ. The Machiavellian leadership approach of 'better to be feared than liked' is outdated and fundamentally flawed. We don't have to be people-pleasers, but we do need to listen to others before making decisions. The best leader I've worked with was someone who actively listened to the voices of the workers and genuinely tried to improve their quality of life.  That level of empathy is effective with customers as well; it's the engine of any relationship.
 
 ### Value-driven company
 > To succeed as a company of one, you have to have a real underlying purpose.
