@@ -5,7 +5,7 @@
  <description>This is Jinny's blog</description>
  <link>https://jinnycho.github.io/</link>
  <copyright>2020 Example.com All rights reserved</copyright>
- <lastBuildDate>Fri, 24 Nov 2023 00:01:00 +0000</lastBuildDate>
+ <lastBuildDate>Fri, 2 Dec 2023 20:20:00 +0000</lastBuildDate>
  <ttl>1800</ttl>
 
  <item>
@@ -36,6 +36,12 @@
   <guid isPermaLink="false">7bd204c6-1655-4c27-aeee-53f933c5395d</guid>
 </item>
 
+<item>
+  <title>Fun Facts About Honey Badger</title>
+  <description>Honey Badgers</description>
+  <link>https://jinnycho.github.io/funfact/animals/honeybadger</link>
+  <guid isPermaLink="false">7bd204c6-1655-4c27-aeee-53f933c5395d</guid>
+</item>
 
 </channel>
 </rss>
