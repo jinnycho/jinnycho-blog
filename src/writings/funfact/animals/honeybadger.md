@@ -64,7 +64,7 @@ One particularly vicious tactic these smart honey badgers use on larger preys is
 Research in the southern Kalahari showed that cubs stayed with their mothers for a minimum of 14 months. This is significantly longer than their relatives, which may become independent at 3 months. And some people witnessed that mama honey badgers deliberately expose their young to bee stings for practice.
 
 ### 12. But they prefer their own company after that
-Honey badgers prefers to be alone - probably a good news for all the other animals.
+Honey badgers prefer to be alone - probably a good news for all the other animals.
 
 ![honey_badger 3 alt ><](https://media.giphy.com/media/f8k6R32qjJGV2/giphy-downsized.gif)
 
