@@ -27,7 +27,7 @@ const categoryIDToValue = {
 };
 
 const categoryIDTosubCategoriesIDs = {
-    'ideas': ['architecture', 'travel'],
+    'ideas': ['architecture', 'culture'],
     'books': ['psychology', 'entrepreneur'],
     'hobbies': ['woodworking'],
     'tech': ['create'],
@@ -35,22 +35,40 @@ const categoryIDTosubCategoriesIDs = {
 };
 
 const subCategoryIDToValue = {
+    // Ideas
     'architecture': 'Architecture',
-    'travel': 'Travel',
+    'culture': 'Culture',
+
+    // Books
     'psychology': 'Psychology',
-    'woodworking': 'Woodworking',
-    'create': 'Create',
     'entrepreneur': 'Entrepreneur',
+
+    // Hobbies
+    'woodworking': 'Woodworking',
+
+    // Tech
+    'create': 'Create',
+
+    // Fun Facts
     'animals': 'Animals',
 }
 
 const subCategoryIDToTitleIDs = {
+    // Ideas
     'architecture': ['houseIdeas001'],
-    'travel': ['joshuaTree'],
+    'culture': ['joshuaTree'],
+
+    // Books
     'psychology': ['courageToBeDisliked'],
-    'woodworking': ['myFirstTable', 'powertools101'],
-    'create': ['myBlogHistory'],
     'entrepreneur': ['companyOfOne'],
+
+    // Hobbies
+    'woodworking': ['myFirstTable', 'powertools101'],
+
+    // Tech
+    'create': ['myBlogHistory'],
+
+    // Fun Facts
     'animals': ['platypus', 'honeybadger'],
 }
 
@@ -90,6 +108,8 @@ const contentsTitleIDToContentsContentValue = {
 
     // Tech
     'myBlogHistory': myBlogHistoryText,
+
+    // Fun Facts
     'platypus': platypusText,
     'honeybadger': honeyBadgerText,
 }

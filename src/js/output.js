@@ -28198,28 +28198,38 @@ Honey badgers taught me so many lessons: resilience in the face of challenges, p
     "funfacts": "Fun Facts"
   };
   var categoryIDTosubCategoriesIDs = {
-    "ideas": ["architecture", "travel"],
+    "ideas": ["architecture", "culture"],
     "books": ["psychology", "entrepreneur"],
     "hobbies": ["woodworking"],
     "tech": ["create"],
     "funfacts": ["animals"]
   };
   var subCategoryIDToValue = {
+    // Ideas
     "architecture": "Architecture",
-    "travel": "Travel",
+    "culture": "Culture",
+    // Books
     "psychology": "Psychology",
-    "woodworking": "Woodworking",
-    "create": "Create",
     "entrepreneur": "Entrepreneur",
+    // Hobbies
+    "woodworking": "Woodworking",
+    // Tech
+    "create": "Create",
+    // Fun Facts
     "animals": "Animals"
   };
   var subCategoryIDToTitleIDs = {
+    // Ideas
     "architecture": ["houseIdeas001"],
-    "travel": ["joshuaTree"],
+    "culture": ["joshuaTree"],
+    // Books
     "psychology": ["courageToBeDisliked"],
-    "woodworking": ["myFirstTable", "powertools101"],
-    "create": ["myBlogHistory"],
     "entrepreneur": ["companyOfOne"],
+    // Hobbies
+    "woodworking": ["myFirstTable", "powertools101"],
+    // Tech
+    "create": ["myBlogHistory"],
+    // Fun Facts
     "animals": ["platypus", "honeybadger"]
   };
   var contentsTitleIDToValue = {
@@ -28250,6 +28260,7 @@ Honey badgers taught me so many lessons: resilience in the face of challenges, p
     "powertools101": powertools101_default,
     // Tech
     "myBlogHistory": myBlogHistory_default,
+    // Fun Facts
     "platypus": platypus_default,
     "honeybadger": honeybadger_default
   };
