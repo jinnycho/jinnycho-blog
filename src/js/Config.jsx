@@ -9,6 +9,7 @@ import companyOfOneText from '../writings/books/entrepreneur/companyOfOne.md';
 // Hobbies
 import myFirstTableText from '../writings/hobbies/woodworking/myFirstTable.md';
 import powertools101Text from '../writings/hobbies/woodworking/powertools101.md';
+import jinhaeText from '../writings/hobbies/gallivanting/jinhae.md';
 
 // Tech
 import myBlogHistoryText from '../writings/tech/create/myBlogHistory.md';
@@ -29,7 +30,7 @@ const categoryIDToValue = {
 const categoryIDTosubCategoriesIDs = {
     'ideas': ['architecture', 'culture'],
     'books': ['psychology', 'entrepreneur'],
-    'hobbies': ['woodworking'],
+    'hobbies': ['woodworking', 'gallivanting'],
     'tech': ['create'],
     'funfacts': ['animals'],
 };
@@ -45,6 +46,7 @@ const subCategoryIDToValue = {
 
     // Hobbies
     'woodworking': 'Woodworking',
+    'gallivanting': 'Gallivanting',
 
     // Tech
     'create': 'Create',
@@ -64,6 +66,7 @@ const subCategoryIDToTitleIDs = {
 
     // Hobbies
     'woodworking': ['myFirstTable', 'powertools101'],
+    'gallivanting': ['jinhae'],
 
     // Tech
     'create': ['myBlogHistory'],
@@ -84,6 +87,7 @@ const contentsTitleIDToValue = {
     // Hobbies
     'myFirstTable': 'The First Table I Made',
     'powertools101': 'Power Tools 101',
+    'jinhae': 'Honestly The Best City in South Korea',
 
     // Tech
     'myBlogHistory': 'The Evolution of My Blogging Journey',
@@ -105,6 +109,7 @@ const contentsTitleIDToContentsContentValue = {
     // Hobbies
     'myFirstTable': myFirstTableText,
     'powertools101': powertools101Text,
+    'jinhae': jinhaeText,
 
     // Tech
     'myBlogHistory': myBlogHistoryText,
