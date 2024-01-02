@@ -87,7 +87,7 @@ const contentsTitleIDToValue = {
     // Hobbies
     'myFirstTable': 'The First Table I Made',
     'powertools101': 'Power Tools 101',
-    'jinhae': 'Honestly The Best City in South Korea',
+    'jinhae': 'Possibly The Best City in South Korea',
 
     // Tech
     'myBlogHistory': 'The Evolution of My Blogging Journey',
