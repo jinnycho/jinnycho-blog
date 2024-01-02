@@ -3,6 +3,8 @@
 
 Yes. This is my hometown. My goal is to share my fellow readers what could be the most exceptional city in South Korea that not many people know. I will share both pros and cons of this city, as well as some recommendations.
 
+![jinhae 1 alt ><](https://github.com/jinnycho/jinnycho.github.io/blob/main/src/assets/photos/cherryblossom1.gif?raw=true)
+
 ### Pros
 1. **Beautiful Mountains**: This city is surrounded by handsome mountains that's very easily accessible. You can find several trails by walk.
 
@@ -23,6 +25,10 @@ Yes. This is my hometown. My goal is to share my fellow readers what could be th
 9. **Food**: Food is surprisingly tasty and affordable. I'll share my favorite picks at the bottom of this blog post.
 
 10. **Farmers Market**: Jinhae has a very famous farmers' market. It only opens on days that have a 3 or 8 in them, such as the 3rd, 8th, 13th, 18th, and so on. Many local farmers' markets in other cities have unfortunately been replaced by major grocery chains like Costco. Strangely and thankfully, however, despite the presence of a large grocery store literally right in front of this market, it has thrived even more. It's a really fun place with lots of fresh veggies and food so if anyone's visiting, you should check it out.
+
+![jinhae 2 alt ><](https://github.com/jinnycho/jinnycho.github.io/blob/main/src/assets/photos/cherryblossom2.png?raw=true)
+![jinhae 3 alt ><](https://github.com/jinnycho/jinnycho.github.io/blob/main/src/assets/photos/cherryblossom3.png?raw=true)
+![jinhae 4 alt ><](https://github.com/jinnycho/jinnycho.github.io/blob/main/src/assets/photos/cherryblossom4.png?raw=true)
 
 ### Cons
 1. **Lodging**: Jinhae is not Cancun; it has only a handful of hotels, and in my opinion, they aren't great. It's a great place to live, but not necessarily the best for travel.
