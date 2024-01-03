@@ -26,7 +26,7 @@ Yes. This is my hometown. My goal is to share my fellow readers what could be th
 
 9. **Food**: Food is surprisingly tasty and affordable. I'll share my favorite picks at the bottom of this blog post.
 
-10. **Farmers Market**: Jinhae has a very famous farmers' market. It only opens on days that have a 3 or 8 in them, such as the 3rd, 8th, 13th, 18th, and so on. Many local farmers' markets in other cities have unfortunately been replaced by major grocery chains like Costco. Strangely and thankfully, however, despite the presence of a large grocery store literally right in front of this market, it has thrived even more. It's a really fun place with lots of fresh veggies and food so if anyone's visiting, you should check it out.
+10. **Farmers Market**: Jinhae has a very famous farmers' market. It only opens on days that have a 3 or 8 in them, such as the 3rd, 8th, 13th, 18th, and so on. Many local farmers' markets in other cities have unfortunately been replaced by major grocery chains like Costco. Strangely and thankfully, however, despite the presence of a large grocery store literally right in front of this market, the market has thrived even more. It's a really fun place with lots of fresh veggies and food so if anyone's visiting, you should check it out.
 
 ![jinhae 4 alt ><](https://github.com/jinnycho/jinnycho.github.io/blob/main/src/assets/photos/cherryblossom4.png?raw=true)
 
