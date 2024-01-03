@@ -46,7 +46,7 @@ Yes. This is my hometown. My goal is to share my fellow readers what could be th
 1. You enjoy walking around a medium size walkable city, with many attractions to discover along the way
 2. you like outdoor activities
 3. you like cherry blossoms & Korean food
-4. (optional) you know a little bit of Korean or have Korean friends
+4. (optional) you know how to speak some Korean or have Korean friends
 
 ### Recommendation
 
