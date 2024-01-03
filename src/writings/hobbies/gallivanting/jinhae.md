@@ -6,9 +6,9 @@ Yes. This is my hometown. My goal is to share my fellow readers what could be th
 ![jinhae 1 alt ><](https://github.com/jinnycho/jinnycho.github.io/blob/main/src/assets/photos/cherryblossom1.gif?raw=true)
 
 ### Pros
-1. **Beautiful Mountains**: This city is surrounded by handsome mountains that's very easily accessible. You can find several trails by walk.
+1. **Beautiful Mountains**: This city is surrounded by handsome mountains that are very easily accessible. You can find several trails by walk.
 
-2. **Beautiful Ocean View**: The city is also located on the oceanfront, overlooking the South Sea. The ocean here is quite clean and abundant in fish, to the point where locals have joked that the navy has been mostly fighting with the local fishermen. The sight of the ocean during sunset is truly majestic, and I particularly enjoy the fact that it's part of an archipelago rather than just a single body of water because each island I see is so fluffy and cute.
+2. **Beautiful Ocean View**: The city is also located on the oceanfront. The ocean here is quite clean and abundant in fish, to the point where locals have joked that the navy has been mostly fighting with the local fishermen. The sight of the ocean during sunset is truly majestic, and I particularly enjoy the fact that it's part of an archipelago rather than just a single body of water because each island I see is so fluffy and cute.
 
 3. **Walkable City**: It is the first planned city in Korea during the Japanese occupation. Although the occupation itself is tragic and should never happen again, Japan designed the city quite well. Each neighborhood is gridded pretty well so it's easier to navigate and the whole city is walkable.
 
