@@ -18,7 +18,7 @@ Yes. This is my hometown. My goal is to share my fellow readers what could be th
 
 ![jinhae 2 alt ><](https://github.com/jinnycho/jinnycho.github.io/blob/main/src/assets/photos/cherryblossom2.png?raw=true)
 
-6. **People**: Jinhae is a naval city. It has the national Naval Academy, an American naval base, a Korean naval base, and several training centers. I bet 80% of the of the population has some connection to the navy. Possibly due to this stability, most of the people in Jinhae are neither rich nor poor. I don't think there's any homeless issues. Lots of people I met still have 'Jeong,' a quality that many Korean people used to have (it's like generosity and benevolence), especially when compared to people in much larger cities like Seoul.
+6. **People**: Jinhae is a naval city. It has the national Naval Academy, an American naval base, a Korean naval base, and several training centers. I bet 80% of the of the population has some connection to the navy. Possibly due to its stability, most of the people in Jinhae are neither rich nor poor. I don't think there's any homeless issue. Lots of people I met still have 'Jeong,' a quality that many Korean people used to have (it's like generosity and benevolence), especially when compared to people in much larger cities like Seoul.
 
 7. **Railroads Across the City**: Even though people can't use the railroads, they add a nice touch to the city, and sometimes you'll spot a train moving around, maybe carrying some military equipments. It's a great place to walk along too. 
 
