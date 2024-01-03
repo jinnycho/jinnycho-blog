@@ -70,7 +70,7 @@ Visit
 1. **Nesumeon Park**: Awesome park. No pets are allowed sadly
 2. **Jangbok Mountain**: Amazing place to hike
 3. **Anmin Gogae**: It used to be the only way to get out of Jinhae. Really beautiful place with lots of cherry blossoms
-4. **Sammil Temple**: The temple is beautiful but the way to the temple is also really pretty
+4. **Sammil Temple**: The temple is beautiful & the way to the temple is also really pretty
 5. **Gyeonghwa Train station**: Very famous spot with lots of cherry blossom trees. Beautiful all year around
 6. **Yeojwa Stream**: Also famous for cherry blossom trees. Beautiful all year around in my opinion
 7. **Jinhae Pavilion**: A Korean traditional pavilion right in front of the sea. Really nice to walk around and there are lots of musical events
