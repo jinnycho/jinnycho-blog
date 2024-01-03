@@ -37,7 +37,7 @@ Yes. This is my hometown. My goal is to share my fellow readers what could be th
 
 3. **Lack of The Long Term Vision of The City**: If I had the power, I would absolutely make sure that the city leaders preserve the current beauty of the city. Unfortunately, they've already massively destroyed a scenic part of the mountain to build apartment buildings, and they've polluted the ocean with shipbuilding infrastructure. While I understand the desire for short-term economic gains, I hope for a more far-sighted approach that minimizes the destruction of the existing beauty.
 
-5. **Younger Generation**: I've noticed that the older folks in Jinhae are generally super chill - just really nice and sweet people. But the younger people there aren't as friendly to engage in, for whatever reason. I hope they lighten up a bit down the road.
+5. **Younger Generation**: I've noticed that the older folks in Jinhae are generally super chill - just really nice and sweet people. But the younger people there aren't as nice to engage in, for whatever reason. I hope they lighten up a bit down the road.
 
 6. **Language**: Most of the people do not speak English. While younger folks are more likely to know some English, be ready to use heavily on translation apps to communicate.
 
