@@ -51,29 +51,29 @@ Yes. This is my hometown. My goal is to share my fellow readers what could be th
 ### Recommendation
 
 Restaurants
-1. **Dongbu hwe center**: Very famous hwe (Korean style sashimi) restaurant
-2. **Yoon Baekjeong**: Really tasty pork belly place
-3. **Jang Cheon Jip**: Another really good pork belly place
-4. **Dol Dam Gil**: Great scallion pancakes & sujebi (hand-pulled dough soup)
-5. **San Jang Galbi**: Really good short ribs & homemade kimchi
-6. **Ha Neul Che**: Really good bossam & Chili shrimps
-7. **Jiri San Dweji gookbab**: Really good pork soup
-8. **Haru**: Tiny Gimbap place
-9. **Imsil Cheese Pizza**: Very tasty Cheese pizza
+1. **Dongbu hwe center**: Very famous hwe (Korean style sashimi) restaurant.
+2. **Yoon Baekjeong**: Really tasty pork belly place.
+3. **Jang Cheon Jip**: Another really good pork belly place.
+4. **Dol Dam Gil**: Great scallion pancakes & sujebi (hand-pulled dough soup).
+5. **San Jang Galbi**: Really good short ribs & homemade kimchi.
+6. **Ha Neul Che**: Really good bossam & Chili shrimps.
+7. **Jiri San Dweji gookbab**: Really good pork soup.
+8. **Haru**: Tiny Gimbap place.
+9. **Imsil Cheese Pizza**: Very tasty Cheese pizza.
 
 Coffee
-1. **Jujae Coffee**: Great coffee
-2. **Sunny Coffee**: Great coffee
-3. **Gracias Madres**: Great coffee
+1. **Jujae Coffee**: Great coffee.
+2. **Sunny Coffee**: Great coffee.
+3. **Gracias Madres**: Great coffee.
 
 Visit
-1. **Nesumeon Park**: Awesome park. No pets are allowed sadly
-2. **Jangbok Mountain**: Amazing place to hike
-3. **Anmin Gogae**: It used to be the only way to get out of Jinhae. Really beautiful place with lots of cherry blossoms
-4. **Sammil Temple**: The temple is beautiful & the way to the temple is also really pretty
-5. **Gyeonghwa Train station**: Very famous spot with lots of cherry blossom trees. Beautiful all year around
-6. **Yeojwa Stream**: Also famous for cherry blossom trees. Beautiful all year around in my opinion
-7. **Jinhae Pavilion**: A Korean traditional pavilion right in front of the sea. Really nice to walk around and there are lots of musical events
-8. **Jehwang Mountain Cable Car**: It's a cute cable car that takes you up the mountain, where you can take in panoramic views of the entire city of Jinhae from the peak
+1. **Nesumeon Park**: Awesome park. No pets are allowed sadly.
+2. **Jangbok Mountain**: Amazing place to hike.
+3. **Anmin Gogae**: It used to be the only way to get out of Jinhae. Really beautiful place with lots of cherry blossoms.
+4. **Sammil Temple**: The temple is beautiful & the way to the temple is also really pretty.
+5. **Gyeonghwa Train station**: Very famous spot with lots of cherry blossom trees. Beautiful all year around.
+6. **Yeojwa Stream**: Also famous for cherry blossom trees. Beautiful all year around in my opinion.
+7. **Jinhae Pavilion**: A Korean traditional pavilion right in front of the sea. Really nice to walk around and there are lots of musical events.
+8. **Jehwang Mountain Cable Car**: It's a cute cable car that takes you up the mountain, where you can take in panoramic views of the entire city of Jinhae from the peak.
 
 ![jinhae 3 alt ><](https://github.com/jinnycho/jinnycho.github.io/blob/main/src/assets/photos/cherryblossom3.png?raw=true)
