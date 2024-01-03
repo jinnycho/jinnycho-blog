@@ -9,6 +9,7 @@ import companyOfOneText from '../writings/books/entrepreneur/companyOfOne.md';
 // Hobbies
 import myFirstTableText from '../writings/hobbies/woodworking/myFirstTable.md';
 import powertools101Text from '../writings/hobbies/woodworking/powertools101.md';
+import jinhaeText from '../writings/hobbies/gallivanting/jinhae.md';
 
 // Tech
 import myBlogHistoryText from '../writings/tech/create/myBlogHistory.md';
@@ -27,30 +28,50 @@ const categoryIDToValue = {
 };
 
 const categoryIDTosubCategoriesIDs = {
-    'ideas': ['architecture', 'travel'],
+    'ideas': ['architecture', 'culture'],
     'books': ['psychology', 'entrepreneur'],
-    'hobbies': ['woodworking'],
+    'hobbies': ['woodworking', 'gallivanting'],
     'tech': ['create'],
     'funfacts': ['animals'],
 };
 
 const subCategoryIDToValue = {
+    // Ideas
     'architecture': 'Architecture',
-    'travel': 'Travel',
+    'culture': 'Culture',
+
+    // Books
     'psychology': 'Psychology',
-    'woodworking': 'Woodworking',
-    'create': 'Create',
     'entrepreneur': 'Entrepreneur',
+
+    // Hobbies
+    'woodworking': 'Woodworking',
+    'gallivanting': 'Gallivanting',
+
+    // Tech
+    'create': 'Create',
+
+    // Fun Facts
     'animals': 'Animals',
 }
 
 const subCategoryIDToTitleIDs = {
+    // Ideas
     'architecture': ['houseIdeas001'],
-    'travel': ['joshuaTree'],
+    'culture': ['joshuaTree'],
+
+    // Books
     'psychology': ['courageToBeDisliked'],
-    'woodworking': ['myFirstTable', 'powertools101'],
-    'create': ['myBlogHistory'],
     'entrepreneur': ['companyOfOne'],
+
+    // Hobbies
+    'woodworking': ['myFirstTable', 'powertools101'],
+    'gallivanting': ['jinhae'],
+
+    // Tech
+    'create': ['myBlogHistory'],
+
+    // Fun Facts
     'animals': ['platypus', 'honeybadger'],
 }
 
@@ -66,6 +87,7 @@ const contentsTitleIDToValue = {
     // Hobbies
     'myFirstTable': 'The First Table I Made',
     'powertools101': 'Power Tools 101',
+    'jinhae': 'Possibly The Best City in South Korea',
 
     // Tech
     'myBlogHistory': 'The Evolution of My Blogging Journey',
@@ -87,9 +109,12 @@ const contentsTitleIDToContentsContentValue = {
     // Hobbies
     'myFirstTable': myFirstTableText,
     'powertools101': powertools101Text,
+    'jinhae': jinhaeText,
 
     // Tech
     'myBlogHistory': myBlogHistoryText,
+
+    // Fun Facts
     'platypus': platypusText,
     'honeybadger': honeyBadgerText,
 }
