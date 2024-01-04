@@ -60,6 +60,7 @@ Restaurants
 7. **Jiri San Dweji gookbab**: Really good pork soup.
 8. **Haru**: Tiny Gimbap place.
 9. **Imsil Cheese Pizza**: Very tasty Cheese pizza.
+10. **Story Tonkatsu**: Very tasty Korean-style Tonkatsu (fried pork cutlet) place.
 
 Coffee
 1. **Jujae Coffee**: Great coffee.
