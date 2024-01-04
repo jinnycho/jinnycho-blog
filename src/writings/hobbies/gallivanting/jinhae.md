@@ -78,4 +78,4 @@ Visit
 8. **Jehwang Mountain Cable Car**: It's a cute cable car that takes you up the mountain, where you can take in panoramic views of the entire city of Jinhae from the peak.
 
 ![jinhae 3 alt ><](https://github.com/jinnycho/jinnycho.github.io/blob/main/src/assets/photos/cherryblossom3.png?raw=true)
-![jinhae 5 alt ><](https://github.com/jinnycho/jinnycho.github.io/blob/main/src/assets/photos/cherryblossom4.png?raw=true)
+![jinhae 5 alt ><](https://github.com/jinnycho/jinnycho.github.io/blob/main/src/assets/photos/cherryblossom5.png?raw=true)
