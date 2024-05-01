@@ -44,7 +44,7 @@ Each member is Minji (Korean), Danielle (Korean Australian), Hyerin (Korean), Ha
   <iframe width="560" height="315" src="https://www.youtube.com/embed/tVIXY14aJms?si=MwWqo9dPtA8tDWel" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div>
 
-"Super Shy," "Ditto," "Hype Boy," "New Jeans", etc - every single one is a total jam. Also there's a new album release very soon!
+"Super Shy," "Ditto," "Hype Boy," "New Jeans", "ASAP", etc - every single one is a total jam. Also there's a new album release very soon!
 
 ### What's the lawsuit again?
 So, New Jeans is under this company called Ador, an independent label under Hybe, the folks behind BTS. NewJeans is the only group Ador manages. Heejin Min was running Ador but also has legal ties with Hybe. Ador's basically 20% owned by Min and 80% by Hybe. Recently, Hybe sued Min, accusing her of trying to wreck the company and take New Jeans out of Hybe.
