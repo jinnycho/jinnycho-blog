@@ -47,6 +47,10 @@ Each member is Minji (Korean), Danielle (Korean + Australian), Hyerin (Korean), 
 "Super Shy," "Ditto," "Hype Boy," "New Jeans", etc - every single one is a total jam. Also there's a new album release very soon!
 
 ### What's the lawsuit again?
+So, New Jeans is under this company called Ador, which is like a smaller branch of Hybe—the same folks behind BTS. Heejin Min was running Ador but also had legal ties with Hybe. Ador's basically 20% owned by Min and 80% by Hybe. Recently, Hybe sued Min, accusing her of trying to wreck the company and swipe New Jeans.
 
+The whole media villainized Min until she hit back with a press release that spilled the beans on all the bad stuff Hybe, and particularly Bang, the BTS producer, did. Like, they pretty much tried to sweep New Jeans under the rug when they debuted—no showcase, which is usually a big deal for Kpop debuts (though they apparently didn't need it 💪). They even made New Jeans the second girl group to launch after Le Sserafim, breaking their promise to launch New Jeans first. And that's just the tip of the iceberg. There were a bunch of contract issues and Hybe kept throwing shade at New Jeans’ success. There’s also this wild rumor going around that Hybe has some cult connections and they were pressuring New Jeans to be more religious. But Min pushed back and she even fought back, making this [“OMG” music video]((https://www.youtube.com/watch?v=_ZAgIHmHLdc&ab_channel=HYBELABELS).
+) to kind of mock the whole thing.
 
 ### Ending
+All this rumor or legal conflicts aside, I just want to support Min and New Jeans. Min is an extremely talented producer who doesn't weirdly sexualize girl group or force them to work ridiculous hours and literally make beautiful girl group that's edgy and inspiring. New Jeans is a very talented kpop future with knows how to sing, dance and ultimately make people happy. I am so excited New Jean's collab with Takashi Murakami and I can't wait to go to their world tour led by Min.
