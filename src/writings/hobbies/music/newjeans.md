@@ -13,15 +13,15 @@ I've got to tell you all about this Kpop group I've been obsessed with. Okay, so
 ### Who are they?
 ![newjeans2 alt ><](https://github.com/jinnycho/jinnycho.github.io/blob/main/src/assets/photos/newjeans2.gif?raw=true)
 
-Since their debut in July 2022, New Jeans has been sensational. They first grabbed people's attention for being the first girl group put together by Heejin Min, one of Korea's most successful producers. But then their music, especially tracks like "Attention" and "Hype Boy," and literally everything about them (dance, fashion, collabs with Powerpuff Girls etc) made every Korean fall in love with them pretty immediately. What's pretty cool is that their popularity also comes from the whole Y2K vibe they've got going on, which has helped them connect with fans ranging from teenagers to people in their 30s and 40s.
+Since their debut in July 2022, New Jeans has been sensational. They first grabbed people's attention for being the first girl group put together by Heejin Min, one of Korea's most successful producers. But then their music, especially tracks like "Attention" and "Hype Boy," and literally everything about them (dance, fashion, collabs with big companies etc) made every Korean fall in love with them pretty immediately. What's pretty cool is that their popularity also comes from the whole Y2K vibe they've got going on, which has helped them connect with fans ranging from teenagers to people in their 30s and 40s.
 
 ![newjeans3 alt ><](https://i.namu.wiki/i/OEYkiYCB3g4qvejUL-tZeO9vA5xeNwDZ84mprkA5j-sU6BGurYjfqb0Y_DQJ5k67jPJPr5LiM1_pW_-0mFhdKQjuf7bgKegT4XkTIC-KuND8vZ-lWm1uOYNeHqPDqOWwfEeCtzeGBNbRpQSYj0AJTw.webp)
 
 And of course, they've been taking over the world! Less than a year after debuting, they were already killing it as the most streamed female Kpop act on Spotify in the US, top 10 artists on China's QQ Music charts, and they were the first international group to be nominated and awarded for the Japan Record Award. That's huge! Oh, and let's not forget they got invited to perform at Lollapalooza with a massive crowd of 70,000 people showing up just for them and Tokyo Rock Festival where 30,000 people showed up at "noon" in scorching summer weather. Now they're even planning a fan meeting at Tokyo Dome City, which is pretty much unheard of for a group that's only been around for like two years and hasn't even officially debuted in Japan yet.
 
-Each member is Minji (Korean), Danielle (Korean + Australian), Hyerin (Korean), Hani (Vietnamese + Australian), Hyein (Korean). Go Korea and Australia!
+Each member is Minji (Korean), Danielle (Korean Australian), Hyerin (Korean), Hani (Vietnamese Australian), Hyein (Korean). Go Korea and Australia!
 
-### Music!
+### Music
 :D I'll share some of my favorite tracks!
 
 #### (1) Attention
@@ -49,8 +49,8 @@ Each member is Minji (Korean), Danielle (Korean + Australian), Hyerin (Korean), 
 ### What's the lawsuit again?
 So, New Jeans is under this company called Ador, which is like a smaller branch of Hybe—the same folks behind BTS. Heejin Min was running Ador but also had legal ties with Hybe. Ador's basically 20% owned by Min and 80% by Hybe. Recently, Hybe sued Min, accusing her of trying to wreck the company and swipe New Jeans.
 
-The whole media villainized Min until she hit back with a press release that spilled the beans on all the bad stuff Hybe, and particularly Bang, the BTS producer, did. Like, they pretty much tried to sweep New Jeans under the rug when they debuted—no showcase, which is usually a big deal for Kpop debuts (though they apparently didn't need it 💪). They even made New Jeans the second girl group to launch after Le Sserafim, breaking their promise to launch New Jeans first. And that's just the tip of the iceberg. There were a bunch of contract issues and Hybe kept throwing shade at New Jeans’ success. There’s also this wild rumor going around that Hybe has some cult connections and they were pressuring New Jeans to be more religious. But Min pushed back and she even fought back, making this [“OMG” music video]((https://www.youtube.com/watch?v=_ZAgIHmHLdc&ab_channel=HYBELABELS).
+The whole media villainized Min until she hit back with a press release that spilled the beans on all the bad stuff Hybe, and particularly Bang, the BTS producer, did. Like, they pretty much tried to sweep New Jeans under the rug when they debuted—no showcase, which is usually a big deal for Kpop debuts (though they apparently didn't need it 💪). They even made New Jeans the second girl group to launch after Le Sserafim, breaking their promise to launch New Jeans first. And that's just the tip of the iceberg. There were a bunch of contract issues and Hybe kept throwing shade at New Jeans’ success. There’s also this wild rumor going around that Hybe has some cult connections and they were pressuring New Jeans to be more in line with their "values". But some people say that Min fought back by putting out this [music video for “OMG”](https://www.youtube.com/watch?v=_ZAgIHmHLdc&ab_channel=HYBELABELS).
 ) to kind of mock the whole thing.
 
 ### Ending
-All this rumor or legal conflicts aside, I just want to support Min and New Jeans. Min is an extremely talented producer who doesn't weirdly sexualize girl group or force them to work ridiculous hours and literally make beautiful girl group that's edgy and inspiring. New Jeans is a very talented kpop future with knows how to sing, dance and ultimately make people happy. I am so excited New Jean's collab with Takashi Murakami and I can't wait to go to their world tour led by Min.
+All these rumors or legal conflicts aside, I just want to purely support Min and New Jeans. Min proved herself an extremely talented producer. New Jeans is an edgy and inspiring piece of art who can sing, dance and ultimately make people happy. I can't wait to go to their world tour, ideally led by Min.
