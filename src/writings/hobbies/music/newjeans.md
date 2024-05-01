@@ -1,5 +1,5 @@
 # New Jeans
-## 2024/04/30
+## 2024/05/01
 
 ![newjeans1 alt ><](https://github.com/jinnycho/jinnycho.github.io/blob/main/src/assets/photos/newjeans1.gif?raw=true)
 
