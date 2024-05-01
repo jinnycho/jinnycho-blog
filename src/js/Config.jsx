@@ -10,6 +10,7 @@ import companyOfOneText from '../writings/books/entrepreneur/companyOfOne.md';
 import myFirstTableText from '../writings/hobbies/woodworking/myFirstTable.md';
 import powertools101Text from '../writings/hobbies/woodworking/powertools101.md';
 import jinhaeText from '../writings/hobbies/gallivanting/jinhae.md';
+import newJeansText from '../writings/hobbies/music/newjeans.md';
 
 // Tech
 import myBlogHistoryText from '../writings/tech/create/myBlogHistory.md';
@@ -30,7 +31,7 @@ const categoryIDToValue = {
 const categoryIDTosubCategoriesIDs = {
     'ideas': ['architecture', 'culture'],
     'books': ['psychology', 'entrepreneur'],
-    'hobbies': ['woodworking', 'gallivanting'],
+    'hobbies': ['woodworking', 'gallivanting', 'music'],
     'tech': ['create'],
     'funfacts': ['animals'],
 };
@@ -47,6 +48,7 @@ const subCategoryIDToValue = {
     // Hobbies
     'woodworking': 'Woodworking',
     'gallivanting': 'Gallivanting',
+    'music': 'Music',
 
     // Tech
     'create': 'Create',
@@ -67,6 +69,7 @@ const subCategoryIDToTitleIDs = {
     // Hobbies
     'woodworking': ['myFirstTable', 'powertools101'],
     'gallivanting': ['jinhae'],
+    'music': ['newjeans'],
 
     // Tech
     'create': ['myBlogHistory'],
@@ -88,6 +91,7 @@ const contentsTitleIDToValue = {
     'myFirstTable': 'The First Table I Made',
     'powertools101': 'Power Tools 101',
     'jinhae': 'Possibly The Best City in South Korea',
+    'newjeans': 'New Jeans',
 
     // Tech
     'myBlogHistory': 'The Evolution of My Blogging Journey',
@@ -110,6 +114,7 @@ const contentsTitleIDToContentsContentValue = {
     'myFirstTable': myFirstTableText,
     'powertools101': powertools101Text,
     'jinhae': jinhaeText,
+    'newjeans': newJeansText,
 
     // Tech
     'myBlogHistory': myBlogHistoryText,

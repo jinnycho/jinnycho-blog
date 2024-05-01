@@ -28048,6 +28048,65 @@ It was a delightful 4 weeks. Waking up early and walking there for 40 minutes in
   // src/writings/hobbies/gallivanting/jinhae.md
   var jinhae_default = "# Jinhae\n## 2024/01/02\n\nYes. This is my hometown. My goal is to share my fellow readers what could be the most exceptional city in South Korea that not many people know. I will share both pros and cons of this city, as well as some recommendations.\n\n![jinhae 1 alt ><](https://github.com/jinnycho/jinnycho.github.io/blob/main/src/assets/photos/cherryblossom1.gif?raw=true)\n\n### Pros\n1. **Beautiful Mountains**: This city is surrounded by handsome mountains that are very easily accessible. You can find several trails by walk.\n\n2. **Beautiful Ocean View**: The city is also located on the oceanfront. The ocean here is quite clean and abundant in fish, to the point where locals have joked that the navy has been mostly fighting with the local fishermen. The sight of the ocean during sunset is truly majestic, and I particularly enjoy the fact that it's part of an archipelago rather than just a single body of water because each island I see is so fluffy and cute.\n\n3. **Walkable City**: It is the first planned city in Korea during the Japanese occupation. Although the occupation itself is tragic and should never happen again, Japan designed the city quite well. Each neighborhood is gridded pretty well so it's easier to navigate and the whole city is walkable.\n\n4. **Cherry Blossom Trees**: Cherry blossom trees are EVERYWHERE in Jinhae. Apparently, there are around 360,000 trees throughout the city, and they are truly beautiful and plump.\n\n5. **Not Many Ugly Apartment Buildings**: One of the most unfortunate aspects of Korean cities is the abundance of unattractive, cookie-cutter, tall apartment buildings that lack any style or character. While Jinhae does have its fair share of them as well, due to height regulations imposed by the naval base, there are mostly shorter apartments. Shorter apartment buildings are actually quite cute and nice.\n\n![jinhae 2 alt ><](https://github.com/jinnycho/jinnycho.github.io/blob/main/src/assets/photos/cherryblossom2.png?raw=true)\n\n6. **People**: Jinhae is a naval city. It has the national Naval Academy, an American naval base, a Korean naval base, and several training centers. I bet 80% of the of the population has some connection to the navy. Possibly due to its stability, most of the people in Jinhae are neither rich nor poor. I don't think there's any homeless issue. Lots of people I met still have 'Jeong,' a quality that many Korean people used to have (it's like generosity and benevolence), especially when compared to people in much larger cities like Seoul.\n\n7. **Railroads Across the City**: Even though people can't use the railroads, they add a nice touch to the city, and sometimes you'll spot a train moving around, maybe carrying some military equipments. It's a great place to walk along too. \n\n8. **Animals**: Since it's a seaside town, there are lots of cute stray cats roaming the streets. Sadly, they are not very friendly, but it's always nice to come across a random cat giving me a curious look. Plus, there are plenty of adorable dogs or cool birds around as you walk through the city.\n\n9. **Food**: Food is surprisingly tasty and affordable. I'll share my favorite picks at the bottom of this blog post.\n\n10. **Farmers Market**: Jinhae has a very famous farmers' market. It only opens on days that have a 3 or 8 in them, such as the 3rd, 8th, 13th, 18th, and so on. Many local farmers' markets in other cities have unfortunately been replaced by major grocery chains like Costco. Strangely and thankfully, however, despite the presence of a large grocery store literally right in front of this market, the market has thrived even more. It's a really fun place with lots of fresh veggies and food so if anyone's visiting, you should check it out.\n\n![jinhae 4 alt ><](https://github.com/jinnycho/jinnycho.github.io/blob/main/src/assets/photos/cherryblossom4.png?raw=true)\n\n### Cons\n1. **Lodging**: Jinhae is not Cancun; it has only a handful of hotels, and in my opinion, they aren't great. It's a great place to live, but not necessarily the best for travel.\n\n2. **Public Transportation**: While the bus system is efficient and taxis are relatively affordable, I wish there were more choices for public transportation. Currently the city is pretty car-centric. Ideally, a tram system would be great since there's already an existing railway infrastructure in place.\n\n3. **Lack of The Long Term Vision of The City**: If I had the power, I would absolutely make sure that the city leaders preserve the current beauty of the city. Unfortunately, they've already massively destroyed a scenic part of the mountain to build apartment buildings, and they've polluted the ocean with shipbuilding infrastructure. While I understand the desire for short-term economic gains, I hope for a more far-sighted approach that minimizes the destruction of the existing beauty.\n\n5. **Younger Generation**: I've noticed that the older folks in Jinhae are generally super chill - just really nice and sweet people. But the younger people there aren't as nice to engage in, for whatever reason. I hope they lighten up a bit.\n\n6. **Language**: Most of the people do not speak English. While younger folks are more likely to know some English, be ready to use heavily on translation apps to communicate.\n\n### You'll like this city if\n\n1. You enjoy walking around a medium size walkable city, with many attractions to discover along the way\n2. you like outdoor activities\n3. you like cherry blossoms & Korean food\n4. (optional) you know how to speak some Korean or have Korean friends\n\n### Recommendation\n\nRestaurants\n1. **Dongbu hwe center**: Very famous hwe (Korean style sashimi) restaurant.\n2. **Yoon Baekjeong**: Really tasty pork belly place.\n3. **Jang Cheon Jip**: Another really good pork belly place.\n4. **Dol Dam Gil**: Great scallion pancakes & sujebi (hand-pulled dough soup).\n5. **San Jang Galbi**: Really good short ribs & homemade kimchi.\n6. **Ha Neul Che**: Really good bossam & Chili shrimps.\n7. **Jiri San Dweji gookbab**: Really good pork soup.\n8. **Haru**: Tiny Gimbap place.\n9. **Imsil Cheese Pizza**: Very tasty Cheese pizza.\n10. **Story Tonkatsu**: Very tasty Korean-style Tonkatsu (fried pork cutlet) place.\n\nCoffee\n1. **Jujae Coffee**: Great coffee.\n2. **Sunny Coffee**: Great coffee.\n3. **Gracias Madres**: Great coffee.\n\nVisit\n1. **Nesumeon Park**: Awesome park. No pets are allowed sadly.\n2. **Jangbok Mountain**: Amazing place to hike.\n3. **Anmin Gogae**: It used to be the only way to get out of Jinhae. Really beautiful place with lots of cherry blossoms.\n4. **Sammil Temple**: The temple is beautiful & the way to the temple is also really pretty.\n5. **Gyeonghwa Train station**: Very famous spot with lots of cherry blossom trees. Beautiful all year around.\n6. **Yeojwa Stream**: Also famous for cherry blossom trees. Beautiful all year around in my opinion.\n7. **Jinhae Pavilion**: A Korean traditional pavilion right in front of the sea. Really nice to walk around and there are lots of musical events.\n8. **Jehwang Mountain Cable Car**: It's a cute cable car that takes you up the mountain, where you can take in panoramic views of the entire city of Jinhae from the peak.\n\n![jinhae 3 alt ><](https://github.com/jinnycho/jinnycho.github.io/blob/main/src/assets/photos/cherryblossom3.png?raw=true)\n![jinhae 5 alt ><](https://github.com/jinnycho/jinnycho.github.io/blob/main/src/assets/photos/cherryblossom5.png?raw=true)\n";
 
+  // src/writings/hobbies/music/newjeans.md
+  var newjeans_default = `# New Jeans
+## 2024/04/30
+
+![newjeans1 alt ><](https://github.com/jinnycho/jinnycho.github.io/blob/main/src/assets/photos/newjeans1.gif?raw=true)
+
+<audio controls>
+  <source src="https://github.com/jinnycho/jinnycho.github.io/blob/main/src/assets/photos/background.mp4?raw=true" type="audio/mp3">
+</audio>
+\u{1F430} my favorite hit track
+
+I've got to tell you all about this Kpop group I've been obsessed with. Okay, so I'm not usually that into Kpop, but New Jeans has totally blown me away. Plus, I'm gonna talk about this lawsuit going on between New Jeans' producer and Hybe that will really impact New Jeans' future. (which is tragic for a fan like me)
+
+### Who are they?
+![newjeans2 alt ><](https://github.com/jinnycho/jinnycho.github.io/blob/main/src/assets/photos/newjeans2.gif?raw=true)
+
+Since their debut in July 2022, New Jeans has been sensational. They first grabbed people's attention for being the first girl group put together by Heejin Min, one of Korea's most successful producers. But then their music, especially tracks like "Attention" and "Hype Boy," and literally everything about them (dance, fashion, collabs with big companies etc) made every Korean fall in love with them pretty immediately. What's pretty cool is that their popularity also comes from the whole Y2K vibe they've got going on, which has helped them connect with fans ranging from teenagers to people in their 30s and 40s.
+
+![newjeans3 alt ><](https://i.namu.wiki/i/OEYkiYCB3g4qvejUL-tZeO9vA5xeNwDZ84mprkA5j-sU6BGurYjfqb0Y_DQJ5k67jPJPr5LiM1_pW_-0mFhdKQjuf7bgKegT4XkTIC-KuND8vZ-lWm1uOYNeHqPDqOWwfEeCtzeGBNbRpQSYj0AJTw.webp)
+
+And of course, they've been taking over the world! Less than a year after debuting, they were already killing it as the most streamed female Kpop act on Spotify in the US, top 10 artists on China's QQ Music charts, and they were the first international group to be nominated and awarded for the Japan Record Award. That's huge! Oh, and let's not forget they got invited to perform at Lollapalooza with a massive crowd of 70,000 people showing up just for them and Tokyo Rock Festival where 30,000 people showed up at "noon" in scorching summer weather. Now they're even planning a fan meeting at Tokyo Dome City, which is pretty much unheard of for a group that's only been around for like two years and hasn't even officially debuted in Japan yet.
+
+Each member is Minji (Korean), Danielle (Korean Australian), Hyerin (Korean), Hani (Vietnamese Australian), Hyein (Korean). Go Korea and Australia!
+
+### Music
+:D I'll share some of my favorite tracks!
+
+#### (1) Attention
+<div style="display: flex; justify-content: center;">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/x8RIixqumUc?si=M71G1P6gHo5SxAoN" title="NewJeans Attention" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+
+#### (2) OMG
+<div style="display: flex; justify-content: center;">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/sVTy_wmn5SU?si=ypeFJ51qKtaUVy4d" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+
+#### (3) Get Up
+<div style="display: flex; justify-content: center;">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/SXM1q0CTfew?si=IJFJ7y943UCQ9HVH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+
+#### (4) Hurt
+<div style="display: flex; justify-content: center;">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/tVIXY14aJms?si=MwWqo9dPtA8tDWel" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+
+"Super Shy," "Ditto," "Hype Boy," "New Jeans", etc - every single one is a total jam. Also there's a new album release very soon!
+
+### What's the lawsuit again?
+So, New Jeans is under this company called Ador, an independent label under Hybe, the folks behind BTS, and NewJeans is the only group it manages. Heejin Min was running Ador but also had legal ties with Hybe. Ador's basically 20% owned by Min and 80% by Hybe. Recently, Hybe sued Min, accusing her of trying to wreck the company and take New Jeans out of Hybe.
+
+The whole media villainized Min until she hit back with a press release that spilled the beans on all the bad stuff Hybe, and particularly Bang, the BTS producer, did. They pretty much tried to sweep New Jeans under the rug when they debuted\u2014no showcase, which is usually a big deal for Kpop debuts (though they apparently didn't need it \u{1F4AA}). They even made New Jeans the second girl group to launch after Le Sserafim, breaking their initial promise to launch New Jeans first. And that's just the tip of the iceberg. There were a bunch of contract issues and Hybe kept throwing shade at New Jeans\u2019 success. There\u2019s also this wild rumor going around that Hybe has some cult connections and they were pressuring New Jeans to be more in line with the "values" they believe in. And some people say that Min fought back by putting out this [music video for \u201COMG\u201D](https://www.youtube.com/watch?v=_ZAgIHmHLdc&ab_channel=HYBELABELS) to kind of mock the whole thing.
+
+HYBE seems to want to fire Min and take full control of the company (Ador) and NewJeans. I'm not sure if that's going to be any good for HYBE or NewJeans themselves though.
+
+### Ending
+I just purely like and respect Min and New Jeans. Min proved herself an extremely talented producer once again. New Jeans is an edgy and inspiring piece of art who can sing, dance and ultimately make people happy. I can't wait to go to their world tour, ideally led by Min.`;
+
   // src/writings/tech/create/myBlogHistory.md
   var myBlogHistory_default = "# The Evolution of My Blogging Journey\n## 2023/10/15\nBelieve it or not, my blogging history goes back 5 years, with changes almost every year. I wanted to share my likes, dislikes, and how I created my all-time favorite version.\n\n### What I was looking for\n1. I want my blog to look unique & well designed.\n2. I want to write many blogs that are well organized.\n3. I'd love to have full control to add or change things on my blog as I go. (e.g. subscription)\n\n### Version 1 \u2605\u2606\u2606\u2606\u2606\nI used a static site generator called [Hugo](https://gohugo.io/). It was very well-documented and easy to set up with many interesting templates to choose from. The blog itself was loaded fast too. \n\nHowever, it was quite tricky to customize anything (at least at that time). All the 'templates' they offered were quite boring as well, to be honest. I didn't feel attached to it and quickly grew bored over time; it felt more like mass-produced IKEA furniture rather than a handmade piece, if that makes sense.\n\n![Blog version 2 alt ><](https://github.com/jinnycho/jinnycho.github.io/blob/main/src/assets/photos/blog1.jpeg?raw=true)\n\n\n### Version 2 \u2605\u2605\u2606\u2606\u2606\nMy second version was driven by my strong desire to have a very unique and artistic blog of my own. I just used good old `javascript` and `CSS`. I was largely inspired by early 2000s web style and I was a huge fan of pixel fonts. I also coded using [p5.js](https://p5js.org/) for the cool 3D effects on the front page because I liked the way it looks.\n\nHowever, I instinctively felt that I really needed better content organization. I was like, 'Should I use tags? Should I add a search engine?' I was worried about what would happen if I had 100 blog posts, even though I had only written 4. I also found that the web aesthetics of the 2000s with chunky pixel fonts were a bit hard to read. It felt like avant-garde design furniture, yet it wasn't particularly comfortable.\n\n![Blog version 2 alt ><](https://github.com/jinnycho/jinnycho.github.io/blob/main/src/assets/photos/blog2.png?raw=true)\n\n### Version 3 \u2605\u2605\u2605\u2606\u2606\nI focused a lot more on improving the content organization for the version 3. Charles inspired me to consider the mind map style and that's what I did. I continued to use `javascript` & `CSS`.\n\nHowever, the mindmap style turned out to be quite challenging. First, positioning each circle was not easy. Plus, as I added more circles, things started to look messy and harder to navigate. It looked worse on the mobile or smaller screen.\n\n![Blog version 3 alt ><](https://github.com/jinnycho/jinnycho.github.io/blob/main/src/assets/photos/blog3.png?raw=true)\n\n### Version 4 \u2605\u2605\u2605\u2605\u2606\nSo here we are, I did another major redesign & refacturing of the code. \n\nFirstly, I abandoned the conventional mindmap style and transitioned into a more tabular layout. Then I introduced the concept of categories and subcategories to efficiently organize my blogs. I still kept the 2000s web aesthetics with programmer fonts, but I dialed it back to make it less overwhelming.\n\nEngineering-wise, I definitely built it from scratch using `javascript` and `CSS`. However, I additionally used `React` to manage various states, from user interactions to URL routing. Using `react-router` was particularly satisfying because it allowed me to link to a particular post with a [URL like this](https://jinnycho.github.io/ideas/architecture/houseIdeas001). I also added a Subscribe button using `react-modal` and Cloudflare worker to notify readers when I write new blogs, with the hope that many people will see them. :D\n\nSo far, I'm very satisfied. It finally feels like a good cozy handmade furniture that looks good and comfortable to me. But I want to give 4 stars because now I need to write more. Time to get to work!";
 
@@ -28203,7 +28262,7 @@ Honey badgers taught me so many lessons: resilience in the face of challenges, p
   var categoryIDTosubCategoriesIDs = {
     "ideas": ["architecture", "culture"],
     "books": ["psychology", "entrepreneur"],
-    "hobbies": ["woodworking", "gallivanting"],
+    "hobbies": ["woodworking", "gallivanting", "music"],
     "tech": ["create"],
     "funfacts": ["animals"]
   };
@@ -28217,6 +28276,7 @@ Honey badgers taught me so many lessons: resilience in the face of challenges, p
     // Hobbies
     "woodworking": "Woodworking",
     "gallivanting": "Gallivanting",
+    "music": "Music",
     // Tech
     "create": "Create",
     // Fun Facts
@@ -28232,6 +28292,7 @@ Honey badgers taught me so many lessons: resilience in the face of challenges, p
     // Hobbies
     "woodworking": ["myFirstTable", "powertools101"],
     "gallivanting": ["jinhae"],
+    "music": ["newjeans"],
     // Tech
     "create": ["myBlogHistory"],
     // Fun Facts
@@ -28248,6 +28309,7 @@ Honey badgers taught me so many lessons: resilience in the face of challenges, p
     "myFirstTable": "The First Table I Made",
     "powertools101": "Power Tools 101",
     "jinhae": "Possibly The Best City in South Korea",
+    "newjeans": "New Jeans",
     // Tech
     "myBlogHistory": "The Evolution of My Blogging Journey",
     // Fun Facts
@@ -28265,6 +28327,7 @@ Honey badgers taught me so many lessons: resilience in the face of challenges, p
     "myFirstTable": myFirstTable_default,
     "powertools101": powertools101_default,
     "jinhae": jinhae_default,
+    "newjeans": newjeans_default,
     // Tech
     "myBlogHistory": myBlogHistory_default,
     // Fun Facts
